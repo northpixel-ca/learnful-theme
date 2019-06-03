@@ -21,4 +21,4 @@ regions:
   page_bottom: 'Page bottom'
 
 libraries:
-  - 'learnful-theme/global-styling'
+  - 'learnful_theme/global-styling'
