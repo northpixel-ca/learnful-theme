@@ -1,0 +1,11 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+  js:
+    js/learnful-theme.js: {}
+color:
+  css:
+    theme:
+        css/colors.css: {}
+  

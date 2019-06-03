@@ -1,0 +1,19 @@
+{
+    "name": "learnful.ca/learnful-theme",
+    "description": "Drupal 8 Bootstrap 3 subtheme for learnful.ca.",
+    "type": "drupal-custom-theme",
+    "homepage": "https://gitlab.com/learnful.ca/learnful-theme",
+    "authors": [
+        {
+            "name": "Yasin Dahi (ydahi)",
+            "homepage": "https://gitlab.com/ydahi",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://gitlab.com/learnful.ca/learnful-theme/issues",
+        "source": "https://gitlab.com/learnful.ca/learnful-theme"
+    },
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev"
+}
