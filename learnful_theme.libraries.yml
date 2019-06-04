@@ -1,11 +1,7 @@
 global-styling:
   css:
     theme:
-      css/style.css: {}
+      css/learnful-theme.css: {}
   js:
     js/learnful-theme.js: {}
-color:
-  css:
-    theme:
-        css/colors.css: {}
   
