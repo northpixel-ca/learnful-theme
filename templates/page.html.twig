@@ -109,7 +109,7 @@
       {# Sidebar First #}
       {% if page.sidebar_first %}
         {% block sidebar_first %}
-          <aside class="col-sm-2" role="complementary">
+          <aside class="col-sm-2 sidebar-left" role="complementary">
             {{ page.sidebar_first }}
           </aside>
         {% endblock %}
@@ -150,11 +150,21 @@
       {# Sidebar Second #}
       {% if page.sidebar_second %}
         {% block sidebar_second %}
-          <aside class="col-sm-2" role="complementary">
+          <aside class="col-sm-2 sidebar-right" role="complementary">
             {{ page.sidebar_second }}
           </aside>
         {% endblock %}
       {% endif %}
+
+      {# Sidebar Offcanvas Right #}
+      {% if page.sidebar_off_right %}
+        {% block sidebar_off_right %}
+          <aside class="sidebar-offcanvas-right" role="complementary">
+            {{ page.sidebar_off_right }}
+          </aside>
+        {% endblock %}
+      {% endif %}
+
     </div>
   </div>
 {% endblock %}

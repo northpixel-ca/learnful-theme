@@ -21,7 +21,7 @@
     --greyblue-dark: #495f69;
     --greyblue-light: #96abb6;
 
-    --text-dark: #000000;
+    --black: #000000;
     --text-mid: #666666;
     --text-light: #AAAAAA;
 }
@@ -29,7 +29,7 @@
 
 body {
     background-color: var(--bg-lightest);
-    color: var(--text-dark);
+    color: var(--black);
     font-size: 16px;
 }
 
