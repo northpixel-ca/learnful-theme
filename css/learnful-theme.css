@@ -79,5 +79,18 @@ aside.sidebar-left {
     background-size: 24px;
     padding: 15px 15px 15px 76px;
     font-weight: bold;
-    color: var(--text-mid);
+    color: var(--black);
+    opacity: 0.7;
+}
+.sidebar-left nav ul.menu > li.active > a.is-active,
+.sidebar-left nav ul.menu > li > a.is-active,
+.sidebar-left nav ul.menu > li.active > a {
+    background-color: var(--bg-highlight);
+    color: var(--primary);
+}
+
+
+.sidebar-left nav ul.menu > li > a:hover,
+.sidebar-left nav ul.menu > li > a:focus {
+    background-color: var(--bg-highlight-overlay);
 }
