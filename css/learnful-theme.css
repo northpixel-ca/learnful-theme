@@ -87,10 +87,19 @@ aside.sidebar-left {
 .sidebar-left nav ul.menu > li.active > a {
     background-color: var(--bg-highlight);
     color: var(--primary);
+    opacity: 1;
 }
-
-
 .sidebar-left nav ul.menu > li > a:hover,
 .sidebar-left nav ul.menu > li > a:focus {
     background-color: var(--bg-highlight-overlay);
+    opacity: 1;
+}
+.sidebar-left nav ul.menu > li.active > a.is-active:hover
+.sidebar-left nav ul.menu > li.active > a.is-active:focus,
+.sidebar-left nav ul.menu > li > a.is-active:hover,
+.sidebar-left nav ul.menu > li > a.is-active:focus,
+.sidebar-left nav ul.menu > li.active > a:hover,
+.sidebar-left nav ul.menu > li.active > a:focus {
+    background-color: var(--bg-highlight-overlay);
+    opacity: 1;
 }
