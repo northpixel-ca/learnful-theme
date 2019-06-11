@@ -32,14 +32,21 @@ body {
     color: var(--black);
     font-size: 16px;
 }
+body.navbar-is-fixed-top {
+    margin-top: 60px;
+}
 
 .navbar-default {
     background-color: var(--white);
     border: unset;
 }
 
-aside > .region-sidebar-first {
-    background-color: var(--bg-mid);
+aside.sidebar-left {
+    padding: 10px 0;
+    height: 100vh;
+    background: var(--bg-mid);
+    position: fixed;
+    overflow-y: auto;
 }
 
 /**
@@ -58,4 +65,15 @@ aside > .region-sidebar-first {
     padding-bottom: 20px;
     color: var(--text-mid);
     font-weight: bold;
+}
+
+/**
+ * Sidebar-Left Menu
+*/
+.sidebar-left nav ul.menu > li > a {
+    background-position: 28px center;
+    background-size: 24px;
+    padding: 15px 15px 15px 76px;
+    font-weight: bold;
+    color: var(--text-mid);
 }
