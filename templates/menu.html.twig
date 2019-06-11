@@ -35,6 +35,7 @@
         <li{{ item.attributes.addClass(item_classes) }}>
         <i class="material-icon">{{ item.material_icon }}</i>
         {{ link(item.title, item.url) }}
+        {{ dump(item) }}
       {% endif %}
       {% if item.below %}
         {{ _self.menu_links(item.below, attributes.removeClass(classes), menu_level + 1, classes) }}
