@@ -33,9 +33,16 @@
         <a href="{{ item.url }}" class="dropdown-toggle" data-toggle="dropdown">{{ item.title }} <span class="caret"></span></a>
       {% else %}
         <li{{ item.attributes.addClass(item_classes) }}>
-        <i class="material-icon">{{ item.material_icon }}</i>
         {{ link(item.title, item.url) }}
-        {{ dump(item) }}
+
+        {% if item.url.getOption('attributes') %}
+            {% set link_attributes = create_attribute(item.url.getOption('attributes')) %}
+        {% else %}
+            {% set link_attributes = create_attribute() %}
+        {% endif %}
+
+        <a href="{{ item.url }}"><i class="material-icon">{{ link_attributes.material_icon }}</i>{{ item.title }}</a>
+
       {% endif %}
       {% if item.below %}
         {{ _self.menu_links(item.below, attributes.removeClass(classes), menu_level + 1, classes) }}
