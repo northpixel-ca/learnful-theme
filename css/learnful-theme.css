@@ -36,6 +36,10 @@ body.navbar-is-fixed-top {
     margin-top: 60px;
 }
 
+body.sidebar-first section.main-section {
+    margin-left: 16.66666667%;
+}
+
 .navbar-default {
     background-color: var(--white);
     border: unset;
