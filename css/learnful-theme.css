@@ -118,7 +118,7 @@ a#openUserNav:hover,
 a#openUserNav:focus {
     text-decoration: none;
     cursor: pointer;
-    background-color: var(--bg-lightest);
+    color: var(--primary);
 }
 
 /**
