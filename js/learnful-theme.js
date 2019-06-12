@@ -14,7 +14,7 @@
         });
 
         // close .sidebar-offcanvs-right
-        $("a#close-sidebar-off-right").click(function() {
+        $("button#close-sidebar-off-right").click(function() {
           $("aside.sidebar-offcanvas-right").animate({ width: "0px"});
           $("#full-page-overlay").css('display','none');
         });
