@@ -109,7 +109,7 @@ a#openUserNav {
 a#openUserNav .user-avatar > img {
     margin: 5px 15px 5px 0;
     border-radius: 50%;
-    max-width: 50px;
+    max-width: 40px;
 }
 a#openUserNav .user-name {
     padding: 20px 0;
