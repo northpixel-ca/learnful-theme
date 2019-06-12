@@ -5,7 +5,12 @@
     Drupal.behaviors.visualScripts = {
       attach: function (context, settings) {
 
-        console.log('learnful-theme.js loaded and running.')
+        //console.log('learnful-theme.js loaded and running.')
+
+        // toggle .sidebar-offcanvas-right
+        $("a#openUserNav").click(function() {
+          $("aside.sidebar-offcanvas-right").toggle();
+        });
 
       }
     }
