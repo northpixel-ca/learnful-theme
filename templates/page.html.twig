@@ -160,6 +160,10 @@
       {% if page.sidebar_off_right %}
         {% block sidebar_off_right %}
           <aside class="sidebar-offcanvas-right" role="complementary">
+            <button id="close-sidebar-off-right">
+              <img src="assets/icons/close-overlay-icon.svg" />
+              <span class="sr-only">Close the user navigation overlay</span>
+            </button>
             {{ page.sidebar_off_right }}
           </aside>
         {% endblock %}
