@@ -9,20 +9,20 @@
 
         // toggle .sidebar-offcanvas-right
         $("a#openUserNav").click(function() {
-          $("aside.sidebar-offcanvas-right").animate({ width: "16%"});
+          $("aside.sidebar-offcanvas-right").animate({ width: "16%"}, 100);
           $("#full-page-overlay").css('display','block');
           $("button#close-sidebar-off-right").css('display','block');
         });
 
         // close .sidebar-offcanvs-right
         $("button#close-sidebar-off-right").click(function() {
-          $("aside.sidebar-offcanvas-right").animate({ width: "0px"});
+          $("aside.sidebar-offcanvas-right").animate({ width: "0px"}, 100);
           $("#full-page-overlay").css('display','none');
           $("button#close-sidebar-off-right").css('display','none');
         });
 
         $("#full-page-overlay").click(function() {
-          $("aside.sidebar-offcanvas-right").animate({ width: "0px"});
+          $("aside.sidebar-offcanvas-right").animate({ width: "0px"}, 100);
           $("#full-page-overlay").css('display','none');
           $("button#close-sidebar-off-right").css('display','none');
         });
