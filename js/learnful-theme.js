@@ -19,6 +19,10 @@
           $("#full-page-overlay").css('display','none');
         });
 
+        $("#full-page-overlay").click(function() {
+          $("aside.sidebar-offcanvas-right").animate({ width: "0px"});
+          $("#full-page-overlay").css('display','none');
+        });
       }
     }
 

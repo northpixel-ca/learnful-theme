@@ -60,6 +60,7 @@ aside.sidebar-offcanvas-right {
     width: 0;
     height: 100%;
     background: var(--bg-mid);
+    box-shadow: -5px 0 10px 0 rgba(0,0,0,0.1);
 }
 
 #full-page-overlay {
@@ -76,15 +77,25 @@ aside.sidebar-offcanvas-right {
 }
 
 button#close-sidebar-off-right {
-    background: rgba(0,0,0,0.5);
-    position: absolute;
-    right: 10px;
-    top: 10px;
+    background: rgba(255,255,255,0.25);
+    float: right;
+    margin: 10px 10px 0 0;
     border: 0;
     width: 30px;
     height: 30px;
     text-align: center;
     border-radius: 50%;
+}
+button#close-sidebar-off-right svg {
+    fill: var(--white);
+    width: 10px;
+}
+
+#block-placeholderuserinfoinoffcanvasblock {
+    background: linear-gradient(to bottom right, var(--primary), var(--primary-dark));
+    padding: 20px;
+    height: 150px;
+    color: #FFF;  
 }
 
 /**
