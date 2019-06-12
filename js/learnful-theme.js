@@ -9,7 +9,8 @@
 
         // toggle .sidebar-offcanvas-right
         $("a#openUserNav").click(function() {
-          $("aside.sidebar-offcanvas-right").toggle();
+          $("aside.sidebar-offcanvas-right").animate({ width: "16%"});
+          $("#full-page-overlay").css("opacity","0.5");
         });
 
       }

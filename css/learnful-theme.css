@@ -35,7 +35,6 @@ body {
 body.navbar-is-fixed-top {
     margin-top: 60px;
 }
-
 body.sidebar-first section.main-section {
     margin-left: 16.66666667%;
 }
@@ -58,12 +57,15 @@ aside.sidebar-offcanvas-right {
     right: 0;
     top: 0;
     z-index: 1030;
-    width: 16%;
+    width: 0;
     height: 100%;
     background: var(--bg-mid);
-    display: none; 
 }
 
+#full-page-overlay {
+    background-color: var(--black);
+    opacity: 0;
+}
 
 /**
  * Main header / nav
