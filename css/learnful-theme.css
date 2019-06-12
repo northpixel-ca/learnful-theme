@@ -63,13 +63,31 @@ aside.sidebar-left {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
 .navbar-default .navbar-nav > li > a {
     padding-top: 20px;
     padding-bottom: 20px;
     color: var(--text-mid);
     font-weight: bold;
 }
+.user-nav-button {
+    float: right;
+}
+a#openUserNav {
+    display: flex;
+    line-height: 20px;
+    align-items: center;
+    font-weight: bolder;
+    color: #000;
+}
+a#openUserNav .user-avatar > img {
+    margin: 5px 15px 5px 0;
+    border-radius: 50%;
+    max-width: 50px;
+}
+a#openUserNav .user-name {
+    padding: 20px 0;
+}
+
 
 /**
  * Sidebar-Left Menu
