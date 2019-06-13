@@ -78,6 +78,19 @@ aside.sidebar-offcanvas-right.is-open {
     height: 100%;
     max-height: unset;
 }
+@media (min-width: 768px) {
+    #navbar-collapse {
+        position: static;
+        top: unset;
+        left: unset;
+        background-color: unset;
+        width: unset;
+        min-width: unset;
+        height: auto;
+        max-height: auto;
+    }
+
+}
 
 section.main-section {
     min-height: 500px;
