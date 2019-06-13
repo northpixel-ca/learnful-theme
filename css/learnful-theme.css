@@ -55,9 +55,12 @@ aside.sidebar-left {
     background: var(--bg-mid);
     overflow-y: auto;
     z-index: 1030;
+    width: 0;
 }
 aside.sidebar-left.is-open {
     min-width: 250px;
+    z-index: 1031;
+    box-shadow: 5px 0 10px 0 rgba(0,0,0,0.1);
 }
 @media (min-width: 768px) {
     aside.sidebar-left {
