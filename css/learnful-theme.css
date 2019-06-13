@@ -68,6 +68,21 @@ aside.sidebar-offcanvas-right.is-open {
     min-width: 250px;
 }
 
+#navbar-collapse {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--bg-mid);
+    width: 16%;
+    min-width: 250px;
+    height: 100%;
+    max-height: unset;
+}
+
+section.main-section {
+    min-height: 500px;
+}
+
 #full-page-overlay {
     background-color: var(--black);
     opacity: 0.25;
@@ -87,7 +102,25 @@ aside.sidebar-offcanvas-right.is-open {
 ** Main header / nav
 **/
 .navbar-header {
-    width: 16%;
+    width: 100%;
+}
+button#toggle-mobile-nav {
+    float: left;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: unset;
+    border-radius: 50%;
+}
+button#toggle-mobile-nav:focus,
+button#toggle-mobile-nav:hover,
+button#toggle-mobile-nav:active {
+    background: var(--bg-highlight-overlay);
 }
 .navbar .logo {
     margin-top: 5px;
@@ -122,6 +155,12 @@ a#openUserNav:focus {
     text-decoration: none;
     cursor: pointer;
     color: var(--primary);
+}
+
+@media (min-width: 768px) {
+    .navbar-header {
+        width: 16%;
+    }
 }
 
 /**
