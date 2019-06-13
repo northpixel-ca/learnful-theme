@@ -47,11 +47,23 @@ body.sidebar-first section.main-section {
 }
 
 aside.sidebar-left {
+    position: fixed;
+    top: 0;
+    left: 0;
     padding: 10px 0;
     height: 100vh;
     background: var(--bg-mid);
-    position: fixed;
     overflow-y: auto;
+    z-index: 1030;
+    min-width: 250px;
+}
+@media (min-width: 768px) {
+    aside.sidebar-left {
+        position: fixed;
+        top: unset;
+        left: unset;
+        min-width: unset;
+    }
 }
 
 aside.sidebar-offcanvas-right {
@@ -68,7 +80,7 @@ aside.sidebar-offcanvas-right.is-open {
     min-width: 250px;
 }
 
-#navbar-collapse {
+/* #navbar-collapse {
     position: fixed;
     top: 0;
     left: 0;
@@ -93,7 +105,7 @@ aside.sidebar-offcanvas-right.is-open {
         max-height: auto;
     }
 
-}
+} */
 
 section.main-section {
     min-height: 500px;
