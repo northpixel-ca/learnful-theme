@@ -148,9 +148,9 @@ button#close-sidebar-off-right svg {
 
 
 /**
-** Sidebar-Left Menu
+** Vertical Nav
 **/
-.sidebar-left nav ul.menu > li > a {
+nav.vertical-nav > ul.menu > li.menu-icon > a {
     background-position: 28px center;
     background-size: 24px;
     padding: 15px 15px 15px 76px;
@@ -158,24 +158,24 @@ button#close-sidebar-off-right svg {
     color: var(--black);
     opacity: 0.7;
 }
-.sidebar-left nav ul.menu > li.active > a.is-active,
-.sidebar-left nav ul.menu > li > a.is-active,
-.sidebar-left nav ul.menu > li.active > a {
+nav.vertical-nav > ul.menu > li.menu-icon.active > a.is-active,
+nav.vertical-nav > ul.menu > li.menu-icon > a.is-active,
+nav.vertical-nav > ul.menu > li.menu-icon.active > a {
     background-color: var(--bg-highlight);
     color: var(--primary);
     opacity: 1;
 }
-.sidebar-left nav ul.menu > li > a:hover,
-.sidebar-left nav ul.menu > li > a:focus {
+nav.vertical-nav > ul.menu > li.menu-icon > a:hover,
+nav.vertical-nav > ul.menu > li.menu-icon > a:focus {
     background-color: var(--bg-highlight-overlay);
     opacity: 1;
 }
-.sidebar-left nav ul.menu > li.active > a.is-active:hover
-.sidebar-left nav ul.menu > li.active > a.is-active:focus,
-.sidebar-left nav ul.menu > li > a.is-active:hover,
-.sidebar-left nav ul.menu > li > a.is-active:focus,
-.sidebar-left nav ul.menu > li.active > a:hover,
-.sidebar-left nav ul.menu > li.active > a:focus {
+nav.vertical-nav > ul.menu > li.menu-icon.active > a.is-active:hover
+nav.vertical-nav > ul.menu > li.menu-icon.active > a.is-active:focus,
+nav.vertical-nav > ul.menu > li.menu-icon > a.is-active:hover,
+nav.vertical-nav > ul.menu > li.menu-icon > a.is-active:focus,
+nav.vertical-nav > ul.menu > li.menu-icon.active > a:hover,
+nav.vertical-nav > ul.menu > li.menu-icon.active > a:focus {
     background-color: var(--bg-highlight-overlay);
     opacity: 1;
 }
