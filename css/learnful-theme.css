@@ -226,6 +226,9 @@ h3.card-title {
     background: linear-gradient(to bottom right, var(--primary), var(--primary-dark));
     color: var(--white);
 }
+.label {
+    padding: 0.2em 0.6em;
+}
 span.label.secondary {
     background-color: var(--secondary);
     color: var(--white);
