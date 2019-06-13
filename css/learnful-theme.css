@@ -64,6 +64,9 @@ aside.sidebar-offcanvas-right {
     background: var(--bg-mid);
     box-shadow: -5px 0 10px 0 rgba(0,0,0,0.1);
 }
+aside.sidebar-offcanvas-right.is-open {
+    min-width: 250px;
+}
 
 #full-page-overlay {
     background-color: var(--black);
