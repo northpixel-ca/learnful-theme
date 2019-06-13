@@ -21,8 +21,8 @@
         });
         // close .sidebar-offcanvs-right and navbar.collapse when body overlay is clicked
         $("#full-page-overlay").click(function() {
-          $("aside.sidebar-offcanvas-right").removeClass("is-open").animate({ left: "-250px"}, 100);
-          $("aside.sidebar-left").removeClass("is-open").animate({ width: "0px"}, 100);
+          $("aside.sidebar-offcanvas-right").removeClass("is-open").animate({ width: "0px"}, 100);
+          $("aside.sidebar-left").removeClass("is-open").animate({ left: "-250px"}, 100);
           // $("header#navbar #navbar-collapse").toggleClass("collapse");
           // $("header#navbar").css("z-index","1030");
           $("#full-page-overlay").css('display','none');
@@ -32,7 +32,7 @@
         // open #navbar-collapse when menu is clicked
         $("button#toggle-mobile-nav").click(function() {
 
-          $("aside.sidebar-left").addClass("is-open").animate({ left: "0"}, 100);
+          $("aside.sidebar-left").addClass("is-open").animate({ left: "0px"}, 100);
 
           // $("header#navbar #navbar-collapse").toggleClass("collapse");
           // $("header#navbar").css("z-index","1031");
