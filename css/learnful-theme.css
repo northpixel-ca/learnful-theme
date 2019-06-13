@@ -78,6 +78,9 @@ aside.sidebar-offcanvas-right.is-open {
     height: 100%;
     max-height: unset;
 }
+#navbar-collapse:not(.collapse) {
+    z-index: 1032;
+}
 @media (min-width: 768px) {
     #navbar-collapse {
         position: static;
