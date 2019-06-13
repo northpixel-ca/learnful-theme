@@ -84,33 +84,6 @@ aside.sidebar-offcanvas-right.is-open {
     min-width: 250px;
 }
 
-/* #navbar-collapse {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: var(--bg-mid);
-    width: 16%;
-    min-width: 250px;
-    height: 100%;
-    max-height: unset;
-}
-#navbar-collapse:not(.collapse) {
-    z-index: 1032;
-}
-@media (min-width: 768px) {
-    #navbar-collapse {
-        position: static;
-        top: unset;
-        left: unset;
-        background-color: unset;
-        width: unset;
-        min-width: unset;
-        height: auto;
-        max-height: auto;
-    }
-
-} */
-
 section.main-section {
     min-height: 500px;
 }
@@ -158,6 +131,10 @@ button#toggle-mobile-nav:active {
 .navbar .logo {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+.navbar .logo.hidden-md.hidden-lg {
+    line-height: 60px;
+    margin: 0;
 }
 .navbar-default .navbar-nav > li > a {
     padding-top: 20px;
