@@ -49,16 +49,15 @@ body.sidebar-first section.main-section {
 aside.sidebar-left {
     position: fixed;
     top: 0;
-    left: 0;
+    left: -250px;
     padding: 10px 0;
     height: 100vh;
     background: var(--bg-mid);
     overflow-y: auto;
     z-index: 1030;
-    width: 0;
+    width: 250px;
 }
 aside.sidebar-left.is-open {
-    min-width: 250px;
     z-index: 1031;
     box-shadow: 5px 0 10px 0 rgba(0,0,0,0.1);
 }
@@ -68,7 +67,6 @@ aside.sidebar-left.is-open {
         top: unset;
         left: unset;
         width: 16%;
-        min-width: unset;
     }
 }
 
