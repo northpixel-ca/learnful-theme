@@ -42,12 +42,14 @@ body.sidebar-first section.main-section {
 }
 @media (min-width: 768px) {
     body.sidebar-first section.main-section {
-        margin-left: 16.66666667%;
+        margin-left: 16%;
+        width: 84%;
     }
 }
 .navbar-default {
     background-color: var(--white);
     border: unset;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.1);
 }
 
 aside.sidebar-left {
@@ -58,7 +60,6 @@ aside.sidebar-left {
     height: 100vh;
     background: var(--bg-mid);
     overflow-y: auto;
-    z-index: 1030;
     width: 250px;
 }
 aside.sidebar-left.is-open {
