@@ -65,7 +65,7 @@ aside.sidebar-left.is-open {
     aside.sidebar-left {
         position: fixed;
         top: unset;
-        left: unset;
+        left: 0px;
         width: 16%;
     }
 }
@@ -135,6 +135,7 @@ section.main-section {
 **/
 .navbar-header {
     width: 100%;
+    margin: 0px;
 }
 button#toggle-mobile-nav {
     float: left;
@@ -144,7 +145,7 @@ button#toggle-mobile-nav {
     justify-content: center;
     height: 40px;
     width: 40px;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-top: 10px;
     background: unset;
     border-radius: 50%;
@@ -169,13 +170,13 @@ button#toggle-mobile-nav:active {
 }
 a#openUserNav {
     display: flex;
-    line-height: 20px;
+    height: 60px;
     align-items: center;
     font-weight: bolder;
     color: var(--black);
 }
 a#openUserNav .user-avatar > img {
-    margin: 5px 15px 5px 0;
+    margin: auto 0px;
     border-radius: 50%;
     max-width: 40px;
 }
@@ -192,6 +193,9 @@ a#openUserNav:focus {
 @media (min-width: 768px) {
     .navbar-header {
         width: 16%;
+    }
+    a#openUserNav .user-avatar > img {
+        margin: 5px 15px 5px 0;
     }
 }
 
