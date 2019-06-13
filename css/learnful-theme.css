@@ -154,7 +154,7 @@ button#close-sidebar-off-right svg {
 ** Vertical Nav
 **/
 nav.vertical-nav > ul.menu > li.menu-icon > a {
-    background-position: 28px center;
+    background-position: 15px center;
     background-size: 24px;
     padding: 15px 15px 15px 76px;
     font-weight: bold;
@@ -183,6 +183,12 @@ nav.vertical-nav > ul.menu > li.menu-icon.active > a:focus {
     opacity: 1;
 }
 
+@media (min-width: 768px) {
+    nav.vertical-nav > ul.menu > li.menu-icon > a {
+        background-position: 28px center;
+    }
+}
+
 /** 
 ** Cards
 **/
@@ -190,13 +196,25 @@ nav.vertical-nav > ul.menu > li.menu-icon.active > a:focus {
 
 .card.two-col-card {}
 
-
+.card.two-col-card .col-2 {
+    padding-left: 0px;
+}
 
 h3.card-title {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     margin: 20px 0 5px;
 }
+
+@media (min-width: 768px) {
+    h3.card-title {
+        font-size: 18px;
+    }
+    .card.two-col-card .col-2 {
+        padding-left: 15px;
+    }
+}
+
 
 /**
 ** Global Styles
@@ -211,7 +229,13 @@ h3.card-title {
 span.label.secondary {
     background-color: var(--secondary);
     color: var(--white);
-    font-size: 14px;
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    span.label.secondary {
+        font-size: 14px;
+    }
 }
 
 /**
