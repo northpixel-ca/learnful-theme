@@ -122,6 +122,7 @@ section.main-section {
 .btn-secondary {
     background-color: var(--secondary);
     border-color: transparent;
+    color: var(--white);
 }
 .btn-default {
     background-color: transparent;
@@ -138,6 +139,7 @@ section.main-section {
 .btn-secondary:focus {
     background-color: var(--secondary-dark);
     border-color: transparent;
+    color: var(--white);
 }
 .btn-default:hover,
 .btn-default:focus {
@@ -297,25 +299,29 @@ nav.vertical-nav > ul.menu > li.menu-icon.active > a:focus {
 #page-header .page-title-block {
     max-width: 1200px;
     margin: auto;
-    padding: 30px 0 0;
+    padding: 15px;
 }
 .page-title-image {
     float: left;
-    margin-right: 30px;
+    margin-right: 5%;
+    width: 15%;
 }
 .page-title-text {
     float: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100px;
+    height: 50px;
+    width: 80%;
 }
 h1.page-title-title {
-    font-size: 26px;
+    font-size: 18px;
     font-weight: 800;
     margin: 0 0 5px 0;
 }
-.page-title-subtitle {}
+.page-title-subtitle {
+    font-size: 12px;
+}
 
 .page-title-calltoaction {
     float: right;
@@ -338,8 +344,9 @@ h1.page-title-title {
     margin: auto;
 }
 .region-header-nav > nav > ul.menu > li {
-    margin-top: 20px;
+    margin-top: 0;
     display: inline-block;
+    font-size: 14px;
 }
 .region-header-nav > nav > ul.menu > li > a {
     border-bottom: 1px solid;
@@ -356,6 +363,29 @@ h1.page-title-title {
     background-color: var(--bg-highlight);
 }
 
+@media (min-width: 768px) {
+    #page-header .page-title-block {
+        padding: 30px 0 0;
+    }
+    .page-title-image {
+        margin-right: 30px;
+        width: unset;
+    }
+    .page-title-text {
+        width: unset;
+        height: 50px;
+    }
+    h1.page-title-title {
+        font-size: 26px;
+    }
+    .page-title-subtitle {
+        font-size: 16px;
+    }
+    .region-header-nav > nav > ul.menu > li {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+}
 
 /** 
 ** Cards
