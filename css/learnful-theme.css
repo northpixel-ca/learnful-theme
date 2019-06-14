@@ -287,6 +287,7 @@ h1.page-title-title {
 }
 .page-title-tabs {
     padding: 30px 0 0;
+    clear: both;
     display: flex;
     justify-content: space-between;
 }
