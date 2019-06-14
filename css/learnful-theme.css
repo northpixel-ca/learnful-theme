@@ -324,6 +324,9 @@ h1.page-title-title {
     flex-direction: row;
     align-items: center;
 }
+.page-title-calltoaction > a.btn {
+    margin: 0 0 5px 5px;
+}
 .page-title-tabs {
     padding: 30px 0 0;
     clear: both;
