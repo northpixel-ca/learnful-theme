@@ -113,37 +113,36 @@ section.main-section {
 .btn {
     font-weight: bold;
     padding: 6px 15px;
-    border-width: 0px;
+    border-width: 3px;
 }
 .btn-primary {
     background-color: var(--primary);
-    border-color: var(--primary-dark);
+    border-color: unset;
 }
 .btn-secondary {
     background-color: var(--secondary);
-    border-color: var(--secondary-dark);
+    border-color: unset;
 }
 .btn-default {
     background-color: transparent;
     border-color: var(--primary);
-    border-width: 2px;
     color: var(--primary);
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
     background-color: var(--primary-dark);
-    border-color: var(--primary-light);
+    border-color: unset;
 }
 .btn-secondary:hover,
 .btn-secondary:focus {
     background-color: var(--secondary-dark);
-    border-color: var(--secondary-light);
+    border-color: unset;
 }
 .btn-default:hover,
 .btn-default:focus {
     background-color: var(--primary);
-    border-color: var(--primary-light);
+    border-color: unset;
     color: var(--white);
 }
 
@@ -322,8 +321,8 @@ h1.page-title-title {
     float: right;
     display: flex;
     height: 100px;
-    justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
 }
 .page-title-tabs {
     padding: 30px 0 0;
