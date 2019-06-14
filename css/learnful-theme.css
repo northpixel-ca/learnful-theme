@@ -92,10 +92,6 @@ section.main-section {
     min-height: 500px;
 }
 
-#page-header {
-    margin: 0 -15px;
-    background-color: var(--bg-mid);
-}
 
 #full-page-overlay {
     background-color: var(--black);
@@ -250,6 +246,36 @@ nav.vertical-nav > ul.menu > li.menu-icon.active > a:focus {
     }
 }
 
+/**
+** Page Title Region (#page-header)
+**/
+#page-header {
+    margin: 0 -15px;
+    background-color: var(--bg-mid);
+}
+#page-header .page-title-block {
+    max-width: 1200px;
+    margin: auto;
+    padding: 25px 0;
+}
+.page-title-image {
+    float: left;
+    margin-right: 30px;
+}
+.page-title-text {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+}
+h1.page-title-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin: 0 0 5px 0;
+}
+.page-title-subtitle {}
+
 /** 
 ** Cards
 **/
@@ -294,6 +320,9 @@ span.label.secondary {
     background-color: var(--secondary);
     color: var(--white);
     font-size: 12px;
+}
+p.text-mid {
+    color: var(--text-mid);
 }
 
 @media (min-width: 768px) {
