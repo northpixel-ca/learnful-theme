@@ -291,6 +291,28 @@ h1.page-title-title {
     display: flex;
     justify-content: space-between;
 }
+.region-header-nav {
+    max-width: 1200px;
+    margin: auto;
+}
+.region-header-nav > nav > ul.menu > li {
+    margin-top: 20px;
+    display: inline-block;
+}
+.region-header-nav > nav > ul.menu > li > a {
+    border-bottom: 1px solid;
+    padding: 10px 20px;
+    color: var(--text-mid);
+    border-color: transparent;
+}
+.region-header-nav > nav > ul.menu > li > a.is-active {
+    border-color: inherit;
+    color: var(--primary);
+}
+.region-header-nav > nav > ul.menu > li > a:hover,
+.region-header-nav > nav > ul.menu > li > a:focus {
+    background-color: var(--bg-highlight);
+}
 
 
 /** 
@@ -347,16 +369,13 @@ body:not(.user-logged-in) .for-member {
 body.user-logged-in .for-guest {
     display: none;
 }
-.navtabs > a {
-    padding: 0 15px 10px;
-    display: inline-block;
-}
-
 @media (min-width: 768px) {
     span.label.secondary {
         font-size: 14px;
     }
 }
+
+
 
 /**
 ** Spacing Utilities
