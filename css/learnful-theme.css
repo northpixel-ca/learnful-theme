@@ -117,11 +117,11 @@ section.main-section {
 }
 .btn-primary {
     background-color: var(--primary);
-    border-color: unset;
+    border-color: transparent;
 }
 .btn-secondary {
     background-color: var(--secondary);
-    border-color: unset;
+    border-color: transparent;
 }
 .btn-default {
     background-color: transparent;
@@ -132,17 +132,17 @@ section.main-section {
 .btn-primary:hover,
 .btn-primary:focus {
     background-color: var(--primary-dark);
-    border-color: unset;
+    border-color: transparent;
 }
 .btn-secondary:hover,
 .btn-secondary:focus {
     background-color: var(--secondary-dark);
-    border-color: unset;
+    border-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
     background-color: var(--primary);
-    border-color: unset;
+    border-color: transparent;
     color: var(--white);
 }
 
