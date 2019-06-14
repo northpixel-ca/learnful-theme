@@ -11,6 +11,7 @@ regions:
   navigation_collapsible: 'Navigation (Collapsible)'
   inner_nav: 'Inner Navigation (Collapsible)'
   header: 'Top Bar'
+  header: 'Header Nav'
   highlighted: 'Highlighted'
   help: 'Help'
   content: 'Content'

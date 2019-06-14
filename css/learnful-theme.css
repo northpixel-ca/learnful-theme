@@ -347,6 +347,10 @@ body:not(.user-logged-in) .for-member {
 body.user-logged-in .for-guest {
     display: none;
 }
+.navtabs > a {
+    padding: 0 15px 10px;
+    display: inline-block;
+}
 
 @media (min-width: 768px) {
     span.label.secondary {
