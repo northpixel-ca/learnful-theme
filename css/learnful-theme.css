@@ -340,7 +340,7 @@ span.label.secondary {
 p.text-mid {
     color: var(--text-mid);
 }
-body:not(user-logged-in) .for-member {
+body:not(.user-logged-in) .for-member {
     display: none;
 }
 body.user-logged-in .for-guest {
