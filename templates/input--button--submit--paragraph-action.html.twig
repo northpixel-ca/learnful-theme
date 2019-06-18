@@ -40,6 +40,14 @@
         <span class="sr-only">{{ label }}</span>
         {{ icon }}
       </button>
+
+
+      <button {{ attributes }}>
+        {% if icon_attributes %}
+          <div {{ icon_attributes }}></div>
+        {% endif %}
+      </button>
+
     {% else %}
       {% if icon_position == 'after' %}
         <button{{ attributes.addClass(classes) }}>{{ label }}{{ icon }}</button>{{ children }}
