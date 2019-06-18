@@ -447,6 +447,17 @@ body.user-logged-in .for-guest {
     }
 }
 
+/**
+** Edit edit pages
+**/
+#node-form-top-bar {
+    padding: 15px 0;
+    background: var(--bg-mid);
+    border-bottom: 1px solid var(--bg-highlight);
+    position: sticky;
+    top: 60px;
+    z-index: 1029;
+}
 
 
 /**
