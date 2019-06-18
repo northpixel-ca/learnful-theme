@@ -1,0 +1,52 @@
+{#
+/**
+ * @file
+ * Theme implementation for an 'input' #type form element with image.
+ *
+ * Available variables:
+ * - attributes: A list of HTML attributes for the input element.
+ * - children: Optional additional rendered elements.
+ *
+ * @see template_preprocess_input()
+ *
+ * @ingroup themeable
+ */
+#}
+{# <button {{ attributes }}>
+  {% if icon_attributes %}
+    <div {{ icon_attributes }}></div>
+  {% endif %}
+  {% if title %}
+    <div class="paragraphs-label" title="{{- title -}}">{{- title -}}</div>
+  {% endif %}
+  {% if description %}
+    <div class="paragraphs-description"{% if description_id %} id="{{ description_id }}"{% endif %}>{{- description -}}</div>
+  {% endif %}
+  {{ children }}
+</button> #}
+
+
+{% spaceless %}
+  {%
+    set classes = [
+      'btn',
+      type == 'submit' ? 'js-form-submit',
+      icon and icon_position and not icon_only ? 'icon-' ~ icon_position,
+    ]
+  %}
+  {% block input %}
+    {% if icon and icon_only %}
+      <button{{ attributes.addClass(classes, 'icon-only') }}>
+        <span class="sr-only">{{ label }}</span>
+        {{ icon }}
+      </button>
+    {% else %}
+      {% if icon_position == 'after' %}
+        <button{{ attributes.addClass(classes) }}>{{ label }}{{ icon }}</button>{{ children }}
+      {% else %}
+        <button{{ attributes.addClass(classes) }}>{{ icon }}{{ label }}</button>{{ children }}
+      {% endif %}
+    {% endif %}
+    {{ children }}
+  {% endblock %}
+{% endspaceless %}
