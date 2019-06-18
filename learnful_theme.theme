@@ -7,6 +7,3 @@
  * Place your custom PHP code in this file.
  */
 
-function learnful_theme_preprocess_node(&$variables){
-    kint($variables);
-  }

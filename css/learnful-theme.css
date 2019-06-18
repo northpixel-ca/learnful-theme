@@ -68,6 +68,7 @@ aside.sidebar-left.is-open {
 body.node-add-edit aside.sidebar-left {
     width: 80px;
     border-right: 1px solid var(--bg-highlight-overlay);
+    overflow: hidden;
 }
 @media (min-width: 768px) {
     aside.sidebar-left {
