@@ -65,6 +65,10 @@ aside.sidebar-left.is-open {
     z-index: 1031;
     box-shadow: 5px 0 10px 0 rgba(0,0,0,0.1);
 }
+body.node-add-edit aside.sidebar-left {
+    width: 80px;
+    border-right: 1px solid var(--bg-highlight-overlay);
+}
 @media (min-width: 768px) {
     aside.sidebar-left {
         position: fixed;
@@ -87,7 +91,10 @@ aside.sidebar-offcanvas-right.is-open {
     box-shadow: -5px 0 10px 0 rgba(0,0,0,0.1);
     z-index: 1031;
 }
-
+body.node-add-edit section.main-section {
+    margin-left: 80px;
+    width: calc(100% - 80px);
+}
 section.main-section {
     min-height: 500px;
 }
@@ -254,7 +261,7 @@ button#close-sidebar-off-right svg {
 nav.vertical-nav > ul.menu > li.menu-icon > a {
     background-position: 15px center;
     background-size: 24px;
-    padding: 15px 15px 15px 76px;
+    padding: 15px 15px 15px 80px;
     font-weight: bold;
     color: var(--black);
     opacity: 0.7;
