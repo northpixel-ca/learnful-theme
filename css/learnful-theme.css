@@ -137,6 +137,10 @@ section.main-section {
     border-color: var(--primary);
     color: var(--primary);
 }
+.btn-success {
+    background-color: var(--greyblue);
+    border-color: transparent;
+}
 
 .btn-primary:hover,
 .btn-primary:focus {
@@ -154,6 +158,11 @@ section.main-section {
     background-color: var(--primary);
     border-color: transparent;
     color: var(--white);
+}
+.btn-success:hover,
+.btn-success:focus {
+    background-color: var(--greyblue-dark);
+    border-color: transparent;
 }
 
 
@@ -449,6 +458,9 @@ body:not(.user-logged-in) .for-member {
 body.user-logged-in .for-guest {
     display: none;
 }
+.tabledrag-toggle-weight {
+    display: none;
+}
 @media (min-width: 768px) {
     span.label.secondary {
         font-size: 14px;
@@ -474,14 +486,18 @@ body.user-logged-in .for-guest {
     font-size: 14px;
 }
 
+/** Paragraphs **/
 .field--name-field-content-blocks {
     padding: 20px 15px;
 }
 .field--name-field-content-blocks .form-group {
     margin-bottom: 20px;
 }
-.field--name-field-content-blocks .form-group .paragraphs-dropbutton-wrapper {
-    text-align: center;
+#field-content-blocks-basic-text-block-add-more::before {
+    content: '';
+    background-image: url('/themes/custom/learnful-theme/assets/icons/close-overlay-icon.svg');
+    background-size: 24px;
+    display: inline;
 }
 
 /**
