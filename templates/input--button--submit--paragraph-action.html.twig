@@ -42,11 +42,7 @@
       </button>
 
 
-      <button {{ attributes }}>
-        {% if icon_attributes %}
-          <div {{ icon_attributes }}></div>
-        {% endif %}
-      </button>
+ 
 
     {% else %}
       {% if icon_position == 'after' %}
@@ -54,6 +50,14 @@
       {% else %}
         <button{{ attributes.addClass(classes) }}>{{ icon }}{{ label }}</button>{{ children }}
       {% endif %}
+
+
+      <button {{ attributes }}>
+        {% if icon_attributes %}
+          <div {{ icon_attributes }}></div>
+        {% endif %}
+      </button>
+      
     {% endif %}
     {{ children }}
   {% endblock %}
