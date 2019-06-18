@@ -467,6 +467,22 @@ body.user-logged-in .for-guest {
     z-index: 1029;
 }
 
+#node-form-main-wrapper #main-right {
+    padding: 20px;
+    background: var(--bg-mid);
+    border-left: 1px solid var(--bg-highlight);
+    font-size: 14px;
+}
+
+.field--name-field-content-blocks {
+    padding: 20px 15px;
+}
+.field--name-field-content-blocks .form-group {
+    margin-bottom: 20px;
+}
+.field--name-field-content-blocks .form-group .paragraphs-dropbutton-wrapper {
+    text-align: center;
+}
 
 /**
 ** Spacing Utilities
