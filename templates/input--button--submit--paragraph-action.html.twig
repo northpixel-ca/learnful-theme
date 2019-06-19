@@ -31,7 +31,7 @@
     ]
   %}
   {% block input %}
-  <div{{ attributes }}></div>
+  <div{{ attributes.value }}></div>
     {% if icon and icon_only %}
       <button{{ attributes.addClass(classes, 'icon-only') }}>
         <span class="sr-only">{{ label }}</span>
