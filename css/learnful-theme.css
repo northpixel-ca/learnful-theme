@@ -528,7 +528,7 @@ body.user-logged-in .for-guest {
 .field--name-field-content-blocks button.field-add-more-submit:hover > svg,
 .field--name-field-content-blocks button.field-add-more-submit:focus > svg {
     fill: var(--primary-dark);
-    background-color: var(--bg-lightest);
+    background-color: var(--bg-mid);
 }
 
 /**
