@@ -24,9 +24,9 @@
 #}
 
 {% if attributes.value = 'add basic block' %}
-  {% set icon = 'glyphicon glyphicon-text-background' %}
+  {% set foo = 'glyphicon glyphicon-text-background' %}
 {% else %}
-  {% set icon = 'glyphicon glyphicon-education' %}
+  {% set foo = 'glyphicon glyphicon-education' %}
 {% endif %}
 
 {% spaceless %}
@@ -47,7 +47,7 @@
       {% if icon_position == 'after' %}
         <button{{ attributes.addClass(classes) }}>{{ label }}{{ icon }}</button>{{ children }}
       {% else %}
-        <button{{ attributes.addClass(classes) }}>{{ icon }}{{ label }}</button>{{ children }}
+        <button{{ attributes.addClass(classes) }}>{{ foo }}{{ icon }}{{ label }}</button>{{ children }}
       {% endif %}
     {% endif %}
     {{ children }}
