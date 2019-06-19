@@ -35,9 +35,13 @@
   %}
   
   {% if attributes.value == 'Add Basic Text Block' %}
-    {% set icon_path = 'glyphicon glyphicon-text-background' %}
-  {% else %}
-    {% set icon_path = 'glyphicon glyphicon-education' %}
+    {% set icon_path = '/themes/custom/learnful-theme/assets/icons/paragraphs-textblock.svg' %}
+  {% elseif attributes.value == 'Add Button Block' %}
+    {% set icon_path = '/themes/custom/learnful-theme/assets/icons/paragraphs-buttonblock.svg' %}
+  {% elseif attributes.value == 'Add Image with Caption' %}
+    {% set icon_path = '/themes/custom/learnful-theme/assets/icons/paragraphs-imagecaption.svg' %}
+  {% elseif attributes.value == 'Add Photo Gallery' %}
+    {% set icon_path = '/themes/custom/learnful-theme/assets/icons/paragraphs-imagegallery.svg' %}
   {% endif %}
 
   
