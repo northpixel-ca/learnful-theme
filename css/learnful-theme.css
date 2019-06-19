@@ -531,17 +531,19 @@ body.user-logged-in .for-guest {
 /** paragraph fields in node edit **/
 .field--name-field-content-blocks table > tbody {
     font-size: 14px;
+    color: var(--text-light);
 }
 .field--name-field-content-blocks table > tbody > tr.draggable {
     display: block;
-    border: 2px solid var(--bg-highlight);
+    border-top: 2px solid var(--bg-highlight);
+    border-bottom: 2px solid var(--bg-highlight);
     background: var(--white);
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px 0;
+    padding: 10px 0 10px 10px;
+    margin: 0 0 20px;
 }
 .field--name-field-content-blocks table > tbody > tr.draggable > td:nth-of-type(2) {
     width: 100%;
+    padding: 10px 25px;
 }
 .field--name-field-content-blocks table > tbody > tr.draggable > td {
     border-top: 0px;
@@ -551,9 +553,17 @@ body.user-logged-in .for-guest {
     display: flex;
     justify-content: space-between;
 }
-/* .field--name-field-content-blocks .form-group.paragraph-top .paragraph-type {
-    width: 20%;
-} */
+
+.field--name-field-content-blocks .form-group.paragraph-top .paragraph-type {
+    background: var(--bg-highlight);
+    padding: 6px 10px;
+    border-radius: 20px;
+}
+.field--name-field-content-blocks .form-group.paragraph-top .paragraph-type .paragraph-type-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
 
 /**
 ** Spacing Utilities
