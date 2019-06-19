@@ -521,7 +521,7 @@ form.node-form .form-wrapper .form-item  .form-control {
 .js .field--widget-paragraphs .field-multiple-drag {
     position: relative;
 }
-.field--widget-paragraphs .tabledrag-changed.text-warning {
+.field--widget-paragraphs td .tabledrag-changed.text-warning {
     position: absolute;
     color: var(--white);
     background-color: var(--red);
@@ -617,7 +617,7 @@ form.node-form .form-wrapper .form-item  .form-control {
     width: 70%;
 }
 
-.paragraphs-subform {
+.js .paragraphs-subform {
     margin-top: 15px;
 }
 

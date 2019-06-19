@@ -5,8 +5,6 @@
     Drupal.behaviors.visualScripts = {
       attach: function (context, settings) {
 
-        //console.log('learnful-theme.js loaded and running.')
-
         // open .sidebar-offcanvas-right when menu is clicked
         $("a#openUserNav").click(function() {
           $("aside.sidebar-offcanvas-right").addClass("is-open").animate({ right: "0px"}, 100);
@@ -26,12 +24,14 @@
           $("#full-page-overlay").css('display','none');
           $("button#close-sidebar-off-right").css('display','none');
         });
-
         // open #navbar-collapse when menu is clicked
         $("button#toggle-mobile-nav").click(function() {
           $("aside.sidebar-left").addClass("is-open").animate({ left: "0px"}, 100);
           $("#full-page-overlay").css('display','block');
         });
+
+        // move node actions to node-form-top
+        $('form.node-form > #form-actions').appendTo('#node-form-top-bar #top-bar-right');
 
 
       }
