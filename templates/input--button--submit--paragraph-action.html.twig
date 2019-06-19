@@ -23,17 +23,11 @@
  */
 #}
 
-{% switch attributes.value %}
-
-  {% case "add basic block" %}
-
-    {% set icon = 'glyphicon glyphicon-text-background' %}
-  
-  {% default %}
-  
-    {% set icon = 'glyphicon glyphicon-education' %}
-
-{% endswitch %}
+{% if attributes.value = 'add basic block' %}
+  {% set icon = 'glyphicon glyphicon-text-background' %}
+{% else %}
+  {% set icon = 'glyphicon glyphicon-education' %}
+{% endif %}
 
 {% spaceless %}
   {%
