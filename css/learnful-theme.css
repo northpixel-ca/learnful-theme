@@ -508,7 +508,20 @@ body.user-logged-in .for-guest {
 }
 
 /** Pararagraphs buttons **/
-.field--name-field-content-blocks button.field-add-more-submit {}
+.field--name-field-content-blocks button.field-add-more-submit {
+    border: 0;
+    background: transparent;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 29px;
+}
+.field--name-field-content-blocks button.field-add-more-submit > img {
+    display: block;
+    background: var(--bg-highlight);
+    padding: 10px;
+    border-radius: 50%;
+    margin: auto auto 10px;
+}
 
 /**
 ** Spacing Utilities
