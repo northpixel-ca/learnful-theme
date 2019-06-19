@@ -486,6 +486,18 @@ body.user-logged-in .for-guest {
     font-size: 14px;
 }
 
+form.node-form .form-wrapper .form-item > label {
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #000;
+}
+form.node-form .form-wrapper .form-item  .form-control {
+    border-radius: 0;
+    box-shadow: unset;
+    border-color: var(--bg-highlight-overlay);
+}
+
+
 /** Paragraphs field**/
 .field--name-field-content-blocks {
     padding: 20px 15px;
@@ -564,16 +576,6 @@ body.user-logged-in .for-guest {
     width: 30px;
     height: 30px;
     display: inline-block;
-}
-.paragraphs-subform .form-item > label {
-    font-weight: normal;
-    letter-spacing: 1px;
-    color: #000;
-}
-.paragraphs-subform .form-item  .form-control {
-    border-radius: 0;
-    box-shadow: unset;
-    border-color: var(--bg-highlight-overlay);
 }
 
 /**
