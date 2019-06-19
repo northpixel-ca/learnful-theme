@@ -506,11 +506,30 @@ form.node-form .form-wrapper .form-item  .form-control {
 .field--name-field-content-blocks {
     padding: 20px 15px;
 }
+.field--name-field-content-blocks .tabledrag-changed-warning {
+    padding: 20px;
+}
 #field-content-blocks-basic-text-block-add-more::before {
     content: '';
     background-image: url('/themes/custom/learnful-theme/assets/icons/close-overlay-icon.svg');
     background-size: 24px;
     display: inline;
+}
+.js .field--widget-paragraphs .field-multiple-drag {
+    position: relative;
+}
+.field--widget-paragraphs .tabledrag-changed.text-warning {
+    position: absolute;
+    color: var(--white);
+    background-color: var(--red);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    left: -25px;
 }
 .field--name-field-content-blocks table > thead > tr > th:nth-of-type(2) {
     display: none;
@@ -593,6 +612,10 @@ form.node-form .form-wrapper .form-item  .form-control {
 }
 .field--name-field-content-blocks .form-group.paragraph-top .paragraph-summary {
     width: 70%;
+}
+
+.paragraphs-subform {
+    margin-top: 15px;
 }
 
 button.paragraphs-icon-button-collapse,
