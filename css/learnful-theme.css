@@ -486,7 +486,7 @@ body.user-logged-in .for-guest {
     font-size: 14px;
 }
 
-/** Paragraphs **/
+/** Paragraphs field**/
 .field--name-field-content-blocks {
     padding: 20px 15px;
 }
@@ -499,6 +499,16 @@ body.user-logged-in .for-guest {
     background-size: 24px;
     display: inline;
 }
+#field-content-blocks-values > thead > tr > th:nth-of-type(2) {
+    display: none;
+}
+#field-content-blocks-values > thead > tr > th {
+    border: 0;
+    padding-bottom: 20px;
+}
+
+/** Pararagraphs buttons **/
+.field--name-field-content-blocks button.field-add-more-submit {}
 
 /**
 ** Spacing Utilities
