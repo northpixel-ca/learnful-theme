@@ -530,7 +530,7 @@ body.user-logged-in .for-guest {
 
 /** paragraph fields in node edit **/
 .field--name-field-content-blocks table > tbody {
-    font-size: 14px;
+    font-size: 12px;
     color: var(--text-light);
 }
 .field--name-field-content-blocks table > tbody > tr.draggable {
