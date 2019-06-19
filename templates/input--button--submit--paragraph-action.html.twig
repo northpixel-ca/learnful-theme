@@ -23,11 +23,7 @@
  */
 #}
 
-{% if attributes.value = 'add basic block' %}
-  {% set foo = 'glyphicon glyphicon-text-background' %}
-{% else %}
-  {% set foo = 'glyphicon glyphicon-education' %}
-{% endif %}
+
 
 {% spaceless %}
   {%
@@ -37,6 +33,11 @@
       icon and icon_position and not icon_only ? 'icon-' ~ icon_position,
     ]
   %}
+  {% if attributes.value = 'add basic block' %}
+  {% set foo = 'glyphicon glyphicon-text-background' %}
+{% else %}
+  {% set foo = 'glyphicon glyphicon-education' %}
+{% endif %}
   {% block input %}
     {% if icon and icon_only %}
       <button{{ attributes.addClass(classes, 'icon-only') }}>
