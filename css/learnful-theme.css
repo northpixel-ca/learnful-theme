@@ -536,8 +536,8 @@ form.node-form .form-wrapper .form-item  .form-control {
 }
 .field--name-field-content-blocks button.field-add-more-submit:hover > svg,
 .field--name-field-content-blocks button.field-add-more-submit:focus > svg {
-    fill: var(--primary-dark);
-    background-color: var(--bg-mid);
+    fill: var(--white);
+    background-color: var(--primary);
 }
 
 /** paragraph fields in node edit **/
@@ -589,6 +589,7 @@ button.paragraphs-icon-button-collapse {
 button.paragraphs-icon-button-collapse:hover,
 button.paragraphs-icon-button-collapse:focus {
     background-color: var(--bg-highlight-overlay);
+    color: var(--text-mid);
 }
 button.paragraphs-dropdown-toggle {
     background-color: var(--bg-highlight);
@@ -599,6 +600,38 @@ button.paragraphs-dropdown-toggle:focus {
     border: 0;
     box-shadow: unset;
     background-color: var(--bg-highlight-overlay);
+}
+.paragraphs-dropdown-actions {
+    top: 30px;
+    border: 1px solid var(--bg-highlight-overlay);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    border-radius: 4px;
+    background-color: var(--white);
+}
+.paragraphs-dropdown-actions > button {
+    padding: 5px 20px;
+    border-bottom: 1px solid var(--bg-highlight-overlay);
+}
+.paragraphs-dropdown-actions > button > span.icon {
+    display: none;
+}
+.paragraphs-dropdown-actions > button.btn-danger {
+    color: var(--red);
+    background-color: transparent;
+}
+.paragraphs-dropdown-actions > button.btn-danger:hover,
+.paragraphs-dropdown-actions > button.btn-danger:focus {
+    background-color: var(--red);
+    color: var(--white);
+}
+.paragraphs-dropdown-actions > button.btn-default {
+    background-color: transparent;
+    color: var(--primary);
+}
+.paragraphs-dropdown-actions > button.btn-default:hover,
+.paragraphs-dropdown-actions > button.btn-default:focus {
+    background-color: var(--primary);
+    color: var(--white);
 }
 
 /**
