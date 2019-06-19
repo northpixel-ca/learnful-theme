@@ -66,7 +66,7 @@
         <button{{ attributes.addClass(classes) }}>{{ label }}{{ icon }}</button>{{ children }}
       {% else %}
         {# <button{{ attributes.addClass(classes).removeClass('btn', 'btn-success') }}><img src="{{ icon_path }}"/>{{ icon }}{{ label }}</button>{{ children }} #}
-        <button{{ attributes.addClass(classes).removeClass('btn', 'btn-success') }}>{{ icon_path }}{{ icon }}{{ label }}</button>{{ children }}
+        <button{{ attributes.addClass(classes).removeClass('btn', 'btn-success') }}>{{ icon_path | raw }}{{ icon }}{{ label }}</button>{{ children }}
       {% endif %}
     {% endif %}
     {{ children }}
