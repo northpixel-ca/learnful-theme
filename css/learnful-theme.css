@@ -531,6 +531,33 @@ body.user-logged-in .for-guest {
     background-color: var(--bg-mid);
 }
 
+/** paragraph fields in node edit **/
+.field--name-field-content-blocks table > tbody {
+    font-size: 14px;
+}
+.field--name-field-content-blocks table > tbody > tr.draggable {
+    display: block;
+    border: 2px solid var(--bg-highlight);
+    background: var(--white);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.field--name-field-content-blocks table > tbody > tr.draggable > td:nth-of-type(2) {
+    width: 100%;
+}
+.field--name-field-content-blocks .form-group {
+    margin-bottom: 0;
+}
+.field--name-field-content-blocks .form-group.paragraph-top {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+/* .field--name-field-content-blocks .form-group.paragraph-top .paragraph-type {
+    width: 20%;
+} */
+
 /**
 ** Spacing Utilities
 **/
