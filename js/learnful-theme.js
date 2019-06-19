@@ -32,7 +32,6 @@
 
         // move node actions to node-form-top
         $('form.node-form > #edit-actions').appendTo( $('#top-bar-right') );
-        $("<p>Test</p>").appendTo($("#top-bar-right"));
 
 
       }
