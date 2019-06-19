@@ -496,8 +496,12 @@ form.node-form .form-wrapper .form-item  .form-control {
     box-shadow: unset;
     border-color: var(--bg-highlight-overlay);
 }
-
-
+.filter-wrapper {
+    box-shadow: unset;
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+}
 /** Paragraphs field**/
 .field--name-field-content-blocks {
     padding: 20px 15px;
@@ -565,20 +569,34 @@ form.node-form .form-wrapper .form-item  .form-control {
     display: flex;
     justify-content: space-between;
 }
-
+.field--name-field-content-blocks .form-group.paragraph-top > .form-group {
+    margin-bottom: 0px;
+}
 .field--name-field-content-blocks .form-group.paragraph-top .paragraph-type {
     background: var(--bg-highlight);
     padding: 6px 10px;
     border-radius: 20px;
     color: var(--black);
+    min-width: 150px;
 }
 .field--name-field-content-blocks .form-group.paragraph-top .paragraph-type .paragraph-type-icon {
     width: 30px;
     height: 30px;
     display: inline-block;
 }
+.field--name-field-content-blocks .form-group.paragraph-top .paragraph-info {
+    min-width: 40px;
+    text-align: center;
+}
+.field--name-field-content-blocks .form-group.paragraph-top .paragraph-info > span.paragraphs-icon-changed {
+    background-size: 20px;
+}
+.field--name-field-content-blocks .form-group.paragraph-top .paragraph-summary {
+    max-width: 70%;
+}
 
-button.paragraphs-icon-button-collapse {
+button.paragraphs-icon-button-collapse,
+button.paragraphs-icon-button-edit {
     border: 0;
     font-weight: bold;
     background-color: var(--bg-highlight);
@@ -587,7 +605,9 @@ button.paragraphs-icon-button-collapse {
     border-radius: 4px;
 }
 button.paragraphs-icon-button-collapse:hover,
-button.paragraphs-icon-button-collapse:focus {
+button.paragraphs-icon-button-collapse:focus,
+button.paragraphs-icon-button-edit:hover,
+button.paragraphs-icon-button-edit:focus {
     background-color: var(--bg-highlight-overlay);
     color: var(--text-mid);
 }
