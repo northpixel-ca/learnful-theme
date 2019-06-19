@@ -22,21 +22,20 @@
  * @see template_preprocess_input()
  */
 #}
-{% spaceless %}
 
-  {% switch attributes.value %}
+{% switch attributes.value %}
 
-    {% case "add basic block" %}
+  {% case "add basic block" %}
 
-      {% set icon = 'glyphicon glyphicon-text-background' %}
-    
-    {% default %}
-    
-      {% set icon = 'glyphicon glyphicon-education' %}
+    {% set icon = 'glyphicon glyphicon-text-background' %}
   
-  {% endswitch %}
+  {% default %}
+  
+    {% set icon = 'glyphicon glyphicon-education' %}
 
+{% endswitch %}
 
+{% spaceless %}
   {%
     set classes = [
       'btn',
