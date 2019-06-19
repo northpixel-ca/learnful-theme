@@ -578,6 +578,29 @@ form.node-form .form-wrapper .form-item  .form-control {
     display: inline-block;
 }
 
+button.paragraphs-icon-button-collapse {
+    border: 0;
+    font-weight: bold;
+    background-color: var(--bg-highlight);
+    color: var(--text-mid);
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+button.paragraphs-icon-button-collapse:hover,
+button.paragraphs-icon-button-collapse:focus {
+    background-color: var(--bg-highlight-overlay);
+}
+button.paragraphs-dropdown-toggle {
+    background-color: var(--bg-highlight);
+    border: 0;
+}
+button.paragraphs-dropdown-toggle:hover,
+button.paragraphs-dropdown-toggle:focus {
+    border: 0;
+    box-shadow: unset;
+    background-color: var(--bg-highlight-overlay);
+}
+
 /**
 ** Spacing Utilities
 **/
