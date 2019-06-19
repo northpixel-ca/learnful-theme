@@ -506,6 +506,9 @@ form.node-form .form-wrapper .form-item  .form-control {
 .field--name-field-content-blocks {
     padding: 20px 15px;
 }
+.field--name-field-content-blocks .table-responsive {
+    overflow-x: visible;
+}
 .field--name-field-content-blocks .tabledrag-changed-warning {
     padding: 20px;
 }
