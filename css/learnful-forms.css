@@ -399,6 +399,7 @@ button.paragraphs-dropdown-toggle:focus {
 .paragraphs-dropdown-actions > button {
     padding: 5px 20px;
     border-bottom: 1px solid var(--bg-highlight-overlay);
+    display: block;
 }
 .paragraphs-dropdown-actions > button > span.icon {
     display: none;
