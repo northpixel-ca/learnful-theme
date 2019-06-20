@@ -299,9 +299,15 @@ a#edit-delete:focus {
         display: block;
     }
 }
+@media (min-width: 991px) {
+    .field--name-field-content-blocks .form-group.paragraph-top .paragraph-summary {
+        max-width: 150px;
+    }
+}
 @media (min-width: 1367px) {
     .field--name-field-content-blocks .form-group.paragraph-top .paragraph-summary {
         width: 70%;
+        max-width: 500px;
     }
 }
 
