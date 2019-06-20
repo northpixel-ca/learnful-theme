@@ -253,6 +253,7 @@ a#openUserNav:focus {
 @media (min-width: 768px) {
     .navbar-header {
         width: 16%;
+        min-width: 300px;
     }
     a#openUserNav .user-avatar > img {
         margin: 5px 15px 5px 0;
