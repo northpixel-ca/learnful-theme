@@ -252,11 +252,15 @@ a#edit-delete:focus {
     padding: 6px 10px;
     border-radius: 20px;
     color: var(--black);
+    max-width: 130px;
 }
 .field--name-field-content-blocks .form-group.paragraph-top .paragraph-type .paragraph-type-icon {
     width: 30px;
     height: 30px;
     display: inline-block;
+}
+.field--name-field-content-blocks .form-group.paragraph-top .paragraph-summary {
+    display: none;
 }
 .field--name-field-content-blocks .form-group.paragraph-top .paragraph-info {
     min-width: 40px;
@@ -269,9 +273,11 @@ a#edit-delete:focus {
 @media (min-width: 768px) {
     .field--name-field-content-blocks .form-group.paragraph-top .paragraph-type {
         min-width: 150px;
+        max-width: unset;
     }
     .field--name-field-content-blocks .form-group.paragraph-top .paragraph-summary {
         width: 55%;
+        display: block;
     }
 }
 @media (min-width: 1367px) {
