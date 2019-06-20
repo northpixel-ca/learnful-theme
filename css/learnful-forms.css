@@ -234,7 +234,7 @@ a#edit-delete:focus {
 }
 .field--name-field-content-blocks table > tbody > tr.draggable > td:nth-of-type(2) {
     width: 100%;
-    padding: 0 25px;
+    padding: 0 5px;
 }
 .field--name-field-content-blocks table > tbody > tr.draggable > td {
     border-top: 0px;
@@ -271,6 +271,9 @@ a#edit-delete:focus {
 }
 
 @media (min-width: 768px) {
+    .field--name-field-content-blocks table > tbody > tr.draggable > td:nth-of-type(2) {
+        padding: 0 25px;
+    }
     .field--name-field-content-blocks .form-group.paragraph-top .paragraph-type {
         min-width: 150px;
         max-width: unset;
