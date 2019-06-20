@@ -1,3 +1,7 @@
+body.node-add-edit .region-content > nav.tabs {
+    display: none;
+}
+
 /**
 ** Node Form
 **/
