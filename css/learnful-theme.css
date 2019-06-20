@@ -483,6 +483,7 @@ body.user-logged-in .for-guest {
     background: var(--white);
     border-left: 1px solid var(--bg-highlight);
     font-size: 14px;
+    padding: 0px;
 }
 #main-right > .form-item.panel {
     border-radius: 0px;
