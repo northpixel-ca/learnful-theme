@@ -157,7 +157,7 @@ a#edit-delete:focus {
 ** Paragraphs field
 **/
 .field--name-field-content-blocks {
-    padding: 20px 15px;
+    padding: 15px 0;
 }
 .field--name-field-content-blocks .table-responsive {
     overflow-x: visible;
@@ -187,6 +187,12 @@ a#edit-delete:focus {
 .field--name-field-content-blocks table > thead > tr > th {
     border: 0;
     padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .field--name-field-content-blocks {
+        padding: 20px 15px;
+    }
 }
 
 /** Pararagraphs buttons **/
@@ -246,7 +252,6 @@ a#edit-delete:focus {
     padding: 6px 10px;
     border-radius: 20px;
     color: var(--black);
-    min-width: 150px;
 }
 .field--name-field-content-blocks .form-group.paragraph-top .paragraph-type .paragraph-type-icon {
     width: 30px;
@@ -260,8 +265,14 @@ a#edit-delete:focus {
 .field--name-field-content-blocks .form-group.paragraph-top .paragraph-info > span.paragraphs-icon-changed {
     background-size: 20px;
 }
-.field--name-field-content-blocks .form-group.paragraph-top .paragraph-summary {
-    width: 55%;
+
+@media (min-width: 768px) {
+    .field--name-field-content-blocks .form-group.paragraph-top .paragraph-type {
+        min-width: 150px;
+    }
+    .field--name-field-content-blocks .form-group.paragraph-top .paragraph-summary {
+        width: 55%;
+    }
 }
 @media (min-width: 1367px) {
     .field--name-field-content-blocks .form-group.paragraph-top .paragraph-summary {
