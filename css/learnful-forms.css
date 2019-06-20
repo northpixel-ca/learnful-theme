@@ -1,0 +1,235 @@
+/**
+** Node Form
+**/
+#node-form-top-bar {
+    padding: 15px 0;
+    background: var(--bg-mid);
+    border-bottom: 1px solid var(--bg-highlight);
+    position: sticky;
+    top: 60px;
+    z-index: 1029;
+}
+#node-form-main-wrapper #main-right {
+    background: var(--white);
+    border-left: 1px solid var(--bg-highlight);
+    font-size: 14px;
+    padding: 0px;
+}
+#main-right > .form-item.panel {
+    border-radius: 0px;
+    box-shadow: unset;
+    border: 0;
+    margin-bottom: 0px;
+}
+#main-right > .form-item.panel .panel-heading {
+    border-radius: 0px;
+    background-color: var(--bg-lightest);
+    border-color: var(--bg-highlight);
+}
+
+form.node-form .form-wrapper .form-item > label {
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #000;
+}
+.form-item.panel label.control-label {
+    display: none;
+}
+form.node-form .form-wrapper .form-item  .form-control {
+    border-radius: 0;
+    box-shadow: unset;
+    border-color: var(--bg-highlight-overlay);
+}
+.filter-wrapper {
+    box-shadow: unset;
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+
+/** field type: image **/
+.field--type-image .preview {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.field--type-image .data {
+    width: 100%;
+}
+.field--type-image .data span.file  {
+    margin: 0 0 15px;
+}
+
+
+
+/** Paragraphs field**/
+.field--name-field-content-blocks {
+    padding: 20px 15px;
+}
+.field--name-field-content-blocks .table-responsive {
+    overflow-x: visible;
+}
+.field--name-field-content-blocks .tabledrag-changed-warning {
+    padding: 20px;
+}
+.js .field--widget-paragraphs .field-multiple-drag {
+    position: relative;
+}
+.field--widget-paragraphs td .tabledrag-changed.text-warning {
+    position: absolute;
+    color: var(--white);
+    background-color: var(--red);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    left: -25px;
+}
+.field--name-field-content-blocks table > thead > tr > th:nth-of-type(2) {
+    display: none;
+}
+.field--name-field-content-blocks table > thead > tr > th {
+    border: 0;
+    padding-bottom: 20px;
+}
+
+/** Pararagraphs buttons **/
+.field--name-field-content-blocks button.field-add-more-submit {
+    border: 0;
+    background: transparent;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 29px;
+}
+.field--name-field-content-blocks button.field-add-more-submit > svg {
+    display: block;
+    background-color: var(--bg-highlight);
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    fill: var(--primary);
+}
+.field--name-field-content-blocks button.field-add-more-submit:hover > svg,
+.field--name-field-content-blocks button.field-add-more-submit:focus > svg {
+    fill: var(--white);
+    background-color: var(--primary);
+}
+
+/** paragraph fields in node edit **/
+.field--name-field-content-blocks table > tbody {
+    font-size: 12px;
+    color: var(--text-light);
+}
+.field--name-field-content-blocks table > tbody > tr.draggable {
+    display: block;
+    border-top: 2px solid var(--bg-highlight);
+    border-bottom: 2px solid var(--bg-highlight);
+    background: var(--white);
+    padding: 10px 0 10px 10px;
+    margin: 0 0 20px;
+}
+.field--name-field-content-blocks table > tbody > tr.draggable > td:nth-of-type(2) {
+    width: 100%;
+    padding: 0 25px;
+}
+.field--name-field-content-blocks table > tbody > tr.draggable > td {
+    border-top: 0px;
+}
+.field--name-field-content-blocks .form-group.paragraph-top {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.field--name-field-content-blocks .form-group.paragraph-top > .form-group {
+    margin-bottom: 0px;
+}
+.field--name-field-content-blocks .form-group.paragraph-top .paragraph-type {
+    background: var(--bg-highlight);
+    padding: 6px 10px;
+    border-radius: 20px;
+    color: var(--black);
+    min-width: 150px;
+}
+.field--name-field-content-blocks .form-group.paragraph-top .paragraph-type .paragraph-type-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.field--name-field-content-blocks .form-group.paragraph-top .paragraph-info {
+    min-width: 40px;
+    text-align: center;
+}
+.field--name-field-content-blocks .form-group.paragraph-top .paragraph-info > span.paragraphs-icon-changed {
+    background-size: 20px;
+}
+.field--name-field-content-blocks .form-group.paragraph-top .paragraph-summary {
+    width: 70%;
+}
+
+.js .paragraphs-subform {
+    margin-top: 15px;
+}
+
+button.paragraphs-icon-button-collapse,
+button.paragraphs-icon-button-edit {
+    border: 0;
+    font-weight: bold;
+    background-color: var(--bg-highlight);
+    color: var(--text-mid);
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+button.paragraphs-icon-button-collapse:hover,
+button.paragraphs-icon-button-collapse:focus,
+button.paragraphs-icon-button-edit:hover,
+button.paragraphs-icon-button-edit:focus {
+    background-color: var(--bg-highlight-overlay);
+    color: var(--text-mid);
+}
+button.paragraphs-dropdown-toggle {
+    background-color: var(--bg-highlight);
+    border: 0;
+}
+button.paragraphs-dropdown-toggle:hover,
+button.paragraphs-dropdown-toggle:focus {
+    border: 0;
+    box-shadow: unset;
+    background-color: var(--bg-highlight-overlay);
+}
+.paragraphs-dropdown-actions {
+    top: 30px;
+    border: 1px solid var(--bg-highlight-overlay);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    border-radius: 4px;
+    background-color: var(--white);
+}
+.paragraphs-dropdown-actions > button {
+    padding: 5px 20px;
+    border-bottom: 1px solid var(--bg-highlight-overlay);
+}
+.paragraphs-dropdown-actions > button > span.icon {
+    display: none;
+}
+.paragraphs-dropdown-actions > button.btn-danger {
+    color: var(--red);
+    background-color: transparent;
+}
+.paragraphs-dropdown-actions > button.btn-danger:hover,
+.paragraphs-dropdown-actions > button.btn-danger:focus {
+    background-color: var(--red);
+    color: var(--white);
+}
+.paragraphs-dropdown-actions > button.btn-default {
+    background-color: transparent;
+    color: var(--primary);
+}
+.paragraphs-dropdown-actions > button.btn-default:hover,
+.paragraphs-dropdown-actions > button.btn-default:focus {
+    background-color: var(--primary);
+    color: var(--white);
+}
