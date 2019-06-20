@@ -115,6 +115,19 @@ a#edit-delete:focus {
     display: none;
 }
 
+a.panel-title:after {
+    display: block;
+    float: right;
+    height: 20px;
+    width: 20px;
+    font-family: 'Glyphicons Halflings';
+    content: "\e258";
+    color: var(--text-light);
+}
+a.panel-title.collapsed:after {
+    content: "\e259";
+}
+
 
 /**
 ** field type: image
@@ -311,7 +324,7 @@ a#edit-delete:focus {
 @media (min-width: 1367px) {
     .field--name-field-content-blocks .form-group.paragraph-top .paragraph-summary {
         width: 70%;
-        max-width: 500px;
+        max-width: unset;
     }
 }
 
