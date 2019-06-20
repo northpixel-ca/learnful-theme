@@ -118,6 +118,13 @@ section.main-section {
 ** Buttons, links, typography
 **/
 
+h1.page-header {
+    border: 0;
+    padding: 28px;
+    font-size: 20px;
+    margin: 0;
+}
+
 .btn {
     font-weight: bold;
     padding: 6px 15px;
@@ -246,6 +253,13 @@ a#openUserNav:focus {
     a#openUserNav .user-avatar > img {
         margin: 5px 15px 5px 0;
     }
+}
+
+/**
+** Main Nav Tabs
+**/
+.region-content > nav.tabs {
+    margin-bottom: 20px;
 }
 
 /**

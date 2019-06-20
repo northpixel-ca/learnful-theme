@@ -31,6 +31,11 @@ body.node-add-edit .region-content > nav.tabs {
     border-color: var(--bg-highlight);
 }
 
+/** node delete **/
+form.node-confirm-form > #edit-actions {
+    margin-top: 15px;
+}
+
 /**
 ** Global Form styles
 **/
