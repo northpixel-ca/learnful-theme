@@ -381,3 +381,10 @@ button.paragraphs-dropdown-toggle:focus {
     background-color: var(--primary);
     color: var(--white);
 }
+@media (max-width: 768px) {
+    .button.paragraphs-icon-button {
+        width: 25px;
+        height: 25px;
+        background-size: 18px;
+    }
+}
