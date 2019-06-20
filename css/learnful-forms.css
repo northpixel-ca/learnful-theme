@@ -32,19 +32,28 @@ form.node-form .form-wrapper .form-item > label {
     letter-spacing: 1px;
     color: #000;
 }
-.form-item.panel label.control-label {
-    display: none;
+.form-item.panel .form-group:first-of-type > .form-item:first-of-type > label.control-label {
+    display: none; /* hide form item label if wrapped in a panel */
 }
 form.node-form .form-wrapper .form-item  .form-control {
     border-radius: 0;
     box-shadow: unset;
     border-color: var(--bg-highlight-overlay);
 }
+.form-item > .description.help-block {
+    margin: 15px 0;
+}
 .filter-wrapper {
     box-shadow: unset;
     border: 0;
     border-radius: 0;
     background-color: transparent;
+}
+
+/** Hide Field label when in panel **/
+.hide-field-label.panel  .form-group:first-of-type > .form-item:first-of-type > label.control-label,
+.hide-field-label.panel .form-item:first-of-type > .table-responsive > table > thead {
+    display: none;
 }
 
 
