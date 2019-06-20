@@ -70,6 +70,7 @@ a#edit-cancel {
     font-size: 14px;
     display: inline-block;
     margin-right: 4px;
+    color: var(--white);
 }
 a#edit-cancel:hover,
 a#edit-cancel:focus {
