@@ -238,11 +238,11 @@ a#edit-delete:focus {
 }
 .field--name-field-content-blocks table > tbody > tr.draggable {
     display: block;
-    border-top: 2px solid var(--bg-highlight);
-    border-bottom: 2px solid var(--bg-highlight);
+    border-top: 1px solid var(--bg-highlight);
+    border-bottom: 1px solid var(--bg-highlight);
     background: var(--white);
     padding: 10px 0 10px 10px;
-    margin: 0 0 20px;
+    margin: 0 0 10px;
 }
 .field--name-field-content-blocks table > tbody > tr.draggable > td:nth-of-type(2) {
     width: 100%;
@@ -300,6 +300,9 @@ a#edit-delete:focus {
 @media (min-width: 992px) {
     .field--name-field-content-blocks .form-group.paragraph-top .paragraph-summary {
         max-width: 150px;
+    }
+    .field--name-field-content-blocks table > tbody > tr.draggable {
+        margin: 0 0 20px;
     }
     .field--name-field-content-blocks table > tbody > tr.draggable > td {
         white-space: nowrap;
@@ -383,8 +386,8 @@ button.paragraphs-dropdown-toggle:focus {
 }
 @media (max-width: 768px) {
     .button.paragraphs-icon-button {
-        width: 25px;
-        height: 25px;
-        background-size: 18px;
+        width: 26px !important;
+        height: 26px;
+        background-size: 20px;
     }
 }
