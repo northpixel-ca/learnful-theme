@@ -60,6 +60,41 @@ button.field-add-more-submit {
     border-width: 1px;
 }
 
+a#edit-cancel {
+    padding: 6px 15px;
+    background-color: var(--greyblue);
+    border: 3px solid transparent;
+    border-radius: 4px;
+    font-weight: bold;
+    line-height: 1.42857143;
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 4px;
+}
+a#edit-cancel:hover,
+a#edit-cancel:focus {
+    background-color: var(--greyblue-dark);
+    text-decoration: none;
+}
+
+a#edit-delete {
+    padding: 6px 15px;
+    background: var(--red);
+    border: 3px solid transparent;
+    border-radius: 4px;
+    font-weight: bold;
+    line-height: 1.42857143;
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 0;
+    color: var(--white);
+}
+a#edit-delete:hover,
+a#edit-delete:focus {
+    background-color: var(--red-dark);
+    text-decoration: none;
+}
+
 /**
 ** Panels
 **/
