@@ -480,12 +480,22 @@ body.user-logged-in .for-guest {
 }
 
 #node-form-main-wrapper #main-right {
-    padding: 20px;
-    background: var(--bg-mid);
+    background: var(--white);
     border-left: 1px solid var(--bg-highlight);
     font-size: 14px;
 }
+#main-right > .form-item.panel {
+    border-radius: 0px;
+    box-shadow: unset;
+    border: 0;
+    margin-bottom: 0px;
+}
+#main-right > .form-item.panel .panel-heading {
+    border-radius: 0px;
+    background-color: var(--bg-lightest);
+    border-color: var(--bg-highlight);
 
+}
 form.node-form .form-wrapper .form-item > label {
     font-weight: normal;
     letter-spacing: 1px;
@@ -502,6 +512,9 @@ form.node-form .form-wrapper .form-item  .form-control {
     border-radius: 0;
     background-color: transparent;
 }
+
+
+
 /** Paragraphs field**/
 .field--name-field-content-blocks {
     padding: 20px 15px;
