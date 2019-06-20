@@ -13,6 +13,11 @@ body.node-add-edit .region-content > nav.tabs {
     top: 60px;
     z-index: 1029;
 }
+#node-form-main-wrapper {
+    max-width: 1920px;
+    margin: auto;
+}
+
 #node-form-main-wrapper #main-right {
     background: var(--white);
     border-left: 1px solid var(--bg-highlight);
@@ -324,6 +329,21 @@ a.panel-title[aria-expanded=false]:after {
 @media (min-width: 1367px) {
     .field--name-field-content-blocks .form-group.paragraph-top .paragraph-summary {
         width: 70%;
+        max-width: 500px;
+    }
+}
+@media (min-width: 1440px) {
+    .field--name-field-content-blocks .form-group.paragraph-top .paragraph-summary {
+        max-width: 550px;
+    }
+}
+@media (min-width: 1600px) {
+    .field--name-field-content-blocks .form-group.paragraph-top .paragraph-summary {
+        max-width: 700px;
+    }
+}
+@media (min-width: 1920px) {
+    .field--name-field-content-blocks .form-group.paragraph-top .paragraph-summary {
         max-width: unset;
     }
 }
