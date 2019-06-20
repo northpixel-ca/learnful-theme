@@ -27,18 +27,19 @@
     border-color: var(--bg-highlight);
 }
 
+/**
+** Global Form styles
+**/
 form.node-form .form-wrapper .form-item > label {
     font-weight: normal;
     letter-spacing: 1px;
     color: #000;
 }
-.form-item.panel .form-group:first-of-type > .form-item:first-of-type > label.control-label {
-    display: none; /* hide form item label if wrapped in a panel */
-}
 form.node-form .form-wrapper .form-item  .form-control {
     border-radius: 0;
     box-shadow: unset;
     border-color: var(--bg-highlight-overlay);
+    height: auto;
 }
 .form-item > .description.help-block {
     margin: 15px 0;
@@ -49,6 +50,18 @@ form.node-form .form-wrapper .form-item  .form-control {
     border-radius: 0;
     background-color: transparent;
 }
+button.field-add-more-submit {
+    font-size: 12px;
+    padding: 4px 6px;
+    border-width: 1px;
+}
+
+/**
+** Panels
+**/
+.panel-body > p.help-block {
+    margin: 0 0 15px;
+}
 
 /** Hide Field label when in panel **/
 .hide-field-label.panel  .form-group:first-of-type > .form-item:first-of-type > label.control-label,
@@ -57,7 +70,9 @@ form.node-form .form-wrapper .form-item  .form-control {
 }
 
 
-/** field type: image **/
+/**
+** field type: image
+**/
 .field--type-image .preview {
     width: 100%;
     margin-bottom: 10px;
@@ -71,7 +86,9 @@ form.node-form .form-wrapper .form-item  .form-control {
 
 
 
-/** Paragraphs field**/
+/**
+** Paragraphs field
+**/
 .field--name-field-content-blocks {
     padding: 20px 15px;
 }
