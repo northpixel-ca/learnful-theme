@@ -71,6 +71,10 @@ button.field-add-more-submit {
     border-width: 1px;
 }
 
+button#edit-submit {
+    margin-right: 0px;
+}
+
 a#edit-cancel {
     padding: 6px 15px;
     background-color: var(--greyblue);
