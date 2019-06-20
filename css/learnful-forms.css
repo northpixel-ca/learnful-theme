@@ -295,6 +295,13 @@ a#edit-delete:focus {
 
 .js .paragraphs-subform {
     margin-top: 15px;
+    overflow-x: hidden;
+}
+@media (min-width: 768px) {
+    .js .paragraphs-subform {
+        margin-top: 15px;
+        overflow-x: unset;
+    }
 }
 
 button.paragraphs-icon-button-collapse,
