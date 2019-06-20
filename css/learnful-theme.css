@@ -189,17 +189,18 @@ span.label-with-icon {
     margin-right: 15px;
     display: flex;
     align-items: center;
+    font-weight: bold;
 }
 span.label-with-icon > i.label-icon {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     display: inline-block;
     background-position: center;
     background-repeat: no-repeat;
     background-color: var(--bg-highlight);
     border-radius: 50%;
-    background-size: 20px;
-    margin-right: 10px;
+    background-size: 24px;
+    margin-right: 7px;
 }
 i.label-icon.totalviews-icon {
     background-image: url('/themes/custom/learnful-theme/assets/collections/baseline-favorite-24px.svg');

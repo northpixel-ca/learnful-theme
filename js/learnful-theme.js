@@ -34,6 +34,9 @@
         $('form.node-form > #edit-actions').appendTo( $('#top-bar-right') );
 
 
+        // enable bootstrap tooltip when data-toggle=tooltip
+        $('[data-toggle="tooltip"]').tooltip();
+
       }
     }
 
