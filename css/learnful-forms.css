@@ -16,6 +16,7 @@ body.node-add-edit .region-content > nav.tabs {
 #node-form-main-wrapper #main-right {
     background: var(--white);
     border-left: 1px solid var(--bg-highlight);
+    border-bottom: 1px solid var(--bg-highlight);
     font-size: 14px;
     padding: 0px;
 }
@@ -127,6 +128,12 @@ a#edit-delete:focus {
 }
 .field--type-image .data span.file  {
     margin: 0 0 15px;
+}
+.field--type-image .data span.file > .file-link  {
+    max-width: 130px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /**
@@ -254,7 +261,12 @@ a#edit-delete:focus {
     background-size: 20px;
 }
 .field--name-field-content-blocks .form-group.paragraph-top .paragraph-summary {
-    width: 70%;
+    width: 55%;
+}
+@media (min-width: 1367px) {
+    .field--name-field-content-blocks .form-group.paragraph-top .paragraph-summary {
+        width: 70%;
+    }
 }
 
 .js .paragraphs-subform {
