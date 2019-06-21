@@ -41,6 +41,9 @@
         $(".flag.action-flag > a").one("click", function(){
           location.reload();
         });
+        $(".flag.action-unflag > a").one("click", function(){
+          location.reload();
+        });
         // $(".flag.action-flag > a").one("click", function(){
         //   var currentCount = parseInt($(this).parent().siblings('.stat-value').text());
         //   var newCount = currentCount + 1;
