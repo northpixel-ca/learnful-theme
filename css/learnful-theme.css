@@ -500,11 +500,12 @@ h1.page-title-title {
 **/
 .card {
     background: var(--white);
-    box-shadow: 0 0 10px 0px rgba(0,0,0,0.15);
-    border-radius: 4px;
+    /* box-shadow: 0 0 10px 0px rgba(0,0,0,0.15);
+    border-radius: 4px; */
+    border: 1px solid var(--bg-highlight);
 }
 .card.field {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding: 20px;
 }
 .card.field.field--name-field-tags > a {
@@ -535,7 +536,7 @@ h3.card-title {
     margin: 20px 0 5px;
 }
 
-p.card-primar-text {
+p.card-primary-text {
     margin: 0;
 }
 p.card-secondary-text {
