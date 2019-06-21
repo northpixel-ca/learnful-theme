@@ -225,6 +225,19 @@ i.label-icon.totalviews-icon {
     background-image: url('/themes/custom/learnful-theme/assets/collections/baseline-remove_red_eye-24px.svg');
 }
 
+span.label-with-icon > i.glyphicon {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    background: var(--bg-highlight);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin-right: 7px;
+}
+
 span.label-with-icon .flag > a {
     font-size: 24px;
     background-color: var(--bg-highlight);
