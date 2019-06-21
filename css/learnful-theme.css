@@ -118,6 +118,18 @@ section.main-section {
     }
 }
 
+/** Node / DS layouts **/
+.node.ds-2col-fluid {
+    max-width: 1200px;
+    margin: auto;
+}
+.node.ds-2col-fluid > .group-left {
+    width: 70%;
+}
+.node.ds-2col-fluid > .group-right {
+    width: 25%;
+}
+
 /**
 ** Buttons, links, typography
 **/
@@ -479,14 +491,28 @@ h1.page-title-title {
 /** 
 ** Cards
 **/
-.card {}
-
+.card {
+    background: var(--white);
+    box-shadow: 0 0 10px 0px rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
+.card.field {
+    margin-bottom: 30px;
+    padding: 20px;
+}
 .card.two-col-card {}
 
 .card.two-col-card .col-2 {
     padding-left: 0px;
 }
-
+h3.card-label {
+    font-size: 14px;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--text-light);
+    margin-bottom: 10px;
+}
 h3.card-title {
     font-weight: 600;
     font-size: 16px;
@@ -532,6 +558,10 @@ body.user-logged-in .for-guest {
 }
 .tabledrag-toggle-weight {
     display: none;
+}
+.alert {
+    margin: 0 -15px;
+    border-radius: 0;
 }
 @media (min-width: 768px) {
     span.label.secondary {
