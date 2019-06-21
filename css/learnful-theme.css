@@ -514,7 +514,9 @@ h1.page-title-title {
     color: var(--black);
     margin: 3px 6px 3px 0;
 }
-.card.two-col-card {}
+.card.two-col-card {
+    border-radius: 0px;
+}
 
 .card.two-col-card .col-2 {
     padding-left: 0px;
