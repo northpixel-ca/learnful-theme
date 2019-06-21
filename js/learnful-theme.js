@@ -38,10 +38,10 @@
         $('[data-toggle="tooltip"]').tooltip();
 
         // change value of flag count when flag link clicked.
-        $(".flag.action-flag").click(function(){
-          var currentCount = parseInt($(this).sibling('.stat-value').text());
+        $(".flag.action-flag > a").click(function(){
+          var currentCount = parseInt($(this).find('.stat-value').text());
           var newCount = currentCount - 1;
-          $(this).sibling('.stat-value').text(newCount);
+          $(this).find('.stat-value').text(newCount);
           console.log(`curr: ${currentCount}; new: ${newCount}`);
         });
 
