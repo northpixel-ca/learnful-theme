@@ -42,6 +42,7 @@
           var currentCount = parseInt($(this).sibling('.stat-value').text());
           var newCount = currentCount - 1;
           $(this).sibling('.stat-value').text(newCount);
+          console.log(`curr: ${currentCount}; new: ${newCount}`);
         });
 
       }
