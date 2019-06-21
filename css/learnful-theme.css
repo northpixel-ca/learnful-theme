@@ -382,6 +382,9 @@ nav.vertical-nav > ul.menu > li.menu-icon.active > a:focus {
     margin: auto;
     padding: 15px;
 }
+#page-header .page-title-block.views-element-container {
+    padding-bottom: 15px;
+}
 .page-title-image {
     float: left;
     margin-right: 5%;
@@ -447,6 +450,9 @@ h1.page-title-title {
 @media (min-width: 768px) {
     #page-header .page-title-block {
         padding: 30px 0 0;
+    }
+    #page-header .page-title-block.views-element-container {
+        padding-bottom: 30px;
     }
     .page-title-image {
         margin-right: 30px;

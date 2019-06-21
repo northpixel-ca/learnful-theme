@@ -44,18 +44,7 @@
         $(".flag.action-unflag > a").one("click", function(){
           location.reload();
         });
-        // $(".flag.action-flag > a").one("click", function(){
-        //   var currentCount = parseInt($(this).parent().siblings('.stat-value').text());
-        //   var newCount = currentCount + 1;
-        //   $(this).parent().siblings('.stat-value').text(newCount);
-        //   console.log('curr: ' + currentCount + ' new: ' + newCount);
-        // });
-        // $(".flag.unaction-flag > a").one("click", function(){
-        //   var currentCount = parseInt($(this).parent().siblings('.stat-value').text());
-        //   var newCount = currentCount + 1;
-        //   $(this).parent().siblings('.stat-value').text(newCount);
-        //   console.log('curr: ' + currentCount + ' new: ' + newCount);
-        // });
+
 
       }
     }
