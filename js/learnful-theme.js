@@ -37,6 +37,13 @@
         // enable bootstrap tooltip when data-toggle=tooltip
         $('[data-toggle="tooltip"]').tooltip();
 
+        // change value of flag count when flag link clicked.
+        $(".flag.action-flag").click(function(){
+          var currentCount = parseInt($(this).sibling('.stat-value').text());
+          var newCount = currentCount - 1;
+          $(this).sibling('.stat-value').text(newCount);
+        });
+
       }
     }
 
