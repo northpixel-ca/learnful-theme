@@ -527,12 +527,21 @@ h3.card-label {
     font-weight: bold;
     text-transform: uppercase;
     color: var(--text-mid);
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 h3.card-title {
     font-weight: 600;
     font-size: 16px;
     margin: 20px 0 5px;
+}
+
+p.card-primar-text {
+    margin: 0;
+}
+p.card-secondary-text {
+    margin: 0;
+    font-size: 14px;
+    color: var(--text-mid);
 }
 
 @media (min-width: 768px) {
