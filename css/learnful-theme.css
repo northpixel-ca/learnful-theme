@@ -567,7 +567,7 @@ h1.page-title-title {
 .card-body > p {
     font-size: 14px;
     color: var(--text-mid);
-    margin: 0;
+    margin: 0 0 5px;
 }
 .card-body > p.card-location > span.glyphicon {
     margin-right: 10px;
@@ -594,6 +594,27 @@ p.card-secondary-text {
     font-size: 14px;
     color: var(--text-mid);
 }
+
+.card.card-stacked .card-action {
+    border-top: 1px solid var(--bg-highlight);
+    padding-top: 12px;
+}
+.card.card-stacked .card-action > a {
+    font-size: 14px;
+    padding: 6px 10px;
+    background-color: var(--bg-lightest);
+    border-radius: 16px;
+    color: var(--primary);
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+.card.card-stacked .card-action > a:hover,
+.card.card-stacked .card-action > a:focus {
+    text-decoration: none;
+    background-color: var(--bg-highlight);
+}
+
 
 @media (min-width: 768px) {
     h3.card-title {
