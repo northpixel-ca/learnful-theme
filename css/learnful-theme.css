@@ -421,7 +421,7 @@ nav.vertical-nav > ul.menu > li.menu-icon.active > a:focus {
     margin: 0 -15px;
     background-color: var(--bg-mid);
     border-bottom: 1px solid var(--bg-highlight);
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 #page-header .page-title-block {
     max-width: 1200px;
