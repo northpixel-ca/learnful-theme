@@ -150,6 +150,16 @@ section.main-section {
     
 }
 
+/**
+** Login / Registration Forms
+**/
+form#user-login-form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background: var(--white);
+}
+
 
 /**
 ** Buttons, links, typography
@@ -548,6 +558,7 @@ h1.page-title-title {
 }
 .card.two-col-card {
     border-radius: 0px;
+    border: unset;
 }
 .card.two-col-card .col-2 {
     padding-left: 0px;
