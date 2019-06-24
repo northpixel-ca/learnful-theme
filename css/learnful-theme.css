@@ -153,7 +153,8 @@ section.main-section {
 /**
 ** Login / Registration Forms
 **/
-form#user-login-form {
+form#user-login-form,
+form#user-register-form {
     max-width: 500px;
     margin: 50px auto;
     padding: 30px;
