@@ -133,8 +133,8 @@ section.main-section {
 .node.ds-2col-fluid .field.field--name-field-content-blocks {
     padding: 30px;
     background: var(--white);
-    border-radius: 10px;
-    margin-bottom: 50px;
+    border: 1px solid var(--bg-highlight);
+    margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
@@ -143,6 +143,9 @@ section.main-section {
     }
     .node.ds-2col-fluid > .group-right {
         width: 25%;
+    }
+    .node.ds-2col-fluid .field.field--name-field-content-blocks {
+        margin-bottom: 50px;
     }
     
 }
