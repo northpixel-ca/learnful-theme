@@ -156,11 +156,18 @@ section.main-section {
 form#user-login-form,
 form#user-register-form {
     max-width: 500px;
-    margin: 50px auto;
+    margin: 50px auto 0;
     padding: 30px;
     background: var(--white);
+    border-bottom: 1px solid var(--bg-highlight);
 }
-
+#block-loginfooter {
+    max-width: 500px;
+    font-size: 14px;
+    background: #FFF;
+    padding: 20px;
+    margin: auto;
+}
 
 /**
 ** Buttons, links, typography
