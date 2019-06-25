@@ -159,7 +159,6 @@ form#user-register-form {
     margin: 0 auto;
     padding: 30px;
     background: var(--white);
-    border-bottom: 1px solid var(--bg-highlight);
 }
 form#user-login-form {
     margin-top: 50px;
@@ -173,6 +172,7 @@ form#user-register-form {
     background: #FFF;
     padding: 20px;
     margin: auto;
+    border-top: 1px solid var(--bg-highlight-overlay);
 }
 #block-loginpageadditionallinks,
 #block-userregistrationadditionallinks {
