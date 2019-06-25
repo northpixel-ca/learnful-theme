@@ -243,7 +243,7 @@ p.or-separator:after {
 .btn-google-login:after {
     content: '';
     display: block;
-    background-image: url(/themes/custom/learnful-theme/assets/icons/google-signin.svg);
+    background-image: url(/themes/custom/learnful-theme/assets/icons/icons8-google.svg);
     position: absolute;
     top: 0;
     right: 5px;
