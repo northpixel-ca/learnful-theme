@@ -153,6 +153,10 @@ section.main-section {
 /**
 ** Login / Registration Forms
 **/
+#block-userloginregisterbranding {
+    max-width: 400px;
+    margin: -50px auto 0;
+}
 form#user-login-form,
 form#user-register-form {
     max-width: 400px;
@@ -161,7 +165,7 @@ form#user-register-form {
     background: var(--white);
 }
 form#user-login-form {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 form#user-register-form {
     padding: 20px 30px;
@@ -198,7 +202,7 @@ form#user-register-form {
     background: #FFF;
     margin: auto;
     padding: 30px 30px 0;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 #block-userregisterpageheader h1 {
     font-size: 23px;
