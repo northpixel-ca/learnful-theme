@@ -184,7 +184,8 @@ form#user-pass {
     border-top: 1px solid var(--bg-highlight-overlay);
 }
 #block-loginpageadditionallinks,
-#block-userregistrationadditionallinks {
+#block-userregistrationadditionallinks,
+#block-userpasswordresetadditionallinks {
     max-width: 400px;
     margin: 25px auto 0;
     padding: 20px;
