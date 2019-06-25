@@ -158,7 +158,8 @@ section.main-section {
     margin: -50px auto 0;
 }
 form#user-login-form,
-form#user-register-form {
+form#user-register-form,
+form#user-pass {
     max-width: 400px;
     margin: 0 auto;
     padding: 30px;
@@ -169,6 +170,10 @@ form#user-login-form {
 }
 form#user-register-form {
     padding: 20px 30px;
+}
+form#user-pass {
+    padding: 20px 30px;
+    margin-top: 20px;
 }
 #block-loginfooter {
     max-width: 400px;
