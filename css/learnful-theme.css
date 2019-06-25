@@ -274,8 +274,9 @@ form#user-login-form > #edit-actions > #edit-submit {
 }
 .btn-google-login:hover,
 .btn-google-login:focus {
-    color: var(--primary-dark);
+    color: var(--white);
     border-color: var(--primary-dark);
+    background-color: var(--primary-dark);
 }
 
 
