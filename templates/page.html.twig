@@ -135,7 +135,7 @@
         {% endif %}
 
         {# Header #}
-        {% if page.header %}
+        {% if page.header || page.header_nav %}
           {% block header %}
             <div id="page-header" role="heading">
               {{ page.header }}
