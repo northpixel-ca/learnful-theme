@@ -561,7 +561,7 @@ nav.vertical-nav > ul.menu > li.menu-icon.active > a:focus {
 #page-header .page-title-block {
     max-width: 1200px;
     margin: auto;
-    /* padding: 15px; */
+    padding: 15px;
 }
 /* #page-header .page-title-block.views-element-container {
     padding-bottom: 15px;
@@ -619,6 +619,7 @@ h1.page-title-title {
     color: var(--text-mid);
     border-color: transparent;
 }
+.region-header-nav > nav > ul.menu > li.active > a.active-trail,
 .region-header-nav > nav > ul.menu > li > a.is-active {
     border-color: inherit;
     color: var(--primary);
