@@ -164,6 +164,9 @@ a.panel-title:after {
     content: "\e258";
     color: var(--text-light);
 }
+a.panel-title.form-required:after {
+    background-image: unset;
+}
 a.panel-title[aria-expanded=false]:after {
     content: "\e259";
 }
