@@ -46,6 +46,10 @@
         });
 
 
+        // change the text for form buttons
+        $("form#change-pwd-form button#edit-submit").text('Update Password');
+
+
       }
     }
 
