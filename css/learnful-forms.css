@@ -10,6 +10,15 @@ body.node-add-edit .region-content > nav.tabs {
     margin-left: auto;
     margin-right: auto;
 }
+body.user-logged-in.path-user form#user-form > #edit-actions {
+    max-width: 900px;
+    padding: 0 15px;
+    margin: 0 auto 25px auto;
+}
+body.user-logged-in.path-user form#user-form > #edit-actions > button {
+    display: block;
+    width: 100%;
+}
 
 /**
 ** Node Form

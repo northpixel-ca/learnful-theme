@@ -216,7 +216,8 @@ form#user-pass {
     margin: 0 0;
 }
 form#user-login-form .form-item > label,
-form#user-register-form .form-item > label {
+form#user-register-form .form-item > label,
+#user-settings-form .form-item > label {
     font-size: 12px;
 }
 .password-confirm.js-password-confirm,
@@ -246,7 +247,8 @@ p.or-separator:before {
 p.or-separator:after {
     right: 0px;
 }
-form#user-login-form > #edit-actions > #edit-submit {
+form#user-login-form > #edit-actions > #edit-submit,
+form#user-register-form > #edit-actions > #edit-submit {
     display: block;
     width: 100%;
     margin-top: 25px;
