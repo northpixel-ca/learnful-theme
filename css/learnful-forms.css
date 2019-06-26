@@ -3,6 +3,15 @@ body.node-add-edit .region-content > nav.tabs {
 }
 
 /**
+** User Settings Form
+**/
+#user-settings-form {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/**
 ** Node Form
 **/
 #node-form-top-bar {
