@@ -811,6 +811,21 @@ body.user-logged-in .for-guest {
     margin: 0 -15px;
     border-radius: 0;
 }
+.well {
+    padding: 20px;
+    border: 1px solid var(--bg-highlight);
+    box-shadow: unset;
+    border-radius: 0px;
+}
+.well.well-white {
+    background-color: var(--white);
+}
+.well > h2 {
+    font-size: 20px;
+    margin: 0 0 15px;
+    font-weight: bold;
+    color: var(--primary);
+}
 @media (min-width: 768px) {
     span.label.secondary {
         font-size: 14px;

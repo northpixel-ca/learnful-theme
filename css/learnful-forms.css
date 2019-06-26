@@ -145,6 +145,9 @@ a.panel-title:after {
 a.panel-title[aria-expanded=false]:after {
     content: "\e259";
 }
+.panel.no-inner-label .panel-body > .form-wrapper > .form-group > .form-item > label.control-label {
+    display: none;
+}
 
 
 /**
