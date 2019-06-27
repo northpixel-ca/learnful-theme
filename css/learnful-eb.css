@@ -41,3 +41,32 @@ body.entity-browser-iframe form.entity-browser-form > #edit-actions {
     margin-left: auto;
     padding-right: 10px; 
 }
+
+.entities-list .rendered-entity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 0 10px;
+    padding: 10px;
+    border: 1px solid var(--bg-highlight-overlay);
+    font-size: 12px;
+}
+.entities-list.sortable .item-container:hover {
+    opacity: unset;
+    border-color: var(--bg-highlight-overlay);
+    background-color: var(--bg-lightest);
+}
+.entities-list .rendered-entity > .node.node--view-mode-entity-browser-selected {
+    display: flex;
+    align-items: center;
+}
+.node.node--view-mode-entity-browser-selected .field--name-field-cover-image {
+    max-width: 75px;
+    margin-right: 20px;
+}
+.node.node--view-mode-entity-browser-selected .field--name-node-title > h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 25px 0 0;
+}
