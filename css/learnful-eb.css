@@ -4,7 +4,7 @@ body.entity-browser-iframe {
     font-size: 12px;
 }
 
-body.entity-browser-iframe #entity-browser-form #edit-actions {
+body.entity-browser-iframe form.entity-browser-form > #edit-actions {
     position: absolute;
     bottom: 0;
     margin-bottom: 0;
