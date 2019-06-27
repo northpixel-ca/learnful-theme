@@ -62,7 +62,7 @@ body.entity-browser-iframe form.entity-browser-form > #edit-actions {
     align-items: center;
 }
 .node.node--view-mode-entity-browser-selected .field--name-field-cover-image {
-    max-width: 75px;
+    max-width: 50px;
     margin-right: 20px;
 }
 .node.node--view-mode-entity-browser-selected .field--name-node-title > h2 {
