@@ -217,7 +217,8 @@ form#user-pass {
 }
 form#user-login-form .form-item > label,
 form#user-register-form .form-item > label,
-#user-settings-form .form-item > label {
+#user-settings-form .form-item > label,
+#user-settings-profile-form .form-item > label {
     font-size: 12px;
 }
 .password-confirm.js-password-confirm,

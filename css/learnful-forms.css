@@ -175,7 +175,8 @@ a.panel-title.form-required:after {
 a.panel-title[aria-expanded=false]:after {
     content: "\e259";
 }
-.panel.no-inner-label .panel-body > .form-wrapper > .form-group > .form-item > label.control-label {
+.panel.no-inner-label .panel-body > .form-wrapper > .form-group > .form-item > label.control-label,
+.panel.no-inner-label .panel-body > .form-group > .form-item > label.control-label {
     display: none;
 }
 
