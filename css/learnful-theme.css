@@ -353,6 +353,11 @@ h1.page-header {
     border-color: transparent;
 }
 
+.btn-success:active {
+    background-color: var(--greyblue-light);
+    border-color: var(--greyblue);
+}
+
 span.label-with-icon {
     margin-right: 20px;
     display: flex;
@@ -822,6 +827,14 @@ body.user-logged-in .for-guest {
 }
 .well.well-white {
     background-color: var(--white);
+}
+.well.has-header-btn {
+    position: relative;
+}
+.well.has-header-btn > div:first-of-type > p > a.btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
 }
 .well > h2 {
     font-size: 20px;
