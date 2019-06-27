@@ -50,6 +50,10 @@
         $("form#change-pwd-form button#edit-submit").text('Update Password');
 
 
+        // add help block to entity browser field
+        $('.field--widget-entity-browser-entity-reference .panel-body').prepend(`<p class="help-block">Select and organize the projects you want to display on your public profile.`);
+        
+
       }
     }
 
