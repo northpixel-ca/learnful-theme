@@ -10,6 +10,11 @@ body.node-add-edit .region-content > nav.tabs {
     margin-left: auto;
     margin-right: auto;
 }
+#user-settings-profile-form {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 body.user-logged-in.path-user form#user-form > #edit-actions {
     max-width: 900px;
     padding: 0 15px;
