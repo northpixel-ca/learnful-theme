@@ -52,7 +52,6 @@
 
         // add help block to entity browser field
         $('.field--widget-entity-browser-entity-reference .panel-body').once().prepend(`<p class="help-block">Select and organize the projects you want to display on your public profile.`);
-        });
         
 
       }
