@@ -42,8 +42,14 @@ body.sidebar-first section.main-section {
 }
 @media (min-width: 768px) {
     body.sidebar-first section.main-section {
-        margin-left: 16%;
-        width: 84%;
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    body.sidebar-first section.main-section {
+        margin-left: 220px;
+        width: calc(100% - 220px);
     }
 }
 .navbar-default {
@@ -72,12 +78,17 @@ body.node-add-edit aside.sidebar-left {
 @media (min-width: 768px) {
     aside.sidebar-left {
         position: fixed;
-        top: unset;
-        left: 0px !important;
-        width: 16%;
+        width: 250px;;
     }
     body.node-add-edit aside.sidebar-left {
         width: 80px;
+    }
+}
+@media (min-width: 992px) {
+    aside.sidebar-left { 
+        left: 0px !important;
+        top: unset;
+        width: 220px;
     }
 }
 
@@ -302,6 +313,9 @@ h1.page-header {
     font-weight: bold;
     padding: 6px 15px;
     border-width: 3px;
+}
+.btn-sm {
+    padding: 5px 10px;
 }
 .btn-primary {
     background-color: var(--primary);
@@ -838,7 +852,7 @@ body.user-logged-in .for-guest {
     right: 15px;
 }
 .well > h2 {
-    font-size: 20px;
+    font-size: 14px;
     margin: 0 0 15px;
     font-weight: bold;
     color: var(--primary);
@@ -846,6 +860,9 @@ body.user-logged-in .for-guest {
 @media (min-width: 768px) {
     span.label.secondary {
         font-size: 14px;
+    }
+    .well > h2 {
+        font-size: 20px;
     }
 }
 
