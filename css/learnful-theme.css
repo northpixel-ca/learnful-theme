@@ -52,6 +52,13 @@ body.sidebar-first section.main-section {
         width: calc(100% - 220px);
     }
 }
+@media (min-width: 1440px) {
+    body.sidebar-first section.main-section {
+        margin-left: 16%;
+        width: 84%;
+    }
+}
+
 .navbar-default {
     background-color: var(--white);
     border: unset;
@@ -89,6 +96,11 @@ body.node-add-edit aside.sidebar-left {
         left: 0px !important;
         top: unset;
         width: 220px;
+    }
+}
+@media (min-width: 1440px) {
+    aside.sidebar-left { 
+        width: 16%;
     }
 }
 
