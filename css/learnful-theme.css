@@ -815,9 +815,15 @@ p.card-secondary-text {
 }
 
 .card-links > a {
-    display: inline-block;
-    font-size: 22px;
-    color: var(--primary-light);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: var(--text-mid);
+    color: var(--white);
+    font-size: 20px;
 }
 
 
@@ -905,6 +911,7 @@ body.user-logged-in .for-guest {
 p.can-expand {
     font-size: 12px;
     overflow: hidden;
+    margin-top: 20px;
 }
 a[data-readmore-toggle] {
     font-size: 10px;
