@@ -814,6 +814,12 @@ p.card-secondary-text {
     background-color: var(--bg-highlight);
 }
 
+.card-links > a {
+    display: inline-block;
+    font-size: 22px;
+    color: var(--primary-light);
+}
+
 
 @media (min-width: 768px) {
     h3.card-title {
@@ -896,6 +902,17 @@ body.user-logged-in .for-guest {
     font-weight: bold;
     color: var(--primary);
 }
+p.can-expand {
+    font-size: 12px;
+    overflow: hidden;
+}
+a[data-readmore-toggle] {
+    font-size: 10px;
+    color: var(--greyblue);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 @media (min-width: 768px) {
     span.label.secondary {
         font-size: 14px;
