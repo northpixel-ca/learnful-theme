@@ -171,7 +171,17 @@ section.main-section {
     .node.ds-2col-fluid .field.field--name-field-content-blocks {
         margin-bottom: 50px;
     }
-    
+}
+
+/** User Profile / DS layouts **/
+.user.ds-2col-fluid {
+    width: 95%;
+    max-width: 1400px;
+    margin: auto;
+}
+.user.ds-2col-fluid > .group-left {
+    width: 25%;
+    float: left;
 }
 
 /**
