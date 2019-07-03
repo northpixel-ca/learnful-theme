@@ -811,6 +811,20 @@ p.card-secondary-text {
     .card.two-col-card .col-2 {
         padding-left: 15px;
     }
+    p.card-primary-text {
+        font-size: 12px;
+    }
+    p.card-secondary-text {
+        font-size: 10px;
+    }
+}
+@media (min-width: 992px) {
+    p.card-primary-text {
+        font-size: 16px;
+    }
+    p.card-secondary-text {
+        font-size: 14px;
+    }
 }
 
 
