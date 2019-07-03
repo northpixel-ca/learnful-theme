@@ -183,9 +183,10 @@ section.main-section {
     width: 25%;
     float: left;
 }
-.user.ds-2col-fluid > .group-left {
-    width: 73%;
+.user.ds-2col-fluid > .group-right {
+    width: 71%;
     float: left;
+    margin-left: 2%;
 }
 
 /**
