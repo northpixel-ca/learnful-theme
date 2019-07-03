@@ -740,7 +740,8 @@ h1.page-title-title {
 .card.card-stacked .card-media > a {
     display: block;
 }
-.card.card-stacked .card-media > a > img {
+.card.card-stacked .card-media > a > img,
+.card.card-stacked .card-media > img {
     margin: auto;
 }
 .card.card-stacked .card-media > .card-media-overtop {

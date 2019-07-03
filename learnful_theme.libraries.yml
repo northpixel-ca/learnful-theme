@@ -8,4 +8,5 @@ global-styling:
       css/fontawesome-5.9.0/css/all.min.css: {}
   js:
     js/learnful-theme.js: {}
+    js/readmore.min.js: {}
   
