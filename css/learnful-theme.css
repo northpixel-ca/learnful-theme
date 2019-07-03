@@ -183,6 +183,10 @@ section.main-section {
     width: 25%;
     float: left;
 }
+.user.ds-2col-fluid > .group-left {
+    width: 73%;
+    float: left;
+}
 
 /**
 ** Login / Registration Forms
@@ -325,6 +329,15 @@ body.path-user .region-content > div > .messages__wrapper .alert {
 ** Buttons, links, typography
 **/
 
+a {
+    color: var(--primary);
+}
+a:active,
+a:hover,
+a:focus {
+    color: var(--primary-dark);
+}
+
 h1.page-header {
     border: 0;
     padding: 28px;
@@ -361,6 +374,14 @@ h1.page-header {
 .btn-info {
     background-color: var(--secondary);
     border-color: transparent;
+}
+.btn-light {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    background-color: var(--bg-mid);
+    padding: 1px 8px;
 }
 
 .btn-primary:hover,
@@ -768,6 +789,10 @@ h1.page-title-title {
     color: var(--text-mid);
     margin: 0 0 5px;
 }
+.card-grid-content .card-body > p {
+    padding: 0 15px;
+    margin: 0;
+}
 .card-body > p.card-location > span.glyphicon {
     margin-right: 10px;
 }
@@ -783,6 +808,10 @@ h3.card-title {
     font-weight: 600;
     font-size: 16px;
     margin: 20px 0 5px;
+}
+.card-grid-content h3.card-title {
+    padding: 10px 15px 0;
+    margin: 0;
 }
 
 p.card-primary-text {
@@ -830,6 +859,21 @@ p.card-secondary-text {
 .card-links > a:focus {
     background-color: var(--black);
     text-decoration: none;
+}
+
+.card-footer {
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-top: 1px solid var(--bg-highlight);
+    font-size: 12px;
+}
+.card-footer > span.card-stat {
+    margin-right: 15px;
+    color: var(--text-light);
+}
+.card-footer > span.card-stat > i,
+.card-footer > span.card-stat > span {
+    margin-right: 3px;
 }
 
 
