@@ -818,12 +818,18 @@ p.card-secondary-text {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 34px;
-    height: 34px;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
     border-radius: 50%;
     background-color: var(--text-mid);
     color: var(--white);
-    font-size: 20px;
+    font-size: 15px;
+}
+.card-links > a:hover,
+.card-links > a:focus {
+    background-color: var(--black);
+    text-decoration: none;
 }
 
 
