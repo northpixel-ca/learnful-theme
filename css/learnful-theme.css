@@ -175,19 +175,45 @@ section.main-section {
 
 /** User Profile / DS layouts **/
 .user.ds-2col-fluid {
-    width: 95%;
+    width: 100%;
     max-width: 1400px;
-    margin: auto;
+    margin: 1em auto inherit;
 }
 .user.ds-2col-fluid > .group-left {
-    width: 25%;
+    width: 100%;
     float: left;
 }
 .user.ds-2col-fluid > .group-right {
-    width: 71%;
+    width: 100%;
     float: left;
-    margin-left: 2%;
+    margin-top: 1em;
 }
+@media (min-width: 768px) {
+    .user.ds-2col-fluid {
+        width: 100%;
+        margin-top: 1em;
+    }
+    .user.ds-2col-fluid > .group-left {
+        width: 33%;
+    }
+    .user.ds-2col-fluid > .group-right {
+        width: 65%;
+        margin-left: 2%;
+    }
+}
+@media (min-width: 992px) {
+    .user.ds-2col-fluid {
+        width: 95%;
+        margin-top: 2em;
+    }
+    .user.ds-2col-fluid > .group-left {
+        width: 25%;
+    }
+    .user.ds-2col-fluid > .group-right {
+        width: 71%;
+    }
+}
+
 
 /**
 ** Login / Registration Forms
@@ -739,6 +765,9 @@ h1.page-title-title {
     margin-bottom: 20px;
     padding: 20px;
 }
+.card.card-grid-content {
+    margin-bottom: 20px;
+}
 .card.field.field--name-field-tags > a,
 .card.field--name-field-tools > a {
     padding: 4px 12px;
@@ -963,6 +992,7 @@ p.can-expand {
     font-size: 12px;
     overflow: hidden;
     margin-top: 20px;
+    height: 60px;
 }
 a[data-readmore-toggle] {
     font-size: 10px;
@@ -977,6 +1007,9 @@ a[data-readmore-toggle] {
     }
     .well > h2 {
         font-size: 20px;
+    }
+    p.can-expand {
+        height: 130px;
     }
 }
 
