@@ -472,3 +472,37 @@ button.paragraphs-dropdown-toggle:focus {
         background-size: 20px;
     }
 }
+
+
+/**
+** Views exposed Filters
+**/
+.views-exposed-form.block {
+    padding: 15px 0;    
+}
+
+.views-exposed-form.block .form--inline > .form-item {
+    margin-right: 15px;
+}
+
+.views-exposed-form.block .form--inline > .form-item > .control-label {
+    color: var(--text-light);
+    font-size: 12px;
+    font-weight: normal;
+    margin-right: 5px;
+}
+.views-exposed-form.block .form--inline > .form-item > .form-control {
+    border-color: var(--bg-highlight-overlay);
+    color: var(--text-mid);
+    box-shadow: unset;
+    border-radius: 0px;
+    max-width: 250px;
+}
+.views-exposed-form.block .form--inline > .form-item .input-group-addon {
+    border-color: var(--bg-highlight-overlay);
+    background-color: var(--bg-lightest);
+    border-radius: 0px;
+}
+.views-exposed-form.block .form--inline .form-actions > button {
+    padding: 4px 10px;
+}
