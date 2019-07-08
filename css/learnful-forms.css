@@ -491,11 +491,14 @@ button.paragraphs-dropdown-toggle:focus {
     font-weight: normal;
     margin-right: 5px;
 }
-.views-exposed-form.block .form--inline > .form-item > .form-control {
+.views-exposed-form.block .form--inline > .form-item .form-control {
     border-color: var(--bg-highlight-overlay);
     color: var(--text-mid);
     box-shadow: unset;
     border-radius: 0px;
+    max-width: 250px;
+}
+.views-exposed-form.block .form--inline > .form-item .form-control.form-autocomplete {
     max-width: 250px;
 }
 .views-exposed-form.block .form--inline > .form-item .input-group-addon {
@@ -505,4 +508,26 @@ button.paragraphs-dropdown-toggle:focus {
 }
 .views-exposed-form.block .form--inline .form-actions > button {
     padding: 4px 10px;
+}
+
+@media (min-width: 768px) {
+    .views-exposed-form.block {
+        padding: 15px;    
+    }
+    .views-exposed-form.block .form--inline > .form-item .form-control {
+        max-width: 150px;
+    }
+}
+@media (min-width: 1200px) {
+    .views-exposed-form.block .form--inline > .form-item .form-control {
+        max-width: 200px;
+    }
+}
+@media (min-width: 1400px) {
+    .views-exposed-form.block {
+        padding: 15px 0;    
+    }
+    .views-exposed-form.block .form--inline > .form-item .form-control {
+        max-width: 250px;
+    }
 }
