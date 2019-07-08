@@ -73,6 +73,7 @@ aside.sidebar-left {
     height: 100%;
     background: var(--bg-mid);
     width: 250px;
+    border-right: 1px solid var(--bg-highlight);
 }
 aside.sidebar-left.is-open {
     z-index: 1031;
@@ -101,7 +102,6 @@ body.node-add-edit aside.sidebar-left {
 @media (min-width: 1440px) {
     aside.sidebar-left { 
         width: 16%;
-        max-width: 300px;
     }
 }
 
