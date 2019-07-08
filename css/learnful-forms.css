@@ -498,9 +498,6 @@ button.paragraphs-dropdown-toggle:focus {
     border-radius: 0px;
     max-width: 250px;
 }
-.views-exposed-form.block .form--inline > .form-item .form-control.form-autocomplete {
-    max-width: 250px;
-}
 .views-exposed-form.block .form--inline > .form-item .input-group-addon {
     border-color: var(--bg-highlight-overlay);
     background-color: var(--bg-lightest);
