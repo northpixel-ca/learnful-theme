@@ -503,6 +503,9 @@ button.paragraphs-dropdown-toggle:focus {
     background-color: var(--bg-lightest);
     border-radius: 0px;
 }
+.views-exposed-form.block .form--inline .form-actions.form-group {
+    vertical-align: top;
+}
 .views-exposed-form.block .form--inline .form-actions > button {
     padding: 4px 10px;
     border-radius: 0px;

@@ -831,10 +831,15 @@ h1.page-title-title {
 }
 .card.card-full-width .card-title-region {
     margin-bottom: 15px;
+    padding: 5px 20px;
+}
+.card.card-full-width .card-meta-region {
+    padding: 5px 20px;
 }
 .card.card-full-width .card-meta-region > .metablock {
     display: inline-block;
     margin-right: 5em;
+    margin-bottom: 1em;
     font-size: 14px;   
 }
 .metablock span.label-above {
@@ -971,6 +976,13 @@ p.card-secondary-text {
     }
     p.card-secondary-text {
         font-size: 14px;
+    }
+    .card.card-full-width .card-title-region {
+        margin-bottom: 15px;
+        padding: 0;
+    }
+    .card.card-full-width .card-meta-region {
+        padding: 0;
     }
 }
 
