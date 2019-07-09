@@ -505,6 +505,14 @@ button.paragraphs-dropdown-toggle:focus {
 }
 .views-exposed-form.block .form--inline .form-actions > button {
     padding: 4px 10px;
+    border-radius: 0px;
+    background-color: var(--bg-highlight-overlay);
+    color: var(--black);
+}
+.views-exposed-form.block .form--inline .form-actions > button:hover,
+.views-exposed-form.block .form--inline .form-actions > button:focus {
+    background-color: var(--text-mid);
+    color: var(--white);
 }
 
 @media (min-width: 768px) {

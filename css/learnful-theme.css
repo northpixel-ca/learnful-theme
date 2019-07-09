@@ -86,7 +86,7 @@ body.node-add-edit aside.sidebar-left {
 @media (min-width: 768px) {
     aside.sidebar-left {
         position: fixed;
-        width: 250px;;
+        width: 250px;
     }
     body.node-add-edit aside.sidebar-left {
         width: 80px;
@@ -792,6 +792,9 @@ h1.page-title-title {
 .card.two-col-card .col-2 {
     padding-left: 0px;
 }
+.card.card-full-width .card-media {
+    padding: 20px;
+}
 .card.card-stacked .card-media {
     position: relative;
     margin-bottom: 30px;
@@ -818,6 +821,14 @@ h1.page-title-title {
     text-align: center;
     font-weight: bold;
     font-size: 14px;
+}
+.card.card-full-width .card-title-region {
+    margin-bottom: 15px;
+}
+.card.card-full-width .card-meta-region > .metablock {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 14px;   
 }
 .card.card-stacked .card-body {
     margin-bottom: 15px;
@@ -851,7 +862,6 @@ h3.card-title {
     padding: 10px 15px 0;
     margin: 0;
 }
-
 p.card-primary-text {
     margin: 0;
 }
