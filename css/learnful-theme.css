@@ -800,7 +800,7 @@ h1.page-title-title {
     padding-left: 0px;
 }
 .card.card-full-width .card-media {
-    padding: 20px;
+    padding: 0px;
 }
 .card.card-stacked .card-media {
     position: relative;
@@ -968,6 +968,9 @@ p.card-secondary-text {
     }
     p.card-secondary-text {
         font-size: 10px;
+    }
+    .card.card-full-width .card-media {
+        padding: 20px;
     }
 }
 @media (min-width: 992px) {

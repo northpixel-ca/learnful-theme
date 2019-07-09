@@ -483,6 +483,7 @@ button.paragraphs-dropdown-toggle:focus {
 
 .views-exposed-form.block .form--inline > .form-item {
     margin-right: 15px;
+    margin-bottom: 10px;
 }
 
 .views-exposed-form.block .form--inline > .form-item > .control-label {
@@ -529,6 +530,9 @@ button.paragraphs-dropdown-toggle:focus {
 @media (min-width: 1200px) {
     .views-exposed-form.block .form--inline > .form-item .form-control {
         max-width: 200px;
+    }
+    .views-exposed-form.block .form--inline > .form-item {
+        margin-bottom: 0px;
     }
 }
 @media (min-width: 1400px) {
