@@ -142,6 +142,11 @@ section.main-section {
     }
 }
 
+.maxwidth1200 {
+    max-width: 1200px;
+    margin: auto;
+}
+
 /** Node / DS layouts **/
 .node.ds-2col-fluid {
     max-width: 1200px;
@@ -827,9 +832,15 @@ h1.page-title-title {
 }
 .card.card-full-width .card-meta-region > .metablock {
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 5em;
     font-size: 14px;   
 }
+.metablock span.label-above {
+    display: block;
+    font-size: 12px;
+    color: var(--text-light);
+}
+
 .card.card-stacked .card-body {
     margin-bottom: 15px;
 }
@@ -915,6 +926,9 @@ p.card-secondary-text {
     border-top: 1px solid var(--bg-highlight);
     font-size: 12px;
 }
+.card.card-full-width .card-footer {
+    padding: 10px 20px;
+}
 .card-footer > span.card-stat {
     margin-right: 15px;
     color: var(--text-light);
@@ -922,6 +936,13 @@ p.card-secondary-text {
 .card-footer > span.card-stat > i,
 .card-footer > span.card-stat > span {
     margin-right: 3px;
+}
+
+.card-footer .card-footer-left {
+    float: left;
+}
+.card-footer .card-footer-right {
+    float: right;
 }
 
 
