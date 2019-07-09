@@ -955,6 +955,24 @@ p.card-secondary-text {
     margin-left: 10px;
 }
 
+.card-manage-region {
+    margin: 20px 0;
+    padding: 20px 0;
+    border-top: 1px solid var(--bg-highlight);
+    border-bottom: 1px solid var(--bg-highlight);
+}
+.card-manage-region > a {
+    display: block;
+    border-radius: 20px;
+    background-color: var(--bg-lightest);
+    color: var(--primary);
+    font-size: 14px;
+}
+.card-manage-region > a:hover,
+.card-manage-region > a:focus {
+    background-color: var(--bg-highlight);
+    color: var(--primary);
+}
 
 @media (min-width: 768px) {
     h3.card-title {
