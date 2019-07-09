@@ -390,6 +390,10 @@ h1.page-header {
     padding: 6px 15px;
     border-width: 3px;
 }
+.btn-xs {
+    padding: 1px 8px;
+    font-size: 11px;
+}
 .btn-sm {
     padding: 5px 10px;
 }
@@ -417,11 +421,9 @@ h1.page-header {
 }
 .btn-light {
     text-transform: uppercase;
-    font-size: 11px;
     font-weight: bold;
     letter-spacing: 0.06em;
     background-color: var(--bg-mid);
-    padding: 1px 8px;
 }
 
 .btn-primary:hover,
@@ -929,12 +931,12 @@ p.card-secondary-text {
 .card.card-full-width .card-footer {
     padding: 10px 20px;
 }
-.card-footer > span.card-stat {
+.card-footer span.card-stat {
     margin-right: 15px;
     color: var(--text-light);
 }
-.card-footer > span.card-stat > i,
-.card-footer > span.card-stat > span {
+.card-footer span.card-stat > i,
+.card-footer span.card-stat > span {
     margin-right: 3px;
 }
 
@@ -943,6 +945,9 @@ p.card-secondary-text {
 }
 .card-footer .card-footer-right {
     float: right;
+}
+.card-footer .card-footer-right > a {
+    margin-left: 10px;
 }
 
 
