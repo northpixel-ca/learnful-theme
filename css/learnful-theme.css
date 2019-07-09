@@ -648,6 +648,13 @@ nav.vertical-nav > ul.menu > li.menu-icon.active > a:focus {
     background-color: var(--bg-highlight-overlay);
     opacity: 1;
 }
+nav.vertical-nav > ul.menu > li:not(.menu-icon) {
+    border-bottom: 1px solid var(--bg-highlight-overlay);
+    margin: 10px 0;
+}
+nav.vertical-nav > ul.menu > li:not(.menu-icon) > span {
+    display: none;
+}
 
 @media (min-width: 768px) {
     nav.vertical-nav > ul.menu > li.menu-icon > a {
