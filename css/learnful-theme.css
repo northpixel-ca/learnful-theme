@@ -810,7 +810,7 @@ h1.page-title-title {
     position: relative;
 }
 .card-cover > .cover-image {
-    min-height: 181px;
+    height: 135px;
     background: linear-gradient(to bottom right,var(--primary), var(--greyblue));
 }
 .card-cover > .overlayed-image {
@@ -822,6 +822,8 @@ h1.page-title-title {
 }
 .card-cover > .overlayed-image img {
     border: 5px solid white;
+    object-fit: cover;
+    height: 135px;
 }
 .card.card-full-width .card-media {
     padding: 0px;
