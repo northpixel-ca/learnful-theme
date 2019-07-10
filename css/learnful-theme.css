@@ -649,7 +649,7 @@ nav.vertical-nav > ul.menu > li.menu-icon.active > a:focus {
     opacity: 1;
 }
 nav.vertical-nav > ul.menu > li:not(.menu-icon) {
-    border-bottom: 1px solid var(--bg-highlight-overlay);
+    border-bottom: 1px solid var(--bg-highlight);
     margin: 10px 0;
 }
 nav.vertical-nav > ul.menu > li:not(.menu-icon) > span {
@@ -806,6 +806,19 @@ h1.page-title-title {
 .card.two-col-card .col-2 {
     padding-left: 0px;
 }
+.card-cover {
+    position: relative;
+}
+.card-cover > .overlayed-image {
+    position: absolute;
+    bottom: -50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.card-cover > .overlayed-image img {
+    border: 5px solid white;
+}
 .card.card-full-width .card-media {
     padding: 0px;
 }
@@ -854,7 +867,9 @@ h1.page-title-title {
     font-size: 12px;
     color: var(--text-light);
 }
-
+.card.card-with-cover .card-body {
+    margin-top: 65px;
+}
 .card.card-stacked .card-body {
     margin-bottom: 15px;
 }
@@ -886,6 +901,9 @@ h3.card-title {
 .card-grid-content h3.card-title {
     padding: 10px 15px 0;
     margin: 0;
+}
+.card-with-cover h3.card-title {
+    margin: 0 0 10px;
 }
 p.card-primary-text {
     margin: 0;
