@@ -1051,6 +1051,13 @@ span.label.secondary {
     color: var(--white);
     font-size: 12px;
 }
+span.label.label-greyblue {
+    background-color: var(--greyblue);
+    color: var(--white);
+    font-size: 12px;
+    font-weight: normal;
+    padding: 4px 11px;
+}
 p.text-mid {
     color: var(--text-mid);
 }
