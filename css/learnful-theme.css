@@ -809,6 +809,10 @@ h1.page-title-title {
 .card-cover {
     position: relative;
 }
+.card-cover > .cover-image {
+    min-height: 181px;
+    background: linear-gradient(to bottom right,var(--primary), var(--greyblue));
+}
 .card-cover > .overlayed-image {
     position: absolute;
     bottom: -50px;
