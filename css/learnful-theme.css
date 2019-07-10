@@ -813,6 +813,10 @@ h1.page-title-title {
     height: 135px;
     background: linear-gradient(to bottom right,var(--primary), var(--greyblue));
 }
+.card-cover > .cover-image img {
+    object-fit: cover;
+    height: 135px;
+}
 .card-cover > .overlayed-image {
     position: absolute;
     bottom: -50px;
@@ -822,8 +826,6 @@ h1.page-title-title {
 }
 .card-cover > .overlayed-image img {
     border: 5px solid white;
-    object-fit: cover;
-    height: 135px;
 }
 .card.card-full-width .card-media {
     padding: 0px;
