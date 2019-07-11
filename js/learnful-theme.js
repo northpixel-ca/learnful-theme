@@ -61,7 +61,7 @@
 
         // Move H5P Editor Settings to Settings Panel
         $('.field--widget-h5p-editor .panel-body > .form-type-checkbox').each(function(){
-          $(this).appendTo("#edit-group-h5p-settings > .panel-body");
+          $(this).prependTo("#edit-group-h5p-settings > .panel-body");
         })
 
       }

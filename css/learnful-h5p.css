@@ -2,7 +2,7 @@
     border: 0;
     padding: 0;
     background-color: unset;
-    box-shadow: 0px;
+    box-shadow: unset;
     border-radius: 0px;
 }
 
@@ -12,4 +12,13 @@
 
 .field--widget-h5p-editor > .panel > .panel-body {
     padding: 0px;
+}
+
+.field--widget-h5p-editor > .panel > .panel-body > .form-type-item > .control-label {
+    display: none;
+}
+
+.field--widget-h5p-editor > .panel > .panel-body > .form-type-item #h5p-editor-iframe {
+    max-width: 900px;
+    margin: auto;
 }
