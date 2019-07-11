@@ -896,7 +896,7 @@ h1.page-title-title {
     color: var(--text-mid);
     margin: 0 0 5px;
 }
-.card-body.subtext-sm > p {
+.card .card-body.subtext-sm > p {
     font-size: 12px;
     padding-bottom: 5px;
 }
