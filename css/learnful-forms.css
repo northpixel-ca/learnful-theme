@@ -72,6 +72,7 @@ form#change-pwd-form button#edit-submit {
     border-radius: 0px;
     background-color: var(--bg-lightest);
     border-bottom: 1px solid var(--bg-highlight);
+    font-weight: bold;
 }
 #main-right > .form-item.panel .panel-body {
     border-bottom: 1px solid var(--bg-highlight);

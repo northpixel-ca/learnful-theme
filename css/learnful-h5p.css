@@ -22,3 +22,9 @@
     max-width: 960px;
     margin: 2em auto;
 }
+
+div#edit-group-h5p-settings--content .form-item {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--bg-highlight);
+}
