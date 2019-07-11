@@ -57,9 +57,10 @@ form#change-pwd-form button#edit-submit {
 #node-form-main-wrapper #main-right {
     background: var(--white);
     border-left: 1px solid var(--bg-highlight);
-    border-bottom: 1px solid var(--bg-highlight);
     font-size: 14px;
     padding: 0px;
+    margin-right: -15px;
+    float: right;
 }
 #main-right > .form-item.panel {
     border-radius: 0px;
@@ -70,7 +71,10 @@ form#change-pwd-form button#edit-submit {
 #main-right > .form-item.panel .panel-heading {
     border-radius: 0px;
     background-color: var(--bg-lightest);
-    border-color: var(--bg-highlight);
+    border-bottom: 1px solid var(--bg-highlight);
+}
+#main-right > .form-item.panel .panel-body {
+    border-bottom: 1px solid var(--bg-highlight);
 }
 
 /** node delete **/
