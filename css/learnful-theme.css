@@ -834,6 +834,16 @@ h1.page-title-title {
     position: relative;
     margin-bottom: 30px;
 }
+.card.card-stacked .card-media > .card-overlay-top-left {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    max-width: 30px; 
+}
+.card.card-stacked .card-media > .card-overlay-top-left img {
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.5);
+}
 .card.card-stacked .card-media > a {
     display: block;
 }
@@ -886,6 +896,10 @@ h1.page-title-title {
     color: var(--text-mid);
     margin: 0 0 5px;
 }
+.card-body.subtext-sm > p {
+    font-size: 12px;
+    padding-bottom: 5px;
+}
 .card-grid-content .card-body > p {
     padding: 0 15px;
     margin: 0;
@@ -912,6 +926,9 @@ h3.card-title {
 }
 .card-with-cover h3.card-title {
     margin: 0 0 10px;
+}
+.card-body.subtext-sm h3.card-title {
+    padding: 15px;
 }
 p.card-primary-text {
     margin: 0;
