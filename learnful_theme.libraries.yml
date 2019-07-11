@@ -5,6 +5,7 @@ global-styling:
       css/learnful-paragraphs.css: {}
       css/learnful-forms.css: {}
       css/learnful-eb.css: {}
+      css/learnful-h5p.css: {}
       css/fontawesome-5.9.0/css/all.min.css: {}
   js:
     js/learnful-theme.js: {}

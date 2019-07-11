@@ -1,0 +1,15 @@
+.field--widget-h5p-editor > .panel {
+    border: 0;
+    padding: 0;
+    background-color: unset;
+    box-shadow: 0px;
+    border-radius: 0px;
+}
+
+.field--widget-h5p-editor > .panel > .panel-heading {
+    display: none;
+}
+
+.field--widget-h5p-editor > .panel > .panel-body {
+    padding: 0px;
+}
