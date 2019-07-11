@@ -834,13 +834,13 @@ h1.page-title-title {
     position: relative;
     margin-bottom: 30px;
 }
-.card.card-stacked .card-media > .card-overlay-top-left {
+.card-media > .card-overlay-top-left {
     position: absolute;
     top: 10px;
     left: 25px;
     max-width: 30px; 
 }
-.card.card-stacked .card-media > .card-overlay-top-left img {
+.card-media > .card-overlay-top-left img {
     border-radius: 50%;
     border: 2px solid rgba(255,255,255,0.5);
 }
