@@ -91,6 +91,10 @@ body.node-add-edit aside.sidebar-left {
     body.node-add-edit aside.sidebar-left {
         width: 80px;
     }
+    body.node-add-edit aside.sidebar-left ul.menu > li.menu-icon > a {
+        height: 50px;
+        font-size: 0px;
+    }
 }
 @media (min-width: 992px) {
     aside.sidebar-left { 
