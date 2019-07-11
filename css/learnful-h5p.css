@@ -18,7 +18,7 @@
     display: none;
 }
 
-.field--widget-h5p-editor > .panel > .panel-body > .form-type-item #h5p-editor-iframe {
-    max-width: 900px;
-    margin: auto;
+.field--widget-h5p-editor > .panel > .panel-body > .form-type-item {
+    max-width: 960px;
+    margin: 2em auto;
 }
