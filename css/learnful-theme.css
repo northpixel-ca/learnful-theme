@@ -797,6 +797,15 @@ h1.page-title-title {
         width: 95%;
         padding: 2em 15px 1em 15px;
     }
+    .page-title-image {
+        max-width: 50px;
+    }
+    .page-title-text {
+        height: 50px;
+    }
+    .page-title-calltoaction {
+        height: 50px;
+    }
     .region-header-nav {
         width: 95%;
     }
@@ -806,6 +815,18 @@ h1.page-title-title {
 }
 
 @media (min-width: 1600px) {
+    #page-header .page-title-block {
+        padding-top: 1em;
+    }
+    .page-title-image {
+        max-width: unset;
+    }
+    .page-title-text {
+        height: 100px;
+    }
+    .page-title-calltoaction {
+        height: 100px;
+    }
     h1.page-title-title {
         font-size: 26px;
     }
