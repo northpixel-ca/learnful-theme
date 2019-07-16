@@ -155,7 +155,12 @@ section.main-section {
 .maxwidth1200 {
     max-width: 1200px;
     margin: auto;
-    width: 95%;
+}
+
+@media (min-width: 992px) {
+    .maxwidth1200 {
+        width: 95%;
+    }
 }
 
 /** Node / DS layouts **/
@@ -186,6 +191,11 @@ section.main-section {
     }
     .node.ds-2col-fluid .field.field--name-field-content-blocks {
         margin-bottom: 50px;
+    }
+}
+@media (min-width: 992px) {
+    .node.ds-2col-fluid {
+        width: 95%
     }
 }
 

@@ -526,15 +526,17 @@ button.paragraphs-dropdown-toggle:focus {
 
 @media (min-width: 768px) {
     .views-exposed-form.block {
-        padding: 15px;
+        padding: 15px 15px 5px;
         border-top: 1px solid var(--bg-highlight);
     }
     .views-exposed-form.block .form--inline > .form-item .form-control {
         max-width: 150px;
     }
 }
-@media (min-width: 1200px) {
-
+@media (min-width: 992px) {
+    .views-exposed-form.block {
+        padding: 15px 0px 5px;
+    }
 }
 @media (min-width: 1400px) {
     .views-exposed-form.block .form--inline > .form-item .form-control {
