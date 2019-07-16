@@ -47,14 +47,12 @@ body.sidebar-first section.main-section {
     }
 }
 @media (min-width: 992px) {
+    body {
+        font-size: 14px;
+    }
     body.sidebar-first section.main-section {
         margin-left: 220px;
         width: calc(100% - 220px);
-    }
-}
-@media (min-width: 1366px) {
-    body {
-        font-size: 14px;
     }
 }
 @media (min-width: 1440px) {
@@ -791,8 +789,6 @@ h1.page-title-title {
     .page-title-subtitle {
         font-size: 14px;
     }
-}
-@media (min-width: 1366px) {
     #page-header .page-title-block {
         width: 95%;
         padding: 2em 15px 1em 15px;

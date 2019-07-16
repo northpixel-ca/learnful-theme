@@ -534,14 +534,15 @@ button.paragraphs-dropdown-toggle:focus {
     }
 }
 @media (min-width: 1200px) {
+
+}
+@media (min-width: 1400px) {
     .views-exposed-form.block .form--inline > .form-item .form-control {
         max-width: 200px;
     }
     .views-exposed-form.block .form--inline > .form-item {
         margin-bottom: 0px;
     }
-}
-@media (min-width: 1400px) {
     .views-exposed-form.block {
         padding: 15px 0;
     }
