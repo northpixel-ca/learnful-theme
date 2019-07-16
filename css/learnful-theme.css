@@ -159,7 +159,7 @@ section.main-section {
 
 @media (min-width: 992px) {
     .maxwidth1200 {
-        width: 95%;
+        width: calc(95% + 30px);
     }
 }
 
