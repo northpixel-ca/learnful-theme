@@ -28,3 +28,16 @@ div#edit-group-h5p-settings--content .form-item {
     padding-bottom: 15px;
     border-bottom: 1px solid var(--bg-highlight);
 }
+
+/**
+** H5P iframe widget
+**/
+
+.h5p-content ul.h5p-actions {
+    padding: 10px;
+    height: unset;
+    font-size: 14px;
+    background: var(--bg-highlight);
+    border-top: 1px solid var(--bg-highlight-overlay);
+    border-bottom: 1px solid var(--bg-highlight-overlay);
+}
