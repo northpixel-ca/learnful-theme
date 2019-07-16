@@ -52,7 +52,15 @@ body.sidebar-first section.main-section {
         width: calc(100% - 220px);
     }
 }
+@media (min-width: 1366px) {
+    body {
+        font-size: 14px;
+    }
+}
 @media (min-width: 1440px) {
+    body {
+        font-size: 16px;
+    }
     body.sidebar-first section.main-section {
         margin-left: 16%;
         width: 84%;
@@ -149,6 +157,7 @@ section.main-section {
 .maxwidth1200 {
     max-width: 1200px;
     margin: auto;
+    width: 95%;
 }
 
 /** Node / DS layouts **/
@@ -775,7 +784,35 @@ h1.page-title-title {
         font-size: 16px;
     }
 }
+@media (min-width: 992px) {
+    h1.page-title-title {
+        font-size: 20px;
+    }
+    .page-title-subtitle {
+        font-size: 14px;
+    }
+}
+@media (min-width: 1366px) {
+    #page-header .page-title-block {
+        width: 95%;
+        padding: 2em 15px 1em 15px;
+    }
+    .region-header-nav {
+        width: 95%;
+    }
+    .region-header-nav > nav > ul.menu > li {
+        margin-top: 0px;
+    }
+}
 
+@media (min-width: 1600px) {
+    h1.page-title-title {
+        font-size: 26px;
+    }
+    .page-title-subtitle {
+        font-size: 16px;
+    }
+}
 
 
 /** 
@@ -881,7 +918,7 @@ h1.page-title-title {
 .card.card-full-width .card-meta-region > .metablock {
     display: inline-block;
     margin-right: 5em;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     font-size: 14px;   
 }
 .metablock span.label-above {
