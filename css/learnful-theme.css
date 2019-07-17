@@ -851,6 +851,9 @@ h1.page-title-title {
     border-radius: 4px; */
     border: 1px solid var(--bg-highlight);
 }
+.card-large {
+    padding: 20px;
+}
 .card.field {
     margin-bottom: 20px;
     padding: 20px;
@@ -1093,6 +1096,9 @@ p.card-secondary-text {
 }
 
 @media (min-width: 768px) {
+    .card-large {
+        padding: 50px;
+    }
     h3.card-title {
         font-size: 18px;
     }
