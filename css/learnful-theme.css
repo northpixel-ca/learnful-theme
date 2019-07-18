@@ -709,6 +709,11 @@ nav.vertical-nav > ul.menu > li:not(.menu-icon) > span {
     margin: auto;
     padding: 15px;
 }
+#page-header .page-title-block .view-page-title-dynamic-user {
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+}
 
 .page-title-image {
     float: left;
@@ -847,6 +852,9 @@ h1.page-title-title {
 @media (min-width: 1600px) {
     #page-header .page-title-block .block-content--type-page-title-image {
         padding: 0px;
+    }
+    #page-header .page-title-block .view-page-title-dynamic-user {
+        padding: 15px 0;
     }
     .page-title-image {
         max-width: unset;
