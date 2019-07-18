@@ -744,7 +744,10 @@ h1.page-title-title {
 .page-title-subtitle {
     font-size: 12px;
 }
-
+.page-title-subtitle > a {
+    color: #fff;
+    font-weight: bold;
+}
 .page-title-calltoaction {
     float: right;
     display: flex;
