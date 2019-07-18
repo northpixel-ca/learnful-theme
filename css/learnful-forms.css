@@ -527,7 +527,6 @@ button.paragraphs-dropdown-toggle:focus {
 @media (min-width: 768px) {
     .views-exposed-form.block {
         padding: 15px 15px 5px;
-        border-top: 1px solid var(--bg-highlight);
     }
     .views-exposed-form.block .form--inline > .form-item .form-control {
         max-width: 150px;
