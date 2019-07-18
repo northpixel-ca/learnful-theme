@@ -697,7 +697,7 @@ nav.vertical-nav > ul.menu > li:not(.menu-icon) > span {
 ** Page Title Region (#page-header)
 **/
 #page-header {
-    margin: 0 -15px;
+    margin: 0 -15px 15px;
 }
 #page-header .page-title-block {
     background: var(--primary);
@@ -752,8 +752,17 @@ h1.page-title-title {
     /* max-width: 1200px;
     margin: auto; */
     background: var(--bg-mid);
-    border-top: 1px solid var(--bg-highlight);
     border-bottom: 1px solid var(--bg-highlight);
+}
+.region-header-nav > nav {
+    background-color: var(--white);
+    border-bottom: 1px solid var(--bg-highlight);
+}
+.region-header-nav > nav > ul.menu {
+    max-width: 1200px;
+    margin: auto;
+    overflow: scroll;
+    white-space: nowrap;
 }
 .region-header-nav > .views-exposed-form {
     max-width: 1200px;
@@ -768,6 +777,8 @@ h1.page-title-title {
     border-bottom: 1px solid;
     padding: 10px 20px;
     color: var(--text-mid);
+    font-weight: bold;
+    font-size: 14px;
     border-color: transparent;
 }
 .region-header-nav > nav > ul.menu > li.active > a.active-trail,
@@ -807,9 +818,9 @@ h1.page-title-title {
     .page-title-subtitle {
         font-size: 16px;
     }
-    .region-header-nav > nav > ul.menu > li {
-        margin-top: 20px;
-        font-size: 16px;
+    .region-header-nav > nav > ul.menu {
+        overflow: unset;
+        white-space: unset;
     }
 }
 @media (min-width: 992px) {
@@ -830,9 +841,6 @@ h1.page-title-title {
     }
     .page-title-calltoaction {
         height: 50px;
-    }
-    .region-header-nav > nav > ul.menu > li {
-        margin-top: 0px;
     }
 }
 
