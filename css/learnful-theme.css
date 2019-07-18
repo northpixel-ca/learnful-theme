@@ -704,6 +704,14 @@ nav.vertical-nav > ul.menu > li:not(.menu-icon) > span {
     color: var(--white);
     background-image: url(/themes/custom/learnful-theme/assets/images/bgs/always-grey.png);
 }
+#block-pagetitleblockfindadesigner.page-title-block {
+    background-image: url(/themes/custom/learnful-theme/assets/images/bgs/gplay.png);
+}
+#block-pagetitleblockbrowseprojects.page-title-block {
+    background-image: url(/themes/custom/learnful-theme/assets/images/bgs/inspiration-geometry.png);
+}
+
+
 #page-header .page-title-block .block-content--type-page-title-image {
     max-width: 1200px;
     margin: auto;
