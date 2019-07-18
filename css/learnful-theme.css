@@ -447,6 +447,11 @@ h1.page-header {
     background-color: var(--bg-mid);
 }
 
+.btn-white {
+    background-color: var(--white);
+    color: var(--primary);
+}
+
 .btn-primary:hover,
 .btn-primary:focus {
     background-color: var(--primary-dark);
@@ -473,6 +478,11 @@ h1.page-header {
 .btn-info:focus {
     background-color: var(--secondary-dark);
     border-color: transparent;
+}
+.btn-white:hover,
+.btn-white:focus {
+    background-color: var(--primary-light);
+    color: var(--white);
 }
 
 .btn-success:active {
@@ -688,18 +698,17 @@ nav.vertical-nav > ul.menu > li:not(.menu-icon) > span {
 **/
 #page-header {
     margin: 0 -15px;
-    background-color: var(--bg-mid);
-    border-bottom: 1px solid var(--bg-highlight);
-    margin-bottom: 15px;
 }
 #page-header .page-title-block {
+    background: var(--primary);
+    color: var(--white);
+    background-image: url(/themes/custom/learnful-theme/assets/images/bgs/always-grey.png);
+}
+#page-header .page-title-block .block-content--type-page-title-image {
     max-width: 1200px;
     margin: auto;
-    padding: 15px;
 }
-/* #page-header .page-title-block.views-element-container {
-    padding-bottom: 15px;
-} */
+
 .page-title-image {
     float: left;
     margin-right: 5%;
