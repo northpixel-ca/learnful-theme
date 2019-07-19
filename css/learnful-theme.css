@@ -604,7 +604,7 @@ button#toggle-mobile-nav:active {
     color: var(--text-mid);
     font-weight: bold;
 }
-.navbar-default .navbar-nav > li > a.active {
+.navbar-default .navbar-nav > li.active > a {
     background-color: transparent;
     box-shadow: inset 0 -2px var(--primary);
     color: var(--primary);
