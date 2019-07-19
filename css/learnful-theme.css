@@ -507,7 +507,7 @@ h1.page-header {
 .btn-lightgrey:hover,
 .btn-lightgrey:focus {
     background-color: var(--bg-highlight-overlay);
-    color: var(--white);
+    color: var(--black);
 }
 
 .btn-success:active {
