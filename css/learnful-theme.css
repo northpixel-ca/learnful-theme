@@ -163,6 +163,23 @@ section.main-section {
     }
 }
 
+
+/**
+** Views elements
+**/
+
+
+.discover-create-block {
+    padding: 15px;
+    border: 3px dashed var(--bg-highlight-overlay);
+    display: flex;
+    flex-direction: column;
+    min-height: 250px;
+    justify-content: space-between;
+    color: var(--text-mid);
+}
+
+
 /** Node / DS layouts **/
 .node.ds-2col-fluid {
     max-width: 1200px;
@@ -452,6 +469,11 @@ h1.page-header {
     color: var(--primary);
 }
 
+.btn-lightgrey {
+    background-color: var(--bg-highlight);
+    color: var(--black);
+}
+
 .btn-primary:hover,
 .btn-primary:focus {
     background-color: var(--primary-dark);
@@ -482,6 +504,11 @@ h1.page-header {
 .btn-white:hover,
 .btn-white:focus {
     background-color: var(--primary-light);
+    color: var(--white);
+}
+.btn-lightgrey:hover,
+.btn-lightgrey:focus {
+    background-color: var(--bg-highlight-overlay);
     color: var(--white);
 }
 
