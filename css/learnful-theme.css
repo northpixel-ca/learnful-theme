@@ -167,8 +167,6 @@ section.main-section {
 /**
 ** Views elements
 **/
-
-
 .discover-create-block {
     padding: 15px;
     border: 3px dashed var(--bg-highlight-overlay);
@@ -1227,7 +1225,7 @@ span.label.label-greyblue {
     font-weight: normal;
     padding: 4px 11px;
 }
-p.text-mid {
+.text-mid {
     color: var(--text-mid);
 }
 body:not(.user-logged-in) .for-member {
