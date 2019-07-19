@@ -177,6 +177,27 @@ section.main-section {
     color: var(--text-mid);
 }
 
+.view-content.horizontally-scrollable {
+    overflow-x: auto;
+    width: 100%;
+    display: flex;
+}
+.view-content.horizontally-scrollable > .views-row {
+    min-width: 70%;
+}
+
+@media (min-width: 768px) {
+    .view-content.horizontally-scrollable {
+        overflow-x: unset;
+        width: unset;
+        display: block;
+    }
+    .view-content.horizontally-scrollable > .views-row {
+        min-width: unset;
+    }
+    
+}
+
 
 /** Node / DS layouts **/
 .node.ds-2col-fluid {

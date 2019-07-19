@@ -64,7 +64,7 @@
   {% endif %}
 
   {% if rows %}
-    <div class="view-content row">
+    <div class="view-content row horizontally-scrollable">
       {{ rows }}
       <div class="col-lg-3">
         <div class="discover-create-block ">
@@ -75,6 +75,7 @@
         </div>
       </div>
     </div>
+    <span class="hidden-sm hidden-md hidden-lg small">Swipe left/right to scroll horizontally</span>
   {% elseif empty %}
     <div class="view-empty">
       {{ empty }}
