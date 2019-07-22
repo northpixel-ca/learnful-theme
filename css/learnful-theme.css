@@ -207,6 +207,47 @@ section.main-section {
     
 }
 
+/**
+** Forums
+**/
+.path-forum .region-content {
+    width: 95%;
+    max-width: 1200px;
+    margin: auto;
+}
+.path-forum .region-content > .action-links {
+    display: none;
+}
+.path-forum .region-content > table {
+    width: 100%;
+}
+.path-forum .region-content > table > thead {
+    line-height: 40px;
+    font-size: 18px;
+}
+.path-forum .region-content > table > thead th {
+    padding: 0 15px 15px;
+    color: var(--text-mid);
+}
+.path-forum .region-content > table > tbody > tr {
+    line-height: 30px;
+    background: var(--white);
+    border-bottom: 1px solid var(--bg-highlight);
+}
+.path-forum .region-content > table > tbody td {
+    padding: 15px 20px;
+}
+.path-forum .region-content > table > tbody > tr > td > div > a,
+.path-forum .table-responsive .forum__title > div > a {
+    font-weight: bold;
+    font-size: 18px;
+}
+.path-forum .region-content > table > tbody > tr > td > div > p {
+    font-size: 14px;
+    color: var(--text-mid);
+}
+
+
 
 /** Node / DS layouts **/
 .node.ds-2col-fluid {
