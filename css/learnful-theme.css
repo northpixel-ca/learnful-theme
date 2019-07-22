@@ -231,6 +231,7 @@ section.main-section {
 .path-forum .region-content > .table-responsive > table > thead th {
     padding: 0 15px 15px;
     color: var(--text-mid);
+    border-bottom: 0px;
 }
 .path-forum .region-content > table > tbody > tr,
 .path-forum .region-content > .table-responsive > table > tbody > tr {
@@ -241,6 +242,8 @@ section.main-section {
 .path-forum .region-content > table > tbody td,
 .path-forum .region-content > .table-responsive > table > tbody td {
     padding: 15px 20px;
+    line-height: 30px;
+    vertical-align: unset;
 }
 .path-forum .region-content > table > tbody > tr > td > div > a,
 .path-forum .table-responsive .forum__title > div > a {
@@ -248,7 +251,9 @@ section.main-section {
     font-size: 18px;
 }
 .path-forum .region-content > table > tbody > tr > td > div > p,
-.path-forum .region-content > .table-responsive > table > tbody > tr > td > div > p {
+.path-forum .region-content > .table-responsive > table > tbody > tr > td > div > p,
+.path-forum .region-content > .table-responsive > table > tbody > tr > td > div > span,
+.path-forum .region-content > .table-responsive > table > tbody > tr > td > span {
     font-size: 14px;
     color: var(--text-mid);
 }
