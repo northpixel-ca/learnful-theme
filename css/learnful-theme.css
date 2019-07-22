@@ -252,8 +252,8 @@ section.main-section {
 }
 .path-forum .region-content > table > tbody > tr > td > div > p,
 .path-forum .region-content > .table-responsive > table > tbody > tr > td > div > p,
-.path-forum .region-content > .table-responsive > table > tbody > tr > td > div > span,
-.path-forum .region-content > .table-responsive > table > tbody > tr > td > span {
+.path-forum .region-content table > tbody > tr > td > div > span,
+.path-forum .region-content table > tbody > tr > td > span {
     font-size: 14px;
     color: var(--text-mid);
 }
