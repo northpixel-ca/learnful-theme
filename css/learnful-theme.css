@@ -218,23 +218,28 @@ section.main-section {
 .path-forum .region-content > .action-links {
     display: none;
 }
-.path-forum .region-content > table {
+.path-forum .region-content > table,
+.path-forum .region-content > .table-responsive > table {
     width: 100%;
 }
-.path-forum .region-content > table > thead {
+.path-forum .region-content > table > thead,
+.path-forum .region-content > .table-responsive > table > thead {
     line-height: 40px;
     font-size: 18px;
 }
-.path-forum .region-content > table > thead th {
+.path-forum .region-content > table > thead th,
+.path-forum .region-content > .table-responsive > table > thead th {
     padding: 0 15px 15px;
     color: var(--text-mid);
 }
-.path-forum .region-content > table > tbody > tr {
+.path-forum .region-content > table > tbody > tr,
+.path-forum .region-content > .table-responsive > table > tbody > tr {
     line-height: 30px;
     background: var(--white);
     border-bottom: 1px solid var(--bg-highlight);
 }
-.path-forum .region-content > table > tbody td {
+.path-forum .region-content > table > tbody td,
+.path-forum .region-content > .table-responsive > table > tbody td {
     padding: 15px 20px;
 }
 .path-forum .region-content > table > tbody > tr > td > div > a,
@@ -242,7 +247,8 @@ section.main-section {
     font-weight: bold;
     font-size: 18px;
 }
-.path-forum .region-content > table > tbody > tr > td > div > p {
+.path-forum .region-content > table > tbody > tr > td > div > p,
+.path-forum .region-content > .table-responsive > table > tbody > tr > td > div > p {
     font-size: 14px;
     color: var(--text-mid);
 }
@@ -841,6 +847,11 @@ h1.page-title-title {
     font-size: 18px;
     font-weight: 800;
     margin: 0 0 5px 0;
+}
+h1.page-title-title > a {
+    color: white;
+    background: var(--primary-dark);
+    padding: 0 0px;
 }
 .page-title-subtitle {
     font-size: 12px;
