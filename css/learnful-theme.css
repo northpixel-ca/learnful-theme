@@ -168,10 +168,12 @@ section.main-section {
 ** Views elements
 **/
 .view-header > h2 {
-    font-size: 18px;
+    font-size: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: bold;
+    color: var(--primary-dark);
 }
 
 .discover-create-block {
@@ -194,9 +196,6 @@ section.main-section {
 }
 
 @media (min-width: 768px) {
-    .view-header > h2 {
-        font-size: 25px;
-    }
     .view-content.horizontally-scrollable {
         overflow-x: unset;
         width: unset;
