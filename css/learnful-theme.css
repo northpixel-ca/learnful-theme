@@ -604,13 +604,29 @@ h1.page-header {
     background-color: rgba(0,0,0,0.35);
     padding: 5px 15px;
     color: white;
-    border-right: 1px solid rgba(0,0,0,0.9);
-}
-a.label-with-icon {
-    background-color: var(--secondary);
+    border-radius: 10px;
+    margin-right: 4px;
 }
 .label-with-icon > i {
     margin-right: 10px;
+}
+.label-with-icon:last-of-type {
+    border-right: unset;
+}
+.page-title-calltoaction .flag > a {
+    padding: 5px 15px;
+    background-color: var(--secondary);
+    color: var(--white);
+    display: block;
+    border-radius: 10px;
+}
+.page-title-calltoaction .flag > a > i {
+    margin-right: 5px;
+}
+.page-title-calltoaction .flag > a:hover,
+.page-title-calltoaction .flag > a:focus {
+    background-color: var(--secondary-dark);
+    text-decoration: none;
 }
 /* span.label-with-icon > i.label-icon {
     height: 40px;
