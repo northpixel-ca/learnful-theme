@@ -64,6 +64,11 @@
           $(this).prependTo("#edit-group-h5p-settings > .panel-body");
         })
 
+        // Move Forum topic "shadow" options to correct div
+        $('form.node-forum-edit-form >.form-item-shadow').each(function(){
+          $(this).prependTo("#append-shadow > .panel-body");
+        })
+
       }
     }
 
