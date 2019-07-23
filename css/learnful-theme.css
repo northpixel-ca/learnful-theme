@@ -854,6 +854,12 @@ nav.vertical-nav > ul.menu > li:not(.menu-icon) > span {
 #block-pagetitleblockbrowseprojects.page-title-block {
     background-image: url(/themes/custom/learnful-theme/assets/images/bgs/inspiration-geometry.png);
 }
+.page-node-type-forum  #page-header .page-title-block {
+    background-color: var(--greyblue-dark);
+    background-image: url(/themes/custom/learnful-theme/assets/images/bgs/batthern.png);
+}
+
+
 
 
 #page-header .page-title-block .block-content--type-page-title-image {
