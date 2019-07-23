@@ -1,3 +1,14 @@
+h1#node-add-edit-title {
+    display: inline-block;
+    margin: 0 0 0 1em;
+    padding-left: 1em;
+    font-size: 16px;
+    border-left: 1px solid var(--bg-highlight-overlay);
+    color: var(--text-mid);
+    line-height: 34px;
+    vertical-align: middle;
+}
+
 body.node-add-edit .region-content > nav.tabs {
     display: none;
 }

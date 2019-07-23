@@ -62,16 +62,17 @@
         // Move H5P Editor Settings to Settings Panel
         $('.field--widget-h5p-editor .panel-body > .form-type-checkbox').each(function(){
           $(this).prependTo("#edit-group-h5p-settings > .panel-body");
-        })
+        });
 
         // Move Forum topic "shadow" options to correct div
         $('form.node-forum-edit-form >.form-item-shadow').each(function(){
           $(this).appendTo("#append-shadow > .panel-body");
-        })
+        });
 
         // Set node edit/add page title from document title
         $("#node-add-edit-title").each(function() {
           $(this).text($(document).find("title").text());
+        });
 
       }
     }
