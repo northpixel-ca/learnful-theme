@@ -597,13 +597,22 @@ h1.page-header {
     border-color: var(--greyblue);
 }
 
-span.label-with-icon {
-    margin-right: 20px;
+.label-with-icon {
     display: flex;
     align-items: center;
     font-weight: bold;
+    background-color: rgba(0,0,0,0.35);
+    padding: 5px 15px;
+    color: white;
+    border-right: 1px solid rgba(0,0,0,0.9);
 }
-span.label-with-icon > i.label-icon {
+a.label-with-icon {
+    background-color: var(--secondary);
+}
+.label-with-icon > i {
+    margin-right: 10px;
+}
+/* span.label-with-icon > i.label-icon {
     height: 40px;
     width: 40px;
     display: inline-block;
@@ -616,9 +625,9 @@ span.label-with-icon > i.label-icon {
 }
 i.label-icon.totalviews-icon {
     background-image: url('/themes/custom/learnful-theme/assets/collections/baseline-remove_red_eye-24px.svg');
-}
+} */
 
-span.label-with-icon > i.glyphicon {
+/* span.label-with-icon > i.glyphicon {
     padding: 10px;
     width: 40px;
     height: 40px;
@@ -645,7 +654,7 @@ span.label-with-icon .flag > a {
 span.label-with-icon .flag > a:hover,
 span.label-with-icon .flag > a:focus {
     text-decoration: none;
-}
+} */
 
 /**
 ** Main header / nav
