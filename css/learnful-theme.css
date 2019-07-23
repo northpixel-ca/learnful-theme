@@ -854,6 +854,8 @@ nav.vertical-nav > ul.menu > li:not(.menu-icon) > span {
 #block-pagetitleblockbrowseprojects.page-title-block {
     background-image: url(/themes/custom/learnful-theme/assets/images/bgs/inspiration-geometry.png);
 }
+#block-pagetitleblockforums.page-title-block,
+.path-forum  #page-header .page-title-block,
 .page-node-type-forum  #page-header .page-title-block {
     background-color: var(--greyblue-dark);
     background-image: url(/themes/custom/learnful-theme/assets/images/bgs/batthern.png);
@@ -892,8 +894,8 @@ h1.page-title-title {
     margin: 0 0 5px 0;
 }
 h1.page-title-title > a {
-    color: white;
-    background: var(--primary-dark);
+    color: var(--white);
+    background: rgba(0,0,0,0.35);
     padding: 0 0px;
 }
 .page-title-subtitle {
