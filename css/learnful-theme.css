@@ -1043,6 +1043,18 @@ h1.page-title-title > a {
     border-radius: 4px; */
     border: 1px solid var(--bg-highlight);
 }
+.content-card {
+    padding: 30px;
+}
+.content-card > .field {
+    margin-bottom: 30px;
+}
+.content-card > .field:last-of-type {
+    margin-bottom: 0px;
+}
+.content-card > .field > p {
+    line-height: 1.7em;
+}
 .card-large {
     padding: 20px;
 }
