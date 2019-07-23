@@ -66,8 +66,12 @@
 
         // Move Forum topic "shadow" options to correct div
         $('form.node-forum-edit-form >.form-item-shadow').each(function(){
-          $(this).prependTo("#append-shadow > .panel-body");
+          $(this).appendTo("#append-shadow > .panel-body");
         })
+
+        // Set node edit/add page title from document title
+        $("#node-add-edit-title").each(function() {
+          $(this).text($(document).find("title").text());
 
       }
     }
