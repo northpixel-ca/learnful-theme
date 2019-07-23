@@ -71,7 +71,7 @@
 
         // Set node edit/add page title from document title
         $("#node-add-edit-title").each(function() {
-          $(this).text($(document).find("title").text());
+          $(this).text($(document).find("title").text().split(" | ")[0]);
         });
 
       }
