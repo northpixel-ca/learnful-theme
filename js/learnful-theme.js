@@ -74,6 +74,9 @@
           $(this).text($(document).find("title").text().split(" | ")[0]);
         });
 
+        // Change button text for comment submit button
+        $(".form.comment-form > .form-actions > button#edit-submit").text("Post Comment");
+
       }
     }
 

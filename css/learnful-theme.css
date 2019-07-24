@@ -303,6 +303,26 @@ section.main-section {
     }
 }
 
+/**
+** Comments
+**/
+#comment-form {
+    padding: 20px;
+    background-color: white;
+    margin: 2em 0;
+    border: 1px solid var(--bg-highlight);
+}
+#comment-form > h2 {
+    font-size: 18px;
+    color: var(--text-mid);
+    margin: 0 0 1em;
+}
+#comment-form .form-item > label.control-label {
+    display: none;
+}
+
+
+
 /** User Profile / DS layouts **/
 .user.ds-2col-fluid {
     width: 100%;
