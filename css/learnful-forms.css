@@ -31,10 +31,10 @@ body.user-logged-in.path-user form#user-form > #edit-actions {
     padding: 0 15px;
     margin: 0 auto 25px auto;
 }
-body.user-logged-in.path-user form#user-form > #edit-actions > button {
+/* body.user-logged-in.path-user form#user-form > #edit-actions > button {
     display: block;
     width: 100%;
-}
+} */
 form#change-pwd-form {
     padding: 20px;
     background-color: #fff;

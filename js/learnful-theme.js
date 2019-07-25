@@ -32,6 +32,7 @@
 
         // move node actions to node-form-top
         $('form.node-form > #edit-actions').appendTo( $('#top-bar-right') );
+        $('form.user-form > #edit-actions').appendTo( $('#top-bar-right') );
 
 
         // enable bootstrap tooltip when data-toggle=tooltip

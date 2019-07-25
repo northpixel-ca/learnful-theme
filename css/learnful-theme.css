@@ -274,6 +274,7 @@ section.main-section {
 }
 .node.ds-2col-fluid > .group-left {
     width: 100%;
+    margin-bottom: 2em;
 }
 .node.ds-2col-fluid > .group-right {
     width: 100%;
@@ -338,7 +339,7 @@ div#comment-list {
     max-width: 65px
 }
 .comment .group-right {
-    width: 88%;
+    width: 84%;
 }
 .comment .comment-author {
     padding-bottom: 5px;
@@ -360,6 +361,17 @@ div#comment-list {
     float: left;
     margin-top: 1em;
 }
+.flag-report {
+    margin-top: 5em;
+    text-align: right;
+}
+.flag-report > a {
+    padding: 10px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
 @media (min-width: 768px) {
     .user.ds-2col-fluid {
         width: 100%;
@@ -906,12 +918,13 @@ nav.vertical-nav > ul.menu > li:not(.menu-icon) > span {
 
 
 
-#page-header .page-title-block .block-content--type-page-title-image {
+#page-header .page-title-block .block-content--type-page-title-image, {
     max-width: 1200px;
     margin: auto;
     padding: 15px;
 }
-#page-header .page-title-block .view-page-title-dynamic-user {
+#page-header .page-title-block .view-page-title-dynamic-user
+#page-header .page-title-block .view-page-title-dynamic-forums {
     max-width: 1200px;
     margin: auto;
     padding: 15px;
