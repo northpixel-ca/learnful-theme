@@ -923,7 +923,7 @@ nav.vertical-nav > ul.menu > li:not(.menu-icon) > span {
     margin: auto;
     padding: 15px;
 }
-#page-header .page-title-block .view-page-title-dynamic-user
+#page-header .page-title-block .view-page-title-dynamic-user,
 #page-header .page-title-block .view-page-title-dynamic-forums {
     max-width: 1200px;
     margin: auto;
