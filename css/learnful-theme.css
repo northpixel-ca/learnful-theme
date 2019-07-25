@@ -918,7 +918,7 @@ nav.vertical-nav > ul.menu > li:not(.menu-icon) > span {
 
 
 
-#page-header .page-title-block .block-content--type-page-title-image, {
+#page-header .page-title-block .block-content--type-page-title-image {
     max-width: 1200px;
     margin: auto;
     padding: 15px;
