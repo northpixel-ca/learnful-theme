@@ -72,6 +72,7 @@ footer.footer {
     body.sidebar-first section.main-section {
         margin-left: 16%;
         width: 84%;
+        min-height: 70vh;
     }
     footer.footer {
         margin-left: 16%;
