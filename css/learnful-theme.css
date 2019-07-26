@@ -584,6 +584,9 @@ h1.page-header {
     padding: 28px;
     font-size: 20px;
     margin: 0;
+    border-bottom: 1px solid var(--bg-highlight);
+    background-color: var(--text-mid);
+    color: var(--white);
 }
 
 .btn {
@@ -870,6 +873,12 @@ button#close-sidebar-off-right svg {
 /**
 ** Vertical Nav
 **/
+nav.vertical-nav > ul.menu > li > a {
+    padding: 15px 30px;
+    font-weight: bold;
+    color: var(--black);
+    opacity: 0.7;
+}
 nav.vertical-nav > ul.menu > li.menu-icon > a {
     background-position: 15px center;
     background-size: 24px;
@@ -880,7 +889,8 @@ nav.vertical-nav > ul.menu > li.menu-icon > a {
 }
 nav.vertical-nav > ul.menu > li.menu-icon.active > a.is-active,
 nav.vertical-nav > ul.menu > li.menu-icon > a.is-active,
-nav.vertical-nav > ul.menu > li.menu-icon.active > a {
+nav.vertical-nav > ul.menu > li.menu-icon.active > a,
+nav.vertical-nav > ul.menu > li.active > a.is-active {
     background-color: var(--bg-highlight);
     color: var(--primary);
     opacity: 1;
