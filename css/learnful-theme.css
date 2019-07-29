@@ -1071,6 +1071,7 @@ h1.page-title-title > a {
     .page-title-text {
         width: unset;
         height: 100px;
+        max-width: 80%;
     }
     h1.page-title-title {
         font-size: 26px;
@@ -1098,7 +1099,7 @@ h1.page-title-title > a {
     }
     .page-title-text {
         height: 50px;
-        max-width: 70%;
+        max-width: 57%;
     }
     .page-title-calltoaction {
         height: 50px;
