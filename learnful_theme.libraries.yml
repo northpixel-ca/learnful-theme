@@ -10,5 +10,5 @@ global-styling:
   js:
     js/learnful-theme.js: {}
     js/readmore.min.js: {}
-    js/jquery.matchHeight-min.js: {}: {}
+    js/jquery.matchHeight-min.js: {}
   
