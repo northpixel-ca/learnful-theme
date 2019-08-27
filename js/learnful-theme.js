@@ -78,6 +78,9 @@
         // Change button text for comment submit button
         $(".form.comment-form > .form-actions > button#edit-submit").text("Post Comment");
 
+        // jquery match height
+        $(".card.card-grid-content .card-body").matchHeight();
+
       }
     }
 

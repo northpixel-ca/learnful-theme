@@ -1118,6 +1118,7 @@ h1.page-title-title > a {
     }
     .page-title-text {
         height: 100px;
+        max-width: 65%;
     }
     .page-title-calltoaction {
         height: 100px;
