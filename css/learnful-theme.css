@@ -1264,6 +1264,11 @@ h1.page-title-title > a {
 .card.card-stacked .card-body {
     margin-bottom: 15px;
 }
+.card-body p.pre-title {
+    color: var(--text-light);
+    font-size: bold;
+    margin-bottom: 5px;
+}
 .card-body > p {
     font-size: 14px;
     color: var(--text-mid);
@@ -1528,6 +1533,21 @@ a[data-readmore-toggle] {
 /**
 ** Spacing Utilities
 **/
+.pad-1 {
+    padding: 1em;
+}
+.pad-2 {
+    padding: 2em;
+}
+.pad-3 {
+    padding: 3em;
+}
+.pad-4 {
+    padding: 4em;
+}
+.pad-5 {
+    padding: 5em;
+}
 .pt-1 {
     padding-top: 1em !important;
 }
