@@ -42,62 +42,20 @@
   ]
 %}
 <div{{ attributes.addClass(classes) }}>
-  {{ title_prefix }}
-  {% if title %}
-    {{ title }}
-  {% endif %}
-  {{ title_suffix }}
-  {% if header %}
-    <div class="view-header">
+  <div class="clearfix">
+    <div class="view-header col-md-3">
       {{ header }}
     </div>
-  {% endif %}
-  {% if exposed %}
-    <div class="view-filters form-group">
-      {{ exposed }}
-    </div>
-  {% endif %}
-  {% if attachment_before %}
-    <div class="attachment attachment-before">
-      {{ attachment_before }}
-    </div>
-  {% endif %}
 
   {% if rows %}
-    <div class="view-content row horizontally-scrollable">
-      {{ rows }}
-      <div class="col-lg-3 views-row">
-        <div class="discover-create-block ">
-          <h4>Create Resource</h4>
-          <p class="for-member">Create, remix, and share a new interactive educational resource using H5P</p>
-          <p class="for-guest">Sign in to create, remix, and share a new interactive educational resource using H5P</p>
-          <p><a href="/node/add/resource_h5p" class="btn btn-block btn-lightgrey btn-sm for-member">New Resource</a><a href="/user/login" class="btn btn-block btn-lightgrey btn-sm for-guest">Sign in</a></p>
-        </div>
+    <div class="view-content col-md-9">
+      <div class="row">
+        {{ rows }}
       </div>
-    </div>
   {% elseif empty %}
     <div class="view-empty">
       {{ empty }}
     </div>
   {% endif %}
-
-  {% if pager %}
-    {{ pager }}
-  {% endif %}
-  {% if attachment_after %}
-    <div class="attachment attachment-after">
-      {{ attachment_after }}
-    </div>
-  {% endif %}
-  {% if more %}
-    {{ more }}
-  {% endif %}
-  {% if footer %}
-    {{ footer }}
-  {% endif %}
-  {% if feed_icons %}
-    <div class="feed-icons">
-      {{ feed_icons }}
-    </div>
-  {% endif %}
+  </div>
 </div>
