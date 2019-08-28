@@ -80,6 +80,7 @@
 
         // jquery match height
         $(".card.card-grid-content .card-body").matchHeight();
+        $(".match-height").matchHeight();
 
       }
     }
