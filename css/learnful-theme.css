@@ -1452,6 +1452,9 @@ p.card-secondary-text {
     background: linear-gradient(to bottom right, var(--primary), var(--primary-dark));
     color: var(--white);
 }
+.gradient-bg.with-texture {
+    background-image: url(/themes/custom/learnful-theme/assets/images/bgs/gplay.png), linear-gradient(to bottom right, var(--red), var(--primary));
+}
 .label {
     padding: 0.2em 0.6em;
 }
