@@ -11,4 +11,5 @@ global-styling:
     js/learnful-theme.js: {}
     js/readmore.min.js: {}
     js/jquery.matchHeight-min.js: {}
+    js/h5p-resizer.js: {}
   
