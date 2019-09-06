@@ -34,12 +34,16 @@ h4.modal-header {
 **/
 body.entity-browser-iframe {
     background-color: var(--white);
-    height: 100%;
     font-size: 12px;
+}
+body.entity-browser-iframe .view {
+    max-height: 85vh;
+    overflow-y: auto;
 }
 
 body.entity-browser-iframe form.entity-browser-form > #edit-actions {
-    position: absolute;
+    position: fixed;
+    height: 10vh;
     bottom: 0;
     margin-bottom: 0;
     padding-top: 15px;
