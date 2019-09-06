@@ -1,3 +1,37 @@
+/**
+** Modal
+**/
+
+.modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 70%;
+    width: 80%;
+    transform: translate(-50%, -65%);
+}
+.modal-content {
+    height: 100%;
+}
+div.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid var(--bg-highlight);
+}
+h4.modal-header {
+    padding: 0;
+    border-bottom: unset;
+}
+.modal-body {
+    height: calc(100% - 60px);
+}
+
+.modal-body > iframe {
+    height: 100% !important;
+}
+
+/**
+** Entity browser iframe innerds
+**/
 body.entity-browser-iframe {
     background-color: var(--white);
     height: 100%;
@@ -73,3 +107,4 @@ body.entity-browser-iframe form.entity-browser-form > #edit-actions {
 .node.node--view-mode-entity-browser-selected .field--name-node-changed-date > div {
     display: inline-block;
 }
+
