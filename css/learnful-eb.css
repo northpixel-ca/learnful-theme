@@ -8,7 +8,7 @@
     left: 50%;
     height: 70%;
     width: 80%;
-    transform: translate(-50%, -65%);
+    transform: translate(-50%, -65%) !important;
 }
 .modal-content {
     height: 100%;
