@@ -36,9 +36,35 @@ body.entity-browser-iframe {
     background-color: var(--white);
     font-size: 12px;
 }
-body.entity-browser-iframe .view {
+body.entity-browser-iframe div.view {
     max-height: 85vh;
     overflow-y: auto;
+}
+
+.eb-tabs ul {
+    margin-bottom: 15px;
+    border-bottom: 0;
+}
+.eb-tabs ul li.active {
+    border-bottom: unset;
+}
+.eb-tabs ul li a {
+    font-weight: bold;
+    color: var(--text-mid);
+    padding: 6px 15px;
+    margin-right: 5px;
+    background-color: var(--bg-highlight);
+    border-radius: 4px;
+}
+.eb-tabs ul li.active a.active {
+    color: white;
+    background: var(--primary);
+}
+.eb-tabs ul li a:focus,
+.eb-tabs ul li a:hover {
+    text-decoration: none;
+    background-color: var(--text-mid);
+    color: var(--white);
 }
 
 body.entity-browser-iframe form.entity-browser-form > #edit-actions {
