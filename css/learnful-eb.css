@@ -35,12 +35,15 @@ h4.modal-header {
 body.entity-browser-iframe {
     background-color: var(--white);
     font-size: 12px;
+    margin-top: 0px;
 }
 body.entity-browser-iframe div.view {
     max-height: 85vh;
     overflow-y: auto;
 }
-
+nav.eb-tabs {
+    float: left;
+}
 .eb-tabs ul {
     margin-bottom: 15px;
     border-bottom: 0;
@@ -67,6 +70,20 @@ body.entity-browser-iframe div.view {
     color: var(--white);
 }
 
+.ebview.has-exposed-filters {
+    clear: both;
+}
+.ebview.has-exposed-filters .view-filters {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.ebview.has-exposed-filters .view-content {
+    padding-top: 15px;
+    border-top: 1px solid var(--bg-highlight);
+    margin-top: 10px;
+}
+
 body.entity-browser-iframe form.entity-browser-form > #edit-actions {
     position: fixed;
     height: 10vh;
@@ -81,7 +98,7 @@ body.entity-browser-iframe form.entity-browser-form > #edit-actions {
     display: flex;
     margin-bottom: 10px;
     background-color: var(--bg-lightest);
-    border-radius: 40px;
+    /* border-radius: 40px; */
     padding: 10px;
     position: relative;
     align-items: center;
