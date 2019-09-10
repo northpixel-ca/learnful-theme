@@ -51,8 +51,11 @@
         $("form#change-pwd-form button#edit-submit").text('Update Password');
 
 
-        // add help block to entity browser field
-        $('.field--widget-entity-browser-entity-reference .panel-body').once().prepend(`<p class="help-block">Select and organize the projects you want to display on your public profile.`);
+        // add help block to entity browser field - Project Entity Browser
+        $('#edit-field-projects--content .panel-body').once().prepend(`<p class="help-block">Select and organize the projects you want to display on your public profile.`);
+
+        // add help block to entity browser field - Interactive Content Entity Browser
+        $('.paragraph-type--interactive-content-h5p- .panel-body').once().prepend(`<p class="help-block">Select the interactive content that you want to display here. You can select content that you have created, or content created by others.`);
 
         // add ReadMore.js to text with class = .can-expand
         $('.can-expand').readmore({
