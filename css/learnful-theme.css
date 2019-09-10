@@ -165,6 +165,10 @@ section.main-section {
         margin-left: 80px;
         width: calc(100% - 80px);
     }
+    body.node-add-edit footer.footer {
+        margin-left: 80px;
+        width: calc(100% - 80px);
+    }
 }
 
 .maxwidth900 {
