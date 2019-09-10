@@ -140,6 +140,7 @@ body.entity-browser-iframe form.entity-browser-form > #edit-actions {
     padding: 10px;
     border: 1px solid var(--bg-highlight-overlay);
     font-size: 12px;
+    color: var(--black);
 }
 .entities-list.sortable .item-container:hover {
     opacity: unset;
