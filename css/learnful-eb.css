@@ -74,6 +74,9 @@ nav.eb-tabs {
     top: 0;
     right: 0;
 }
+.ebview.has-exposed-filters .view-filters button.btn {
+    border-width: 1px;
+}
 /* .ebview.has-exposed-filters .view-content {
     padding-top: 15px;
     border-top: 1px solid var(--bg-highlight);
@@ -90,9 +93,7 @@ body.entity-browser-iframe form.entity-browser-form > #edit-actions {
     width: 100%;
     background-color: white;
 }
-body.entity-browser-iframe form.entity-browser-form > #edit-actions button.btn {
-    border-width: 1px;
-}
+
 
 .eb-item.views-row {
     display: flex;
