@@ -90,6 +90,9 @@ body.entity-browser-iframe form.entity-browser-form > #edit-actions {
     width: 100%;
     background-color: white;
 }
+body.entity-browser-iframe form.entity-browser-form > #edit-actions button.btn {
+    border-width: 1px;
+}
 
 .eb-item.views-row {
     display: flex;
