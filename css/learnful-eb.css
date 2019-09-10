@@ -38,36 +38,32 @@ body.entity-browser-iframe {
     margin-top: 0px;
 }
 body.entity-browser-iframe div.view {
-    max-height: 85vh;
+    max-height: 80vh;
     overflow-y: auto;
 }
 nav.eb-tabs {
-    float: left;
+    border-bottom: 1px solid var(--bg-highlight);
+    margin-bottom: 10px;
 }
 .eb-tabs ul {
-    margin-bottom: 15px;
     border-bottom: 0;
 }
 .eb-tabs ul li.active {
     border-bottom: unset;
 }
 .eb-tabs ul li a {
-    font-weight: bold;
     color: var(--text-mid);
-    padding: 6px 15px;
-    margin-right: 5px;
-    background-color: var(--bg-highlight);
-    border-radius: 4px;
+    font-size: 14px;
+    border-bottom: 2px solid transparent;
 }
 .eb-tabs ul li.active a.active {
-    color: white;
-    background: var(--primary);
+    color: var(--primary);
+    border-bottom: 2px solid var(--primary);
 }
 .eb-tabs ul li a:focus,
 .eb-tabs ul li a:hover {
     text-decoration: none;
-    background-color: var(--text-mid);
-    color: var(--white);
+    background-color: var(--bg-lightest);
 }
 
 .ebview.has-exposed-filters {
@@ -78,11 +74,11 @@ nav.eb-tabs {
     top: 0;
     right: 0;
 }
-.ebview.has-exposed-filters .view-content {
+/* .ebview.has-exposed-filters .view-content {
     padding-top: 15px;
     border-top: 1px solid var(--bg-highlight);
     margin-top: 10px;
-}
+} */
 
 body.entity-browser-iframe form.entity-browser-form > #edit-actions {
     position: fixed;
@@ -92,6 +88,7 @@ body.entity-browser-iframe form.entity-browser-form > #edit-actions {
     padding-top: 15px;
     border-top: 1px solid var(--bg-highlight);
     width: 100%;
+    background-color: white;
 }
 
 .eb-item.views-row {
