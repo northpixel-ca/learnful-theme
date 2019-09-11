@@ -59,3 +59,35 @@
         grid-row: 2 / 4;
     }
 }
+
+/**
+** Content Blocks field display - Table View
+**/
+
+.toc-elements {
+    margin: 15px 0 0;
+}
+.toc-row {
+    padding: 15px 0;
+    border-bottom: 1px solid var(--bg-highlight);
+}
+.toc-entry-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+span.para-icon {
+    background-color: var(--greyblue);
+    height: 50px;
+    width: 50px;
+    display: block;
+}
+.toc-title {
+    min-width: 80%;
+}
+.toc-entry-details {
+    margin: auto;
+    padding: 25px 0;
+    width: 80%;
+    font-size: 14px;
+}
