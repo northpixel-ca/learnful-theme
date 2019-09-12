@@ -95,6 +95,7 @@
     text-transform: uppercase;
     color: black;
     font-weight: bold;
+    display: block;
 }
 
 span.para-icon {
@@ -139,4 +140,8 @@ textarea.embedcode::selection {
 textarea.embedcode::-moz-selection {
     background: var(--primary-dark);
     color: var(--greyblue-light);
+}
+
+.toc-detail-item.inline-image-grid {
+    display: flex;
 }
