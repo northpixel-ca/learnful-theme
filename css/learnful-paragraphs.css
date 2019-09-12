@@ -91,3 +91,13 @@ span.para-icon {
     width: 80%;
     font-size: 14px;
 }
+
+.toc-detail-item {
+    margin-bottom: 15px;
+}
+.toc-detail-item label.label-above {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
