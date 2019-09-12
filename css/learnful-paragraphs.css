@@ -123,6 +123,16 @@ span.para-icon.ptype-imagegallery {
     background: url('../assets/icons/para-icon-imggallery.png');
 }
 
-#ace-embedcode-preview > pre.ace_editor {
-    width: 100% !important;
+textarea.embedcode {
+    width: 100%;
+    padding: 20px;
+    background-color: var(--bg-lightest);
+    border: 1px solid var(--bg-highlight-overlay);
+    font-family: monospace;
+    color: var(--primary-dark);
+}
+textarea.embedcode::selection,
+textarea.embedcode::-moz-selection {
+    background-color: var(--primary);
+    color: var(--primary-light);
 }

@@ -85,25 +85,6 @@
         $(".card.card-grid-content .card-body").matchHeight();
         $(".match-height").matchHeight();
 
-        // use highlight.js when display code blocks
-        document.addEventListener('DOMContentLoaded', (event) => {
-          document.querySelectorAll('pre code').forEach((block) => {
-            hljs.highlightBlock(block);
-          });
-        });
-
-        // ace editor code highlight blocks
-        $('#ace-embedcode-preview').each(function() {
-                    
-          var aceParent = $("#ace-embedcode-preview > pre");
-          var aceEmbed = ace.edit("ace-editor-inline0");
-          aceEmbed.setOption("wrap", true);
-          aceEmbed.setPrintMarginColumn(false);
-          aceEmbed.setShowPrintMargin(false);
-          aceEmbed.setShowInvisibles(false);
-          aceEmbed.renderer.setShowGutter(false);
-
-        });
 
       }
     }
