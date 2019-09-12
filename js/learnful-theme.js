@@ -96,7 +96,7 @@
         $('#ace-embedcode-preview').each(function() {
                     
           var aceParent = $("#ace-embedcode-preview > pre");
-          var aceEmbed = ace.edit(aceParent);
+          var aceEmbed = ace.edit("ace-editor-inline0");
           aceEmbed.setOption("wrap", true);
           aceEmbed.setPrintMarginColumn(false);
           aceEmbed.setShowPrintMargin(false);
