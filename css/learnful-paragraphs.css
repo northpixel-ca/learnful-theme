@@ -129,10 +129,14 @@ textarea.embedcode {
     background-color: var(--bg-lightest);
     border: 1px solid var(--bg-highlight-overlay);
     font-family: monospace;
-    color: var(--primary-dark);
+    color: var(--primary);
 }
-textarea.embedcode::selection,
+textarea.embedcode::selection {
+    background: var(--primary-dark);
+    color: var(--greyblue-light);
+}
+
 textarea.embedcode::-moz-selection {
-    background-color: var(--primary);
-    color: var(--primary-light);
+    background: var(--primary-dark);
+    color: var(--greyblue-light);
 }
