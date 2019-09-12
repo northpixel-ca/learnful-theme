@@ -122,3 +122,7 @@ span.para-icon.ptype-imagecaption {
 span.para-icon.ptype-imagegallery {
     background: url('../assets/icons/para-icon-imggallery.png');
 }
+
+#ace-embedcode-preview > pre.ace_editor {
+    width: 100%;
+}

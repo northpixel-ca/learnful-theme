@@ -95,7 +95,8 @@
         // ace editor code highlight blocks
         $('#ace-embedcode-preview').each(function() {
                     
-          var aceEmbed = ace.edit("#ace-embedcode-preview > pre");
+          var aceParent = $("#ace-embedcode-preview > pre");
+          var aceEmbed = ace.edit(aceParent);
           aceEmbed.setOption("wrap", true);
           aceEmbed.setPrintMarginColumn(false);
           aceEmbed.setShowPrintMargin(false);
