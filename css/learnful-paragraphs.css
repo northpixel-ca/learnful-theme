@@ -95,27 +95,27 @@ h2.region-title {
 
 
 /** add icons for each paragraph panel heading **/
-.paragraph--view-mode-preview > .panel > .panel-heading > a::before {
+.paragraph--view-mode-preview .panel-heading > a:before {
     height: 50px;
     width: 50px;
     display: block;
 }
-.paragraph--type-iframe-embed.paragraph--view-mode-preview .panel-heading > a::before {
+.paragraph--type-iframe-embed.paragraph--view-mode-preview .panel-heading > a:before {
     background: url('../assets/icons/para-icon-iframeembed.png');
 }
-.paragraph--type-basic-text-block.paragraph--view-mode-preview .panel-heading > a::before {
+.paragraph--type-basic-text-block.paragraph--view-mode-preview .panel-heading > a:before {
     background: url('../assets/icons/para-icon-textblock.png');
 }
-.paragraph--type-basic-interactive-content-h5p.paragraph--view-mode-preview .panel-heading > a::before {
+.paragraph--type-basic-interactive-content-h5p.paragraph--view-mode-preview .panel-heading > a:before {
     background: url('../assets/icons/para-icon-iframeembed.png');
 }
-.paragraph--type-basic-image-with-caption.paragraph--view-mode-preview .panel-heading > a::before {
+.paragraph--type-basic-image-with-caption.paragraph--view-mode-preview .panel-heading > a:before {
     background: url('../assets/icons/para-icon-iframeembed.png');
 }
-.paragraph--type-basic-photo-gallery.paragraph--view-mode-preview .panel-heading > a::before {
+.paragraph--type-basic-photo-gallery.paragraph--view-mode-preview .panel-heading > a:before {
     background: url('../assets/icons/para-icon-iframeembed.png');
 }
-.paragraph--type-basic-button.paragraph--view-mode-preview .panel-heading > a::before {
+.paragraph--type-basic-button.paragraph--view-mode-preview .panel-heading > a:before {
     background: url('../assets/icons/para-icon-iframeembed.png');
 }
 
