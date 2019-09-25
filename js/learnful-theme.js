@@ -85,6 +85,11 @@
         $(".card.card-grid-content .card-body").matchHeight();
         $(".match-height").matchHeight();
 
+        // start with all content block paragraph previews collapsed
+        $( document ).ready(function() {
+          $(".paragraph--view-mode-preview .panel-collapse").collapse('toggle');
+        });
+
 
       }
     }
