@@ -61,6 +61,50 @@
 }
 
 /**
+** Content Blocks field display - Preview View
+**/
+h2.region-title {
+    font-size: 15px;
+    margin: 0 0 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--text-mid);
+}
+
+.content-blocks > .content-block {
+    margin-bottom: 15px;
+}
+
+.content-block > .paragraph--view-mode-preview > .panel {
+    border: 0;
+    box-shadow: unset;
+    border-radius: 0px;
+}
+.content-block > .paragraph--view-mode-preview > .panel > .panel-heading {
+    background-color: #fff;
+    border: unset;
+    border-radius: 0;
+    padding: 0;
+    border-bottom: 1px solid var(--bg-highlight);
+}
+.content-block > .paragraph--view-mode-preview > .panel > .panel-heading > a {
+    padding: 20px;
+    margin: 0;
+    color: var(--text-mid);
+}
+
+
+/** add icons for each paragraph panel heading **/
+.paragraph--view-mode-preview > .panel > .panel-heading > a {
+    height: 50px;
+    width: 50px;
+    display: block;
+}
+.paragraph--type-iframe-embed.paragraph--view-mode-preview .panel-heading > a::before {
+    background: url('../assets/icons/para-icon-iframeembed.png');
+}
+
+/**
 ** Content Blocks field display - Table View
 **/
 
