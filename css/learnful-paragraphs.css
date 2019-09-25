@@ -108,7 +108,7 @@ h2.region-title {
 .paragraph--type-basic-text-block.paragraph--view-mode-preview .panel-heading > a:before {
     background: url('../assets/icons/para-icon-textblock.png');
 }
-.paragraph--type-interactive-content-h5p.paragraph--view-mode-preview .panel-heading > a:before {
+.paragraph--type-interactive-content-h5p-.paragraph--view-mode-preview .panel-heading > a:before {
     background: url('../assets/icons/para-icon-intcontent.png');
 }
 .paragraph--type-image-with-caption.paragraph--view-mode-preview .panel-heading > a:before {

@@ -86,9 +86,10 @@
         $(".match-height").matchHeight();
 
         // start with all content block paragraph previews collapsed
-        $( document ).ready(function() {
-          //$(".paragraph--view-mode-preview .panel-collapse").collapse('toggle');
-        });
+        // Note: causes h5p element to not render.
+        // $( document ).ready(function() {
+        //   $(".paragraph--view-mode-preview .panel-collapse").collapse('toggle');
+        // });
 
         // toggle collapse of all panels
         $("a#details-collapsor").click(function(){
