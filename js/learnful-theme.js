@@ -87,6 +87,11 @@
 
         // start with all content block paragraph previews collapsed
         $( document ).ready(function() {
+          //$(".paragraph--view-mode-preview .panel-collapse").collapse('toggle');
+        });
+
+        // toggle collapse of all panels
+        $("a#details-collapsor").click(function(){
           $(".paragraph--view-mode-preview .panel-collapse").collapse('toggle');
         });
 
