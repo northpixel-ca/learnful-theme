@@ -91,14 +91,16 @@ h2.region-title {
     padding: 20px;
     margin: 0;
     color: var(--text-mid);
+    line-height: 50px;
 }
-
-
 /** add icons for each paragraph panel heading **/
 .paragraph--view-mode-preview .panel-heading > a:before {
     height: 50px;
     width: 50px;
+    content: '';
     display: block;
+    float: left;
+    margin-right: 20px;
 }
 .paragraph--type-iframe-embed.paragraph--view-mode-preview .panel-heading > a:before {
     background: url('../assets/icons/para-icon-iframeembed.png');
@@ -106,19 +108,22 @@ h2.region-title {
 .paragraph--type-basic-text-block.paragraph--view-mode-preview .panel-heading > a:before {
     background: url('../assets/icons/para-icon-textblock.png');
 }
-.paragraph--type-basic-interactive-content-h5p.paragraph--view-mode-preview .panel-heading > a:before {
-    background: url('../assets/icons/para-icon-iframeembed.png');
+.paragraph--type-interactive-content-h5p.paragraph--view-mode-preview .panel-heading > a:before {
+    background: url('../assets/icons/para-icon-intcontent.png');
 }
-.paragraph--type-basic-image-with-caption.paragraph--view-mode-preview .panel-heading > a:before {
-    background: url('../assets/icons/para-icon-iframeembed.png');
+.paragraph--type-image-with-caption.paragraph--view-mode-preview .panel-heading > a:before {
+    background: url('../assets/icons/para-icon-imagewcaption.png');
 }
-.paragraph--type-basic-photo-gallery.paragraph--view-mode-preview .panel-heading > a:before {
-    background: url('../assets/icons/para-icon-iframeembed.png');
+.paragraph--type-photo-gallery.paragraph--view-mode-preview .panel-heading > a:before {
+    background: url('../assets/icons/para-icon-imggallery.png');
 }
-.paragraph--type-basic-button.paragraph--view-mode-preview .panel-heading > a:before {
-    background: url('../assets/icons/para-icon-iframeembed.png');
+.paragraph--type-button.paragraph--view-mode-preview .panel-heading > a:before {
+    background: url('../assets/icons/para-icon-buttonblck.png');
 }
 
+.content-block > .paragraph--view-mode-preview > .panel > .panel-body {
+    padding: 30px 90px;
+}
 
 /**
 ** Content Blocks field display - Table View
