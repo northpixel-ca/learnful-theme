@@ -1452,6 +1452,10 @@ p.card-secondary-text {
 /**
 ** Global Styles
 **/
+
+.display-inline {
+    display: inline-block;
+}
 .circle-image img {
     border-radius: 50%;
 }
