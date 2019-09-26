@@ -132,6 +132,13 @@ h2.region-title {
 }
 
 
+/** paragraphs preview quick edit button **/
+.field--name-dynamic-token-fieldparagraph-paragraph-edit-button {
+    position: absolute;
+    top: 28px;
+    right: 50px;
+}
+
 
 /**
 ** Content Blocks field display - Table View
