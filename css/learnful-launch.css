@@ -1,0 +1,8 @@
+body.launch-page {
+    margin-top: 0px;
+}
+
+.node--view-mode-launch > .field.narrow {
+    max-width: 720px;
+    margin: auto;
+}
