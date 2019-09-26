@@ -76,6 +76,9 @@ h2.region-title {
     border: 1px solid var(--bg-highlight);
 }
 
+.paragraph--view-mode-preview {
+    position: relative;
+}
 .content-block > .paragraph--view-mode-preview > .panel {
     border: 0;
     box-shadow: unset;
