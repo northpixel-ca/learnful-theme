@@ -25,9 +25,11 @@ h4.modal-header {
     height: calc(100% - 60px);
 }
 
+.modal-body > iframe {
+    height: 100% !important;
+}
 .entity-browser-modal .ui-dialog-content > * {
     max-height: 99%;
-    height: 100%;
 }
 
 /**
