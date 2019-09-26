@@ -3,6 +3,17 @@ body.launch-page {
 }
 
 .node--view-mode-launch > .field.narrow {
-    max-width: 720px;
+    max-width: 900px;
     margin: auto;
+}
+
+.node--view-mode-launch > .field.field-content-blocks {
+    padding: 50px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.2);
+}
+
+.node--view-mode-launch > .field.field-content-blocks > .paragraph {
+    margin-bottom: 30px;
 }
