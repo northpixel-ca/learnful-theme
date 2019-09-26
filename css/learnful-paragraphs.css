@@ -142,6 +142,10 @@ h2.region-title {
     right: 50px;
 }
 
+.modal-body {
+    overflow: auto;
+}
+
 
 /**
 ** Content Blocks field display - Table View

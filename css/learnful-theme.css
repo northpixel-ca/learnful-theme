@@ -622,6 +622,7 @@ h1.page-header {
 .btn-success {
     background-color: var(--greyblue);
     border-color: transparent;
+    color: var(--white);
 }
 .btn-info {
     background-color: var(--secondary);
