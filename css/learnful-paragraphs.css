@@ -83,6 +83,7 @@ h2.region-title {
     border: 0;
     box-shadow: unset;
     border-radius: 0px;
+    margin-bottom: 0px;
 }
 .content-block > .paragraph--view-mode-preview > .panel > .panel-heading {
     background-color: #fff;
