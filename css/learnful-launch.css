@@ -2,6 +2,19 @@ body.launch-page {
     margin-top: 0px;
 }
 
+.node--view-mode-launch > header.tutorial-header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: white;
+    color: var(--text-mid);
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.1);
+    font-weight: 700;
+}
+
+
 .node--view-mode-launch > .field.narrow {
     max-width: 900px;
     margin: auto;
@@ -10,8 +23,8 @@ body.launch-page {
 .node--view-mode-launch > .field.field-content-blocks {
     padding: 50px;
     background: white;
-    border-radius: 10px;
-    box-shadow: 0 0 20px 2px rgba(0,0,0,0.2);
+    /* border-radius: 10px; */
+    /* box-shadow: 0 0 10px 2px rgba(0,0,0,0.2); */
 }
 
 .node--view-mode-launch > .field.field-content-blocks > .paragraph {
