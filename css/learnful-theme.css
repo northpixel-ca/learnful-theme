@@ -612,6 +612,7 @@ h1.page-header {
 .btn-primary-dark {
     background-color: var(--primary-dark);
     border-color: transparent;
+    color: white;
 }
 .btn-secondary {
     background-color: var(--secondary);
@@ -658,6 +659,7 @@ h1.page-header {
 .btn-primary-dark:focus {
     background-color: var(--primary);
     border-color: transparent;
+    color: white;
 }
 .btn-secondary:hover,
 .btn-secondary:focus {
@@ -952,7 +954,7 @@ nav.vertical-nav > ul.menu > li:not(.menu-icon) > span {
     margin: 0 -15px 15px;
 }
 #page-header .page-title-block {
-    background: var(--primary);
+    background: var(--primary-dark);
     color: var(--white);
     background-image: url(/themes/custom/learnful-theme/assets/images/bgs/always-grey.png);
 }
