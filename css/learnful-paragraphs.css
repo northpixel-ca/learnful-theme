@@ -64,11 +64,13 @@
 ** Content Blocks field display - Preview View
 **/
 h2.region-title {
-    font-size: 15px;
-    margin: 0 0 25px;
+    font-size: 12px;
+    margin: 0;
     font-weight: bold;
     text-transform: uppercase;
     color: var(--text-mid);
+    line-height: 24px;
+    margin-bottom: 10px;
 }
 
 .content-blocks > .content-block {

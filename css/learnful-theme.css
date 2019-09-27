@@ -704,18 +704,25 @@ h1.page-header {
 .label-with-icon:last-of-type {
     border-right: unset;
 }
-.page-title-calltoaction .flag > a {
-    padding: 5px 15px;
+.page-title-calltoaction > .label-with-icon {
+    background-color: var(--secondary);
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+.page-title-calltoaction a {
+    padding: 10px 15px;
     background-color: var(--secondary);
     color: var(--white);
     display: block;
-    border-radius: 10px;
-}
-.page-title-calltoaction .flag > a > i {
+    border-radius: 4px;
     margin-right: 5px;
 }
-.page-title-calltoaction .flag > a:hover,
-.page-title-calltoaction .flag > a:focus {
+.page-title-calltoaction a > i {
+    margin-right: 5px;
+}
+.page-title-calltoaction a:hover,
+.page-title-calltoaction a:focus {
     background-color: var(--secondary-dark);
     text-decoration: none;
 }
@@ -939,6 +946,11 @@ nav.vertical-nav > ul.menu > li:not(.menu-icon) > span {
     color: var(--white);
     background-image: url(/themes/custom/learnful-theme/assets/images/bgs/always-grey.png);
 }
+#block-views-block-page-title-dynamic-tutorialnode.page-title-block {
+    background-color: var(--primary-dark);
+    background-image: unset;
+    padding: 15px 0;
+}
 #block-pagetitleblockfindadesigner.page-title-block {
     background-image: url(/themes/custom/learnful-theme/assets/images/bgs/gplay.png);
 }
@@ -948,12 +960,14 @@ nav.vertical-nav > ul.menu > li:not(.menu-icon) > span {
 #block-pagetitlecreatelandingpage.page-title-block {
     background-image: url(/themes/custom/learnful-theme/assets/images/bgs/gplay.png), linear-gradient(to bottom right, var(--primary-dark), var(--primary));
 }
+
 #block-pagetitleblockforums.page-title-block,
 .path-forum  #page-header .page-title-block,
 .page-node-type-forum  #page-header .page-title-block {
     background-color: var(--greyblue-dark);
     background-image: url(/themes/custom/learnful-theme/assets/images/bgs/batthern.png);
 }
+
 
 
 
@@ -1130,6 +1144,7 @@ h1.page-title-title > a {
     }
     .page-title-calltoaction {
         height: 100px;
+        font-weight: bold;
     }
     h1.page-title-title {
         font-size: 26px;
