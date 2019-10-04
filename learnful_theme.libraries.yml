@@ -13,4 +13,6 @@ global-styling:
     js/readmore.min.js: {}
     js/h5p-resizer.js: {}
     js/jquery.matchHeight-min.js: {}
+  dependencies:
+    - core/jquery.once
   
