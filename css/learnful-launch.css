@@ -21,6 +21,7 @@ body.launch-page {
 }
 
 .node--view-mode-launch > .field.field-content-blocks {
+    margin-top: 70px;
     padding: 50px;
     background: white;
     /* border-radius: 10px; */
