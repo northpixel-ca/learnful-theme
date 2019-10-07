@@ -48,12 +48,15 @@ body.launch-page {
 
 h2.launch-region-title {
     text-align: center;
-    margin: 0 0 30px;
+    margin: 0 0 50px;
     font-size: 1.5em;
 }
-
+.field-metadata-region > div > .meta-entry:last-of-type {
+    margin-bottom: 0px;
+}
 .meta-entry {
     padding-bottom: 25px;
+    margin-bottom: 25px;
     border-bottom: 1px solid var(--bg-highlight);
 }
 
@@ -65,7 +68,7 @@ h2.meta-label {
     margin: 0 0 20px;
 }
 p.meta-title {
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-weight: bold;
 }
 .meta-subtitle > p {
