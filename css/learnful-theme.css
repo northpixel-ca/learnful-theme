@@ -1200,7 +1200,8 @@ h1.page-title-title > a {
     margin-bottom: 20px;
 }
 .card.field.field--name-field-tags > a,
-.card.field--name-field-tools > a {
+.card.field--name-field-tools > a,
+.meta-entry .field--name-field-tags > a {
     padding: 4px 12px;
     background: var(--bg-highlight);
     border-radius: 10px;

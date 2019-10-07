@@ -53,6 +53,8 @@ h2.launch-region-title {
 }
 .field-metadata-region > div > .meta-entry:last-of-type {
     margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: unset;
 }
 .meta-entry {
     padding-bottom: 25px;
