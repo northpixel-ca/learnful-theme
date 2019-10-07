@@ -34,12 +34,20 @@ body.launch-page {
     margin: auto;
 }
 
-.node--view-mode-launch > .field.field-content-blocks {
-    margin-top: 70px;
+.node--view-mode-launch > .field.card {
     padding: 50px;
-    background: white;
+    margin-top: 70px;
 }
 
 .node--view-mode-launch > .field.field-content-blocks > .paragraph {
     margin-bottom: 30px;
+}
+.node--view-mode-launch > .field.field-content-blocks > .paragraph:last-of-type {
+    margin-bottom: 0px;
+}
+
+h2.launch-region-title {
+    text-align: center;
+    margin: 0 0 15px;
+    font-size: 1.5em;
 }
