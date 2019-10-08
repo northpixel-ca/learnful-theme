@@ -78,3 +78,15 @@ p.meta-title {
     margin: 0;
     color: var(--text-mid);
 }
+
+.license-icons {
+    margin-bottom: 15px;
+}
+.license-icons > img {
+    opacity: 0.7;
+    max-width: 32px;
+    margin-right: 5px;
+}
+p.license-statement {
+    color: var(--text-mid);
+}
