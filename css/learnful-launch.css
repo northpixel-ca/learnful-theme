@@ -90,3 +90,22 @@ p.meta-title {
 p.license-statement {
     color: var(--text-mid);
 }
+
+
+body.launch-page footer.footer {
+    margin-left: unset;
+    margin-top: 70px;
+    width: 100%;
+    background: var(--white);
+    color: var(--text-mid);
+    font-size: 14px;
+}
+
+body.launch-page footer.footer a.social-link {
+    font-size: 2em;
+    color: var(--text-mid);
+}
+body.launch-page footer.footer a.social-link:hover,
+body.launch-page footer.footer a.social-link:focus {
+    color: var(--primary);
+}
