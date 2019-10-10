@@ -71,7 +71,7 @@
   </div>
 {% endblock %}
 
-<footer class="footer">
+<footer class="footer container-fluid" role="contentinfo">
   <div class="row">
       <div class="col-md-4">
           <img src="/themes/custom/learnful-theme/assets/logos/learnful-logo_v3_beta.png" alt="Learnful logo" />
@@ -87,10 +87,3 @@
   </div>
 </footer>
 
-{% if page.footer %}
-  {% block footer %}
-    <footer class="footer {{ container }}" role="contentinfo">
-      {{ page.footer }}
-    </footer>
-  {% endblock %}
-{% endif %}
