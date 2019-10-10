@@ -62,7 +62,7 @@ h2.launch-region-title {
     border-bottom: 1px solid var(--bg-highlight);
 }
 
-h2.meta-label {
+h3.meta-label {
     font-size: 0.8em;
     font-weight: bold;
     color: var(--text-light);
