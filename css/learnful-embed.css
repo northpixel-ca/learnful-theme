@@ -16,6 +16,7 @@ body.embed-view {
     position: absolute;
     top: 10px;
     right: 10px;
+    max-width: 25px;
 }
 .embed-card .card-body {
     padding: 15px;
