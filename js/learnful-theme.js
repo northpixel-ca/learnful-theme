@@ -96,8 +96,8 @@
           $(".paragraph--view-mode-preview .panel-collapse").collapse('toggle');
         });
 
-        function copyTextarea(nid) {
-          var targetTextarea = $("textarea#" + nid);
+        function copyTextarea() {
+          var targetTextarea = $(".share-url > textarea");
           $(targetTextarea).select();
           document.execCommand('copy');
         }
