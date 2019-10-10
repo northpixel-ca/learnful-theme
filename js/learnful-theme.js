@@ -98,11 +98,11 @@
 
         // copy the value of the textarea that holds the url to be shared
         $("button.copy-share").click(function(){
-          $(this).sibling("textarea").select();
+          $(this).siblings("textarea").select();
           document.execCommand('copy');
           $(this).text("Copied!");
           setTimeout(function() {
-            $this.text("Copy")
+            $(this).text("Copy")
           }, 5000);         
         });
 
