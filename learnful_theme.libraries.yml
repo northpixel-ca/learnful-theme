@@ -7,6 +7,7 @@ global-styling:
       css/learnful-eb.css: {}
       css/learnful-h5p.css: {}
       css/learnful-launch.css: {}
+      css/learnful-embed.css: {}
       css/fontawesome-5.9.0/css/all.min.css: {}
   js:
     js/learnful-theme.js: {}
