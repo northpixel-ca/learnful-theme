@@ -109,3 +109,30 @@ body.launch-page footer.footer a.social-link:hover,
 body.launch-page footer.footer a.social-link:focus {
     color: var(--primary);
 }
+
+/**
+*** Share
+**/
+
+.share-url {
+    width: 100%;
+    border: 1px solid var(--bg-highlight);
+    position: relative;
+}
+.share-url > textarea {
+    border: 0;
+    resize: none;
+    width: 90%;
+    padding: 10px;
+    height: 42px;
+    vertical-align: middle;
+    color: var(--text-mid);
+}
+.share-url > button.copy-share {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: var(--primary-light);
+    background: unset;
+    border: unset;
+}
