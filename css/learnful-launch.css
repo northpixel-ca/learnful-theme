@@ -137,11 +137,25 @@ body.launch-page footer.footer a.social-link:focus {
     border: unset;
 }
 
+.embed-resource {
+    width: 100%;
+    border: 1px solid var(--bg-highlight);
+    position: relative;
+}
 .embed-resource > textarea {
     width: 100%;
     padding: 20px;
     height: 150px;
+    border: 0;
     resize: none;
     color: var(--text-mid);
     font-size: 14px;
+}
+.embed-resource > button.copy-embed {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: var(--primary-light);
+    background: unset;
+    border: unset;
 }

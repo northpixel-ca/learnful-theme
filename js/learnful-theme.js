@@ -108,6 +108,18 @@
           }, 3000);
         });
 
+        // copy the value of the textarea that holds the embed code
+        $("button.copy-embed").on("click", function(){
+          var shareEl = $(this);
+          shareEl.siblings("textarea").select();
+          document.execCommand('copy');
+          shareEl.text("Copied!");
+          
+          setTimeout(function() {
+            shareEl.text("Copy")
+          }, 3000);
+        });
+
 
       }
     }
