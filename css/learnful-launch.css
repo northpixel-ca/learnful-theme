@@ -136,3 +136,12 @@ body.launch-page footer.footer a.social-link:focus {
     background: unset;
     border: unset;
 }
+
+.embed-resource > textarea {
+    width: 100%;
+    padding: 20px;
+    height: 150px;
+    resize: none;
+    color: var(--text-mid);
+    font-size: 14px;
+}
