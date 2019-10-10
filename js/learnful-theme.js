@@ -97,13 +97,15 @@
         });
 
         // copy the value of the textarea that holds the url to be shared
-        $("button.copy-share").click(function(){
-          $(this).siblings("textarea").select();
+        $("button.copy-share").on("click", function(){
+          var shareEl = $(this);
+          shareEl.siblings("textarea").select();
           document.execCommand('copy');
-          $(this).text("Copied!");
+          shareEl.text("Copied!");
+          
           setTimeout(function() {
-            $(this).text("Copy")
-          }, 5000);         
+            shareEl.text("Copy")
+          }, 3000);
         });
 
 
