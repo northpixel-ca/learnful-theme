@@ -96,11 +96,16 @@
           $(".paragraph--view-mode-preview .panel-collapse").collapse('toggle');
         });
 
-        function copyTextarea() {
-          var targetTextarea = $(".share-url > textarea");
-          $(targetTextarea).select();
+        // copy the value of the textarea that holds the url to be shared
+        $("button.copy-share").click(function(){
+          $(this).sibling("textarea").select();
           document.execCommand('copy');
-        }
+          $(this).text("Copied!");
+          setTimeout(function() {
+            $this.text("Copy")
+          }, 5000);         
+        });
+
 
       }
     }
