@@ -96,6 +96,11 @@
           $(".paragraph--view-mode-preview .panel-collapse").collapse('toggle');
         });
 
+        function copyTextarea(nid) {
+          var targetTextarea = $("textarea#" + nid);
+          $(targetTextarea).select();
+          document.execCommand('copy');
+        }
 
       }
     }
