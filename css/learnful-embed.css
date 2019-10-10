@@ -6,7 +6,14 @@ body.embed-view {
     width: 100%;
     max-width: 300px;
 }
-
+.embed-card .card-body {
+    position: relative;
+}
+.embed-card .card-body .learnful-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
 .embed-card .card-body {
     padding: 15px;
 }
@@ -16,8 +23,14 @@ body.embed-view {
 .embed-card h3.card-title > a {
     color: var(--black);
 }
-.btn.btn-embed {
+.btn-embed {
     border: 1px solid var(--primary);
     padding: 3px 10px;
     margin-top: 15px;
+    font-size: 14px;
+}
+.btn-embed:hover,
+.btn-embed:focus {
+    background-color: var(--primary);
+    color: white;
 }
