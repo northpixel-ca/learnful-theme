@@ -146,7 +146,7 @@
           ].join();
         };
 
-        $("a.share-on-twitter").on("click", function(){
+        $("a.share-on-twitter").on("click", function(e){
           var tw_text = encodeURIComponent($(this).attr('data-text'));
           var tw_url = encodeURIComponent($(this).attr('data-url'));
           var tw_hashtags = encodeURIComponent($(this).attr('data-hashtags'));
@@ -156,7 +156,7 @@
           var tw_shareurl = `https://twitter.com/intent/tweet?text=${tw_text}&via=${tw_via}&hashtag=${tw_hashtags}&url=${tw_url}&related=${tw_related}`;
           
 
-          
+          e.preventDefault();
           var win = window.open(tw_shareurl, 'ShareOnTwitter', getWindowOptions());
           win.opener = null;
         });
