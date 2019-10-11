@@ -132,8 +132,8 @@
 
         // store popup window options
         var getWindowOptions = function() {
-          var width = 400;
-          var height = 500;
+          var width = 450;
+          var height = 450;
           var left = (window.innerWidth / 2) - (width / 2);
           var top = (window.innerHeight / 2) - (height / 2);
         
@@ -146,10 +146,6 @@
           ].join();
         };
 
-        $("a.share-on-twitter").each(function(){
-          
-        });
-
         $("a.share-on-twitter").on("click", function(){
           var tw_text = encodeURIComponent($(this).attr('data-text'));
           var tw_url = encodeURIComponent($(this).attr('data-url'));
@@ -157,7 +153,7 @@
           var tw_via = encodeURIComponent($(this).attr('data-via'));
           var tw_related = encodeURIComponent($(this).attr('data-related'));
 
-          var tw_shareurl = `https://twitter.com/intent/tweet?text=${tw_text}&via=${tw_via}`;
+          var tw_shareurl = `https://twitter.com/intent/tweet?text=${tw_text}&via=${tw_via}&hashtag=${tw_hashtags}&url=${tw_url}&related=${tw_related}`;
           
 
           
