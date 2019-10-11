@@ -127,6 +127,7 @@ body.launch-page footer.footer a.social-link:focus {
     height: 42px;
     vertical-align: middle;
     color: var(--text-mid);
+    font-size: 14px;
 }
 .share-url > button.copy-share {
     position: absolute;
@@ -135,6 +136,7 @@ body.launch-page footer.footer a.social-link:focus {
     color: var(--primary-light);
     background: unset;
     border: unset;
+    font-size: 14px;
 }
 
 .embed-resource {
@@ -158,4 +160,5 @@ body.launch-page footer.footer a.social-link:focus {
     color: var(--primary-light);
     background: unset;
     border: unset;
+    font-size: 14px;
 }
