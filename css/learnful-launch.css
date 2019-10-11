@@ -190,12 +190,20 @@ a.social-share-btn:focus {
 }
 
 a.share-lms {
+    display: inline-block;
+    min-width: 215px;
     padding: 8px 16px;
-    color: black;
+    border: 1px solid var(--bg-highlight-overlay);
+    color: var(--text-mid);
     font-weight: bold;
     font-size: 14px;
+    text-decoration: none;
     margin: 0 10px 10px 0;
 }
 a.share-lms > img {
     margin-right: 16px;
+}
+a.share-lms:hover,
+a.share-lms:focus {
+    color: black;
 }
