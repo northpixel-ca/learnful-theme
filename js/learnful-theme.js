@@ -175,6 +175,18 @@
           win.opener = null;
         });
 
+        $("a.share-lms.glassroom").on("click", function(e){
+          var gcl_title = encodeURIComponent($(this).attr('data-title'));
+          var gcl_url = encodeURIComponent($(this).attr('data-url'));
+
+          var gcl_shareurl = `https://classroom.google.com/share?url=${gcl_url}&title=${gcl_title}`;
+          
+
+          e.preventDefault();
+          var win = window.open(gcl_shareurl, 'ShareInGoogleClassroom', getWindowOptions());
+          win.opener = null;
+        });
+
 
       }
     }
