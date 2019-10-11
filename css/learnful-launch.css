@@ -202,8 +202,19 @@ a.share-lms {
 }
 a.share-lms > img {
     margin-right: 16px;
+    max-width: 32px;
+    max-height: 32px;
 }
 a.share-lms:hover,
 a.share-lms:focus {
     color: black;
+}
+
+a.disabled {
+    filter: grayscale(1);
+    opacity: 0.7;
+}
+a.disabled:hover,
+a.disabled:focus {
+    color: var(--text-mid);
 }
