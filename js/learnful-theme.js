@@ -121,6 +121,51 @@
         });
 
 
+        
+
+
+      }
+    }
+
+    Drupal.behaviors.socialShare = {
+      attach: function (context, settings) {
+
+        // store popup window options
+        var getWindowOptions = function() {
+          var width = 500;
+          var height = 350;
+          var left = (window.innerWidth / 2) - (width / 2);
+          var top = (window.innerHeight / 2) - (height / 2);
+        
+          return [
+            'resizable,scrollbars,status',
+            'height=' + height,
+            'width=' + width,
+            'left=' + left,
+            'top=' + top,
+          ].join();
+        };
+
+        $("a.share-on-twitter").each(function(){
+          
+        });
+
+        $("a.share-on-twitter").on("click", function(){
+          var tw_text = encodeURIComponent($(this).attr('data-text'));
+          var tw_url = encodeURIComponent($(this).attr('data-url'));
+          var tw_hashtags = encodeURIComponent($(this).attr('data-hashtags'));
+          var tw_via = encodeURIComponent($(this).attr('data-via'));
+          var tw_related = encodeURIComponent($(this).attr('data-related'));
+
+          var tw_shareurl = `https://twitter.com/intent/tweet?text=${tw_text}`;
+          
+
+          
+          var win = window.open(tw_shareurl, 'ShareOnTwitter', getWindowOptions());
+          win.opener = null;
+        });
+
+
       }
     }
 
