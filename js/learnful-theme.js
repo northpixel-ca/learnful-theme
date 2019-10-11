@@ -155,7 +155,6 @@
 
           var tw_shareurl = `https://twitter.com/intent/tweet?text=${tw_text}&via=${tw_via}&hashtags=${tw_hashtags}&url=${tw_url}&related=${tw_related}`;
           
-
           e.preventDefault();
           var win = window.open(tw_shareurl, 'ShareOnTwitter', getWindowOptions());
           win.opener = null;
@@ -169,19 +168,17 @@
 
           var ln_shareurl = `http://www.linkedin.com/shareArticle?mini=true&url=${ln_url}&title=${ln_title}&summary=${ln_summary}&source=${ln_source}`;
           
-
           e.preventDefault();
           var win = window.open(ln_shareurl, 'ShareOnLinkedIn', getWindowOptions());
           win.opener = null;
         });
 
-        $("a.share-lms.glassroom").on("click", function(e){
+        $("a.share-lms.gclassroom").on("click", function(e){
           var gcl_title = encodeURIComponent($(this).attr('data-title'));
           var gcl_url = encodeURIComponent($(this).attr('data-url'));
 
           var gcl_shareurl = `https://classroom.google.com/share?url=${gcl_url}&title=${gcl_title}`;
           
-
           e.preventDefault();
           var win = window.open(gcl_shareurl, 'ShareInGoogleClassroom', getWindowOptions());
           win.opener = null;
