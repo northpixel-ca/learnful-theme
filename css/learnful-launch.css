@@ -188,3 +188,14 @@ a.social-share-btn:hover,
 a.social-share-btn:focus {
     box-shadow: 0 0 4px 4px rgba(0,0,0,0.10);
 }
+
+a.share-lms {
+    padding: 8px 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 10px 10px 0;
+}
+a.share-lms > img {
+    margin-right: 16px;
+}
