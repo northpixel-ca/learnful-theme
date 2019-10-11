@@ -132,8 +132,8 @@
 
         // store popup window options
         var getWindowOptions = function() {
-          var width = 500;
-          var height = 350;
+          var width = 400;
+          var height = 500;
           var left = (window.innerWidth / 2) - (width / 2);
           var top = (window.innerHeight / 2) - (height / 2);
         
@@ -157,7 +157,7 @@
           var tw_via = encodeURIComponent($(this).attr('data-via'));
           var tw_related = encodeURIComponent($(this).attr('data-related'));
 
-          var tw_shareurl = `https://twitter.com/intent/tweet?text=${tw_text}`;
+          var tw_shareurl = `https://twitter.com/intent/tweet?text=${tw_text}&via=${tw_via}`;
           
 
           
