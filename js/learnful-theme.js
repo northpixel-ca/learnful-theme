@@ -153,7 +153,7 @@
           var tw_via = encodeURIComponent($(this).attr('data-via'));
           var tw_related = encodeURIComponent($(this).attr('data-related'));
 
-          var tw_shareurl = `https://twitter.com/intent/tweet?text=${tw_text}&via=${tw_via}&hashtag=${tw_hashtags}&url=${tw_url}&related=${tw_related}`;
+          var tw_shareurl = `https://twitter.com/intent/tweet?text=${tw_text}&via=${tw_via}&hashtags=${tw_hashtags}&url=${tw_url}&related=${tw_related}`;
           
 
           e.preventDefault();
