@@ -161,6 +161,20 @@
           win.opener = null;
         });
 
+        $("a.share-on-linkedin").on("click", function(e){
+          var ln_title = encodeURIComponent($(this).attr('data-title'));
+          var ln_url = encodeURIComponent($(this).attr('data-url'));
+          var ln_summary = encodeURIComponent($(this).attr('data-summary'));
+          var ln_source = encodeURIComponent($(this).attr('data-source'));
+
+          var ln_shareurl = `http://www.linkedin.com/shareArticle?mini=true&url=${ln_url}&title=${ln_title}&summary=${ln_summary}&source=${ln_source}`;
+          
+
+          e.preventDefault();
+          var win = window.open(ln_shareurl, 'ShareOnLinkedIn', getWindowOptions());
+          win.opener = null;
+        });
+
 
       }
     }
