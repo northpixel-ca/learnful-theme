@@ -132,6 +132,14 @@
       }
     }
 
+
+$(document).ready( function () {
+  $('body').bind('ajaxSuccess', function(data, status, xhr) {
+    alert('Ajax Success');
+  });
+});
+
+
     Drupal.behaviors.socialShare = {
       attach: function (context, settings) {
 
