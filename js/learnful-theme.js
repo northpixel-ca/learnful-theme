@@ -126,22 +126,6 @@
           // jquery match height
           $(".card.card-grid-content .card-body").once().matchHeight();
           $(".match-height").once().matchHeight();
-
-          console.log('Ajax Success 0');
-        });
-
-        $(document).ready( function () {
-          $('body').bind('ajaxSuccess', function(data, status, xhr) {
-            console.log('Ajax Success 1');
-          });
-        });
-
-        $('input#edit-submit-resources', context).ajaxSuccess(function () {
-          console.log('Ajax Success 2');
-        });
-
-        $(".view-resources").ajaxComplete(function(event, XMLHttpRequest, ajaxOptions){
-          console.log('Ajax Success 3');
         });
 
       }
