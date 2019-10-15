@@ -124,8 +124,8 @@
         // run stuff after ajax callback
         $(document).ajaxComplete(function (e, xhr, settings) {
           // jquery match height
-          $(".card.card-grid-content .card-body").matchHeight();
-          $(".match-height").matchHeight();
+          $(".card.card-grid-content .card-body").once().matchHeight();
+          $(".match-height").once().matchHeight();
         });
 
 
