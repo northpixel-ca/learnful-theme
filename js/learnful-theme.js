@@ -122,6 +122,9 @@
 
 
         
+        $(document).ajaxComplete(function (e, xhr, settings) {
+          console.log('ajax complete');
+        });
 
 
       }
