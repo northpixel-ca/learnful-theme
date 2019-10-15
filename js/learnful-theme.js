@@ -121,9 +121,11 @@
         });
 
 
-        
+        // run stuff after ajax callback
         $(document).ajaxComplete(function (e, xhr, settings) {
-          console.log('ajax complete');
+          // jquery match height
+          $(".card.card-grid-content .card-body").matchHeight();
+          $(".match-height").matchHeight();
         });
 
 
