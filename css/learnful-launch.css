@@ -114,6 +114,12 @@ body.launch-page footer.footer a.social-link:focus {
 *** Share
 **/
 
+.field-share-region > .meta-entry:last-of-type {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: unset;
+}
+
 .share-url {
     width: 100%;
     border: 1px solid var(--bg-highlight);
