@@ -139,6 +139,11 @@
         $('input#edit-submit-resources', context).ajaxSuccess(function () {
           console.log('Ajax Success 2');
         });
+
+        $(".view-resources").ajaxComplete(function(event, XMLHttpRequest, ajaxOptions){
+          console.log('Ajax Success 3');
+        });
+
       }
     }
 
