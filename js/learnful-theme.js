@@ -128,16 +128,20 @@
           $(".match-height").once().matchHeight();
         });
 
-
+        $(document).ready( function () {
+          $('body').bind('ajaxSuccess', function(data, status, xhr) {
+            console.log('Ajax Success 1');
+          });
+        });
       }
     }
 
 
-$(document).ready( function () {
-  $('body').bind('ajaxSuccess', function(data, status, xhr) {
-    alert('Ajax Success');
-  });
-});
+    $(document).ready( function () {
+      $('body').bind('ajaxSuccess', function(data, status, xhr) {
+        console.log('Ajax Success 2');
+      });
+    });
 
 
     Drupal.behaviors.socialShare = {
