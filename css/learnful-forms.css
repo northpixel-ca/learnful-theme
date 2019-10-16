@@ -245,6 +245,7 @@ a.panel-title[aria-expanded=false]:after {
 }
 .field--name-field-content-blocks .tabledrag-changed-warning {
     padding: 20px;
+    margin: 0;
 }
 .js .field--widget-paragraphs .field-multiple-drag {
     position: relative;
@@ -259,15 +260,14 @@ a.panel-title[aria-expanded=false]:after {
 .field--widget-paragraphs td .tabledrag-changed.text-warning {
     position: absolute;
     color: var(--white);
-    background-color: var(--red);
-    border-radius: 50%;
-    height: 30px;
+    background-color: var(--red-light);
+    height: 100%;
     width: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 10px;
-    left: -25px;
+    top: 0;
+    right: -15px;
 }
 .field--name-field-content-blocks table > thead > tr > th:nth-of-type(2) {
     display: none;
@@ -449,6 +449,7 @@ button.paragraphs-icon-button-edit:hover,
 button.paragraphs-icon-button-edit:focus {
     background-color: var(--bg-highlight-overlay);
     border: 1px solid var(--black);
+    color: black;
 }
 button.paragraphs-dropdown-toggle {
     background-color: var(--bg-lightest);
