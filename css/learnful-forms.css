@@ -350,7 +350,8 @@ a.panel-title[aria-expanded=false]:after {
 .field--name-field-content-blocks .form-group.paragraph-top .paragraph-type {
     border-right: 1px solid var(--bg-highlight);
     line-height: 56px;
-    padding: 0;
+    color: var(--black);
+    padding: 0 0 0 10px;
     text-align: center;
     max-width: 130px;
 }
@@ -369,6 +370,7 @@ a.panel-title[aria-expanded=false]:after {
 .field--name-field-content-blocks .form-group.paragraph-top .paragraph-info > span.paragraphs-icon-changed {
     background-size: 20px;
 }
+
 
 @media (min-width: 768px) {
     /* .field--name-field-content-blocks table > tbody > tr.draggable > td:nth-of-type(2) {
@@ -428,29 +430,35 @@ a.panel-title[aria-expanded=false]:after {
     }
 }
 
+.field--name-field-content-blocks  .paragraphs-actions {
+    padding-right: 15px;
+}
 button.paragraphs-icon-button-collapse,
 button.paragraphs-icon-button-edit {
-    border: 0;
     font-weight: bold;
-    background-color: var(--bg-highlight);
-    color: var(--text-mid);
-    padding: 5px 10px;
-    border-radius: 4px;
+    padding: 5px 15px;
+    border-radius: 0px;
+    font-size: 10px;
+    background-color: var(--bg-lightest);
+    border: 1px solid var(--bg-highlight-overlay);
+    color: black;
 }
 button.paragraphs-icon-button-collapse:hover,
 button.paragraphs-icon-button-collapse:focus,
 button.paragraphs-icon-button-edit:hover,
 button.paragraphs-icon-button-edit:focus {
     background-color: var(--bg-highlight-overlay);
-    color: var(--text-mid);
+    border: 1px solid var(--black);
 }
 button.paragraphs-dropdown-toggle {
-    background-color: var(--bg-highlight);
-    border: 0;
+    background-color: var(--bg-lightest);
+    border: 1px solid var(--bg-highlight-overlay);
+    background-size: 15px;
+    border-radius: 0px;
 }
 button.paragraphs-dropdown-toggle:hover,
 button.paragraphs-dropdown-toggle:focus {
-    border: 0;
+    border: 1px solid var(--black);
     box-shadow: unset;
     background-color: var(--bg-highlight-overlay);
 }
