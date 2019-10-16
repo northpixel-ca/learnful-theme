@@ -241,13 +241,20 @@ a.panel-title[aria-expanded=false]:after {
     padding: 15px 0;
 }
 .field--name-field-content-blocks .table-responsive {
-    overflow-x: visible;
+    /* overflow-x: visible; */
 }
 .field--name-field-content-blocks .tabledrag-changed-warning {
     padding: 20px;
 }
 .js .field--widget-paragraphs .field-multiple-drag {
     position: relative;
+    padding: 0px;
+}
+.js .field--widget-paragraphs .field-multiple-drag > a.tabledrag-handle {
+    padding: 20px 30px;
+    margin: 0;
+    background: var(--bg-lightest);
+    border-right: 1px solid var(--bg-highlight);
 }
 .field--widget-paragraphs td .tabledrag-changed.text-warning {
     position: absolute;
@@ -319,15 +326,14 @@ a.panel-title[aria-expanded=false]:after {
 }
 .field--name-field-content-blocks table > tbody > tr.draggable {
     display: block;
-    border-top: 1px solid var(--bg-highlight);
-    border-bottom: 1px solid var(--bg-highlight);
-    background: var(--white);
-    padding: 10px 0 10px 10px;
-    margin: 0 0 10px;
+    border: 1px solid var(--bg-highlight);
+    background-color: var(--white);
 }
 .field--name-field-content-blocks table > tbody > tr.draggable > td:nth-of-type(2) {
     width: 100%;
-    padding: 0 5px;
+    /* padding: 0 5px; */
+    padding: 0px;
+    margin: 0px;
 }
 .field--name-field-content-blocks table > tbody > tr.draggable > td {
     border-top: 0px;
@@ -342,10 +348,10 @@ a.panel-title[aria-expanded=false]:after {
     margin-bottom: 0px;
 }
 .field--name-field-content-blocks .form-group.paragraph-top .paragraph-type {
-    background: var(--bg-highlight);
-    padding: 6px 10px;
-    border-radius: 20px;
-    color: var(--black);
+    border-right: 1px solid var(--bg-highlight);
+    line-height: 56px;
+    padding: 0;
+    text-align: center;
     max-width: 130px;
 }
 .field--name-field-content-blocks .form-group.paragraph-top .paragraph-type .paragraph-type-icon {
@@ -365,9 +371,9 @@ a.panel-title[aria-expanded=false]:after {
 }
 
 @media (min-width: 768px) {
-    .field--name-field-content-blocks table > tbody > tr.draggable > td:nth-of-type(2) {
+    /* .field--name-field-content-blocks table > tbody > tr.draggable > td:nth-of-type(2) {
         padding: 0 25px;
-    }
+    } */
     .field--name-field-content-blocks .form-group.paragraph-top .paragraph-type {
         min-width: 150px;
         max-width: unset;
@@ -385,9 +391,9 @@ a.panel-title[aria-expanded=false]:after {
     .field--name-field-content-blocks table > tbody > tr.draggable {
         margin: 0 0 20px;
     }
-    .field--name-field-content-blocks table > tbody > tr.draggable > td {
+    /* .field--name-field-content-blocks table > tbody > tr.draggable > td {
         white-space: nowrap;
-    }
+    } */
 }
 @media (min-width: 1367px) {
     .field--name-field-content-blocks .form-group.paragraph-top .paragraph-summary {
