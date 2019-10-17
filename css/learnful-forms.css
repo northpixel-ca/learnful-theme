@@ -279,7 +279,7 @@ a.panel-title[aria-expanded=false]:after {
     justify-content: center;
     align-items: center;
     top: 0;
-    right: -15px;
+    right: -10px;
 }
 .field--name-field-content-blocks table > thead {
     display: none;
