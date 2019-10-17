@@ -246,7 +246,7 @@ a.panel-title[aria-expanded=false]:after {
     padding: 15px 0;
 }
 .field--name-field-content-blocks .table-responsive {
-    /* overflow-x: visible; */
+    overflow-x: visible;
 }
 .field--name-field-content-blocks .tabledrag-changed-warning {
     padding: 10px 20px;
@@ -268,6 +268,7 @@ a.panel-title[aria-expanded=false]:after {
     margin: 0;
     background: var(--bg-lightest);
     border-right: 1px solid var(--bg-highlight);
+    border-bottom: 1px solid var(--bg-highlight);
 }
 .field--widget-paragraphs td .tabledrag-changed.text-warning {
     position: absolute;
@@ -428,12 +429,20 @@ a.panel-title[aria-expanded=false]:after {
 }
 
 .js .paragraphs-subform {
-    margin-top: 15px;
     overflow-x: hidden;
+    padding-top: 15px;
+    border-top: 1px solid var(--bg-highlight);
+    margin-top: 0px;
+}
+.js .paragraphs-subform > .form-group {
+    padding: 0 15px 15px 0;
+    margin-bottom: 0;
 }
 @media (min-width: 768px) {
     .js .paragraphs-subform {
-        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 1px solid var(--bg-highlight);
+        margin-top: 0px;
         overflow-x: unset;
     }
 }
