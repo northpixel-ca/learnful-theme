@@ -281,9 +281,6 @@ a.panel-title[aria-expanded=false]:after {
     top: 0;
     right: -10px;
 }
-.field--name-field-content-blocks table > thead {
-    display: none;
-}
 
 @media (min-width: 768px) {
     .field--name-field-content-blocks {
@@ -292,7 +289,7 @@ a.panel-title[aria-expanded=false]:after {
 }
 
 /** Pararagraphs buttons **/
-.field--name-field-content-blocks button.field-add-more-submit {
+/* .field--name-field-content-blocks button.field-add-more-submit {
     border: 0;
     background: transparent;
     font-size: 14px;
@@ -301,8 +298,8 @@ a.panel-title[aria-expanded=false]:after {
     text-align: center;
     margin: 10px 0;
     float: left;
-}
-.field--name-field-content-blocks button.field-add-more-submit > svg {
+} */
+/* .field--name-field-content-blocks button.field-add-more-submit > svg {
     display: block;
     background-color: var(--bg-highlight);
     padding: 10px;
@@ -311,25 +308,25 @@ a.panel-title[aria-expanded=false]:after {
     border-radius: 50%;
     margin: 0 auto 10px;
     fill: var(--primary);
-}
-.field--name-field-content-blocks button.field-add-more-submit:hover > svg,
+} */
+/* .field--name-field-content-blocks button.field-add-more-submit:hover > svg,
 .field--name-field-content-blocks button.field-add-more-submit:focus > svg {
     fill: var(--white);
     background-color: var(--primary);
-}
+} */
 
 @media (min-width: 768px) {
-    .field--name-field-content-blocks button.field-add-more-submit {
+    /* .field--name-field-content-blocks button.field-add-more-submit {
         margin: 0 29px 0 0;
         width: auto;
         text-align: unset;
         float: none;
-    }
+    } */
 }
 
 /** paragraph fields in node edit **/
 .field--name-field-content-blocks table > thead {
-    di
+    display: none;
 }
 .field--name-field-content-blocks table > tbody {
     font-size: 12px;
