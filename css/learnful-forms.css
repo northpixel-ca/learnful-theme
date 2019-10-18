@@ -539,6 +539,15 @@ button.paragraphs-dropdown-toggle:focus {
 }
 
 /**
+** Field Remove Button
+**/
+button.btn-danger[value="Remove"] {
+    padding: 6px 10px;
+    font-size: 12px;
+    border-width: 1px;
+}
+
+/**
 ** Field Settings column
 **/
 .field-settings-panel > .form-group {
