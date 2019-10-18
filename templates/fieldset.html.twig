@@ -24,36 +24,19 @@
  * @ingroup themeable
  */
 #}
-
 {%
-  set title_classes = [
-    label_display == 'visually_hidden' ? 'visually-hidden',
-  ]
+    set legend_span_classes = [
+        'fieldset-legend',
+        required ? 'js-form-required',
+        required ? 'form-required',
+    ]
 %}
 
-{% if label_hidden %}
-  {% if multiple %}
-    <div{{ attributes }}>
-      {% for item in items %}
-        <div{{ item.attributes }}>{{ item.content }}</div>
-      {% endfor %}
+<div{{ legend.attributes.addClass(legend_span_classes) }}>{{ legend.title }}</div>
+{% if errors %}
+    <div>
+        {{ errors }}
     </div>
-  {% else %}
-    {% for item in items %}
-      <div{{ attributes }}>{{ item.content }}</div>
-    {% endfor %}
-  {% endif %}
-{% else %}
-  <div{{ attributes }}>
-    <div{{ title_attributes.addClass(title_classes) }}>{{ label }}</div>
-    {% if multiple %}
-      <div>
-    {% endif %}
-    {% for item in items %}
-      <div{{ item.attributes }}>{{ item.content }}</div>
-    {% endfor %}
-    {% if multiple %}
-      </div>
-    {% endif %}
-  </div>
 {% endif %}
+{{ children }}
+
