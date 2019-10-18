@@ -99,8 +99,9 @@ form.node-confirm-form > #edit-actions {
 **/
 form.node-form .form-wrapper .form-item > label {
     font-weight: normal;
-    letter-spacing: 1px;
-    color: #000;
+    letter-spacing: 0.051em;
+    font-size: 14px;
+    color: var(--text-mid);
 }
 form.node-form .form-wrapper .form-item  .form-control {
     border-radius: 0;
