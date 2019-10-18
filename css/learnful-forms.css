@@ -441,7 +441,7 @@ a.panel-title[aria-expanded=false]:after {
 }
 @media (min-width: 768px) {
     .js .paragraphs-subform {
-        padding-top: 15px;
+        padding: 30px 30px 30px 0;
         border-top: 1px solid var(--bg-highlight);
         margin-top: 0px;
         overflow-x: unset;
@@ -522,10 +522,22 @@ button.paragraphs-dropdown-toggle:focus {
     }
 }
 
+/**
+** Field Settings column
+**/
+.field-settings-panel > .form-group {
+    margin-bottom: 30px;
+}
+.field-settings-panel > .form-group:last-of-type {
+    margin-bottom: 0px;
+}
 
 /**
 ** Background Colour Field
 **/
+.field--name-field-background-colour > .form-item.form-group {
+    margin-bottom: 0px;
+}
 .color_field_widget_box__square {
     height: 50px;
     width: 50px;
@@ -552,6 +564,16 @@ button.paragraphs-dropdown-toggle:focus {
 .color_field_widget_box__square[color="#DDDDDD"]:before,
 .color_field_widget_box__square[color="#FFFFFF"]:before {
     color: black;
+}
+
+/**
+** Block width field
+**/
+.field--name-field-spacing-and-padding > label.control-label {
+    font-weight: normal;
+    letter-spacing: 0.051em;
+    font-size: 14px;
+    color: var(--text-mid);
 }
 
 
