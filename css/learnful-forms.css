@@ -523,6 +523,22 @@ button.paragraphs-dropdown-toggle:focus {
 }
 
 /**
+** CK Editor
+**/
+.cke_chrome {
+    border: 1px solid var(--bg-highlight);
+}
+.cke_top {
+    border-bottom: 1px solid var(--bg-highlight);
+    padding: 5px 10px 0px;
+    background-color: var(--white); 
+}
+.cke_bottom {
+    border-top: 1px solid var(--bg-highlight);
+    background-color: white;
+}
+
+/**
 ** Field Settings column
 **/
 .field-settings-panel > .form-group {
