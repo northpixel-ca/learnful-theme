@@ -534,8 +534,8 @@ button.paragraphs-dropdown-toggle:focus {
 }
 .color_field_widget_box__square.active,
 .color_field_widget_box__square:hover {
-    height: unset;
-    width: unset;
+    height: 50px;
+    width: 50px;
     border-color: black;
 }
 .color_field_widget_box__square.active {
