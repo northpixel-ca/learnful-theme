@@ -26,13 +26,13 @@
 #}
 {%
     set legend_span_classes = [
-        'fieldset-legend',
+        'control-label',
         required ? 'js-form-required',
         required ? 'form-required',
     ]
 %}
 
-<div{{ legend.attributes.addClass(legend_span_classes) }}>{{ legend.title }}</div>
+<label{{ legend.attributes.addClass(legend_span_classes) }}{{ legend.attributes }}>{{ legend.title }}</label>
 {% if errors %}
     <div>
         {{ errors }}
