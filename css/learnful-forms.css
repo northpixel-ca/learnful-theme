@@ -524,6 +524,38 @@ button.paragraphs-dropdown-toggle:focus {
 
 
 /**
+** Background Colour Field
+**/
+.color_field_widget_box__square {
+    height: 50px;
+    width: 50px;
+    box-shadow: unset;
+    border: 1px solid var(--text-mid);
+}
+.color_field_widget_box__square.active,
+.color_field_widget_box__square:hover {
+    height: unset;
+    width: unset;
+    border-color: black;
+}
+.color_field_widget_box__square.active {
+    border: 3px inset black;
+}
+.color_field_widget_box__square:before {
+    content: "Aa";
+    color: white;
+    font-size: 16px;
+}
+.color_field_widget_box__square[color="#39CCCC"]:before,
+.color_field_widget_box__square[color="#2ECC40"]:before,
+.color_field_widget_box__square[color="#FFDC00"]:before,
+.color_field_widget_box__square[color="#DDDDDD"]:before,
+.color_field_widget_box__square[color="#FFFFFF"]:before {
+    color: black;
+}
+
+
+/**
 ** Views exposed Filters
 **/
 .views-exposed-form.block {
