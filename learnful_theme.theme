@@ -7,3 +7,14 @@
  * Place your custom PHP code in this file.
  */
 
+
+/**
+ * Use hook_form_formid_alter
+ * to remove form field wrapper (fieldsets) from
+ * 
+ */
+
+// function bootstrap_ga_form_user_login_form_alter(&$form, &$form_state, $form_id) {
+//     global $base_url;
+//     $form['#validate'][] = '_bootstrap_ga_form_user_login_form_validate';
+//   }

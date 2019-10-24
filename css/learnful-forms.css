@@ -362,7 +362,7 @@ a.panel-title[aria-expanded=false]:after {
     line-height: 56px;
     color: var(--black);
     padding: 0 0 0 10px;
-    text-align: center;
+    /* text-align: center; */
     max-width: 130px;
 }
 .field--name-field-content-blocks .form-group.paragraph-top .paragraph-type .paragraph-type-icon {
