@@ -147,11 +147,13 @@
           ]
 
           var bgcolor = $(this).attr("data-bgcolor");
+          var textcolor = '';
         
           if (bgcolor === needsWhiteText) {
-            $(this).css("color", "white");
+            textcolor = "white"
           }
           $(this).css("background-color", bgcolor);
+          $(this).css("color", textcolor);
         });
 
       }
