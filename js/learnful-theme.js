@@ -135,8 +135,14 @@
       attach: function (context, settings) {
 
         // set the background color for a paragraph
-        $("[data-bgcolor]").css("background-color",$(this).attr("data-bgcolor"));
-        
+        $("[data-bgcolor]").css("background-color", $(this).attr("data-bgcolor"));
+
+        $("[data-bgcolor]").each(function() {
+          var bgcolor = $(this).attr("data-bgcolor");
+          $(this).css("background-color", bgcolor);
+          console.log(bgcolor);
+        });
+
       }
     }
 
