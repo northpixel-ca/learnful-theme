@@ -9,13 +9,14 @@
 ** Paragraph widths
 **/
 .width-default {
-    padding: 2em;
+    padding: 0;
 }
 .width-narrow {
-    padding: 1em 7em;
+    padding: 3em;
 }
 .width-wide {
-    padding: 1em;
+    padding: 0;
+    margin: 0 -50px;
 }
 
 /**
