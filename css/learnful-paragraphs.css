@@ -12,7 +12,7 @@
     padding: 2em;
 }
 .width-narrow {
-    padding: 3em;
+    padding: 1em 7em;
 }
 .width-wide {
     padding: 1em;
@@ -30,6 +30,7 @@
     background: var(--bg-lightest);
     padding: 10px;
     text-align: center;
+    color: black;
 }
 
 /**
