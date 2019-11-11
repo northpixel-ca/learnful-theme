@@ -50,6 +50,7 @@
     grid-gap: 15px;
 }
 .p-gallery.gstyle-grid > .gallery-entry > a {
+    display: block;
     border: 1px solid transparent;
 }
 .p-gallery.gstyle-grid > .gallery-entry > a:hover,
