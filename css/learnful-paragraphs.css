@@ -44,6 +44,24 @@
 /**
 ** Paragraph: Photo Gallery
 **/
+.p-gallery.gstyle-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 15px;
+}
+.p-gallery.gstyle-grid > .gallery-entry > a {
+    border: 1px solid transparent;
+}
+.p-gallery.gstyle-grid > .gallery-entry > a:hover,
+.p-gallery.gstyle-grid > .gallery-entry > a:focus {
+    border-color: var(--primary);
+}
+.p-gallery.gstyle-grid > .gallery-entry img {
+    object-fit: cover;
+    width: 100%;
+}
+
+
 .paragraph--type-photo-gallery > .field--name-field-gallery-images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
