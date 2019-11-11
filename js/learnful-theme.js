@@ -149,7 +149,7 @@
           var bgcolor = $(this).attr("data-bgcolor");
           var textcolor = '';
         
-          if (bgcolor === needsWhiteText) {
+          if ($.inArray (bgcolor, needsWhiteText) >= 0) {
             textcolor = "white"
           }
           $(this).css("background-color", bgcolor);
