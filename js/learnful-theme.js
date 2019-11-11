@@ -131,13 +131,14 @@
       }
     }
 
+    Drupal.behaviors.paragraphScripts = {
+      attach: function (context, settings) {
 
-    $(document).ready( function () {
-      $('body').bind('ajaxSuccess', function(data, status, xhr) {
-        console.log('Ajax Success 3');
-      });
-    });
-
+        // set the background color for a paragraph
+        $("[data-bgcolor]").css("background-color",$(this).attr("data-bgcolor"));
+        
+      }
+    }
 
     Drupal.behaviors.socialShare = {
       attach: function (context, settings) {

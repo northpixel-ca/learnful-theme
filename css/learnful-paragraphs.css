@@ -6,6 +6,17 @@
 }
 
 /**
+** Paragraph widths
+**/
+.width-default {
+    width: 100%;
+}
+.width-narrow {
+    max-width: 60%;
+}
+
+
+/**
 ** Paragraph: Image with Caption
 **/
 
@@ -22,12 +33,12 @@
 /**
 ** Paragraph: Basic Text Block
 **/
-.paragraph--type--basic-text-block p {
+.p-textblock {
     line-height: 1.7em;
 }
 
 /**
-** Paragraph: Basic Text Block
+** Paragraph: Photo Gallery
 **/
 .paragraph--type-photo-gallery > .field--name-field-gallery-images {
     display: grid;
