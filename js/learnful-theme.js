@@ -135,12 +135,23 @@
       attach: function (context, settings) {
 
         // set the background color for a paragraph
-        $("[data-bgcolor]").css("background-color", $(this).attr("data-bgcolor"));
-
         $("[data-bgcolor]").each(function() {
+
+          var needsWhiteText = [
+            "#0074D9",
+            "#FF851B",
+            "#FF4136",
+            "#B10DC9",
+            "#111111",
+            "#AAAAAA"
+          ]
+
           var bgcolor = $(this).attr("data-bgcolor");
+        
+          if (bgcolor === needsWhiteText) {
+            $(this).css("color", "white");
+          }
           $(this).css("background-color", bgcolor);
-          console.log(bgcolor);
         });
 
       }

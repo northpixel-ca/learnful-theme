@@ -9,12 +9,14 @@
 ** Paragraph widths
 **/
 .width-default {
-    width: 100%;
+    padding: 2em;
 }
 .width-narrow {
-    max-width: 60%;
+    padding: 3em;
 }
-
+.width-wide {
+    padding: 1em;
+}
 
 /**
 ** Paragraph: Image with Caption
