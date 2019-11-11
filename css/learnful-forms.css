@@ -522,6 +522,42 @@ button.paragraphs-dropdown-toggle:focus {
     }
 }
 
+
+/** paragraph: photo gallery **/
+.field--type-image.paragraphs-content .table-responsive table > tbody > tr {
+    border: 0;
+    padding: 0;
+    margin: 0 0 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--bg-highlight);
+}
+.field--type-image.paragraphs-content .table-responsive table > tbody > tr > td {
+    padding: 20px 0;
+}
+.field--type-image.paragraphs-content .table-responsive .image-widget > .preview {
+    width: 33.333%;
+}
+.field--type-image.paragraphs-content .table-responsive .image-widget > .data {
+    width: 66.66666667%;
+}
+.field--type-image.paragraphs-content .table-responsive button.form-submit {
+    font-size: 0;
+    margin-right: 10px;
+    background-color: unset;
+    border: unset;
+    color: var(--red-light);
+}
+.field--type-image.paragraphs-content .table-responsive button.form-submit > span.icon {
+    font-size: 14px;
+    margin: 0;
+}
+.field--type-image.paragraphs-content .table-responsive button.form-submit:hover,
+.field--type-image.paragraphs-content .table-responsive button.form-submit:focus,
+.field--type-image.paragraphs-content .table-responsive button.form-submit:active {
+    color: var(--red);
+    box-shadow: unset;
+}
+
 /**
 ** CK Editor
 **/
