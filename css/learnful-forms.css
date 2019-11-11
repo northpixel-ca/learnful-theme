@@ -98,16 +98,16 @@ form.node-confirm-form > #edit-actions {
 ** Global Form styles
 **/
 form.node-form .form-wrapper .form-item > label {
-    font-weight: normal;
-    letter-spacing: 0.051em;
+    font-weight: bold;
     font-size: 14px;
-    color: var(--text-mid);
+    color: var(--primary-dark);
 }
 form.node-form .form-wrapper .form-item  .form-control {
     border-radius: 0;
     box-shadow: unset;
-    border-color: var(--bg-highlight-overlay);
+    border-color: var(--bg-highlight);
     height: auto;
+    padding: 10px;
 }
 .form-item > .description.help-block {
     margin: 15px 0;
