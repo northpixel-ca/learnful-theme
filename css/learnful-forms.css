@@ -561,6 +561,36 @@ button.paragraphs-dropdown-toggle:focus {
     box-shadow: unset;
 }
 
+/** paragraphs: column content **/
+.column-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 30px;
+}
+.column-grid .column-settings {
+    display: grid;
+    grid-template-columns: repeat( 4, minmax(200px, 1fr) );
+    grid-column: 1 / -1;
+}
+.column-entry {
+    grid-column: 1 / -1;
+    padding: 30px;
+    border: 1px solid var(--bg-highlight);
+}
+.column-entry > div > div > div > div > div > strong {
+    margin: -30px 0px 0 -30px;
+    font-size: 16px;
+    position: absolute;
+    padding: 10px;
+    background-color: var(--bg-lightest);
+    color: var(--text-mid);
+}
+.column-entry > div > div > div > div > div > div.form-group {
+    padding-top: 30px;
+}
+
+
+
 /**
 ** CK Editor
 **/
