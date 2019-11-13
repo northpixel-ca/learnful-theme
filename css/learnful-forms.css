@@ -578,13 +578,13 @@ button.paragraphs-dropdown-toggle:focus {
     border: 1px solid var(--bg-highlight);
     counter-increment: column-incrementer;
 }
-.column-entry .js .paragraph-type-top {
+.column-entry .paragraph-type-top {
     height: 57px;
     align-items: center;
     margin: 0;
     padding: 0 15px;
 }
-.column-entry .js .paragraph-type-top .paragraph-type-title {
+.column-entry .paragraph-type-top .paragraph-type-title {
     margin: 0;
 }
 .column-entry:before {
