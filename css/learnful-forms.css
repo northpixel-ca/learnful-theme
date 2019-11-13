@@ -355,6 +355,7 @@ a.panel-title[aria-expanded=false]:after {
     display: grid;
     justify-content: stretch;
     grid-template-columns: 150px 50px auto auto;
+    width: 100%;
 }
 .field--name-field-content-blocks .form-group.paragraph-top > .form-group {
     margin-bottom: 0px;
