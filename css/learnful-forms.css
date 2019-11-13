@@ -428,7 +428,7 @@ a.panel-title[aria-expanded=false]:after {
 }
 @media (min-width: 1920px) {
     .field--name-field-content-blocks .form-group.paragraph-top .paragraph-summary {
-        max-width: unset;
+        max-width: 100%;
     }
 }
 
