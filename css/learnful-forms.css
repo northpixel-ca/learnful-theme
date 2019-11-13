@@ -577,7 +577,7 @@ button.paragraphs-dropdown-toggle:focus {
     padding: 30px;
     border: 1px solid var(--bg-highlight);
 }
-.column-entry > div > div > div > div > div > strong {
+.column-entry > div > div > div > strong {
     margin: -30px 0px 0 -30px;
     font-size: 16px;
     position: absolute;
@@ -585,7 +585,7 @@ button.paragraphs-dropdown-toggle:focus {
     background-color: var(--bg-lightest);
     color: var(--text-mid);
 }
-.column-entry > div > div > div > div > div > div.form-group {
+.column-entry > div > div > div > div.form-group {
     padding-top: 30px;
 }
 
