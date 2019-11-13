@@ -352,8 +352,9 @@ a.panel-title[aria-expanded=false]:after {
 }
 .field--name-field-content-blocks .form-group.paragraph-top {
     margin-bottom: 0;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    justify-content: stretch;
+    grid-template-columns: 150px 50px auto auto;
 }
 .field--name-field-content-blocks .form-group.paragraph-top > .form-group {
     margin-bottom: 0px;
