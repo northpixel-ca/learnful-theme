@@ -577,6 +577,7 @@ button.paragraphs-dropdown-toggle:focus {
     padding: 30px;
     border: 1px solid var(--bg-highlight);
     counter-increment: column-incrementer;
+    position: relative;
 }
 .column-entry .paragraph-type-top {
     height: 57px;
