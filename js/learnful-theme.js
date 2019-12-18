@@ -128,6 +128,16 @@
           $(".match-height").once().matchHeight();
         });
 
+        // smooth scroll for launch page
+        $('a.smooth-scroll').on("click", function(e){
+          var targetEl = $(this).attr('data-scrollTarget');
+          e.preventDefault();
+          document.querySelector(targetEl).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start' //scroll to top of the target element
+          });
+        });
+
       }
     }
 
