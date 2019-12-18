@@ -3,29 +3,40 @@ body.launch-page {
 }
 
 .node--view-mode-launch > header#navbar {
-    color: var(--text-mid);
     font-weight: 700;
+    background: var(--primary-color);
+    color: white;
+    box-shadow: unset;
 }
-
+.node--view-mode-launch > header#navbar > .header-wrapper {
+    max-width: 900px;
+    margin: auto;
+}
 .node--view-mode-launch > header#navbar .header-title {
     float: left;
     width: 80%;
-    padding: 15px;
+    font-size: 2em;
+    padding: 50px 0;
 }
 .node--view-mode-launch > header#navbar .header-action {
     float: left;
     width: 20%;
     text-align: right;
+    margin-top: 50px;
 }
 
 .node--view-mode-launch > header#navbar .header-action > a {
-    padding: 15px 25px;
-    border-left: 1px solid var(--bg-highlight);
     display: inline-block;
+    padding: 8px 10px;
+    color: white;
+    border: unset;
+    background-color: var(--greyblue);
+    border-radius: 4px;
+    font-size: 14px;
 }
 .node--view-mode-launch > header#navbar .header-action > a:hover,
 .node--view-mode-launch > header#navbar .header-action > a:focus {
-    background-color: var(--bg-highlight);
+    background-color: var(--primary-dark);
     text-decoration: none;
 }
 
@@ -37,6 +48,9 @@ body.launch-page {
 .node--view-mode-launch > .field.card {
     padding: 50px;
     margin-top: 70px;
+}
+.node--view-mode-launch > .field.card:first-of-type {
+    margin-top: 0px;
 }
 
 .node--view-mode-launch > .field.field-content-blocks > .paragraph {
