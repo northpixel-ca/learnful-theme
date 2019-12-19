@@ -99,6 +99,10 @@
 .paragraph--type-two-column .cstyle-50-50.col-2 {
     grid-column: 1 / -1;
 }
+.paragraph--type-two-column .cstyle-50-50.col-1 > .paragraph,
+.paragraph--type-two-column .cstyle-50-50.col-2 > .paragraph {
+    margin-bottom: 15px;
+}
 @media (min-width: 768px) {
 
     .paragraph--type-two-column .cstyle-50-50.col-1 {
