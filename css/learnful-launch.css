@@ -155,9 +155,13 @@ p.license-statement {
 }
 @media (min-width: 768px) {
     .field-metadata-region > div > .meta-entry:last-of-type {
-        margin-bottom: 0px;
         padding-bottom: 0px;
         border-bottom: unset;
+    }
+}
+@media (min-width: 1024px) {
+    .field-metadata-region > div > .meta-entry:last-of-type {
+        margin-bottom: 0px;
     }
 }
 
