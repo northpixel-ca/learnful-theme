@@ -16,8 +16,22 @@
 }
 .width-wide {
     padding: 0;
-    margin: 0 -50px;
+    margin: 0 -15px;
 }
+@media (min-width: 768px) {
+    .width-wide {
+        padding: 0;
+        margin: 0 -25px;
+    }
+}
+@media (min-width: 1024px) {
+    .width-wide {
+        padding: 0;
+        margin: 0 -50px;
+    }
+}
+
+
 
 /**
 ** Paragraph: Image with Caption

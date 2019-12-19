@@ -92,6 +92,9 @@ h2.launch-region-title {
     h2.launch-region-title {
         font-size: 1.4em;
     }
+    .node--view-mode-launch > .field.field-content-blocks > .paragraph {
+        margin-bottom: 25px;
+    }
 }
 @media (min-width: 1024px) {
     .node--view-mode-launch > .field.narrow {
@@ -107,6 +110,9 @@ h2.launch-region-title {
     }
     h2.launch-region-title {
         font-size: 1.5em;
+    }
+    .node--view-mode-launch > .field.field-content-blocks > .paragraph {
+        margin-bottom: 50px;
     }
 }
 
