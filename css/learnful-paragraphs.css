@@ -91,7 +91,7 @@
 .paragraph--type-two-column .column-wrapper {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: 30px;
+    grid-gap: 15px;
 }
 .paragraph--type-two-column .cstyle-50-50.col-1 {
     grid-column: 1 / -1;
@@ -100,7 +100,9 @@
     grid-column: 1 / -1;
 }
 @media (min-width: 768px) {
-
+    .paragraph--type-two-column .column-wrapper {
+        grid-gap: 30px;
+    }
     .paragraph--type-two-column .cstyle-50-50.col-1 {
         grid-column: 1 / 7;
     }
