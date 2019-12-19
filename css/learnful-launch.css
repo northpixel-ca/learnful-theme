@@ -2,11 +2,15 @@ body.launch-page {
     margin-top: 0px;
 }
 
+/**
+** Launch Page Header
+**/
 .node--view-mode-launch > header#navbar {
     font-weight: 700;
     background-color: var(--primary);
     color: white;
     box-shadow: unset;
+    border-radius: unset;
 }
 .node--view-mode-launch > header#navbar > .header-wrapper {
     max-width: 900px;
@@ -14,9 +18,9 @@ body.launch-page {
 }
 .node--view-mode-launch > header#navbar .header-title {
     float: left;
-    width: 80%;
-    font-size: 2em;
-    padding: 50px 0;
+    width: 100%;
+    font-size: 1.7em;
+    padding: 25px;
 }
 .node--view-mode-launch > header#navbar .header-action {
     float: left;
@@ -24,7 +28,6 @@ body.launch-page {
     text-align: right;
     margin-top: 50px;
 }
-
 .node--view-mode-launch > header#navbar .header-action > a {
     display: inline-block;
     padding: 8px 10px;
@@ -40,31 +43,62 @@ body.launch-page {
     text-decoration: none;
 }
 
-.node--view-mode-launch > .field.narrow {
-    max-width: 900px;
-    margin: auto;
+@media (min-width: 768px) {
+    .node--view-mode-launch > header#navbar .header-title {
+        float: left;
+        width: 80%;
+        font-size: 2em;
+        padding: 50px 0;
+    }
 }
 
+
+/**
+** Launch Page Fields
+**/
+.node--view-mode-launch > .field.narrow {
+    margin: 0 15px;
+}
 .node--view-mode-launch > .field.card {
-    padding: 50px;
-    margin-top: 70px;
+    padding: 15px;
+    margin-top: 25px;
 }
 .node--view-mode-launch > .field.card:first-of-type {
     margin-top: 0px;
 }
-
 .node--view-mode-launch > .field.field-content-blocks > .paragraph {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 .node--view-mode-launch > .field.field-content-blocks > .paragraph:last-of-type {
     margin-bottom: 0px;
 }
-
 h2.launch-region-title {
     text-align: center;
     margin: 0 0 50px;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
+
+@media (min-width: 768px) {
+    .node--view-mode-launch > .field.narrow {
+        max-width: 900px;
+        margin: auto;
+    }
+    .node--view-mode-launch > .field.card {
+        padding: 50px;
+        margin-top: 70px;
+    }
+    .node--view-mode-launch > .field.field-content-blocks > .paragraph {
+        margin-bottom: 30px;
+    }
+    h2.launch-region-title {
+        font-size: 1.5em;
+    }
+}
+
+
+/**
+** Launch page metadata region
+**/
 .field-metadata-region > div > .meta-entry:last-of-type {
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -75,7 +109,6 @@ h2.launch-region-title {
     margin-bottom: 25px;
     border-bottom: 1px solid var(--bg-highlight);
 }
-
 h3.meta-label {
     font-size: 0.8em;
     font-weight: bold;
@@ -92,7 +125,6 @@ p.meta-title {
     margin: 0;
     color: var(--text-mid);
 }
-
 .license-icons {
     margin-bottom: 15px;
 }
@@ -105,7 +137,9 @@ p.license-statement {
     color: var(--text-mid);
 }
 
-
+/**
+** Launch Page footer
+**/
 body.launch-page footer.footer {
     margin-left: unset;
     margin-top: 70px;
@@ -125,15 +159,13 @@ body.launch-page footer.footer a.social-link:focus {
 }
 
 /**
-*** Share
+** Share Region
 **/
-
 .field-share-region > .meta-entry:last-of-type {
     margin-bottom: 0px;
     padding-bottom: 0px;
     border-bottom: unset;
 }
-
 .share-url {
     width: 100%;
     border: 1px solid var(--bg-highlight);
@@ -158,7 +190,6 @@ body.launch-page footer.footer a.social-link:focus {
     border: unset;
     font-size: 14px;
 }
-
 .embed-resource {
     width: 100%;
     border: 1px solid var(--bg-highlight);
@@ -182,7 +213,10 @@ body.launch-page footer.footer a.social-link:focus {
     border: unset;
     font-size: 14px;
 }
-
+.meta-entry .embed-preview {
+    text-align: left;
+    margin-top: 15px;
+}
 a.social-share-btn {
     background-color: var(--primary);
     color: var(--white);
