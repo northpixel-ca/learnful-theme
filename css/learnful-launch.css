@@ -45,9 +45,12 @@ body.launch-page {
 
 @media (min-width: 768px) {
     .node--view-mode-launch > header#navbar .header-title {
-        float: left;
-        width: 80%;
         font-size: 2em;
+    }
+}
+@media (min-width: 1024px) {
+    .node--view-mode-launch > header#navbar .header-title {
+        width: 80%;
         padding: 50px 0;
     }
 }
@@ -80,6 +83,18 @@ h2.launch-region-title {
 
 @media (min-width: 768px) {
     .node--view-mode-launch > .field.narrow {
+        margin: 0 15px;
+    }
+    .node--view-mode-launch > .field.card {
+        padding: 25px;
+        margin-top: 50px;
+    }
+    h2.launch-region-title {
+        font-size: 1.4em;
+    }
+}
+@media (min-width: 1024px) {
+    .node--view-mode-launch > .field.narrow {
         max-width: 900px;
         margin: auto;
     }
@@ -94,6 +109,7 @@ h2.launch-region-title {
         font-size: 1.5em;
     }
 }
+
 
 
 /**
