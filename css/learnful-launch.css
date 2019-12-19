@@ -99,11 +99,6 @@ h2.launch-region-title {
 /**
 ** Launch page metadata region
 **/
-.field-metadata-region > div > .meta-entry:last-of-type {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    border-bottom: unset;
-}
 .meta-entry {
     padding-bottom: 25px;
     margin-bottom: 25px;
@@ -136,6 +131,13 @@ p.meta-title {
 p.license-statement {
     color: var(--text-mid);
 }
+@media (min-width: 768px) {
+    .field-metadata-region > div > .meta-entry:last-of-type {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        border-bottom: unset;
+    }
+}
 
 /**
 ** Launch Page footer
@@ -163,6 +165,14 @@ body.launch-page .launch-footer-logo {
 body.launch-page .launch-footer-icons {
     text-align: center;
     margin-top: 15px;
+}
+@media (min-width: 768px) {
+    body.launch-page .launch-footer-logo {
+        text-align: left;
+    }
+    body.launch-page .launch-footer-icons {
+        text-align: right;
+    }
 }
 
 /**
@@ -278,4 +288,11 @@ a.disabled {
 a.disabled:hover,
 a.disabled:focus {
     color: var(--text-mid);
+}
+
+@media (min-width: 768px) {
+    .meta-entry .embed-preview {
+        text-align: right;
+        margin-top: 0;
+    }
 }
