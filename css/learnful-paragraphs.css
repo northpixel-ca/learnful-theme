@@ -4,6 +4,11 @@
 .field--name-field-content-blocks > .field--item {
     margin-bottom: 30px;
 }
+.paragraphs-add-wrapper {
+    padding: 20px;
+    background: white;
+    border: 1px solid var(--bg-highlight);
+}
 .paragraphs-dropbutton-wrapper .btn-group > button.btn-success {
     padding: 10px 15px;
     margin: 0;
@@ -15,6 +20,7 @@
 .paragraphs-dropbutton-wrapper .btn-group > button.btn-success:focus {
     background-color: var(--primary);
 }
+
 
 
 /**
