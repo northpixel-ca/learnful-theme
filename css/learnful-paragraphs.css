@@ -4,6 +4,18 @@
 .field--name-field-content-blocks > .field--item {
     margin-bottom: 30px;
 }
+.paragraphs-dropbutton-wrapper .btn-group > button.btn-success {
+    padding: 10px 15px;
+    margin: 0;
+    border: 0;
+    font-size: 12px;
+    background-color: var(--primary-dark);
+}
+.paragraphs-dropbutton-wrapper .btn-group > button.btn-success:hover,
+.paragraphs-dropbutton-wrapper .btn-group > button.btn-success:focus {
+    background-color: var(--primary);
+}
+
 
 /**
 ** Paragraph widths
