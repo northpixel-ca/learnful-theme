@@ -234,6 +234,54 @@ a.panel-title[aria-expanded=false]:after {
     display: block;
 }
 
+/**
+** Autocomplete Deluxe
+**/
+div.autocomplete-deluxe-multiple {
+    background: white;
+    border-color: var(--bg-highlight);
+    padding: 15px;
+  } 
+  .autocomplete-deluxe-container {
+    display: block;
+    background: white;
+    border-color: var(--bg-highlight);
+    padding: 15px;
+  }
+  div.autocomplete-deluxe-container input.autocomplete-deluxe-form {
+    border: none;
+    background: unset;
+    padding: 0;
+    margin: 0;
+    border-radius: unset;
+    font-size: 18px;
+  }
+  div.autocomplete-deluxe-container input.autocomplete-deluxe-form:focus {
+    box-shadow: unset;
+    border: unset;
+  }
+  .autocomplete-deluxe-item {
+    background-color: var(--bg-mid);
+    color: black;
+    font-size: 14px;
+    padding: 5px 25px 5px 10px;
+    line-height: 1.4em;
+    box-shadow: unset;
+    border-radius: unset;
+    margin: 0 15px 0 0;
+    vertical-align: middle;
+  }
+  .autocomplete-deluxe-item-delete {
+    right: 5px;
+    top: 11px;
+  }
+  div.autocomplete-deluxe-throbber {
+    height: 19px;
+    position: absolute;
+    right: 15px;
+    top: 18px;
+  }
+
 
 /**
 ** Paragraphs field
