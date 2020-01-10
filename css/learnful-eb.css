@@ -40,6 +40,11 @@ body.entity-browser-iframe {
     font-size: 12px;
     margin-top: 0px;
 }
+body.entity-browser-iframe .alert {
+    margin: 0 0;
+    padding: 10px 35px 10px 10px;
+    width: 30%;
+}
 body.entity-browser-iframe div.view {
     max-height: 80vh;
     overflow-y: auto;
