@@ -1080,10 +1080,7 @@ h1.page-title-title > a {
     .page-title-subtitle {
         font-size: 16px;
     }
-    .region-header-nav > nav > ul.menu {
-        overflow: unset;
-        white-space: unset;
-    }
+    
 }
 @media (min-width: 992px) {
     #page-header .page-title-block .block-content--type-page-title-image {
@@ -1104,6 +1101,10 @@ h1.page-title-title > a {
     }
     .page-title-calltoaction {
         height: 50px;
+    }
+    .region-header-nav > nav > ul.menu {
+        overflow: unset;
+        white-space: unset;
     }
 }
 
