@@ -807,3 +807,20 @@ button.btn-danger[value="Remove"] {
         max-width: 250px;
     }
 }
+
+
+/**
+** Flag form
+**/
+#block-views-block-user-flag-form-blocks-block-1,
+form#flagging-report-add-form {
+    width: 50%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+form#flagging-report-add-form {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: var(--white);
+    border: 1px solid var(--bg-highlight);
+}
