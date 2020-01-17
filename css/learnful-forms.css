@@ -813,6 +813,7 @@ button.btn-danger[value="Remove"] {
 ** Flag form
 **/
 #block-views-block-user-flag-form-blocks-block-1,
+#block-whathappenswhenyoureportauser,
 form#flagging-report-add-form {
     width: 50%;
     max-width: 500px;
