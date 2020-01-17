@@ -816,14 +816,14 @@ button.btn-danger[value="Remove"] {
 #block-whathappenswhenyoureportauser,
 form#flagging-report-add-form,
 form#flagging-report-edit-form,
-form#flagging-report-delete-form {
+form#unflagging-form {
     width: 50%;
     max-width: 500px;
     margin: 0 auto;
 }
 form#flagging-report-add-form,
 form#flagging-report-edit-form,
-form#flagging-report-delete-form {
+form#unflagging-form {
     margin-bottom: 20px;
     padding: 20px;
     background: var(--white);
