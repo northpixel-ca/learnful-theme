@@ -740,7 +740,7 @@ h1.page-header {
     text-decoration: none;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1600px) {
 
     .page-title-calltoaction a {
         padding: 10px 15px;
