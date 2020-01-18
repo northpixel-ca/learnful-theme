@@ -15,6 +15,7 @@ global-styling:
     js/h5p-resizer.js: {}
     js/jquery.matchHeight-min.js: {}
     js/widgets.js: {}
+    js/dknotus-tour.min.js: {}
   dependencies:
     - core/jquery.once
   

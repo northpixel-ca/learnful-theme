@@ -221,4 +221,38 @@
       }
     }
 
+  Drupal.behaviors.dknotustour = {
+    attach: function (context, settings) {
+
+      // implements dknotus-tour.min.js
+
+      // tour: /resources
+      // $('#tour_find-resources').click(function(){
+      //   Tour.run([
+      //     {
+      //       element: $('.page-title-text'),
+      //       content: '<h2>Welcome to the Resource section</h2><p>In this section, you can browse and search for resources created and shared by other Learnful members.</p>',
+      //       position: 'bottom'
+      //     },
+      //     {
+      //       element: $('.views-exposed-form'),
+      //       content: '<h2>Filter and Sort</h2><p>Use the filters to narrow your search by Resource Type and Keywords.</p>',
+      //       position: 'bottom'
+      //     },
+      //     {
+      //       element: $('.form-item-rtype'),
+      //       content: '<h2>Resource Type</h2><p>You can filter by the type of resource you are searching for.</p>',
+      //       position: 'bottom'
+      //     },
+      //     {
+      //       element: $('.form-item-keys'),
+      //       content: '<h2>Keywords</h2><p>You can also provide a keyword to search for when filter results. The provided keyword will be searched in the resource title, author, and license.</p>',
+      //       position: 'bottom'
+      //     },
+      //   ]);
+      // });
+
+    }
+  }
+
 })(jQuery, Drupal, drupalSettings);
