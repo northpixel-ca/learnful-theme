@@ -1,0 +1,7 @@
+#signupInfo .modal-dialog.modal-sm {
+    max-width: 500px;
+}
+
+#signupInfo .modal-dialog > .modal-footer {
+    background-color: white;
+}
