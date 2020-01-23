@@ -2,6 +2,6 @@
     max-width: 500px;
 }
 
-#signupInfo .modal-dialog > .modal-footer {
+#signupInfo .modal-dialog .modal-footer {
     background-color: white;
 }
