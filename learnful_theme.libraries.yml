@@ -23,5 +23,5 @@ global-styling:
   dependencies:
     - core/jquery.once
   fonts:
-      css/glyphicons-halflings-regular.woff2: {}
+      fonts/glyphicons-halflings-regular.woff2: {}
   
