@@ -1526,7 +1526,7 @@ p.can-expand {
     font-size: 12px;
     overflow: hidden;
     margin-top: 20px;
-    height: 60px;
+    /* height: 60px; */
 }
 a[data-readmore-toggle] {
     font-size: 10px;
@@ -1558,9 +1558,9 @@ ul.inline-items > li.inline-item {
     .well > h2 {
         font-size: 20px;
     }
-    p.can-expand {
+    /* p.can-expand {
         height: 130px;
-    }
+    } */
 }
 
 
