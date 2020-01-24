@@ -2,6 +2,7 @@ global-styling:
   css:
     theme:
       css/bootstrap.min.css: {}
+      css/drupal-bootstrap.min.css: {}
       css/learnful-theme.css: {}
       css/learnful-paragraphs.css: {}
       css/learnful-forms.css: {}
@@ -21,4 +22,6 @@ global-styling:
     #js/dknotus-tour.min.js: {}
   dependencies:
     - core/jquery.once
+  fonts:
+      css/glyphicons-halflings-regular.woff2: {}
   
