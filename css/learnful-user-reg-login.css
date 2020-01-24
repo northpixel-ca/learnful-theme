@@ -5,3 +5,16 @@
 #signupInfo .modal-dialog .modal-footer {
     background-color: white;
 }
+
+#user-pass-reset {
+    padding: 2em;
+    background: var(--white);
+    border: 1px solid var(--bg-highlight);
+    max-width: 900px;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+#user-pass-reset #edit-actions {
+    margin-top: 2em;
+}
