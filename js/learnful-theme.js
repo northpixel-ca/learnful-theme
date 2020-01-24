@@ -5,6 +5,14 @@
     Drupal.behaviors.visualScripts = {
       attach: function (context, settings) {
 
+        // print current year
+        function yearFunction() {
+          var d = new Date();
+          var n = d.getFullYear();
+          document.getElementById("year").innerHTML = n;
+        }
+        yearFunction();
+
         // open .sidebar-offcanvas-right when menu is clicked
         $("a#openUserNav").click(function() {
           $("aside.sidebar-offcanvas-right").addClass("is-open").css("right", "0px");
