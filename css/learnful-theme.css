@@ -193,6 +193,11 @@ section.main-section {
 /**
 ** Views elements
 **/
+.view.view-resources .row > .col-xs-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .view-header > h2 {
     font-size: 16px;
     display: flex;
@@ -229,6 +234,10 @@ section.main-section {
 }
 
 @media (min-width: 768px) {
+    .view.view-resources .row > .col-xs-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .view-content.horizontally-scrollable {
         overflow-x: unset;
         width: unset;
