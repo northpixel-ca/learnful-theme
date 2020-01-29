@@ -725,7 +725,7 @@ h1.page-header {
 }
 .page-title-calltoaction > .label-with-icon {
     background-color: var(--secondary);
-    padding: 10px 15px;
+    padding: 7px 11px;
     border-radius: 4px;
     margin-right: 5px;
 }
@@ -753,6 +753,9 @@ h1.page-header {
     .page-title-calltoaction a {
         padding: 10px 15px;
         font-size: 16px;
+    }
+    .page-title-calltoaction > .label-with-icon {
+        padding: 10px 15px;
     }
 
 }
