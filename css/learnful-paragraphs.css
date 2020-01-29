@@ -198,7 +198,7 @@ h2.region-title {
 }
 
 .content-block > .paragraph--view-mode-preview > .panel > .panel-body {
-    padding: 30px 90px;
+    padding: 25px;
 }
 
 .paragraph--type-iframe-embed.paragraph--view-mode-preview iframe {
@@ -218,7 +218,11 @@ h2.region-title {
     overflow: auto !important;
 }
 
-
+@media (min-width: 1366px) {
+    .content-block > .paragraph--view-mode-preview > .panel > .panel-body {
+        padding: 25px 50px;
+    }
+}
 
 
 /**
