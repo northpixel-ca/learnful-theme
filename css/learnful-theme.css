@@ -609,6 +609,9 @@ h1.page-header {
 .btn {
     white-space: pre-wrap;
 }
+button.btn {
+    white-space: nowrap;
+}
 .btn-xs {
     padding: 1px 8px;
     font-size: 11px;
