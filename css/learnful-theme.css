@@ -1241,6 +1241,7 @@ h1.page-title-title > a {
 .card-media > .card-overlay-top-left img {
     border-radius: 50%;
     border: 2px solid white;
+    background-color: white;
 }
 .card.card-stacked .card-media > a {
     display: block;
