@@ -773,6 +773,7 @@ button.btn-danger[value="Remove"] {
     border-radius: 0px;
     background-color: var(--bg-highlight-overlay);
     color: var(--black);
+    white-space: nowrap;
 }
 .views-exposed-form.block .form--inline .form-actions > button:hover,
 .views-exposed-form.block .form--inline .form-actions > button:focus {
