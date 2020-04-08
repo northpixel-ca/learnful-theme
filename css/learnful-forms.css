@@ -61,7 +61,7 @@ form#change-pwd-form button#edit-submit {
     z-index: 1029;
 }
 #node-form-main-wrapper {
-    max-width: 1920px;
+    /* max-width: 1920px; */
     margin: auto;
 }
 
@@ -110,7 +110,7 @@ form.node-form .form-wrapper .form-item  .form-control {
     padding: 10px;
 }
 .form-item > .description.help-block {
-    margin: 15px 0;
+    margin: 5px 0 0;
 }
 .filter-wrapper {
     box-shadow: unset;
