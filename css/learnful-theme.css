@@ -1478,6 +1478,19 @@ p.card-secondary-text {
 
 
 /**
+** Footer
+**/
+
+@media (max-width: 1199px) {
+    footer #block-sitefooter {
+        text-align: center;
+    }
+    footer #block-sitefooter .footer-right {
+        margin-top: 2em;
+    }
+}
+
+/**
 ** Global Styles
 **/
 
