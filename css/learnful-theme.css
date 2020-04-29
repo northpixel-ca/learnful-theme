@@ -66,9 +66,6 @@ footer.footer {
     }
 }
 @media (min-width: 1440px) {
-    body {
-        font-size: 16px;
-    }
     body.sidebar-first section.main-section {
         margin-left: 16%;
         width: 84%;
@@ -79,7 +76,11 @@ footer.footer {
         width: 84%; 
     }
 }
-
+@media (min-width: 1600px) {
+    body {
+        font-size: 16px;
+    }
+}
 .navbar-default {
     background-color: var(--white);
     border: unset;
@@ -1483,7 +1484,7 @@ p.card-secondary-text {
 
 @media (max-width: 1199px) {
     footer #block-sitefooter {
-        text-align: center;
+        text-align: center !important;
     }
     footer #block-sitefooter .footer-right {
         margin-top: 2em;
