@@ -178,7 +178,7 @@ h2.region-title {
     float: left;
     margin-right: 20px;
 }
-.paragraph--type-iframe-embed.paragraph--view-mode-preview .panel-heading > a:before {
+.paragraph--type-embed-code.paragraph--view-mode-preview .panel-heading > a:before {
     background: url('../assets/icons/para-icon-iframeembed.png');
 }
 .paragraph--type-basic-text-block.paragraph--view-mode-preview .panel-heading > a:before {
@@ -195,6 +195,9 @@ h2.region-title {
 }
 .paragraph--type-button.paragraph--view-mode-preview .panel-heading > a:before {
     background: url('../assets/icons/para-icon-buttonblck.png');
+}
+.paragraph--type-two-column.paragraph--view-mode-preview .panel-heading > a:before {
+    background: url('../assets/icons/para-icon-twocol.png');
 }
 
 .content-block > .paragraph--view-mode-preview > .panel > .panel-body {
