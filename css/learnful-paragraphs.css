@@ -203,7 +203,8 @@ h2.region-title {
 .content-block > .paragraph--view-mode-preview > .panel > .panel-body {
     padding: 25px;
 }
-.paragraph--type--embed-code  {
+.paragraph--type--embed-code.paragraph--view-mode--default > .field,
+.preview-embedcode > .panel-body  {
     text-align: center;
 }
 .paragraph--type-iframe-embed.paragraph--view-mode-preview iframe {
