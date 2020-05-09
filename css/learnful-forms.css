@@ -89,6 +89,19 @@ form#change-pwd-form button#edit-submit {
     border-bottom: 1px solid var(--bg-highlight);
 }
 
+.metadata-panel .panel-body > div {
+    margin-bottom: 2em;
+}
+.metadata-panel .panel-body > div:last-of-type {
+    margin-bottom: 0px;
+}
+.metadata-panel .form-wrapper .form-item > label {
+    color: black;
+}
+.metadata-panel .form-wrapper .form-item select.form-control {
+    padding: 1em;
+}
+
 /** node delete **/
 form.node-confirm-form > #edit-actions {
     margin-top: 15px;
