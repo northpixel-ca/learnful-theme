@@ -19,11 +19,9 @@ global-styling:
     js/h5p-resizer.js: {}
     js/jquery.matchHeight-min.js: {}
     js/widgets.js: {}
+    //teams.microsoft.com/share/launcher.js: { type: external, attributes: { async: true } }
     #js/dknotus-tour.min.js: {}
   dependencies:
     - core/jquery.once
   fonts:
       fonts/glyphicons-halflings-regular.woff2: {}
-msteamslauncher:
-  js:
-    //teams.microsoft.com/share/launcher.js: { type: external, attributes: { async: true, defer: true } }  
