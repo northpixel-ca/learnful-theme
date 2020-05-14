@@ -18,3 +18,12 @@
 //     global $base_url;
 //     $form['#validate'][] = '_bootstrap_ga_form_user_login_form_validate';
 //   }
+
+
+// add ms teams launcher js to launch pages
+function learnful_theme_page_attachments_alter(&$page){
+  $path = $current_path = \Drupal::service('path.current')->getPath();
+  if($path == '/tutorial/97/launch/') {
+    $page['#attached']['library'][] = 'learnful_theme/msteamslauncher';
+  }
+}
