@@ -1194,6 +1194,15 @@ h1.page-title-title > a {
     margin-bottom: 20px;
     padding: 20px;
 }
+.card.field.group-card > .field {
+    margin-bottom: 1em;
+}
+.card.field.group-card > .field:last-of-type {
+    margin-bottom: 0px;
+}
+.card.field.group-card > .field > .field--label {
+    font-size: 0.8em;
+}
 .card.card-grid-content {
     margin-bottom: 20px;
 }

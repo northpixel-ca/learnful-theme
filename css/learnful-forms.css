@@ -95,7 +95,7 @@ form#change-pwd-form button#edit-submit {
 .metadata-panel .panel-body > div:last-of-type {
     margin-bottom: 0px;
 }
-.metadata-panel .form-wrapper .form-item > label {
+form.node-form .metadata-panel .form-wrapper .form-item > label {
     color: black;
 }
 .metadata-panel .form-wrapper .form-item select.form-control {
