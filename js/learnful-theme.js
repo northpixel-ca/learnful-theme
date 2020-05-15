@@ -218,6 +218,19 @@
           win.opener = null;
         });
 
+        $("a.share-lms.msteams").on("click", function(e){
+          var mst_title = encodeURIComponent($(this).attr('data-assign-title'));
+          var mst_url = encodeURIComponent($(this).attr('data-href'));
+
+          var mst_shareurl = `https://teams.microsoft.com/share?assignTitle=${mst_title}&href=${mst_url}&referrer=learnful.ca`;
+          
+          e.preventDefault();
+          window.open(mst_shareurl,'ms-teams-popup','width=700,height=600');
+          return false;
+        });
+
+
+
 
       }
     }
