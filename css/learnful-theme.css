@@ -636,9 +636,9 @@ button.btn {
     color: var(--white);
 }
 .btn-default {
-    background-color: transparent;
-    border-color: var(--primary);
-    color: var(--primary);
+    background-color: var(--greyblue-light);
+    border-color: transparent;
+    color: black;
 }
 .btn-success {
     background-color: var(--greyblue);

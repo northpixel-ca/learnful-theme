@@ -2,7 +2,7 @@
 ** Modal
 **/
 
-.modal-dialog {
+.modal[data-drupal-selector=edit-field-projects-entity-browser-entity-browser-open-modal] .modal-dialog {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -10,9 +10,18 @@
     width: 80%;
     transform: translate(-50%, -65%) !important;
 }
-.modal-content {
+.modal-content.entity-browser-modal {
     height: 100%;
 }
+
+.entity-browser-modal .modal-body > iframe {
+    height: 100% !important;
+}
+.entity-browser-modal .ui-dialog-content > * {
+    max-height: 99%;
+}
+
+/** general modal settings **/
 div.modal-header {
     padding: 15px;
     border-bottom: 1px solid var(--bg-highlight);
@@ -25,12 +34,6 @@ h4.modal-header {
     height: calc(100% - 60px);
 }
 
-.modal-body > iframe {
-    height: 100% !important;
-}
-.entity-browser-modal .ui-dialog-content > * {
-    max-height: 99%;
-}
 
 /**
 ** Entity browser iframe innerds
