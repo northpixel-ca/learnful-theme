@@ -715,6 +715,23 @@ button.btn {
     border-color: var(--greyblue);
 }
 
+/** Flags **/
+.flag-report-adaption a {
+    padding: 0.5em 1em;
+    background-color: var(--greyblue-dark);
+    color: white;
+    border-radius: 4px;
+    display: inline-block;
+}
+.flag-report-adaption a > i {
+    margin-right: 0.5em;
+}
+.flag-report-adaption a:hover,
+.flag-report-adaption a:focus {
+    background-color: var(--primary-dark);
+    text-decoration: none;
+}
+
 .label-with-icon {
     display: flex;
     align-items: center;
