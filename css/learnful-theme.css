@@ -718,7 +718,7 @@ button.btn {
 /** Flags **/
 .flag-report-adaption a {
     padding: 0.5em 1em;
-    background-color: var(--greyblue-dark);
+    background-color: var(--secondary);
     color: white;
     border-radius: 4px;
     display: inline-block;
@@ -728,7 +728,7 @@ button.btn {
 }
 .flag-report-adaption a:hover,
 .flag-report-adaption a:focus {
-    background-color: var(--primary-dark);
+    background-color: var(--secondary-dark);
     text-decoration: none;
 }
 
