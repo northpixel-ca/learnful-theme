@@ -129,6 +129,8 @@
           $(".match-height").once().matchHeight();
         });
 
+        // make comment links field use modal
+        $('.comment .group-header ul.links li a').addClass('use-ajax').attr('data-dialog-type','modal');
 
       }
     }

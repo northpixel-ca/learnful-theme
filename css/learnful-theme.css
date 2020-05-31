@@ -380,6 +380,20 @@ div#comment-list {
 .comment .comment-author {
     padding-bottom: 5px;
 }
+.comment .group-header {
+    position: relative;
+}
+.comment .group-header > ul.links {
+    position: absolute;
+}
+.comment .group-header > ul.links li a {
+    color: var(--text-mid);
+    font-size: 0.85em;
+}
+/** hide comment reply link **/
+li.comment-reply {
+    display: none;
+}
 
 
 /** User Profile / DS layouts **/
