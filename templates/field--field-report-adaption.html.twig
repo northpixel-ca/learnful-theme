@@ -47,6 +47,9 @@
     {% else %}
       {{ comments }}
     {% endif %}
+    {% if comments is empty %}
+      <p>Be the first to add your adaption here!</p>
+    {% endif %} 
   </div>
 
 </section>
