@@ -43,6 +43,9 @@
   <div id="comment-list">
     <h2>Comments</h2>
     {{ comments }}
+    {% if comments is empty %}
+      <p class="text-muted small">Be the first to comment!</p>
+    {% endif %} 
   </div>
 
 </section>
