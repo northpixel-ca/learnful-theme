@@ -787,6 +787,63 @@ button.btn {
 }
 
 /**
+** Vertical Tabs to Horizontal Tabs
+**/
+.field-group-tabs-wrapper .vertical-tabs > ul.nav-tabs {
+    float: none;
+    margin-right: 0;
+    width: unset;
+    padding-bottom: 0;
+}
+.field-group-tabs-wrapper .vertical-tabs > ul.nav-tabs > li {
+    float: left;
+    margin-bottom: 0;
+}
+.field-group-tabs-wrapper .vertical-tabs > ul.nav-tabs > li > a {
+    border-radius: 0;
+    margin: 0;
+    font-size: 12px;
+    margin: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--text-mid);
+    border-top: 1px solid var(--bg-highlight);
+    border-right: 1px solid var(--bg-highlight);
+    border-bottom: 0;
+    border-left: 1px solid var(--bg-highlight);
+}
+.field-group-tabs-wrapper .vertical-tabs > ul.nav-tabs > li.active > a {
+    border-color: var(--bg-highlight);
+    box-shadow: unset;
+    background-color: white;
+}
+.field-group-tabs-wrapper .vertical-tabs > ul.nav-tabs > li:last-of-type > a {
+    border-left: 0px;
+}
+.field-group-tabs-wrapper .vertical-tabs .tab-content {
+    border: 1px solid var(--bg-highlight);
+    background-color: white;
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: unset;
+}
+.field-group-tabs-wrapper .vertical-tabs .tab-content .panel-body {
+    padding: 0;
+}
+.field-group-tabs-wrapper .vertical-tabs .tab-content #comment-form {
+    padding: 0;
+    border: 0;
+    background-color: unset;
+    margin: 0 0 2em;
+}
+.field-group-tabs-wrapper .vertical-tabs .tab-content #comment-form {
+    padding: 2em 0 0;
+    border: 0;
+    border-top: 1px solid var(--bg-highlight);
+    background: unset;
+}
+
+/**
 ** Main header / nav
 **/
 .navbar-header {
