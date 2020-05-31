@@ -23,8 +23,7 @@
  * Change the text value for the different form buttons
  */
 function learnful_theme_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
-  print_r($form);
-  // if($form_id == 'comment_form_2') {
-  //   $form['actions']['submit']['#value'] = t('Post it');
-  // }
+  if($form_id == 'comment_comment_form') {
+    $form['actions']['submit']['#value'] = t('Post Comment');
+  }
 }
