@@ -42,13 +42,9 @@
 
   <div id="comment-list">
     <h2>List of adaptions</h2>
-    {% if comments < 1 %}
-      <p>Be the first to add your adaption here!</p>
-    {% else %}
-      {{ comments }}
-    {% endif %}
+    {{ comments }}
     {% if comments is empty %}
-      <p>Be the first to add your adaption here!</p>
+      <p class="text-muted small">Be the first to add your adaption here!</p>
     {% endif %} 
   </div>
 
