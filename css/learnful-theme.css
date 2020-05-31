@@ -385,6 +385,7 @@ div#comment-list {
 }
 .comment .group-header > ul.links {
     position: absolute;
+    right:0;
 }
 .comment .group-header > ul.links li a {
     color: var(--text-mid);
