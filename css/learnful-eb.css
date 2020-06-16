@@ -2,7 +2,8 @@
 ** Modal
 **/
 
-.modal[data-drupal-selector=edit-field-projects-entity-browser-entity-browser-open-modal] .modal-dialog {
+.modal[data-drupal-selector=edit-field-projects-entity-browser-entity-browser-open-modal] .modal-dialog,
+.modal[data-drupal-selector=edit-field-content-blocks-2-subform-field-interactive-content-entity-browser-entity-browser-open-modal] .modal-dialog {
     position: absolute;
     top: 50%;
     left: 50%;
