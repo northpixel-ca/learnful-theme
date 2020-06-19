@@ -1347,6 +1347,9 @@ h1.page-title-title > a {
     position: relative;
     margin-bottom: 30px;
 }
+.card-media .img-responsive {
+    width: 100%;
+}
 .card-media > .card-overlay-top-left {
     position: absolute;
     top: 10px;
