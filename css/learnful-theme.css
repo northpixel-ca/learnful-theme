@@ -1350,6 +1350,9 @@ h1.page-title-title > a {
 .card-media .img-responsive {
     width: 100%;
 }
+.card-media.circle-image .img-responsive {
+    width: unset;
+}
 .card-media > .card-overlay-top-left {
     position: absolute;
     top: 10px;
