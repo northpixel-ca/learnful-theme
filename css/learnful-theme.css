@@ -395,6 +395,10 @@ div#comment-list {
 li.comment-reply {
     display: none;
 }
+/** hide comment login link **/
+li.comment-forbidden {
+    display: none;
+}
 
 
 /** User Profile / DS layouts **/
