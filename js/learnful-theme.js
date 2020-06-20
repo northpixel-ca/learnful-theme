@@ -58,6 +58,9 @@
         // add help block to entity browser field - Interactive Content Entity Browser
         $('.paragraph-type--interactive-content-h5p- .panel-body').once().prepend(`<p class="help-block">Select the interactive content that you want to display here. You can select content that you have created, or content created by others.`);
 
+        // add help block to entity browser field - Tutorials for Minibooks Entity Browser
+        $('#edit-field-table-of-contents-wrapper .panel-body').once().prepend(`<p class="help-block">Select and add Tutorial Resources that you want to include in this Minibook. You can select content that you have created, or content shared by others.`);
+
         // add ReadMore.js to text with class = .can-expand
         $('.can-expand').readmore({
           collapsedHeight: 130,

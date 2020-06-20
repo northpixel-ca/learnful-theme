@@ -177,3 +177,14 @@ body.entity-browser-iframe form.entity-browser-form > #edit-actions {
     display: inline-block;
 }
 
+/**
+** Entity Browser field styling
+**/
+
+/** Tutorials for Minibooks EB **/
+#edit-field-table-of-contents-wrapper .panel-heading {
+    display: none;
+}
+#edit-field-table-of-contents-wrapper .panel-body {
+    padding-top: 20px;
+}
