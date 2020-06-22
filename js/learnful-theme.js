@@ -163,6 +163,9 @@
           $(this).css("color", textcolor);
         });
 
+        // add bootstrap classes to table in paragraph: text block
+        $(".p-textblock table").addClass("table table-bordered table-striped table-hover");
+
       }
     }
 
