@@ -70,7 +70,7 @@ body.launch-page {
     margin-top: 0px;
 }
 .node--view-mode-launch > .field.field-content-blocks > .paragraph {
-    margin-bottom: 15px;
+    margin-bottom: 1em;
 }
 .node--view-mode-launch > .field.field-content-blocks > .paragraph:last-of-type {
     margin-bottom: 0px;
@@ -93,7 +93,7 @@ h2.launch-region-title {
         font-size: 1.4em;
     }
     .node--view-mode-launch > .field.field-content-blocks > .paragraph {
-        margin-bottom: 25px;
+        margin-bottom: 1.5em;
     }
 }
 @media (min-width: 1024px) {
@@ -106,13 +106,10 @@ h2.launch-region-title {
         margin-top: 70px;
     }
     .node--view-mode-launch > .field.field-content-blocks > .paragraph {
-        margin-bottom: 30px;
+        margin-bottom: 2em;
     }
     h2.launch-region-title {
         font-size: 1.5em;
-    }
-    .node--view-mode-launch > .field.field-content-blocks > .paragraph {
-        margin-bottom: 50px;
     }
 }
 
