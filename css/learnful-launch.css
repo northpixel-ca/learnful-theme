@@ -69,12 +69,12 @@ body.launch-page {
 .node--view-mode-launch > .field.card:first-of-type {
     margin-top: 0px;
 }
-.node--view-mode-launch > .field.field-content-blocks > .paragraph {
+/* .node--view-mode-launch > .field.field-content-blocks > .paragraph {
     margin-bottom: 1em;
 }
 .node--view-mode-launch > .field.field-content-blocks > .paragraph:last-of-type {
     margin-bottom: 0px;
-}
+} */
 h2.launch-region-title {
     text-align: center;
     margin: 20px 0 35px;
@@ -92,9 +92,9 @@ h2.launch-region-title {
     h2.launch-region-title {
         font-size: 1.4em;
     }
-    .node--view-mode-launch > .field.field-content-blocks > .paragraph {
+    /* .node--view-mode-launch > .field.field-content-blocks > .paragraph {
         margin-bottom: 1.5em;
-    }
+    } */
 }
 @media (min-width: 1024px) {
     .node--view-mode-launch > .field.narrow {
@@ -105,9 +105,9 @@ h2.launch-region-title {
         padding: 50px;
         margin-top: 70px;
     }
-    .node--view-mode-launch > .field.field-content-blocks > .paragraph {
+    /* .node--view-mode-launch > .field.field-content-blocks > .paragraph {
         margin-bottom: 2em;
-    }
+    } */
     h2.launch-region-title {
         font-size: 1.5em;
     }

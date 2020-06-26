@@ -74,10 +74,43 @@
 ** Paragraph: Basic Text Block
 **/
 .p-textblock {
-    line-height: 1.7em;
+    line-height: 1.8em;
 }
 .p-textblock.width-wide {
     padding: 1.5em;
+}
+.p-textblock > p {
+    color: #333;
+    margin-bottom: 1em;
+}
+.p-textblock > h2,
+.p-textblock > h3,
+.p-textblock > h4, 
+.p-textblock > h5,
+.p-textblock > h6 {
+    margin: 1em 0 0.5em;
+}
+.p-textblock > h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.p-textblock > h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.p-textblock > h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.p-textblock > h5 {
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
+.p-textblock > h6 {
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
 /**
