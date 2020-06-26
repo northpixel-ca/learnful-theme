@@ -36,15 +36,7 @@
     padding: 0;
     margin: 0 -15px;
 }
-.width-wide > p,
-.width-wide > h1,
-.width-wide > h2
-.width-wide > h3
-.width-wide > h4
-.width-wide > h5
-.width-wide > h6 {
-    padding: 1em;
-}
+
 @media (min-width: 768px) {
     .width-narrow {
         padding: 3em;
@@ -83,6 +75,9 @@
 **/
 .p-textblock {
     line-height: 1.7em;
+}
+.p-textblock.width-wide {
+    padding: 1.5em;
 }
 
 /**
