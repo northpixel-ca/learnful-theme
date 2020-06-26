@@ -12,6 +12,7 @@ global-styling:
       css/learnful-embed.css: {}
       css/learnful-user-reg-login.css: {}
       css/fontawesome-5.9.0/css/all.min.css: {}
+      js/bootstrap-toc/bootstrap-toc.min.css: {}
   js:
     js/bootstrap.min.js: {}
     js/learnful-theme.js: {}
@@ -19,6 +20,7 @@ global-styling:
     js/h5p-resizer.js: {}
     js/jquery.matchHeight-min.js: {}
     js/widgets.js: {}
+    js/bootstrap-toc/bootstrap-toc.min.js: {}
     //teams.microsoft.com/share/launcher.js: { type: external, attributes: { async: true } }
     #js/dknotus-tour.min.js: {}
   dependencies:
