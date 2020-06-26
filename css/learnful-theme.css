@@ -1427,7 +1427,7 @@ h1.page-title-title > a {
 }
 .card-grid-content .card-body > p {
     padding: 0 15px;
-    margin: 0;
+    margin: 1em 0;
 }
 .card-body > p.card-location > span.glyphicon {
     margin-right: 10px;
