@@ -135,6 +135,15 @@
         // make comment links field use modal
         $('.comment .group-header ul.links li a').addClass('use-ajax').attr('data-dialog-type','modal');
 
+        // auto generate table of contents on tutorial launch page
+        $("body.launch-page").each(function() {
+          var navSelector = '#toc';
+          Toc.init(navSelector);
+          $(this).scrollspy({
+            target: navSelector
+          });
+        });
+
       }
     }
 

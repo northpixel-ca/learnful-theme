@@ -58,7 +58,8 @@
   <div role="main" class="main-container {{ container }} launch-page">
     <div class="row">
 
-      <section{{ content_attributes.addClass(content_classes) }}
+      <section{{ content_attributes.addClass(content_classes) }}>
+        <nav id="toc"></nav>
         {# Content #}
         {% block content %}
           <a id="main-content"></a>
