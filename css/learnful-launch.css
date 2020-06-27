@@ -7,7 +7,7 @@ body.launch-page {
 **/
 .node--view-mode-launch > header#navbar {
     font-weight: 700;
-    background-color: var(--primary);
+    background-color: var(--primary-dark);
     color: white;
     box-shadow: unset;
     border-radius: unset;

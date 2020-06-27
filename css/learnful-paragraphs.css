@@ -144,11 +144,10 @@
 }
 .p-gallery.gstyle-grid > .gallery-entry > a {
     display: block;
-    border: 1px solid transparent;
 }
 .p-gallery.gstyle-grid > .gallery-entry > a:hover,
 .p-gallery.gstyle-grid > .gallery-entry > a:focus {
-    border-color: var(--primary);
+    box-shadow: 0 8px 6px -6px rgba(0,0,0,0.5);
 }
 .p-gallery.gstyle-grid > .gallery-entry img {
     object-fit: cover;
