@@ -113,7 +113,14 @@ h2.launch-region-title {
     }
 }
 
-
+/**
+** Launch page table of contents nav
+**/
+nav#toc {
+    position: fixed;
+    top: 200px;
+    left: 2em;
+}
 
 /**
 ** Launch page metadata region
