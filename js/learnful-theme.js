@@ -138,7 +138,8 @@
         // auto generate table of contents on tutorial launch page
         $("body.launch-page").each(function() {
           var navSelector = '#toc';
-          Toc.init(navSelector);
+          var $myNav = $(navSelector);
+          Toc.init($myNav);
           $(this).scrollspy({
             target: navSelector
           });
