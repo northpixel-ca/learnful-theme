@@ -117,9 +117,20 @@ h2.launch-region-title {
 ** Launch page table of contents nav
 **/
 nav#toc {
-    position: fixed;
-    top: 200px;
-    left: 2em;
+   display: none;
+}
+@media (min-width: 1366px) {
+    nav#toc {
+        display: block;
+        position: fixed;
+        top: 200px;
+        left: 5px;
+    }
+}
+@media (min-width: 1920px) {
+    nav#toc {
+        left: 2em;
+    }
 }
 
 /**

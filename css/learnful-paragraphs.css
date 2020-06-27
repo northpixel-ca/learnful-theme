@@ -164,7 +164,7 @@
 ** Paragraph: Columns: Two-Columns
 **/
 .paragraph--type-two-column.paragraph--view-mode-default {
-    margin: 0 2em;
+    margin: 2em 0;
 }
 .paragraph--type-two-column .column-wrapper {
     display: grid;
