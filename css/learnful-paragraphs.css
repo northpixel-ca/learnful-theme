@@ -69,6 +69,9 @@
     text-align: center;
     color: black;
 }
+.p-imagecaption {
+    margin-bottom: 2em;
+}
 
 /**
 ** Paragraph: Basic Text Block
@@ -137,6 +140,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 15px;
+    margin-bottom: 2em;
 }
 .p-gallery.gstyle-grid > .gallery-entry > a {
     display: block;
@@ -160,6 +164,9 @@
 /**
 ** Paragraph: Columns: Two-Columns
 **/
+.paragraph--type-two-column.paragraph--view-mode-default {
+    margin-bottom: 2em;
+}
 .paragraph--type-two-column .column-wrapper {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -257,6 +264,13 @@ h2.region-title {
 .content-block > .paragraph--view-mode-preview > .panel > .panel-body {
     padding: 25px;
 }
+
+/**
+** Paragraph: Embed Code
+**/
+.paragraph--type--embed-code.paragraph--view-mode--default {
+    margin-bottom: 2em;
+}
 .paragraph--type--embed-code.paragraph--view-mode--default > .field,
 .preview-embedcode > .panel-body  {
     text-align: center;
@@ -266,6 +280,9 @@ h2.region-title {
     width: 100%; 
 }
 
+.paragraph--type--interactive-content-h5p-.paragraph--view-mode--default {
+    margin-bottom: 2em;
+}
 
 /** paragraphs preview quick edit button **/
 .field--name-dynamic-token-fieldparagraph-paragraph-edit-button {
