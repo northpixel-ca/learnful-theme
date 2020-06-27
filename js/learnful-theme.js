@@ -136,14 +136,14 @@
         $('.comment .group-header ul.links li a').addClass('use-ajax').attr('data-dialog-type','modal');
 
         // auto generate table of contents on tutorial launch page
-        $("body.launch-page").each(function() {
-          var navSelector = '#toc';
-          var $myNav = $(navSelector);
-          Toc.init($myNav);
-          $('body').scrollspy({
-            target: navSelector
-          });
-        });
+        // $("body.launch-page").each(function() {
+        //   var navSelector = '#toc';
+        //   var $myNav = $(navSelector);
+        //   Toc.init($myNav);
+        //   $('body').scrollspy({
+        //     target: navSelector
+        //   });
+        // });
 
       }
     }
