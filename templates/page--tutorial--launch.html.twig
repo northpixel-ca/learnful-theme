@@ -59,11 +59,11 @@
     <div class="row">
 
       <section{{ content_attributes.addClass(content_classes) }}>
-        <nav id="toc" data-toggle="toc"></nav>
         {# Content #}
         {% block content %}
           <a id="main-content"></a>
           {{ page.content }}
+          <nav id="toc" data-toggle="toc"></nav>
         {% endblock %}
       </section>
     
