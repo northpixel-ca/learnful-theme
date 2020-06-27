@@ -140,7 +140,7 @@
           var navSelector = '#toc';
           var $myNav = $(navSelector);
           Toc.init($myNav);
-          $(this).scrollspy({
+          $('body').scrollspy({
             target: navSelector
           });
         });
