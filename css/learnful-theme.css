@@ -352,12 +352,12 @@ section.main-section {
 }
 .ds-2col-stacked > .group-left {
     float: left;
-    width: 25%;
+    width: 15%;
     padding: 1em;
 }
 .ds-2col-stacked > .group-right {
     float: right;
-    width: 75%;
+    width: 85%;
     padding: 1em;
 }
 .ds-2col-stacked > .group-footer {
@@ -383,14 +383,14 @@ section.main-section {
 
 
 .field.field-author-mini {
-    margin-bottom: 1em;
+    margin: 0.5em 0 0.75em;
 }
 .field.field-author-mini a {
     color: var(--text-mid);
     font-size: 0.9em;
 }
 .field.field-author-mini img {
-    max-width: 40px;
+    max-width: 30px;
     border-radius: 50%;
     margin-right: 0.75em;
 }
