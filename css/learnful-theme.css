@@ -368,6 +368,32 @@ section.main-section {
     display: block;
     font-size: 14px;
 }
+.ds-2col-stacked > .group-footer .footer-left > .field {
+    display: inline-block;
+    margin-right: 1.5em;
+    color: var(--text-mid);
+}
+.ds-2col-stacked h2.card-title {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.ds-2col-stacked h2.card-title a {
+    color: black;
+}
+
+
+.field.field-author-mini {
+    margin-bottom: 1em;
+}
+.field.field-author-mini a {
+    color: var(--text-mid);
+    font-size: 0.9em;
+}
+.field.field-author-mini img {
+    max-width: 40px;
+    border-radius: 50%;
+    margin-right: 0.75em;
+}
 
 
 
