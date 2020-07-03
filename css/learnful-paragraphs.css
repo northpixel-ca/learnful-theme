@@ -83,48 +83,49 @@
 .p-textblock.width-wide {
     padding: 1.5em;
 }
-.p-textblock > p {
+.p-textblock p,
+.p-textblock ul {
     color: #333;
     margin-bottom: 1em;
 }
-.p-textblock > h2,
-.p-textblock > h3,
-.p-textblock > h4, 
-.p-textblock > h5,
-.p-textblock > h6 {
+.p-textblock h2,
+.p-textblock h3,
+.p-textblock h4, 
+.p-textblock h5,
+.p-textblock h6 {
     margin: 1em 0 0.5em;
     font-family: serif;
 }
-.p-textblock > h2 {
+.p-textblock h2 {
     font-size: 1.8em;
     font-weight: bold;
 }
-.p-textblock > h3 {
+.p-textblock h3 {
     font-size: 1.5em;
     font-weight: bold;
 }
-.p-textblock > h4 {
+.p-textblock h4 {
     font-size: 1.2em;
     font-weight: bold;
 }
-.p-textblock > h5 {
+.p-textblock h5 {
     font-size: 1em;
     font-weight: bold;
     font-style: italic;
 }
-.p-textblock > h6 {
+.p-textblock h6 {
     font-size: 1em;
     font-weight: normal;
     text-transform: uppercase;
 }
-.p-textblock > blockquote {
+.p-textblock blockquote {
     border-left: 5px solid var(--bg-highlight);
     padding: 1em 2em;
     font-size: 0.8em;
     margin-bottom: 1em;
     text-align: justify;
 }
-.p-textblock > pre {
+.p-textblock pre {
     padding: 1em;
     font-size: 14px;
     background-color: var(--bg-lightest);
