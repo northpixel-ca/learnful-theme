@@ -21,6 +21,7 @@ global-styling:
     js/jquery.matchHeight-min.js: {}
     js/widgets.js: {}
     js/bootstrap-toc/bootstrap-toc.min.js: {}
+    js/MathJax.js: {}
     //teams.microsoft.com/share/launcher.js: { type: external, attributes: { async: true } }
     #js/dknotus-tour.min.js: {}
   dependencies:
