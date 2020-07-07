@@ -303,19 +303,21 @@
         steps: [
         {
           element: "#clone_tour",
-          title: "Title of my step",
+          title: "Step 1",
           content: "Content of my step"
         },
         {
           element: "#edit-title-0-value",
-          title: "Title of my step",
+          title: "Step 2",
           content: "Content of my step"
         }
       ]});
 
       // Initialize the tour
-      $("a#clone_tour").click(function(){
+      $("body.path-clone").each(function(){
         cloneTour.init();
+      });
+      $("a#clone_tour").click(function(){
         cloneTour.start();
       });
       
