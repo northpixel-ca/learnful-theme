@@ -1098,7 +1098,7 @@ body.user-logged-in.path-clone #page-header {
 }
 body.user-logged-in.path-clone #page-header .clone-page-header {
     padding: 1em;
-    background-color: var(--greyblue);
+    background-color: var(--secondary);
 }
 
 #page-header .page-title-block {
