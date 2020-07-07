@@ -274,7 +274,7 @@
             element: $('#page-header'),
             content: "<h2>Remixing Resources</h2><p>In this tour, we will cover the basics of creating a Remix of an existing Resource.</p>",
             position: 'bottom',
-            forceCorrectionTop: 0,
+            forceCorrectionTop: -100,
             padding: 0
           },
           {
