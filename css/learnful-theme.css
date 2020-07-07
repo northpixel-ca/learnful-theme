@@ -1092,6 +1092,15 @@ nav.vertical-nav > ul.menu > li:not(.menu-icon) > span {
 #page-header {
     margin: 0 -15px 15px;
 }
+/** Page Header for Clone/Remix **/
+body.user-logged-in.path-clone #page-header {
+    margin-bottom: 0;
+}
+body.user-logged-in.path-clone #page-header .clone-page-header {
+    padding: 1em;
+    background-color: var(--greyblue);
+}
+
 #page-header .page-title-block {
     background: var(--primary-dark);
     color: var(--white);
@@ -1130,7 +1139,6 @@ nav.vertical-nav > ul.menu > li:not(.menu-icon) > span {
     background-color: var(--greyblue-dark);
     background-image: url(/themes/custom/learnful-theme/assets/images/bgs/batthern.png);
 }
-
 
 
 
