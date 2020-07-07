@@ -32,8 +32,14 @@
         });
 
         // move node actions to node-form-top
-        $('form.node-form > #edit-actions').appendTo( $('#top-bar-right') );
+        if ($("body").hasClass("path-clone")){
+          $('form.node-form > #edit-actions').appendTo( $('.field--name-field-top-bar-region-lesson-clon #top-bar-right') );
+          $(".field--name-field-top-bar-region-lesson-clon button#edit-submit").html('<i class="fas fa-code-branch"></i> Create Remix');
+        } else {
+          $('form.node-form > #edit-actions').appendTo( $('#top-bar-right') );
+        }        
         $('form.user-form > #edit-actions').appendTo( $('#top-bar-right') );
+        
 
 
         // enable bootstrap tooltip when data-toggle=tooltip
@@ -145,8 +151,7 @@
         //   });
         // });
 
-        // change Save btn text on remix/clone page
-        $(".field--name-field-top-bar-region-lesson-clon button#edit-submit").html('<i class="fas fa-code-branch"></i> Create Remix');
+        
 
 
       }
