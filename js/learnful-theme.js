@@ -296,4 +296,30 @@
     }
   }
 
+  Drupal.behaviors.bsTour = {
+    attach: function (context, settings) {
+      // Instance the tour
+      var cloneTour = new Tour({
+        steps: [
+        {
+          element: "#clone_tour",
+          title: "Title of my step",
+          content: "Content of my step"
+        },
+        {
+          element: "#edit-title-0-value",
+          title: "Title of my step",
+          content: "Content of my step"
+        }
+      ]});
+
+      // Initialize the tour
+      $("a#clone_tour").click(function(){
+        cloneTour.init();
+        cloneTour.start();
+      });
+      
+    }
+  }
+
 })(jQuery, Drupal, drupalSettings);
