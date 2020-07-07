@@ -61,6 +61,9 @@ form#change-pwd-form button#edit-submit {
     z-index: 1029;
 }
 /** remix/clone page form **/
+.field--name-field-top-bar-region-lesson-clon {
+    display: none;
+}
 body.user-logged-in.path-clone #node-form-top-bar .field--name-field-top-bar-region-lesson-clon {
     display: block;
 }
