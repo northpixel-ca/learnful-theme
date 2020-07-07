@@ -329,7 +329,7 @@
           {
             element: $('#edit-field-content-blocks-wrapper'),
             content: '<h2>Content Blocks</h2><p>Note that the content blocks are locked and cannot be edited. Once you save your Remix, you will be able to alter the content blocks freely.</p>',
-            position: 'right',
+            position: 'top',
             forceCorrectionTop: -60,
             padding: 15
           },
