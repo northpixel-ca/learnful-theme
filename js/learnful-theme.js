@@ -267,61 +267,44 @@
 
       // implements dknotus-tour.min.js
 
-      // tour: /resources
-      // $('#tour_find-resources').click(function(){
-      //   Tour.run([
-      //     {
-      //       element: $('.page-title-text'),
-      //       content: '<h2>Welcome to the Resource section</h2><p>In this section, you can browse and search for resources created and shared by other Learnful members.</p>',
-      //       position: 'bottom'
-      //     },
-      //     {
-      //       element: $('.views-exposed-form'),
-      //       content: '<h2>Filter and Sort</h2><p>Use the filters to narrow your search by Resource Type and Keywords.</p>',
-      //       position: 'bottom'
-      //     },
-      //     {
-      //       element: $('.form-item-rtype'),
-      //       content: '<h2>Resource Type</h2><p>You can filter by the type of resource you are searching for.</p>',
-      //       position: 'bottom'
-      //     },
-      //     {
-      //       element: $('.form-item-keys'),
-      //       content: '<h2>Keywords</h2><p>You can also provide a keyword to search for when filter results. The provided keyword will be searched in the resource title, author, and license.</p>',
-      //       position: 'bottom'
-      //     },
-      //   ]);
-      // });
+      //tour: /clone/*/quick_clone
+      $('#clone_tour').click(function(){
+        Tour.run([
+          {
+            element: $('#page-header'),
+            content: "<h2>Remixing Resources</h2><p>In this tour, we will cover the basics of creating a Remix of an existing Resource.</p>",
+            position: 'bottom'
+          },
+          {
+            element: $('#page-header'),
+            content: "<h2>Resource being Remixed</h2><p>Here we see the info for the Resource you are about to Remix.</p>",
+            position: 'bottom'
+          },
+          {
+            element: $('h1.page-title-title'),
+            content: '<p>This is the title of the Resource that will be remixed.</p>',
+            position: 'bottom'
+          },
+          {
+            element: $('p.page-title-subtitle'),
+            content: '<p>Here we have more information about the Resource, including Type, Author, and a link to go back to the Resource.</p>',
+            position: 'bottom'
+          },
+          {
+            element: $('#node-form-main-wrapper'),
+            content: '<h2>The Contents</h2><p>Below the header, we have the contents of the Resource that will be copied into our Remix.</p>',
+            position: 'top'
+          },
+          {
+            element: $('#edit-title-0-value'),
+            content: '<h2>Change the Title</h2><p>First, you should consider updating the Title of your Remix.</p><p>By default, the title of your Remix will be:<br><span class="text-muted">Remix of [original title]</span>.',
+            position: 'top'
+          },
+        ]);
+      });
 
     }
   }
 
-  Drupal.behaviors.bsTour = {
-    attach: function (context, settings) {
-      // Instance the tour
-      var cloneTour = new Tour({
-        steps: [
-        {
-          element: "#clone_tour",
-          title: "Step 1",
-          content: "Content of my step"
-        },
-        {
-          element: "#edit-title-0-value",
-          title: "Step 2",
-          content: "Content of my step"
-        }
-      ]});
-
-      // Initialize the tour
-      $("body.path-clone").each(function(){
-        cloneTour.init();
-      });
-      $("a#clone_tour").click(function(){
-        cloneTour.start();
-      });
-      
-    }
-  }
 
 })(jQuery, Drupal, drupalSettings);
