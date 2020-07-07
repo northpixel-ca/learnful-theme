@@ -854,3 +854,13 @@ form#unflagging-form {
     background: var(--white);
     border: 1px solid var(--bg-highlight);
 }
+
+/**
+** Tours
+**/
+.tourStep .panel-body h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: var(--text-mid);
+    margin: 0.25em 0 0.5em;
+}

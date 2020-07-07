@@ -314,7 +314,7 @@
           },
           {
             element: $('#edit-title-0-value'),
-            content: '<h2>Change the Title</h2><p>First, you should consider updating the title of your Remix.</p><p>By default, the title of your Remix will be:<p class="text-muted">Remix of [original title]</p>.',
+            content: '<h2>Change the Title</h2><p>First, you should consider updating the title of your Remix.</p><p>By default, the title of your Remix will be:</p><p class="text-muted">Remix of [original title]</p>',
             position: 'left',
             forceCorrectionTop: -60,
             padding: 15
