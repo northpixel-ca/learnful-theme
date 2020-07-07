@@ -13,7 +13,7 @@ global-styling:
       css/learnful-user-reg-login.css: {}
       css/fontawesome-5.9.0/css/all.min.css: {}
       js/bootstrap-toc/bootstrap-toc.min.css: {}
-      js/bootstrap-tour/bootstrap-tour.min.css: {}
+      js/bootstrap-tour/css/bootstrap-tour.min.css: {}
   js:
     js/bootstrap.min.js: {}
     js/learnful-theme.js: {}
@@ -22,7 +22,7 @@ global-styling:
     js/jquery.matchHeight-min.js: {}
     js/widgets.js: {}
     js/bootstrap-toc/bootstrap-toc.min.js: {}
-    js/bootstrap-tour/bootstrap-tour.min.js: {}
+    js/bootstrap-tour/js/bootstrap-tour.min.js: {}
     js/MathJax.js: {}
     //teams.microsoft.com/share/launcher.js: { type: external, attributes: { async: true } }
     #js/dknotus-tour.min.js: {}
