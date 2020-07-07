@@ -58,7 +58,7 @@ form#change-pwd-form button#edit-submit {
     border-bottom: 1px solid var(--bg-highlight);
     position: sticky;
     top: 60px;
-    z-index: 1029;
+    z-index: 100;
 }
 /** remix/clone page form **/
 .field--name-field-top-bar-region-lesson-clon {

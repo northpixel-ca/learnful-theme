@@ -274,33 +274,78 @@
             element: $('#page-header'),
             content: "<h2>Remixing Resources</h2><p>In this tour, we will cover the basics of creating a Remix of an existing Resource.</p>",
             position: 'bottom',
-            forceCorrectionTop: -100,
+            forceCorrectionTop: -60,
             padding: 0
           },
           {
             element: $('#page-header'),
             content: "<h2>Resource being Remixed</h2><p>Here we see the info for the Resource you are about to Remix.</p>",
-            position: 'bottom'
+            position: 'bottom',
+            forceCorrectionTop: -60,
+            padding: 0
           },
           {
             element: $('h1.page-title-title'),
             content: '<p>This is the title of the Resource that will be remixed.</p>',
-            position: 'bottom'
+            position: 'right',
+            forceCorrectionTop: -60,
+            padding: 5
           },
           {
             element: $('p.page-title-subtitle'),
             content: '<p>Here we have more information about the Resource, including Type, Author, and a link to go back to the Resource.</p>',
-            position: 'bottom'
+            position: 'right',
+            forceCorrectionTop: -60,
+            padding: 5
           },
           {
             element: $('#node-form-main-wrapper'),
-            content: '<h2>The Contents</h2><p>Below the header, we have the contents of the Resource that will be copied into our Remix.</p>',
-            position: 'top'
+            content: '<h2>The Contents</h2><p>Below the header, we have the contents of the Resource that will be copied into our Remix.</p><p>Note that everything from the original Resource is copied over, except the Collaborators field.</p>',
+            position: 'top',
+            forceCorrectionTop: -60,
+            padding: 15
+          },
+          {
+            element: $('#main-right'),
+            content: '<h2>Check the contents</h2><p>Make sure the check and update the contents and metadata before saving your Remix.</p>',
+            position: 'top',
+            forceCorrectionTop: -60,
+            padding: 15
           },
           {
             element: $('#edit-title-0-value'),
-            content: '<h2>Change the Title</h2><p>First, you should consider updating the Title of your Remix.</p><p>By default, the title of your Remix will be:<br><span class="text-muted">Remix of [original title]</span>.',
-            position: 'top'
+            content: '<h2>Change the Title</h2><p>First, you should consider updating the title of your Remix.</p><p>By default, the title of your Remix will be:<p class="text-muted">Remix of [original title]</p>.',
+            position: 'left',
+            forceCorrectionTop: -60,
+            padding: 15
+          },
+          {
+            element: $('#edit-field-remix-of-wrapper'),
+            content: '<h2>Remix of</h2><p>You should also include a reference to the original work - search for it by title here to reference it from your Remix.</p>',
+            position: 'left',
+            forceCorrectionTop: -60,
+            padding: 15
+          },
+          {
+            element: $('#edit-field-content-blocks-wrapper'),
+            content: '<h2>Content Blocks</h2><p>Note that the content blocks are locked and cannot be edited. Once you save your Remix, you will be able to alter the content blocks freely.</p>',
+            position: 'right',
+            forceCorrectionTop: -60,
+            padding: 15
+          },
+          {
+            element: $('#edit-submit'),
+            content: '<h2>Save your Remix</h2><p>Once you are happy with your Remix configuration, go ahead and click on the Create Remix button. This will create a copy of the Resource that you can now edit and alter to fit your needs.</p><p>Always make sure to attribute the original work and author!</p>',
+            position: 'left',
+            forceCorrectionTop: -60,
+            padding: 15
+          },
+          {
+            element: $('#form-help'),
+            content: '<h2>More Questions?</h2><p>Lastly, if you still have questions about Remixing Resources, you can find the indepth documentation and discussion in the forums.</p>',
+            position: 'left',
+            forceCorrectionTop: -60,
+            padding: 15
           },
         ]);
       });
