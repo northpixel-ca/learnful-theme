@@ -145,6 +145,10 @@
         //   });
         // });
 
+        // change Save btn text on remix/clone page
+        $(".field--name-field-top-bar-region-lesson-clon button#edit-submit").html('<i class="fas fa-code-branch"></i> Create Remix');
+
+
       }
     }
 

@@ -60,6 +60,14 @@ form#change-pwd-form button#edit-submit {
     top: 60px;
     z-index: 1029;
 }
+/** remix/clone page form **/
+body.user-logged-in.path-clone #node-form-top-bar .field--name-field-top-bar-region-lesson-clon {
+    display: block;
+}
+body.user-logged-in.path-clone #node-form-top-bar .field--name-field-top-bar-region-tutorials {
+    display: none;
+}
+
 #node-form-main-wrapper {
     /* max-width: 1920px; */
     margin: auto;
