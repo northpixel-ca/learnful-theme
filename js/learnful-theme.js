@@ -321,7 +321,7 @@
           },
           {
             element: $('#edit-field-remix-of-wrapper'),
-            content: '<h2>Remix of</h2><p>You should also include a reference to the original work - search for it by title here to reference it from your Remix.</p>',
+            content: '<h2>Remix of</h2><p>You should also include a reference to the original work.</p><p>This field should be populated with the correct source. If it is not, search for it by title here to reference it from your Remix.</p>',
             position: 'left',
             forceCorrectionTop: -60,
             padding: 15
