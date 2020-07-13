@@ -22,10 +22,20 @@ body.launch-page {
     height: 200px;
 }
 .node--view-mode-launch > header#navbar #header-title > * {
-    padding-left: 1.5em;
+    padding-left: 25px;
 }
 .node--view-mode-launch > header#navbar .header-title {
     font-size: 1.7em;
+    font-weight: 600;
+}
+.node--view-mode-launch > header#navbar .byline {
+    font-size: 0.9em;
+    font-weight: 200;
+    color: white;
+    font-style: italic;
+}
+.node--view-mode-launch > header#navbar .byline a {
+    color: white;
 }
 
 @media (min-width: 768px) {
