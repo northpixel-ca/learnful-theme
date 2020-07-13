@@ -122,6 +122,37 @@ nav#toc {
     }
 }
 
+
+/**
+** Launch page table of contents for module node
+**/
+.module-toc-item > a {
+    background-color: var(--bg-highlight);
+    margin-bottom: 0.5em;
+    display: flex;
+    color: black;
+}
+.module-toc-item > a .toc-counter {
+    padding: 0.75em 1em;
+    background-color: var(--greyblue-light);
+    font-weight: bold;
+}
+.module-toc-item > a .toc-title {
+    width: unset;
+    font-weight: bold;
+    padding: 0.75em;
+}
+.module-toc-item > a .toc-arrow {
+    padding: 0.75em 1em;
+    margin-left: auto;
+}
+.module-toc-item > a:hover,
+.module-toc-item > a:focus {
+    text-decoration: none;
+    background-color: var(--bg-highlight-overlay);
+    color: var(--primary-dark);
+}
+
 /**
 ** Launch page metadata region
 **/
