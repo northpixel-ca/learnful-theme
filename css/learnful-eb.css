@@ -98,7 +98,7 @@ nav.eb-tabs {
 } */
 
 body.entity-browser-iframe form.entity-browser-form > #edit-actions,
-#entity-browser-collaborators-form .form-actions {
+#entity-browser-collaborators-form > .form-actions {
     position: fixed;
     height: 10vh;
     bottom: 0;
