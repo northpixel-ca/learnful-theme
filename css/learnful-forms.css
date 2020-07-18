@@ -85,14 +85,15 @@ body.user-logged-in.path-clone #node-form-top-bar .field--name-field-top-bar-reg
     float: right;
 }
 #main-right > .form-item.panel,
-#main-right > .field--name-field-collaborators-er {
+#main-right > .field--name-field-collaborators-er,
+#main-right > .field--name-field-collaborators-er > .panel {
     border-radius: 0px;
     box-shadow: unset;
     border: 0;
     margin-bottom: 0px;
 }
 #main-right > .form-item.panel .panel-heading,
-#main-right > .field--name-field-collaborators-er {
+#main-right > .field--name-field-collaborators-er .panel-heading {
     border-radius: 0px;
     background-color: var(--bg-lightest);
     border-bottom: 1px solid var(--bg-highlight);
