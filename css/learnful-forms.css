@@ -206,7 +206,8 @@ a#edit-delete:focus {
 
 /** Hide Field label when in panel **/
 .hide-field-label.panel  .form-group:first-of-type > .form-item:first-of-type > label.control-label,
-.hide-field-label.panel .form-item:first-of-type > .table-responsive > table > thead {
+.hide-field-label.panel .form-item:first-of-type > .table-responsive > table > thead,
+.hide-field-label.panel .panel-body .form-item > label {
     display: none;
 }
 
