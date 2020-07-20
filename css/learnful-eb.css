@@ -124,19 +124,23 @@ body.entity-browser-iframe form.entity-browser-form > #edit-actions,
     width: 30px;
     padding-left: 5px;
 }
-.eb-item > .views-field-field-cover-image {
+.eb-item > .views-field-field-cover-image,
+.eb-item > .views-field-user-picture {
     max-width: 50px;
     margin-right: 15px;
 }
-.eb-item > .views-field-title {
+.eb-item > .views-field-title,
+.eb-item > .views-field-name {
     margin-right: 15px;
 }
-.eb-item > .views-field-title h3 {
+.eb-item > .views-field-title h3,
+.eb-item > .views-field-name h3 {
     margin: 5px 0;
     font-size: 20px;
     font-weight: bold;
 }
-.eb-item > .views-field-title p {
+.eb-item > .views-field-title p,
+.eb-item > .views-field-name p {
     margin: 0;
     font-size: 14px;
 }
