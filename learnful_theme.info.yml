@@ -18,6 +18,7 @@ regions:
   sidebar_first: 'Primary'
   sidebar_second: 'Secondary'
   sidebar_off_right: 'Offcanvas Right'
+  sidebar_off_left: 'Offcanvas Left'
   footer: 'Footer'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
