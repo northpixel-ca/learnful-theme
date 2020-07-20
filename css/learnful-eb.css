@@ -188,9 +188,6 @@ body.entity-browser-iframe form.entity-browser-form > #edit-actions,
 **/
 
 /** Tutorials for Minibooks EB **/
-#edit-field-table-of-contents-wrapper {
-    margin: 2em 0 0 1em;
-}
 #edit-field-table-of-contents-wrapper .panel-heading {
     display: none;
 }
