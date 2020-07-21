@@ -50,7 +50,7 @@
         // set active menu item for correct lesson when viewed from module context
         $('.module-nav-item > a').each(function(){
           if (window.location.href.indexOf($(this).attr("href")) >= 0) {
-            console.log('found match: ' + $(this).attr("href"));
+            $(this).addClass("active");
           }
         })
 
