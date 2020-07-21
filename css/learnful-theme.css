@@ -959,6 +959,24 @@ button#toggle-mobile-nav:hover,
 button#toggle-mobile-nav:active {
     background: var(--bg-highlight-overlay);
 }
+button#toggle-module-nav {
+    padding: 13px 0 0;
+    margin: 0;
+    background-color: unset;
+    border: unset;
+    float: left;
+}
+h2.module-lesson-title {
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.module-navbar .region-navigation {
+    float: left;
+    margin-left: 1em;
+}
 .navbar .logo {
     margin-top: 5px;
     margin-bottom: 5px;
