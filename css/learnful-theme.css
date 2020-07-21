@@ -973,6 +973,14 @@ h2.module-lesson-title {
     padding: 0;
     font-weight: bold;
 }
+h2.module-lesson-title a {
+    color: black;
+}
+h2.module-lesson-title a:hover,
+h2.module-lesson-title a:focus {
+    text-decoration: none;
+    color: var(--primary-dark);
+}
 .module-navbar {
     z-index: 1032;
 }
@@ -1087,7 +1095,6 @@ button#close-sidebar-off-left svg {
 
 .sidebar-offcanvas-left .view-header > a {
     padding: 1em;
-    margin-bottom: 1em;
     display: block;
     text-align: center;
     background-color: var(--secondary);

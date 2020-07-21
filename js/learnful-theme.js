@@ -47,6 +47,13 @@
         // });
 
 
+        // set active menu item for correct lesson when viewed from module context
+        $('.module-nav-item > a').each(function(){
+          if (window.location.href.indexOf($(this).attr("href")) >= 0) {
+            console.log('found match: ' + $(this).attr("href"));
+          }
+        })
+
         // move node actions to node-form-top
         if ($("body").hasClass("path-clone")){
           $('form.node-form > #edit-actions').appendTo( $('.field--name-field-top-bar-region-lesson-clon #top-bar-right') );

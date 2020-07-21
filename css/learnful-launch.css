@@ -1,6 +1,9 @@
 body.launch-page {
     margin-top: 0px;
 }
+body.launch-module-lesson-view {
+    margin-top: 50px;
+}
 
 /**
 ** Launch Page Header
