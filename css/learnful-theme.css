@@ -147,14 +147,14 @@ aside.sidebar-offcanvas-left {
     z-index: 1031;
     width: 250px;
     height: 100%;
-    background: var(--bg-mid);
+    background: white;
 }
 aside.sidebar-offcanvas-right.is-open {
     box-shadow: -5px 0 10px 0 rgba(0,0,0,0.1);
     z-index: 1031;
 }
 aside.sidebar-offcanvas-left.is-open {
-    box-shadow: -5px 0 10px 0 rgba(0,0,0,0.1);
+    box-shadow: 5px 0 10px 0 rgba(0,0,0,0.1);
     z-index: 1031;
 }
 
@@ -1063,6 +1063,50 @@ button#close-sidebar-off-right svg {
     color: #FFF;  
 }
 
+/**
+** Offcanvas Left
+**/
+button#close-sidebar-off-left {
+    background: rgba(255,255,255,0.25);
+    float: right;
+    margin: 10px 10px 0 0;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    display: none;
+}
+button#close-sidebar-off-left svg {
+    fill: var(--white);
+    width: 10px;
+}
+
+.module-nav-item > a {
+    display: block;
+    margin: 0;
+    padding: 1em;
+    border-bottom: 1px solid var(--bg-highlight-overlay);
+    color: black;
+    background-color: unset;
+}
+.module-nav-item > a .mnav-counter {
+    font-size: 0.8em;
+    display: block;
+}
+.module-nav-item > a .mnav-title {
+    font-weight: bold;
+}
+.module-nav-item > a.active {
+    background-color: var(--bg-lightest);
+    color: var(--primary-dark);
+}
+.module-nav-item > a:hover,
+.module-nav-item > a:focus {
+    text-decoration: none;
+    background-color: var(--bg-mid);
+    color: var(--primary);
+}
 
 /**
 ** Vertical Nav
