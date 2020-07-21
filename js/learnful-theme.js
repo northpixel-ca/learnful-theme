@@ -22,7 +22,7 @@
         $("#full-page-overlay").click(function() {
           $("aside.sidebar-offcanvas-right.is-open").removeClass("is-open").css("right","-250px");
           $("aside.sidebar-left.is-open").removeClass("is-open").css("left", "-250px");
-          $("aside.sidebar-offcanvas-left").removeClass("is-open").css( "left", "-250px");
+          $("aside.sidebar-offcanvas-left").removeClass("is-open").css( "left", "-350px");
           $("button#close-sidebar-off-left").css('display','none');
           $("#full-page-overlay").css('display','none');
           $("button#close-sidebar-off-right").css('display','none');
@@ -39,12 +39,12 @@
           $("#full-page-overlay").css('display','block');
           $("button#close-sidebar-off-left").css('display','block');
         });
-        // close .sidebar-offcanvs-left when close button is clicked
-        $("button#close-sidebar-off-left").click(function() {
-          $("aside.sidebar-offcanvas-left").removeClass("is-open").css( "left", "-250px");
-          $("#full-page-overlay").css('display','none');
-          $("button#close-sidebar-off-left").css('display','none');
-        });
+        // // close .sidebar-offcanvs-left when close button is clicked
+        // $("button#close-sidebar-off-left").click(function() {
+        //   $("aside.sidebar-offcanvas-left").removeClass("is-open").css( "left", "-350px");
+        //   $("#full-page-overlay").css('display','none');
+        //   $("button#close-sidebar-off-left").css('display','none');
+        // });
 
 
         // move node actions to node-form-top
