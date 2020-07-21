@@ -1082,6 +1082,15 @@ button#close-sidebar-off-left svg {
     width: 10px;
 }
 
+.sidebar-offcanvas-left .view-header > a {
+    padding: 1em;
+    margin-bottom: 1em;
+    display: block;
+    text-align: center;
+    background-color: var(--secondary);
+    color: white; 
+}
+
 .module-nav-item > a {
     display: block;
     margin: 0;

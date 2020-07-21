@@ -66,7 +66,7 @@
 {% if page.sidebar_off_left %}
   {% block sidebar_off_left %}
     <aside class="sidebar-offcanvas-left" role="complementary">
-      <button id="close-sidebar-off-left">
+      {# <button id="close-sidebar-off-left">
         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 viewBox="0 0 212.982 212.982" style="enable-background:new 0 0 212.982 212.982;" xml:space="preserve">
         <g id="Close">
@@ -78,7 +78,7 @@ viewBox="0 0 212.982 212.982" style="enable-background:new 0 0 212.982 212.982;"
         <g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g>
       </svg>
         <span class="sr-only">Close the user navigation overlay</span>
-      </button>
+      </button> #}
       {{ page.sidebar_off_left }}
     </aside>
   {% endblock %}
