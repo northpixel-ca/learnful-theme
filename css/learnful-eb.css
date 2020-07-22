@@ -90,11 +90,11 @@ nav.eb-tabs {
 .ebview.has-exposed-filters {
     clear: both;
 }
-.ebview.has-exposed-filters .view-filters {
+/* .ebview.has-exposed-filters .view-filters {
     position: absolute;
     top: 0;
     right: 0;
-}
+} */
 .ebview.has-exposed-filters .view-filters button.btn {
     border-width: 1px;
 }
