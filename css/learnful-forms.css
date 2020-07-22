@@ -61,13 +61,16 @@ form#change-pwd-form button#edit-submit {
     z-index: 100;
 }
 /** remix/clone page form **/
-.field--name-field-top-bar-region-lesson-clon {
+.field--name-field-top-bar-region-lesson-clon,
+.field--name-field-top-bar-region-h5p-clone {
     display: none;
 }
-body.user-logged-in.path-clone #node-form-top-bar .field--name-field-top-bar-region-lesson-clon {
+body.user-logged-in.path-clone #node-form-top-bar .field--name-field-top-bar-region-lesson-clon,
+body.user-logged-in.path-clone #node-form-top-bar .field--name-field-top-bar-region-h5p-clone {
     display: block;
 }
-body.user-logged-in.path-clone #node-form-top-bar .field--name-field-top-bar-region-tutorials {
+body.user-logged-in.path-clone #node-form-top-bar .field--name-field-top-bar-region-tutorials,
+body.user-logged-in.path-clone #node-form-top-bar .field--name-field-top-bar-region-h5p  {
     display: none;
 }
 
