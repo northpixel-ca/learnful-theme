@@ -67,7 +67,7 @@
         } else {
           $('form.node-form > #edit-actions').appendTo( $('#top-bar-right') );
         }        
-        //$('form.user-form > #edit-actions').appendTo( $('#top-bar-right') );
+        $('form.user-form > #edit-actions').appendTo( $('#top-bar-right') );
         
 
 
