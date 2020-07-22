@@ -53,11 +53,16 @@ body.entity-browser-iframe .alert {
 }
 body.entity-browser-iframe div.view {
     max-height: 80vh;
-    overflow-y: auto;
+    /* overflow-y: auto; */
 }
 nav.eb-tabs {
     border-bottom: 1px solid var(--bg-highlight);
     margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    background: white;
+    z-index: 1031;
+    width: 100%;
 }
 .eb-tabs ul {
     border-bottom: 0;
