@@ -62,17 +62,21 @@ form#change-pwd-form button#edit-submit {
 }
 /** remix/clone page form **/
 .field--name-field-top-bar-region-lesson-clon,
-.field--name-field-top-bar-region-h5p-clone {
+.field--name-field-top-bar-region-h5p-clone,
+.field--name-field-top-bar-region-module-clon {
     display: none;
 }
 body.user-logged-in.path-clone #node-form-top-bar .field--name-field-top-bar-region-lesson-clon,
-body.user-logged-in.path-clone #node-form-top-bar .field--name-field-top-bar-region-h5p-clone {
+body.user-logged-in.path-clone #node-form-top-bar .field--name-field-top-bar-region-h5p-clone,
+body.user-logged-in.path-clone #node-form-top-bar .field--name-field-top-bar-region-module-clon {
     display: block;
 }
 body.user-logged-in.path-clone #node-form-top-bar .field--name-field-top-bar-region-tutorials,
-body.user-logged-in.path-clone #node-form-top-bar .field--name-field-top-bar-region-h5p  {
+body.user-logged-in.path-clone #node-form-top-bar .field--name-field-top-bar-region-h5p,
+body.user-logged-in.path-clone #node-form-top-bar .field--name-field-top-bar-region-minibook  {
     display: none;
 }
+
 
 #node-form-main-wrapper {
     /* max-width: 1920px; */
