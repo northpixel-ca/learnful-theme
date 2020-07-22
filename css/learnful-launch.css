@@ -157,6 +157,21 @@ nav#toc {
 }
 
 /**
+** Launch page h5p object in h5p resource
+**/
+.field-h5p-object {
+    min-height: calc(100vh - 200px);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.field-h5p-object > .h5p-iframe-wrapper {
+    align-items: center;
+    display: flex;
+}
+
+
+/**
 ** Launch page metadata region
 **/
 .meta-entry {
