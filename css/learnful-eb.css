@@ -54,6 +54,8 @@ body.entity-browser-iframe .alert {
 body.entity-browser-iframe div.view {
     max-height: 80vh;
     /* overflow-y: auto; */
+    margin-top: 60px;
+    padding-bottom: 100px;
 }
 nav.eb-tabs {
     border-bottom: 1px solid var(--bg-highlight);
