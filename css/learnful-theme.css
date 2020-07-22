@@ -1763,6 +1763,14 @@ p.card-secondary-text {
 }
 
 /**
+** hypothesis
+**/
+body.sidebar-offcanvas-right .annotator-frame {
+    margin-top: 60px;
+    z-index: 1031;
+}
+
+/**
 ** Global Styles
 **/
 
