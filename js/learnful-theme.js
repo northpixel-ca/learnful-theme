@@ -363,7 +363,7 @@
             padding: 15
           },
           {
-            element: $('#edit-submit'),
+            element: $('#top-bar-right'),
             content: '<h2>Save your Remix</h2><p>Once you are happy with your Remix configuration, go ahead and click on the Create Remix button. This will create a copy of the Resource that you can now edit and alter to fit your needs.</p><p>Always make sure to attribute the original work and author!</p>',
             position: 'left',
             forceCorrectionTop: -60,
