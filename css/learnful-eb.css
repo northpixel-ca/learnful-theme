@@ -185,16 +185,16 @@ body.entity-browser-iframe form.entity-browser-form > #edit-actions,
 }
 .node.node--view-mode-entity-browser-selected .field--name-field-cover-image {
     max-width: 50px;
-    margin-right: 20px;
 }
 .node.node--view-mode-entity-browser-selected .field--name-node-title > h2 {
     font-size: 16px;
     font-weight: bold;
-    margin: 0 25px 0 0;
+    margin: 0;
 }
-.node.node--view-mode-entity-browser-selected .field--name-node-changed-date > div {
-    display: inline-block;
+.node.node--view-mode-entity-browser-selected > .field {
+    margin-right: 2em;
 }
+
 
 /**
 ** EB: Grid View
