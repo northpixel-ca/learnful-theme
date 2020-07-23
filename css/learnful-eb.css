@@ -104,6 +104,12 @@ nav.eb-tabs {
     margin-top: 10px;
 } */
 
+.ebview.has-exposed-filters .view-footer {
+    clear: both;
+    text-align: center;
+    padding-top: 2em;
+}
+
 body.entity-browser-iframe form.entity-browser-form > #edit-actions,
 #entity-browser-collaborators-form > .form-actions {
     position: fixed;
