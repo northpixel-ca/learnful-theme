@@ -196,6 +196,23 @@ body.entity-browser-iframe form.entity-browser-form > #edit-actions,
 .eb-grid-item {
     margin-bottom: 1em;
 }
+.eb-grid-item .form-type-checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 15px;
+    bottom: 50px;
+}
+.eb-grid-item .form-type-checkbox label {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.eb-grid-item .form-type-checkbox input {
+    opacity: 0;
+}
 .eb-grid-item .card-body {
     border: 1px solid var(--bg-highlight-overlay);
     border-top: 0;
@@ -207,6 +224,12 @@ body.entity-browser-iframe form.entity-browser-form > #edit-actions,
 .eb-grid-item .card-body > h3 {
     font-size: 18px;
     margin: 0.5em 0;
+}
+.eb-grid-item .card-footer {
+    margin: 0;
+    border: 1px solid var(--bg-highlight-overlay);
+    border-top: 0;
+    font-weight: bold;
 }
 
 /**
