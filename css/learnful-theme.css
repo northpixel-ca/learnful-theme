@@ -1922,6 +1922,42 @@ ul.inline-items > li.inline-item {
     transform: rotate(45deg); 
 }
 
+/** Custom checkbox **/
+.use-custom-radio input {
+    opacity: 0;
+}
+.use-custom-radio .custom-radio {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--text-mid);
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.4);
+}
+.use-custom-radio:hover .custom-radio {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.use-custom-radio input:checked ~ .custom-radio {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+.use-custom-radio .custom-radio:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.use-custom-radio input:checked ~ .custom-radio:after {
+    display: block;
+    left: 12px;
+    top: 6px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: white;
+}
+
 
 /**
 ** Spacing Utilities
