@@ -208,7 +208,7 @@ body.entity-browser-iframe form.entity-browser-form > #edit-actions,
     position: absolute;
     width: 100%;
     height: 100%;
-    padding: 0;
+    padding: 0.5em;
 }
 .eb-grid-item .card-body {
     border: 1px solid var(--bg-highlight-overlay);
