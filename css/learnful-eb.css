@@ -191,6 +191,25 @@ body.entity-browser-iframe form.entity-browser-form > #edit-actions,
 }
 
 /**
+** EB: Grid View
+**/
+.eb-grid-item {
+    margin-bottom: 1em;
+}
+.eb-grid-item .card-body {
+    border: 1px solid var(--bg-highlight-overlay);
+    border-top: 0;
+}
+.eb-grid-item .card-body > * {
+    margin-bottom: 0.5em;
+    font-size: 14px;
+}
+.eb-grid-item .card-body > h3 {
+    font-size: 18px;
+    margin: 0.5em 0;
+}
+
+/**
 ** Entity Browser field styling
 **/
 
