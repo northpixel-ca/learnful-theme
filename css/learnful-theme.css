@@ -1883,6 +1883,45 @@ ul.inline-items > li.inline-item {
 }
 
 
+/** Custom checkbox **/
+.use-custom-checkbox input {
+    opacity: 0;
+}
+.use-custom-checkbox .custom-checkbox {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--text-mid);
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.4);
+}
+.use-custom-checkbox:hover .custom-checkbox {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.use-custom-checkbox input:checked ~ .custom-checkbox {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+.use-custom-checkbox .custom-checkbox:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.use-custom-checkbox input:checked ~ .custom-checkbox:after {
+    display: block;
+    left: 12px;
+    top: 6px;
+    width: 7px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); 
+}
+
 
 /**
 ** Spacing Utilities

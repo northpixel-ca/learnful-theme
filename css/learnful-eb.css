@@ -210,9 +210,6 @@ body.entity-browser-iframe form.entity-browser-form > #edit-actions,
     height: 100%;
     padding: 0;
 }
-.eb-grid-item .form-type-checkbox input {
-    opacity: 0;
-}
 .eb-grid-item .card-body {
     border: 1px solid var(--bg-highlight-overlay);
     border-top: 0;
