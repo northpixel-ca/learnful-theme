@@ -381,7 +381,8 @@ section.main-section {
     display: block;
     font-size: 14px;
 }
-.ds-2col-stacked > .group-footer .footer-left > .field {
+.ds-2col-stacked > .group-footer .footer-left > .field,
+.ds-2col-stacked > .group-footer .footer-left > .form-group {
     display: inline-block;
     margin-right: 1.5em;
     color: var(--text-mid);

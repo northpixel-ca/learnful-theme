@@ -194,6 +194,9 @@ body.entity-browser-iframe form.entity-browser-form > #edit-actions,
 .node.node--view-mode-entity-browser-selected > .field {
     margin-right: 2em;
 }
+.node.node--view-mode-entity-browser-selected > .field--name-node-title {
+    width: 350px;
+}
 
 
 /**
