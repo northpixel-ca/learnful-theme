@@ -386,6 +386,7 @@ section.main-section {
     display: inline-block;
     margin-right: 1.5em;
     color: var(--text-mid);
+    margin-bottom: 0px;
 }
 .ds-2col-stacked h2.card-title {
     font-size: 1.1em;
