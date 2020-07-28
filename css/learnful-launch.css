@@ -171,9 +171,12 @@ nav#toc {
     color: white;
     font-weight: bold;
     display: none;
+    float: left;
+    border-right: 1px solid rgba(0,0,0,0.2);
 }
 #block-moduleprevnextpager a#next-resource {
     float: right;
+    border-left: 1px solid rgba(0,0,0,0.2);
 }
 
 

@@ -201,8 +201,8 @@
           }
           if ($(this).next("div").length){
             $('#next-resource').css('display','block');
-            var nextTitle = $(this).prev("div").find(".mnav-title").text();
-            var nextURL = $(this).prev("div").find('a').attr('href');
+            var nextTitle = $(this).next("div").find(".mnav-title").text();
+            var nextURL = $(this).next("div").find('a').attr('href');
             $('#next-resource').text(nextTitle);
             $('#next-resource').attr('href',nextURL);
           }
