@@ -174,29 +174,22 @@ nav#toc {
     float: left;
     border-right: 1px solid rgba(0,0,0,0.2);
 }
-#block-moduleprevnextpager a#prev-resource {
-    padding-left: 50px;
-}
 #block-moduleprevnextpager a#next-resource {
     float: right;
     border-left: 1px solid rgba(0,0,0,0.2);
-    padding-right: 50px;
 }
 #block-moduleprevnextpager a#prev-resource::before,
 #block-moduleprevnextpager a#next-resource::after {
     font-family: 'Glyphicons Halflings';
-    position: absolute;
-    top: 0px;
-    font-size: 2em;
-    font-weight: normal;
+    vertical-align: middle;
 }
 #block-moduleprevnextpager a#prev-resource::before {
     content:"\e257";
-    left: 15px;
+    margin-right: 15px;
 }
 #block-moduleprevnextpager a#next-resource::after {
     content:"\e258";
-    right: 15px;
+    margin-left: 15px;
 }
 
 
