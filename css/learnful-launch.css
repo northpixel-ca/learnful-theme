@@ -127,6 +127,14 @@ nav#toc {
 
 
 /**
+** Module node views view element
+**/
+.view-module-launch-lesson-view {
+    min-height: 80vh;
+}
+
+
+/**
 ** Launch page table of contents for module node
 **/
 .module-toc-item > a {
