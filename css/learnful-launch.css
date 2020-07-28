@@ -237,6 +237,9 @@ p.meta-title {
 p.license-statement {
     color: var(--text-mid);
 }
+.node--view-mode-launch #share {
+    margin-bottom: 5em;
+}
 @media (min-width: 768px) {
     .field-metadata-region > div > .meta-entry:last-of-type {
         padding-bottom: 0px;
@@ -254,7 +257,7 @@ p.license-statement {
 **/
 body.launch-page footer.footer {
     margin-left: unset;
-    margin-top: 70px;
+    margin-top: 0;
     width: 100%;
     background: var(--white);
     color: var(--text-mid);
