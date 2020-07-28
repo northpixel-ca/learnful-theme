@@ -163,7 +163,6 @@ nav#toc {
 #block-moduleprevnextpager {
     position: sticky;
     bottom: 0;
-    padding: 1em;
     background: var(--primary-dark);
 }
 #block-moduleprevnextpager a#prev-resource,
@@ -173,10 +172,13 @@ nav#toc {
     display: none;
     float: left;
     border-right: 1px solid rgba(0,0,0,0.2);
+    width: 50%;
+    padding: 1em;
 }
 #block-moduleprevnextpager a#next-resource {
     float: right;
     border-left: 1px solid rgba(0,0,0,0.2);
+    border-right: 0;
 }
 #block-moduleprevnextpager a#prev-resource::before,
 #block-moduleprevnextpager a#next-resource::after {
@@ -190,6 +192,11 @@ nav#toc {
 #block-moduleprevnextpager a#next-resource::after {
     content:"\e258";
     margin-left: 15px;
+}
+#block-moduleprevnextpager a:hover,
+#block-moduleprevnextpager a:focus {
+    text-decoration: none;
+    background-color: var(--primary);
 }
 
 
