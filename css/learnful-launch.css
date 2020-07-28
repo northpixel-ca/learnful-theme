@@ -157,6 +157,25 @@ nav#toc {
 }
 
 
+/**
+** Launch page: Module: Prev Next Pager
+**/
+#block-moduleprevnextpager {
+    position: sticky;
+    bottom: 0;
+    padding: 1em;
+    background: var(--primary-dark);
+}
+#block-moduleprevnextpager a#prev-resource,
+#block-moduleprevnextpager a#next-resource {
+    color: white;
+    font-weight: bold;
+    display: none;
+}
+#block-moduleprevnextpager a#next-resource {
+    float: right;
+}
+
 
 
 /**

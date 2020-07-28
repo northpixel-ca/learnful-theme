@@ -51,6 +51,7 @@
         $('.module-nav-item > a').each(function(){
           if (window.location.href.indexOf($(this).attr("href")) >= 0) {
             $(this).addClass("active");
+            $(this).parent().addClass("current");
           }
         })
 
@@ -182,6 +183,30 @@
 
         
 
+
+      }
+    }
+
+    Drupal.behaviors.modulePages = {
+      attach: function (context, settings) {
+
+        // Set Prev / Next Pager links
+        $(".module-nav-item.current").each(function(){
+          if ($(this).prev("div").length){
+            $('#prev-resource').css('display','block');
+            var prevTitle = $(this).prev("div").find(".mnav-title").text();
+            var prevURL = $(this).prev("div").find('a').attr('href');
+            $('#prev-resource').text(prevTitle);
+            $('#prev-resource').attr('href',prevURL);
+          }
+          if ($(this).next("div").length){
+            $('#next-resource').css('display','block');
+            var nextTitle = $(this).prev("div").find(".mnav-title").text();
+            var nextURL = $(this).prev("div").find('a').attr('href');
+            $('#next-resource').text(nextTitle);
+            $('#next-resource').attr('href',nextURL);
+          }
+        });
 
       }
     }
