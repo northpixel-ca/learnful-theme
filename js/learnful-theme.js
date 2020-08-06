@@ -67,6 +67,7 @@
           $(".field--name-field-top-bar-region-module-clon button#edit-submit").html('<i class="fas fa-code-branch"></i> Create Remix');
         } else {
           $('form.node-form > #edit-actions').appendTo( $('#top-bar-right') );
+          $('form.group-form > #edit-actions').appendTo( $('#top-bar-right') );
         }        
         $('form.user-form > #edit-actions').appendTo( $('#top-bar-right') );
         
