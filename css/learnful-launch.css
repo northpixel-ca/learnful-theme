@@ -164,6 +164,13 @@ nav#toc {
     color: var(--primary-dark);
 }
 
+/** add extra padding to anchors **/
+.node--view-mode-launch-in-module- h2[id],
+.node--view-mode-launch-in-module- h3[id],
+.node--view-mode-launch-in-module- h4[id] {
+    
+}
+
 
 /**
 ** Launch page: Module: Prev Next Pager
