@@ -1,3 +1,7 @@
 form.group-form #edit-actions > #edit-delete {
   float: right;
 }
+
+.view-page-title-dynamic-groups .page-title-calltoaction a {
+  float: right;
+}
