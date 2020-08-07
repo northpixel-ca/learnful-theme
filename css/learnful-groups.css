@@ -1,7 +1,14 @@
+#block-views-block-page-title-dynamic-groups-block-1 {
+  background-image: url(/themes/custom/learnful-theme/assets/images/bgs/dark-mosaic.png);
+  background-color: var(--primary-dark);
+}
+
+
 form.group-form #edit-actions > #edit-delete {
   float: right;
 }
 
 .view-page-title-dynamic-groups .page-title-calltoaction a {
   float: right;
+  background-color: var(--primary-dark);
 }
