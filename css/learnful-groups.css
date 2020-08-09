@@ -38,15 +38,18 @@ form.group-form #edit-actions > #edit-delete {
   padding: 1em;
   font-size: 0.9em;
   font-weight: bold;
+  color: var(--text-mid);
   border-bottom: 2px solid transparent;
 }
 .group-menu-main > a.active {
   border-bottom: 2px solid;
+  color: var(--primary);
 }
 .group-menu-main > a:hover,
 .group-menu-main > a:focus {
   text-decoration: none;
   background-color: var(--bg-lightest);
+  color: var(--primary-dark);
 }
 .group-menu-right {
   padding: 0.5em;
