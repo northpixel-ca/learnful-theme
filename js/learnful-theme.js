@@ -55,6 +55,13 @@
           }
         })
 
+        // set active menu for group inner menu
+        $('.group-menu-main > a').each(function(){
+          if (window.location.href.indexOf($(this).attr("href")) >= 0) {
+            $(this).addClass("active");
+          }
+        });
+
         // move node actions to node-form-top
         if ($("body").hasClass("path-clone")){
           $('form.node-form > #edit-actions').appendTo( $('.field--name-field-top-bar-region-lesson-clon #top-bar-right') );
