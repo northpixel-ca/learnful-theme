@@ -38,6 +38,7 @@ form.group-form #edit-actions > #edit-delete {
   padding: 1em;
   font-size: 0.9em;
   font-weight: bold;
+  border-bottom: 2px solid transparent;
 }
 .group-menu-main > a.active {
   border-bottom: 2px solid;
@@ -60,6 +61,6 @@ form.group-form #edit-actions > #edit-delete {
 }
 .group-menu-right a:hover,
 .group-menu-right a:focus {
-  background-color: var(--bg-highlight);
+  background-color: var(--bg-lightest);
   text-decoration: none;
 }
