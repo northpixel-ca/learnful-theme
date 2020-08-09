@@ -396,6 +396,22 @@ section.main-section {
     color: black;
 }
 
+/** tags with links **/
+.tags-with-links > a {
+    background-color: var(--bg-lightest);
+    padding: 0.5em;
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    color: var(--black);
+    border-radius: 10px;
+}
+.tags-with-links > a:hover,
+.tags-with-links > a:focus {
+    text-decoration: none;
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
+}
+
 
 .field.field-author-mini {
     margin: 0.5em 0 0.75em;
