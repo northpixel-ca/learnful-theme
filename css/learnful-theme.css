@@ -408,7 +408,7 @@ section.main-section {
 .tags-with-links > a:hover,
 .tags-with-links > a:focus {
     text-decoration: none;
-    background-color: var(--primary-light);
+    background-color: var(--bg-highlight);
     color: var(--primary-dark);
 }
 
