@@ -3,12 +3,63 @@
   background-color: var(--primary-dark);
 }
 
-
+/**
+** Group Page header
+**/
 form.group-form #edit-actions > #edit-delete {
   float: right;
 }
-
+.view-page-title-dynamic-groups .circle-image img {
+  border: 3px solid white;
+}
 .view-page-title-dynamic-groups .page-title-calltoaction a {
   float: right;
   background-color: var(--primary-dark);
+}
+.view-page-title-dynamic-groups .page-title-calltoaction a:hover,
+.view-page-title-dynamic-groups .page-title-calltoaction a:focus {
+  background-color: var(--primary);
+}
+
+
+/**
+** Group Menu
+**/
+
+.group-header-menu {
+  background-color: white;
+}
+.group-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.group-menu-main > a {
+  display: inline-block;
+  padding: 1em;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.group-menu-main > a.active {
+  border-bottom: 2px solid;
+}
+.group-menu-main > a:hover,
+.group-menu-main > a:focus {
+  text-decoration: none;
+  background-color: var(--bg-lightest);
+}
+.group-menu-right {
+  padding: 0.5em;
+  grid-column-end: 4;
+}
+.group-menu-right a {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+.group-menu-right a:hover,
+.group-menu-right a:focus {
+  background-color: var(--bg-highlight);
+  text-decoration: none;
 }
