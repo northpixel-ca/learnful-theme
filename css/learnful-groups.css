@@ -96,3 +96,20 @@ form.group-form #edit-actions > #edit-delete {
     width: 95%
   }
 }
+
+/**
+** Group Feeds
+**/
+
+/** Discussions **/
+.view.group-feed-discussions .card-footer {
+  line-height: 30px;
+}
+.view.group-feed-discussions .card-footer .card-author a img {
+  max-width: 30px;
+  border-radius: 50%;
+  margin-right: 1em;
+}
+.view.group-feed-discussions a.card-action {
+  font-weight: bold;
+}
