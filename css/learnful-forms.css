@@ -77,6 +77,10 @@ body.user-logged-in.path-clone #node-form-top-bar .field--name-field-top-bar-reg
 body.user-logged-in.path-clone #node-form-top-bar .field--name-field-top-bar-region-minibook  {
     display: none;
 }
+/** Group node **/
+#node-form-top-bar[data-drupal-selector=edit-group-node-form-top-bar] button#edit-cancel {
+    float: right;
+}
 
 
 #node-form-main-wrapper {

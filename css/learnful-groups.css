@@ -102,6 +102,12 @@ form.group-form #edit-actions > #edit-delete {
 **/
 
 /** Discussions **/
+.view.group-feed-discussions .views-exposed-form label {
+  font-weight: normal;
+  font-size: 0.9em;
+  color: var(--text-mid);
+  margin-right: 0.5em;
+}
 .view.group-feed-discussions .card-footer {
   line-height: 30px;
 }
@@ -116,4 +122,16 @@ form.group-form #edit-actions > #edit-delete {
 }
 .view.group-feed-discussions .card-action > a{
   font-weight: bold;
+}
+
+/**
+** Group Page with Right Sidebar inside Content
+**/
+
+.group-feed-right-panel .region-content {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  max-width: 1200px;
+  margin: auto;
+  grid-gap: 3em;
 }
