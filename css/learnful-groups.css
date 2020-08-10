@@ -105,11 +105,15 @@ form.group-form #edit-actions > #edit-delete {
 .view.group-feed-discussions .card-footer {
   line-height: 30px;
 }
+.view.group-feed-discussions .card-footer .card-author > a {
+  display: inline-block;
+  vertical-align: middle;
+}
 .view.group-feed-discussions .card-footer .card-author a img {
   max-width: 30px;
   border-radius: 50%;
   margin-right: 1em;
 }
-.view.group-feed-discussions a.card-action {
+.view.group-feed-discussions .card-action > a{
   font-weight: bold;
 }
