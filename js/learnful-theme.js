@@ -212,10 +212,10 @@
           </ul>
           `
           $(this).contents().filter(function(){
-            return
+            return this.nodeType === 3
           })
           .css('display','none');
-          
+
           $(this).append(leaveGroupMessage);
         });
 
