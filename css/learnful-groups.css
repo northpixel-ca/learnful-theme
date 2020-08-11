@@ -67,6 +67,9 @@ form.group-form #edit-actions > #edit-delete {
   background-color: var(--bg-lightest);
   text-decoration: none;
 }
+.group-menu-right a.active {
+  background-color: var(--bg-lightest);
+}
 
 
 /**

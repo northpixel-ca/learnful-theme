@@ -56,7 +56,7 @@
         })
 
         // set active menu for group inner menu
-        $('.group-menu-main > a').each(function(){
+        $('.group-menu > a').each(function(){
           if (window.location.href.indexOf($(this).attr("href")) >= 0) {
             $(this).addClass("active");
           }
