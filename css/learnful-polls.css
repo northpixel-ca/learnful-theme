@@ -1,0 +1,39 @@
+.views-field-field-poll {
+  padding: 1em;
+  border-bottom: 1px solid var(--bg-highlight);
+}
+.views-field-field-poll h3.poll-question {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 1em 0;
+}
+.views-field-field-poll .vote-form > label {
+  display: none;
+}
+.views-field-field-poll .vote-form > .form-actions {
+  margin-top: 1em;
+}
+.views-field-field-poll .vote-form > .form-actions > button {
+  padding: 2px 8px;
+  font-size: 0.8em;
+}
+.views-field-field-poll .alert {
+  margin-top: -1em;
+  border: 0;
+}
+
+
+
+.poll dl,
+.poll dd {
+  font-size: 14px;
+}
+.poll .bar {
+  background-color: var(--bg-highlight-overlay);
+}
+.poll .bar .foreground {
+  background-color: var(--primary);
+}
+dt.choice-title.is-current-selection {
+  color: var(--primary);
+}

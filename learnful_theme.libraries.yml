@@ -12,6 +12,7 @@ global-styling:
       css/learnful-embed.css: {}
       css/learnful-user-reg-login.css: {}
       css/learnful-groups.css: {}
+      css/learnful-polls.css: {}
       css/fontawesome-5.9.0/css/all.min.css: {}
       js/bootstrap-toc/bootstrap-toc.min.css: {}
   js:
