@@ -150,6 +150,14 @@
         {% block content %}
           <a id="main-content"></a>
           {{ page.content }}
+
+          {# Content Sidebar #}
+          {% if page.content_sidebar %}
+            {% block content_sidebar %}
+              {{ page.content_sidebar }}
+            {% endblock %}
+          {% endif %}
+
         {% endblock %}
       </section>
 

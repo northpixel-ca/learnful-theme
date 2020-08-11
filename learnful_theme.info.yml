@@ -15,6 +15,7 @@ regions:
   highlighted: 'Highlighted'
   help: 'Help'
   content: 'Content'
+  content: 'Content Sidebar'
   sidebar_first: 'Primary'
   sidebar_second: 'Secondary'
   sidebar_off_right: 'Offcanvas Right'
