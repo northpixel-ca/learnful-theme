@@ -138,10 +138,17 @@ form.group-form #edit-actions > #edit-delete {
 ** Group Page with Right Sidebar inside Content
 **/
 
-.group-feed-right-panel .region-content {
+#group-discussion-panel-main {
   display: grid;
   grid-template-columns: 8fr 4fr;
   max-width: 1200px;
   margin: auto;
   grid-gap: 3em;
+}
+
+.region-content-sidebar h2.block-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: var(--text-mid);
+  margin: 0.5em 0 1em;
 }
