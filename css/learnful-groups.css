@@ -72,27 +72,33 @@ form.group-form #edit-actions > #edit-delete {
 /**
 ** Group main page
 **/
-.group.ds-2col-fluid {
+.group.ds-2col-fluid,
+.group-content--type-sprint-group-membership.ds-2col-fluid {
   max-width: 1200px;
   margin: auto;
 }
-.group.ds-2col-fluid > .group-left {
+.group.ds-2col-fluid > .group-left,
+.group-content--type-sprint-group-membership.ds-2col-fluid > .group-left {
   width: 100%;
   margin-bottom: 2em;
 }
-.group.ds-2col-fluid > .group-right {
+.group.ds-2col-fluid > .group-right,
+.group-content--type-sprint-group-membership.ds-2col-fluid > .group-right {
   width: 100%;
 }
 @media (min-width: 768px) {
-  .group.ds-2col-fluid > .group-left {
+  .group.ds-2col-fluid > .group-left,
+  .group-content--type-sprint-group-membership.ds-2col-fluid > .group-left {
     width: 70%;
   }
-  .group.ds-2col-fluid > .group-right {
+  .group.ds-2col-fluid > .group-right,
+  .group-content--type-sprint-group-membership.ds-2col-fluid > .group-right {
     width: 25%;
   }
 }
 @media (min-width: 992px) {
-  .group.ds-2col-fluid {
+  .group.ds-2col-fluid,
+  .group-content--type-sprint-group-membership.ds-2col-fluid {
     width: 95%
   }
 }
