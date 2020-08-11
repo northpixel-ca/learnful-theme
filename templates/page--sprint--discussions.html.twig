@@ -148,15 +148,20 @@
 
         {# Content #}
         {% block content %}
+          
+          <div id="group-discussion-panel-main">
           <a id="main-content"></a>
-          {{ page.content }}
 
-          {# Content Sidebar #}
-          {% if page.content_sidebar %}
-            {% block content_sidebar %}
-              {{ page.content_sidebar }}
-            {% endblock %}
-          {% endif %}
+            {{ page.content }}
+
+            {# Content Sidebar #}
+            {% if page.content_sidebar %}
+              {% block content_sidebar %}
+                {{ page.content_sidebar }}
+              {% endblock %}
+            {% endif %}
+          
+          </div>
 
         {% endblock %}
       </section>
