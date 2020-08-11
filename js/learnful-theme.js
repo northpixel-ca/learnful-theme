@@ -196,6 +196,32 @@
       }
     }
 
+    Drupal.behaviors.groupElements = {
+      attach: function (context, settings) {
+
+        // add message for leave group modal
+        $('.modal-content.leave-group form').each(function(){
+          var leaveGroupMessage = `
+          <p>You are about to leave this Sprint. Please note:</p>
+          <ul>
+            <li>You may be able to re-join</li>
+            <li>The content you have contributed will remain in the group</li>
+            <li>Your name will remain on the content contributed in this group</li>
+            <li>You will no longer be able to edit the group content you contributed</li>
+            <li>Your content will be re-assigned to you if you re-join (if still published)</li>
+          </ul>
+          `
+          $(this).contents().filter(function(){
+            return
+          })
+          .css('display','none');
+          
+          $(this).append(leaveGroupMessage);
+        });
+
+      }
+    }
+
     Drupal.behaviors.modulePages = {
       attach: function (context, settings) {
 
