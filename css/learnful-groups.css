@@ -152,3 +152,20 @@ form.group-form #edit-actions > #edit-delete {
   color: var(--text-mid);
   margin: 0.5em 0 1em;
 }
+
+/**
+** Group Modals
+**/
+
+.modal-content.join-group .modal-footer .modal-buttons button {
+  background-color: var(--primary);
+  color: white;
+}
+.modal-content.join-group .modal-footer .modal-buttons button:hover,
+.modal-content.join-group .modal-footer .modal-buttons button:focus {
+  background-color: var(--primary-dark);
+}
+/* hide cancel button due to bad redirect*/
+.modal-content.join-group .modal-footer .modal-buttons button:last-of-type {
+  display: none;
+}
