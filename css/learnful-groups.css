@@ -175,6 +175,9 @@ form.group-form #edit-actions > #edit-delete {
 }
 
 /* add content to group leave form modal to cover default msg */
+.modal-content.leave-group form {
+  min-height: 150px;
+}
 .modal-content.leave-group form::before {
   content: 'Once you leave this group you may be able to re-join. Your content will remain in the group. You will not be able to edit your content until you rejoin.';
   position: absolute;
