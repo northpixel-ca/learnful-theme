@@ -488,6 +488,17 @@ li.comment-forbidden {
     display: none;
 }
 
+/** ajax comments **/
+/** hide h2 that pops up for ajax comments */
+div#comment-form ~ h2 {
+    display: none;
+}
+div#comment-form div.messages__wrapper {
+    margin: 1em;
+    position: absolute;
+    bottom: 1em;
+    right: 3em;
+}
 
 /** User Profile / DS layouts **/
 .user.ds-2col-fluid {
