@@ -184,3 +184,15 @@ form.group-form #edit-actions > #edit-delete {
   width: calc(100% - 30px);
   background-color: white;
 }
+
+/**
+** Subgroup : Workspace
+**/
+h2.subgroup-title {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0.5em 0 1em;
+}
+h2.subgroup-title .subgroup-pretitle {
+  color: var(--text-mid);
+}
