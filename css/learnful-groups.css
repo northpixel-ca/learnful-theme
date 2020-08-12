@@ -173,3 +173,11 @@ form.group-form #edit-actions > #edit-delete {
 .modal-content.leave-group .modal-footer .modal-buttons button:last-of-type {
   display: none;
 }
+
+/* add content to group leave form modal to cover default msg */
+.modal-content.leave-group form::before {
+  content: 'Once you leave this group you may be able to re-join. Your content will remain in the group. You will not be able to edit your content until you rejoin.';
+  position: absolute;
+  width: calc(100% - 30px);
+  background-color: white;
+}

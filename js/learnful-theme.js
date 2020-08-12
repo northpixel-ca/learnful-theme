@@ -219,10 +219,10 @@
         //   $(this).append(leaveGroupMessage);
         // });
 
-        $('.modal-content.leave-group').on("dialogopen", function(event,ui) {
-          var x = $('form', this).contents().filter(function(){ return this });
-          console.log(x);
-        });
+        // $('.modal-content.leave-group').on("dialogopen", function(event,ui) {
+        //   var x = $('form', this).contents().filter(function(){ return this });
+        //   console.log(x);
+        // });
 
         
 
