@@ -1372,6 +1372,9 @@ h1.page-title-title > a {
     #page-header {
         margin-bottom: 30px;
     }
+    body.node-add-edit #page-header {
+        margin-bottom: 0px;
+    }
     #page-header .page-title-block .block-content--type-page-title-image {
         padding: 0 25px;
     }

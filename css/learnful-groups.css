@@ -188,6 +188,18 @@ form.group-form #edit-actions > #edit-delete {
 /**
 ** Subgroup : Workspace
 **/
+
+/** Subgroup form */
+.er-views-select {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: 35px auto;
+  margin-bottom: 1em;
+  line-height: 35px;
+  font-weight: normal;
+  color: black;
+}
+
 h2.subgroup-title {
   font-size: 1.3em;
   font-weight: bold;
