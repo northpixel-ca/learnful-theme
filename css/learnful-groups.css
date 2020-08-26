@@ -185,6 +185,19 @@ form.group-form #edit-actions > #edit-delete {
   background-color: white;
 }
 
+
+/**
+** Sprint : Workspace (nodes)
+**/
+
+/** Workspace Node View **/
+.group-content--type-sprint-group-node-workspace.ds-2col-fluid .group-left {
+  width: 25%;
+}
+.group-content--type-sprint-group-node-workspace.ds-2col-fluid .group-right {
+  width: 70%;
+}
+
 /**
 ** Subgroup : Workspace
 **/
