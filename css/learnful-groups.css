@@ -198,6 +198,23 @@ form.group-form #edit-actions > #edit-delete {
   width: 70%;
 }
 
+/** action button **/
+.action-btn {
+  background: var(--bg-highlight);
+  padding: 6px 12px;
+  display: block;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.5;
+  color: black;
+  border-radius: 3px;
+}
+.action-btn:hover,
+.action-btn:focus {
+  background: var(--bg-highlight-overlay);
+  text-decoration: none;
+}
+
 /**
 ** Subgroup : Workspace
 **/
