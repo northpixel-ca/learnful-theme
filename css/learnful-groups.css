@@ -213,6 +213,8 @@ form.group-form #edit-actions > #edit-delete {
 .action-btn:focus {
   background: var(--bg-highlight-overlay);
   text-decoration: none;
+  color: black;
+  cursor: pointer;
 }
 
 /**
