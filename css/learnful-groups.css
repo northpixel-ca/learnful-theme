@@ -191,11 +191,22 @@ form.group-form #edit-actions > #edit-delete {
 **/
 
 /** Workspace Node View **/
-.group-content--type-sprint-group-node-workspace.ds-2col-fluid .group-left {
-  width: 25%;
-}
-.group-content--type-sprint-group-node-workspace.ds-2col-fluid .group-right {
+.group-content--type-sprint-group-node-workspace.ds-2col-stacked .group-left {
   width: 70%;
+  margin-right: 5%;
+  padding: 0;
+}
+.group-content--type-sprint-group-node-workspace.ds-2col-stacked .group-right {
+  float: right;
+  width: 25%;
+  padding: 0;
+}
+.group-content--type-sprint-group-node-workspace.ds-2col-stacked .group-footer {
+  margin: 2em 0 0 0;
+  padding: 0;
+  border: 0;
+  font-size-adjust: unset;
+  clear: both;
 }
 
 /** action button **/
