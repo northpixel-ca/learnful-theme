@@ -234,6 +234,9 @@ form.group-form #edit-actions > #edit-delete {
 }
 
 /** user pictures for resources listed in ws **/
+.card-users > div.main-author {
+  float:left;
+}
 .card-users img {
   max-width: 30px;
   display: inline-block;
