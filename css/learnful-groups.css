@@ -208,7 +208,7 @@ form.group-form #edit-actions > #edit-delete {
 }
 .group-content--type-sprint-group-node-workspace.ds-2col-stacked .group-footer {
   margin: 0;
-  padding: 0;
+  padding: 2em 0 0 0;
   border: 0;
   font-size: unset;
   clear: both;
