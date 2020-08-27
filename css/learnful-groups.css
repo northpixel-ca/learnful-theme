@@ -191,6 +191,11 @@ form.group-form #edit-actions > #edit-delete {
 **/
 
 /** Workspace Node View **/
+.group-content--type-sprint-group-node-workspace.ds-2col-stacked {
+  background-color: unset;
+  border: 0;
+  margin-top: auto;
+}
 .group-content--type-sprint-group-node-workspace.ds-2col-stacked .group-left {
   width: 70%;
   margin-right: 5%;
