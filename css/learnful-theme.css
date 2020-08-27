@@ -1887,9 +1887,11 @@ div.can-expand {
 }
 a[data-readmore-toggle] {
     font-size: 10px;
-    color: var(--greyblue);
+    color: var(--primary);
     font-weight: bold;
     text-transform: uppercase;
+    display: block;
+    margin-top: 1em;
 }
 
 ul.inline-items {
