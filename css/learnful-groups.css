@@ -217,6 +217,25 @@ form.group-form #edit-actions > #edit-delete {
   cursor: pointer;
 }
 
+/** user pictures for resources listed in ws **/
+.card-users img {
+  max-width: 30px;
+  display: inline-block;
+}
+.card-users ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: inline-block;
+}
+.card-users li {
+  display: inline-block;
+}
+.card-users li:nth-of-type(2) {
+  display: inline-block;
+  margin-left: 3px;
+}
+
 /**
 ** Subgroup : Workspace
 **/
