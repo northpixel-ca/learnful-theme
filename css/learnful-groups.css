@@ -255,6 +255,24 @@ form.group-form #edit-actions > #edit-delete {
   margin-left: 3px;
 }
 
+
+/**
+** Sprint : Workspace : Resources
+**/
+
+h2.resinws-title {
+  margin: 0.25em 0;
+  font-size: 1.45em;
+}
+
+.group-content.ds-2col-stacked-fluid .group-left {
+  width: 70%;
+}
+.group-content.ds-2col-stacked-fluid .group-right {
+  width: 20%;
+}
+
+
 /**
 ** Subgroup : Workspace
 **/
