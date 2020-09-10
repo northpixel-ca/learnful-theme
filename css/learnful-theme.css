@@ -1800,7 +1800,7 @@ p.card-secondary-text {
 /**
 ** hypothesis
 **/
-body.sidebar-offcanvas-right .annotator-frame {
+.annotator-frame {
     margin-top: 60px;
     z-index: 1030;
 }
