@@ -1801,8 +1801,8 @@ p.card-secondary-text {
 ** hypothesis
 **/
 .annotator-frame {
-    margin-top: 60px;
-    z-index: 1030;
+    margin-top: 60px !important;
+    z-index: 1030 !important;
 }
 
 /**
