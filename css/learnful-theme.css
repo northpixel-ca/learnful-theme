@@ -460,10 +460,12 @@ div#comment-list {
 }
 .comment .group-left {
     width: 12%;
-    max-width: 65px
+    max-width: 65px;
+    float: left;
 }
 .comment .group-right {
     width: 84%;
+    float: right;
 }
 .comment .comment-author {
     padding-bottom: 5px;
