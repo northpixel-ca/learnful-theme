@@ -62,7 +62,7 @@
 .paragraph--type-image-with-caption figure > img {
     width: 100%;
 }
-.paragraph--type-image-with-caption figure > figcaption > p {
+.paragraph--type-image-with-caption figure > figcaption p {
     font-size: 14px;
     background: var(--bg-lightest);
     padding: 10px;
