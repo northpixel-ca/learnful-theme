@@ -264,12 +264,23 @@ h2.resinws-title {
   margin: 0.25em 0;
   font-size: 1.45em;
 }
-
+.group-content.ds-2col-stacked-fluid .group-header {
+  margin-top: -15px;
+} 
 .group-content.ds-2col-stacked-fluid .group-left {
   width: 70%;
 }
 .group-content.ds-2col-stacked-fluid .group-right {
   width: 25%;
+}
+
+.group-card > .views-field {
+  margin-bottom: 1em;
+}
+.group-card > .views-field > .views-label {
+  font-size: 0.8em;
+  font-weight: 700;
+  display: block;
 }
 
 
