@@ -261,8 +261,10 @@ form.group-form #edit-actions > #edit-delete {
 **/
 
 h2.resinws-title {
-  margin: 0.25em 0;
+  margin: 0.5em 0;
   font-size: 1.45em;
+  font-weight: bold;
+  color: var(--greyblue-dark);
 }
 .group-content.ds-2col-stacked-fluid .group-header {
   margin-top: -15px;
@@ -272,6 +274,35 @@ h2.resinws-title {
 }
 .group-content.ds-2col-stacked-fluid .group-right {
   width: 25%;
+}
+
+.group-content.ds-2col-stacked-fluid .group-header .flag > a {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  background-color: var(--bg-mid);
+  padding: 6px 15px;
+  border-width: 3px;
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  white-space: pre-wrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  color: var(--primary);
+}
+.group-content.ds-2col-stacked-fluid .group-header .flag > a:hover,
+.group-content.ds-2col-stacked-fluid .group-header .flag > a:focus {
+  color: white;
+  text-decoration: none;
+  background-color: var(--primary);
 }
 
 .group-card > .views-field {
