@@ -25,7 +25,6 @@
 function learnful_theme_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
   if($form_id == 'comment_comment_form') {
     $form['actions']['submit']['#value'] = t('Post Comment');
-    $form['#submit'][] = 'learnful_theme_form_submit';
   }
 
   if($form_id == 'comment_adaption_report_form') {
@@ -33,10 +32,6 @@ function learnful_theme_form_alter(&$form, \Drupal\Core\Form\FormStateInterface 
   }
 
   if($form_id == 'comment_comment_forum_form') {
-    $form['actions']['submit']['#value'] = t('Post Adaption');
+    $form['actions']['submit']['#value'] = t('Post Comment');
   }
-}
-
-function learnful_theme_form_submit(array $form, FormStateInterface $form_state){
-  $form_state->disableRedirect();
 }

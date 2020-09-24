@@ -497,7 +497,7 @@ div#comment-form ~ h2 {
 }
 div#comment-form div.messages__wrapper {
     margin: 1em;
-    position: absolute;
+    position: fixed;
     bottom: 1em;
     right: 3em;
 }
