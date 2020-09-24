@@ -129,7 +129,7 @@
         // Change button text for comment submit button
         $(".form.comment-form > .form-actions > button#edit-submit").text("Post Comment");
         $(".comment-comment-forum-form > .form-actions > button#edit-submit").text("Post Comment");
-        $("#comment-list > form.ajax-comments-form-edit .form-actions > button.form-submit").text("Save Changes");
+        $("#comment-list > form.ajax-comments-form-edit .form-actions > button[id*='edit-ajax']").text("Save Changes");
 
         // jquery match height
         $(".card.card-grid-content .card-body").matchHeight();
