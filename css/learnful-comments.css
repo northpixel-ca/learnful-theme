@@ -1,0 +1,8 @@
+#comment-list > form.ajax-comments-form-edit {
+  background: var(--bg-lightest);
+  margin: 0 -20px;
+  padding: 1em;
+  border-top: 1px solid var(--bg-highlight-overlay);
+  border-bottom: 1px solid var(--bg-highlight-overlay);
+  margin-bottom: 1em;
+}
