@@ -458,12 +458,12 @@ div#comment-list {
     line-height: 1.7em;
     font-size: 14px;
 }
-.comment.ds-2col-stacked-fluid .group-left {
+#comment-list .comment.ds-2col-stacked-fluid .group-left {
     width: 12%;
     max-width: 65px;
     float: left;
 }
-.comment.ds-2col-stacked-fluid .group-right {
+#comment-list .comment.ds-2col-stacked-fluid .group-right {
     width: 84%;
     float: right;
 }
