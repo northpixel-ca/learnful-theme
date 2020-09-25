@@ -7,6 +7,6 @@
   margin-bottom: 2em;
 }
 
-.pad-panel-body > .panel-body {
+.field-group-tabs-wrapper .vertical-tabs .tab-content .pad-panel-body > .panel-body {
   padding: 1em;;
 }
