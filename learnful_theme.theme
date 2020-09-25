@@ -35,7 +35,7 @@ function learnful_theme_form_alter(&$form, \Drupal\Core\Form\FormStateInterface 
     $form['actions']['submit']['#value'] = t('Post Comment');
   }
 
-  if($form_id == 'comment_rewview_and_feedback_form') {
+  if($form_id == 'comment_review_and_feedback_form') {
     $form['actions']['submit']['#value'] = t('Post Review/Feedback');
   }
 }
