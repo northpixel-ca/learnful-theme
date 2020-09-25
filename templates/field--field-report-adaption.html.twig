@@ -29,12 +29,12 @@
 <section{{ attributes }}>
   {% if comment_form %}
     <div id="comment-form">
-      <h2{{ content_attributes }}>{{ 'Report your adaption'|t }}</h2>
+      <h2{{ content_attributes }}>{{ 'Share your adaptation'|t }}</h2>
       {{ comment_form }}
     </div>
   {% endif %}
 
-  <p class="for-guest"><a href="/login">Login</a> or <a href="/signup/beta">register</a> to share your adaptions.</p>
+  <p class="for-guest"><a href="/login">Login</a> or <a href="/signup/beta">register</a> to share your adaptations.</p>
 
   {% if comments and not label_hidden %}
     {{ title_prefix }}
@@ -46,7 +46,7 @@
     <h2>List of adaptions</h2>
     {{ comments }}
     {% if comments is empty %}
-      <p class="text-muted small">Be the first to add your adaption here!</p>
+      <p class="text-muted small">Be the first to add your adaptation here!</p>
     {% endif %} 
   </div>
 
