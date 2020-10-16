@@ -170,6 +170,18 @@
           }, 3000);
         });
 
+        // copy the value of the textarea that holds the collab id to share
+        $("button.copy-share").on("click", function(){
+          var shareEl = $(this);
+          shareEl.siblings("textarea").select();
+          document.execCommand('copy');
+          shareEl.text("Copied!");
+          
+          setTimeout(function() {
+            shareEl.text("Copy")
+          }, 3000);
+        });
+
 
         // run stuff after ajax callback
         $(document).ajaxComplete(function (e, xhr, settings) {
