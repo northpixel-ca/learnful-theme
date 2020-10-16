@@ -65,7 +65,7 @@ form#change-pwd-form button#edit-submit {
     color: var(--text-mid);
     font-size: 14px;
 }
-.share-collabcode > button.copy-share {
+.share-collabcode > button {
     position: absolute;
     top: 10px;
     right: 10px;
