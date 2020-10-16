@@ -171,7 +171,8 @@
         });
 
         // copy the value of the textarea that holds the collab id to share
-        $("button.copy-share").on("click", function(){
+        $("button.copy-collabid").on("click", function(e){
+          e.preventDefault;
           var shareEl = $(this);
           shareEl.siblings("textarea").select();
           document.execCommand('copy');
