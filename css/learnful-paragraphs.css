@@ -301,6 +301,9 @@ h2.region-title {
 .paragraph--type-two-column.paragraph--view-mode-preview .panel-heading > a:before {
     background: url('../assets/icons/para-icon-twocol.png');
 }
+.paragraph--type-section-title.paragraph--view-mode-preview .panel-heading > a:before {
+    background: url('../assets/icons/para-icon-heading.png');
+}
 
 .content-block > .paragraph--view-mode-preview > .panel > .panel-body {
     padding: 25px;
