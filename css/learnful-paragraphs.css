@@ -82,8 +82,14 @@
     margin-bottom: 1em;
     color: #333;
 }
-.p-textblock.width-wide {
+.p-textblock.width-default:not([data-bgcolor=#FFFFFF]) {
     padding: 1.5em;
+}
+.p-textblock.width-wide {
+    padding: 3em;
+}
+.p-textblock.width-narrow {
+    padding: 5em;
 }
 .p-textblock p,
 .p-textblock ul {
