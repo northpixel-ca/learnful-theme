@@ -21,7 +21,11 @@
     background-color: var(--primary);
 }
 
-
+.paragraph h2.section-title {
+    margin: 1.5em -50px 0.5em;
+    border-bottom: 1px solid var(--bg-highlight-overlay);
+    padding: 0 50px 0.5em;
+}
 
 /**
 ** Paragraph widths
@@ -305,9 +309,13 @@ h2.region-title {
 .preview-embedcode > .panel-body  {
     text-align: center;
 }
+.paragraph--type--embed-code.paragraph--view-mode--default iframe {
+    width: 100%;
+    min-height: (960px / 2.13);
+}
 .paragraph--type-iframe-embed.paragraph--view-mode-preview iframe {
     /* limit width of iframe so it fits inside panel */
-    width: 100%; 
+    width: 100%;
 }
 
 .paragraph--type--interactive-content-h5p-.paragraph--view-mode--default {
