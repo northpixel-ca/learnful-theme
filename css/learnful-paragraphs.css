@@ -80,13 +80,13 @@
 .p-textblock {
     line-height: 1.8em;
     margin-bottom: 1em;
+    color: #333;
 }
 .p-textblock.width-wide {
     padding: 1.5em;
 }
 .p-textblock p,
 .p-textblock ul {
-    color: #333;
     margin-bottom: 1em;
 }
 .p-textblock h2,
