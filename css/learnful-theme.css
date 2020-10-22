@@ -1855,6 +1855,10 @@ body.user-logged-in .for-guest {
     margin: 0 -15px;
     border-radius: 0;
 }
+.alert.alert-default {
+    background-color: var(--bg-highlight);
+}
+
 .well {
     padding: 20px;
     border: 1px solid var(--bg-highlight-overlay);
