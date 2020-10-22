@@ -82,7 +82,7 @@
     margin-bottom: 1em;
     color: #333;
 }
-.p-textblock.width-default:not([data-bgcolor=#FFFFFF]) {
+.p-textblock.width-default:not([data-bgcolor='#FFFFFF']) {
     padding: 1.5em;
 }
 .p-textblock.width-wide {
