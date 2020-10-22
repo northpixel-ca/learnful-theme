@@ -304,6 +304,9 @@ h2.region-title {
 .paragraph--type-section-title.paragraph--view-mode-preview .panel-heading > a:before {
     background: url('../assets/icons/para-icon-heading.png');
 }
+.paragraph--type-notification-box.paragraph--view-mode-preview .panel-heading > a:before {
+    background: url('../assets/icons/para-icon-notifications.png');
+}
 
 .content-block > .paragraph--view-mode-preview > .panel > .panel-body {
     padding: 25px;
