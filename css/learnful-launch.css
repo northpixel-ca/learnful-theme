@@ -6,6 +6,22 @@ body.launch-module-lesson-view {
 }
 
 /**
+** Typography
+**/
+body.launch-page {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+body.launch-page h1,
+body.launch-page h2,
+body.launch-page h3,
+body.launch-page h4,
+body.launch-page h5,
+body.launch-page h6 {
+    font-family: 'Merriweather', serif;
+}
+
+/**
 ** Launch Page Header
 **/
 .node--view-mode-launch > header#navbar {
