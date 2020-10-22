@@ -62,14 +62,20 @@
 .p-imagecaption {
     margin-bottom: 2em;
 }
+.p-imagecaption figure[width=wide] {
+    margin: 0 -50px;
+}
+.p-imagecaption figure[width=narrow] {
+    padding: 2em;
+    background-color: var(--bg-highlight);
+}
 .p-imagecaption figure img {
     width: 100%;
 }
 .p-imagecaption figcaption p {
     font-size: 14px;
     background: var(--bg-lightest);
-    padding: 10px;
-    text-align: center;
+    padding: 1em;
     color: black;
 }
 
