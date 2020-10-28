@@ -1753,22 +1753,25 @@ p.card-secondary-text {
     margin-bottom: 0;
 }
 .card-stat .view ul.list-inline li {
-    margin-left: 5px;
+    margin-right: 5px;
 }
 .comm_stat.comment::before {
     font-family: "Font Awesome 5 Free";
     content: "\f086";
     margin-right: 5px;
+    font-weight: 900;
 }
 .comm_stat.field_feedback_review::before {
     font-family: "Font Awesome 5 Free";
     content: "\f891";
     margin-right: 5px;
+    font-weight: 900;
 }
 .comm_stat.field_report_adaption::before {
     font-family: "Font Awesome 5 Free";
     content: "\f126";
     margin-right: 5px;
+    font-weight: 900;
 }
 
 @media (min-width: 768px) {
