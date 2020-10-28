@@ -14,7 +14,7 @@ global-styling:
       css/learnful-groups.css: {}
       css/learnful-polls.css: {}
       css/learnful-comments.css: {}
-      css/fontawesome-5.9.0/css/all.min.css: {}
+      css/fontawesome-5.15.1/css/all.min.css: {}
       js/bootstrap-toc/bootstrap-toc.min.css: {}
   js:
     js/bootstrap.min.js: {}
