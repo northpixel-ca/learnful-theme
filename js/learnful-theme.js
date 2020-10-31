@@ -84,12 +84,12 @@
         $('[data-toggle="tooltip"]').tooltip();
 
         // change value of flag count when flag link clicked.
-        $(".flag.action-flag > a").one("click", function(){
-          location.reload();
-        });
-        $(".flag.action-unflag > a").one("click", function(){
-          location.reload();
-        });
+        // $(".flag.action-flag > a").one("click", function(){
+        //   location.reload();
+        // });
+        // $(".flag.action-unflag > a").one("click", function(){
+        //   location.reload();
+        // });
 
 
         // change the text for form buttons
