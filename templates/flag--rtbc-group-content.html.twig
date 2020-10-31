@@ -37,10 +37,10 @@
 %}
 
 {# Set nofollow to prevent search bots from crawling anonymous flag links #}
-{% set attributes = attributes.setAttribute('rel', 'nofollow') %}
+{% set attributes = attributes.setAttribute('rel', 'nofollow').setAttribute('data-dialog-type', 'modal') %}
 
 {# Set drupal ajax load to have flag form loaded in ajax modal #}
-{% set attributes_2 = attributes.setAttribute('data-dialog-type', 'modal') %}
+{# {% set attributes_2 = attributes.setAttribute('data-dialog-type', 'modal') %} #}
 
-<div class="{{classes|join(' ')}}"><a{{ attributes }}{{ attributes_2 }}>{{ title }}</a></div>
+<div class="{{classes|join(' ')}}"><a class="use-ajax"{{ attributes }}>{{ title }}</a></div>
 {% endspaceless %}
