@@ -261,7 +261,7 @@ h2.resinws-title {
   width: 25%;
 }
 
-.group-content.ds-2col-stacked-fluid .group-header .flag > a {
+/* .group-content.ds-2col-stacked-fluid .group-header .flag > a {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.06em;
@@ -287,7 +287,7 @@ h2.resinws-title {
   color: white;
   text-decoration: none;
   background-color: var(--primary);
-}
+} */
 
 .group-card > .views-field {
   margin-bottom: 1em;
