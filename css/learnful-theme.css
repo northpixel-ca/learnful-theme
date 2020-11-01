@@ -552,6 +552,16 @@ div#comment-form div.messages__wrapper {
     border: 2px solid var(--primary-light);
     text-decoration: none;
 }
+.flag-link-w-icon.flag-rtbc-group-content.action-unflag > a {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+.flag-link-w-icon.flag-rtbc-group-content.action-unflag > a:hover,
+.flag-link-w-icon.flag-rtbc-group-content.action-unflag > a:focus {
+    color: var(--red-dark);
+    background-color: white;
+    border-color: var(--red-light);
+}
 
 @media (min-width: 768px) {
     .user.ds-2col-fluid {

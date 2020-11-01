@@ -51,7 +51,7 @@ body.entity-browser-iframe .alert {
     padding: 10px 35px 10px 10px;
     width: 30%;
 }
-body.entity-browser-iframe div.view {
+body.entity-browser-iframe form > div.view {
     /* max-height: 80vh; */
     /* overflow-y: auto; */
     margin-top: 60px;
