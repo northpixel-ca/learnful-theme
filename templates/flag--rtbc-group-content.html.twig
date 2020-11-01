@@ -31,8 +31,13 @@
     'flag',
     'flag-' ~ flag.id()|clean_class,
     'js-flag-' ~ flag.id()|clean_class ~ '-' ~ flaggable.id(),
-    action_class
+    action_class,
+    'flag-link-w-icon'
   ]
+%}
+
+{%
+  set flagcountvar = flagcount(flag.id(), flaggable.id());
 %}
 
 {# Set nofollow to prevent search bots from crawling anonymous flag links #}
@@ -41,5 +46,5 @@
 {# Set drupal ajax load to have flag form loaded in ajax modal #}
 {# {% set attributes_2 = attributes.setAttribute('data-dialog-type', 'modal') %} #}
 
-<div class="{{classes|join(' ')}}"><a class="use-ajax"{{ attributes }}>{{ title }}</a></div>
+<div class="{{classes|join(' ')}}"><a{{ attributes }}><i class="fas fa-check-double"></i>{{ flagcountvar }} {{ title }}</a></div>
 {% endspaceless %}
