@@ -36,15 +36,11 @@
   ]
 %}
 
-{%
-  set flagcountvar = flagcount(flag.id(), flaggable.id());
-%}
+{% set count = flagcount(flag, flaggable) %}
 
 {# Set nofollow to prevent search bots from crawling anonymous flag links #}
-{% set attributes = attributes.setAttribute('rel', 'nofollow').setAttribute('data-dialog-type', 'modal') %}
+{% set attributes = attributes.setAttribute('rel', 'nofollow') %}
 
-{# Set drupal ajax load to have flag form loaded in ajax modal #}
-{# {% set attributes_2 = attributes.setAttribute('data-dialog-type', 'modal') %} #}
 
-<div class="{{classes|join(' ')}}"><a{{ attributes }}><i class="fas fa-check-double"></i>{{ flagcountvar }} {{ title }}</a></div>
+<div class="{{classes|join(' ')}}"><a{{ attributes }}><i class="fas fa-check-double"></i>{{ title }}<span class="flag-count">{{ count }}<span></a></div>
 {% endspaceless %}
