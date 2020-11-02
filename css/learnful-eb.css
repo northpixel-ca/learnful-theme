@@ -250,3 +250,19 @@ body.entity-browser-iframe form.entity-browser-form > #edit-actions,
 #edit-field-table-of-contents-wrapper .panel-body {
     padding-top: 20px;
 }
+
+/** Group Content for Collections EB **/
+#edit-field-collection-resources-group .panel-heading {
+    display: none;
+}
+#edit-field-collection-resources-group .panel-body {
+    padding-top: 20px;
+}
+
+/** EB Field title **/
+h3.eb-wrapper-title {
+    font-weight: bold;
+    font-size: 1em;
+    color: #777;
+    text-transform: uppercase;
+}

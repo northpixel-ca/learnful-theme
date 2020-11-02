@@ -105,6 +105,9 @@
         // add help block to entity browser field - Tutorials for Minibooks Entity Browser
         $('#edit-field-table-of-contents-wrapper .panel-body').once().prepend(`<p class="help-block">Select and add Tutorial Resources that you want to include in this Minibook. You can select content that you have created, or content shared by others.`);
 
+        // add help block to entity browser field - Group Content for Collection
+        $('#edit-field-collection-resources-group .panel-body').once().prepend(`<p class="help-block">Build a Collection by selecting Resources shared in your Workspace's Labs.`);
+
         // add ReadMore.js to text with class = .can-expand
         $('.can-expand').readmore({
           collapsedHeight: 130,
