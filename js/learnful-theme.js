@@ -199,7 +199,7 @@
         $("#get_group_joinlink").each(function(){
           var pathname = window.location.pathname.split('/');
           var btnhref = '/group/' + pathname[1] + '/join/';
-          $(this).href(btnhref);
+          $(this).attr('href', btnhref);
         });
 
         // make comment links field use modal
