@@ -300,6 +300,16 @@ h2.resinws-title {
 
 
 /**
+** Workspace: Collections
+**/
+h2.collection-title {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: var(--text-mid);
+}
+
+
+/**
 ** Subgroup : Workspace
 **/
 

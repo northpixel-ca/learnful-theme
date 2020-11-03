@@ -1641,8 +1641,7 @@ h1.page-title-title > a {
     margin-bottom: 15px;
 }
 .card-body p.pre-title {
-    color: var(--text-light);
-    font-size: bold;
+    color: var(--text-mid);
     margin-bottom: 5px;
 }
 .card-body > p {
