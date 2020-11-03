@@ -198,7 +198,7 @@
         // get group join link for group 403 page
         $("#get_group_joinlink").each(function(){
           var pathname = window.location.pathname.split('/');
-          var btnhref = '/group/' + pathname[1] + '/join?destination=/workspace/' + pathname[1] + '/dashboard';
+          var btnhref = '/group/' + pathname[2] + '/join?destination=/workspace/' + pathname[2] + '/dashboard';
           $(this).attr('href', btnhref);
         });
 
