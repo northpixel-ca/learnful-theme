@@ -926,3 +926,12 @@ form#unflagging-form {
     color: var(--text-mid);
     margin: 0.25em 0 0.5em;
 }
+
+/**
+** Group Existing Content Form
+**/
+
+form#group-content-sprint-group-node-resource-h5p-add-form {
+    max-width: 900px;
+    margin: auto;
+}
