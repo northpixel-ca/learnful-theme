@@ -931,7 +931,8 @@ form#unflagging-form {
 ** Group Existing Content Form
 **/
 
-form#group-content-sprint-group-node-resource-h5p-add-form {
+form#group-content-sprint-group-node-resource-h5p-add-form,
+form[id^="group-content-sprint-group-node"][id$="-add-form"] {
     max-width: 900px;
     margin: auto;
 }
