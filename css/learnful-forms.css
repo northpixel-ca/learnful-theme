@@ -936,3 +936,6 @@ form[id^="group-content-sprint-group-node"][id$="-add-form"] {
     max-width: 900px;
     margin: auto;
 }
+form[id^="group-content-sprint-group-node"][id$="-add-form"]  a#edit-cancel {
+    display: none;
+}
