@@ -237,6 +237,20 @@ a#edit-delete:focus {
 /**
 ** Panels
 **/
+
+/** hide child panel **/
+.hide-child-panel .panel-body > .form-wrapper > .panel {
+    border: 0;
+    box-shadow: unset;
+}
+.hide-child-panel .panel-body > .form-wrapper > .panel > .panel-heading,
+.hide-child-panel .panel-body > .form-wrapper > .panel > .panel-body > .help-block {
+    display: none;
+}
+.hide-child-panel .panel-body > .form-wrapper > .panel > .panel-body {
+    padding: 0;
+}
+
 .panel-body > p.help-block {
     margin: 0 0 15px;
 }
