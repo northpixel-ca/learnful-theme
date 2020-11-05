@@ -930,12 +930,12 @@ form#unflagging-form {
 /**
 ** Group Existing Content Form
 **/
-
 form#group-content-sprint-group-node-resource-h5p-add-form,
-form[id^="group-content-sprint-group-node"][id$="-add-form"] {
+form[id^="group-content-group-content-type"][id$="-add-form"] {
     max-width: 900px;
     margin: auto;
 }
-form[id^="group-content-sprint-group-node"][id$="-add-form"]  a#edit-cancel {
+form#group-content-sprint-group-node-resource-h5p-add-form a#edit-cancel,
+form[id^="group-content-group-content-type"][id$="-add-form"] a#edit-cancel {
     display: none;
 }
