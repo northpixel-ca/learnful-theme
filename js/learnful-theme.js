@@ -57,7 +57,8 @@
 
         // set active menu for group inner menu
         $('.group-menu a').each(function(){
-          if (window.location.href.indexOf($(this).attr("href")) >= 0) {
+          let pathtocheck = (window.location.href).split('?');
+          if (pathtocheck[0].indexOf($(this).attr("href")) >= 0) {
             $(this).addClass("active");
           }
         });

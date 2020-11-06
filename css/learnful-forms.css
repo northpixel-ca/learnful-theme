@@ -939,3 +939,11 @@ form#group-content-sprint-group-node-resource-h5p-add-form a#edit-cancel,
 form[id^="group-content-group-content-type"][id$="-add-form"] a#edit-cancel {
     display: none;
 }
+
+
+/**
+** Group Edit Form
+**/
+form#group-sprint-edit-form {
+    margin-top: -30px;
+}

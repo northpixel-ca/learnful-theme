@@ -214,6 +214,12 @@ form.group-form #edit-actions > #edit-delete {
   clear: both;
 }
 
+.field-resinws-title {
+  border-left: 7px solid var(--primary-light);
+  margin-bottom: 2em;
+}
+
+
 /** action button **/
 .action-btn {
   background: var(--bg-highlight);
