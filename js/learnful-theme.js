@@ -224,7 +224,7 @@
       attach: function (context, settings) {
 
         // Change Create Group Button Text: Sprint
-        $('form.group-sprint-add-form button#edit-submit').text("Create and Host Sprint");
+        $('form.group-sprint-add-form button#edit-submit').text("Create Workspace");
         
 
         
