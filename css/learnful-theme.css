@@ -870,6 +870,18 @@ button.btn {
     border-color: var(--greyblue);
 }
 
+.btn-circle {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+}
+.btn-circle > i {
+    font-size: 30px;
+    vertical-align: middle;
+    line-height: 0;
+}
+
 /** Flags **/
 .flag-report-adaption a {
     padding: 0.5em 1em;
@@ -1869,6 +1881,13 @@ p.card-secondary-text {
 /**
 ** Global Styles
 **/
+
+.launch-tutorial-button {
+    position: fixed;
+    bottom: 200px;
+    right: 1em;
+    z-index: 1041;
+}
 
 .display-inline {
     display: inline-block;
