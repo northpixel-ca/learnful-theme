@@ -238,6 +238,21 @@ a#edit-delete:focus {
 ** Panels
 **/
 
+/** hide panel **/
+div.hide-panel > .form-group > .panel {
+    padding: 0;
+    border: 0;
+    box-shadow: unset;
+    background: unset;
+    border-radius: 0;
+}
+div.hide-panel > .form-group > .panel > .panel-heading {
+    display: none;
+}
+div.hide-panel > .form-group > .panel > .panel-body {
+    padding: 0;
+}
+
 /** hide child panel **/
 .hide-child-panel .panel-body > .form-wrapper > .panel {
     border: 0;
