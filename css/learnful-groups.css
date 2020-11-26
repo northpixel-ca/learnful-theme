@@ -242,6 +242,10 @@ form.group-form #edit-actions > #edit-delete {
 /** user pictures for resources listed in ws **/
 .card-users > div {
   display: inline-block;
+  margin-left: 10px;
+}
+.card-users > div:first-of-type {
+  margin-left: 0px;
 }
 .card-users li.collab-entry {
   padding: 0;
