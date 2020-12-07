@@ -31,7 +31,7 @@ form.group-form #edit-actions > #edit-delete {
 }
 .group-menu {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto;
 }
 .group-menu-main > a {
   display: inline-block;
@@ -53,23 +53,28 @@ form.group-form #edit-actions > #edit-delete {
 }
 .group-menu-right {
   padding: 0.5em;
-  grid-column-end: 4;
+  grid-column-end: end;
+  text-align: right;
 }
 .group-menu-right a {
   display: inline-block;
-  padding: 0.5em 1em;
+  padding: 0.7em 1em;
   border-radius: 10px;
-  font-weight: bold;
-  font-size: 0.9em;
+  font-size: 0.8em;
+  color: var(--secondary-dark);
 }
 .group-menu-right a:hover,
 .group-menu-right a:focus {
   background-color: var(--bg-lightest);
   text-decoration: none;
+  cursor: pointer;
 }
 .group-menu-right a.active {
   background-color: var(--primary);
   color: white;
+}
+.group-menu-right a > i {
+  margin-right: 6px;
 }
 
 
