@@ -426,6 +426,10 @@ section.main-section {
     margin-right: 0.75em;
 }
 
+/** Module Field Group **/
+.field--group-modal-bootstrap.no-button > button.field--group-modal-bootstrap-button {
+    display: none;
+}
 
 
 /**
