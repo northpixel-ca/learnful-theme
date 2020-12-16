@@ -214,8 +214,6 @@
         //   });
         // });
 
-        H5PIntegration.editor.wysiwygButtons = ['inlineCode', 'codeSnippet'];
-
         
 
 
